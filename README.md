@@ -37,13 +37,6 @@
         <li><a href="#built-with">Built With</a></li>
       </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -60,7 +53,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This project aims at gathering resources on System vulnerability, Method and techniques in Systam Security.
+The aim of this project is to bring together resources in the field of IT security, in particular: system vulnerabilities, means of defending and attacking IT systems, IT security resources, etc.
 
 Here's why:
 * xxxxx
@@ -74,43 +67,37 @@ Use the `BLANK_README.md` to get started.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+This section should list any major ressources, frameworks or libraries used to contribute to this project.
 
 * [![Next][Next.js]][Next-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+This section presents useful examples of how to use a project. Additional screenshots, code examples and demonstrations can be added here as and when a use case is implemented. 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+* 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
+- [x] Add Sources files
+- [ ] Add 1000 targets
+- [ ] Add Ground-Truth Annotations
+- [ ] Add a test datasets for Benchmark
+- [ ] Add 10.000 new targets
+- [ ] Update Ground-Truth Annotations
+- [ ] Update test datasets
+- [ ] Contruct an Ontologie on Security Domains
 - [ ] Multi-language Support
     - [ ] Chinese
     - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -146,9 +133,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+FOKO Brice - fokobrice3@gmail.com
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/fokobrice3/SecuTable](https://github.com/fokobrice3/SecuTable) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -157,7 +144,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
+This Section list helpful ressource I would like to give credit to.
 
 * [Choose an Open Source License](https://choosealicense.com)
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
