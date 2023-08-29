@@ -41,9 +41,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 The aim of this project is to bring together resources in the field of IT security, in particular: system vulnerabilities, means of defending and attacking IT systems, IT security resources, etc.
 
 Here's why:
