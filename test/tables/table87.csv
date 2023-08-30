@@ -1,0 +1,22 @@
+CWE-ID,Name
+200,Exposure of Sensitive Information to an Unauthorized Actor
+250,Execution with Unnecessary Privileges
+295,Improper Certificate Validation
+297,Improper Validation of Certificate with Host Mismatch
+312,Cleartext Storage of Sensitive Information
+319,Cleartext Transmission of Sensitive Information
+359,Exposure of Private Personal Information to an Unauthorized Actor
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
+511,Logic/Time Bomb
+602,Client-Side Enforcement of Server-Side Security
+672,Operation on a Resource after Expiration or Release
+772,Missing Release of Resource after Effective Lifetime
+798,Use of Hard-coded Credentials
+920,Improper Restriction of Power Consumption
+921,Storage of Sensitive Data in a Mechanism without Access Control
+925,Improper Verification of Intent by Broadcast Receiver
+926,Improper Export of Android Application Components
+927,Use of Implicit Intent for Sensitive Communication
+939,Improper Authorization in Handler for Custom URL Scheme
+940,Improper Verification of Source of a Communication Channel
+941,Incorrectly Specified Destination in a Communication Channel

@@ -1,0 +1,524 @@
+﻿Name,Weakness Abstraction,Status
+External Control of System or Configuration Setting,Base,Incomplete
+Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal'),Base,Stable
+Relative Path Traversal,Base,Draft
+Absolute Path Traversal,Base,Draft
+Improper Resolution of Path Equivalence,Base,Incomplete
+Improper Link Resolution Before File Access ('Link Following'),Base,Draft
+Improper Handling of File Names that Identify Virtual Resources,Base,Draft
+External Control of File Name or Path,Base,Draft
+Improper Neutralization of Equivalent Special Elements,Base,Draft
+Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection'),Base,Stable
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'),Base,Stable
+Improper Neutralization of Argument Delimiters in a Command ('Argument Injection'),Base,Draft
+Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection'),Base,Stable
+Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection'),Base,Draft
+XML Injection (aka Blind XPath Injection),Base,Draft
+Improper Neutralization of CRLF Sequences ('CRLF Injection'),Base,Draft
+Improper Control of Generation of Code ('Code Injection'),Base,Draft
+Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection'),Base,Draft
+Missing XML Validation,Base,Draft
+Misinterpretation of Input,Base,Incomplete
+Improper Output Neutralization for Logs,Base,Draft
+Buffer Copy without Checking Size of Input ('Classic Buffer Overflow'),Base,Incomplete
+Write-what-where Condition,Base,Draft
+Buffer Underwrite ('Buffer Underflow'),Base,Incomplete
+Out-of-bounds Read,Base,Draft
+Wrap-around Error,Base,Incomplete
+Improper Handling of Length Parameter Inconsistency,Base,Incomplete
+Incorrect Calculation of Buffer Size,Base,Draft
+Use of Externally-Controlled Format String,Base,Draft
+Incorrect Calculation of Multi-Byte String Length,Base,Draft
+Improper Neutralization of Delimiters,Base,Draft
+Improper Handling of Missing Special Element,Base,Draft
+Improper Handling of Additional Special Element,Base,Draft
+Improper Handling of Inconsistent Special Elements,Base,Draft
+Improper Null Termination,Base,Incomplete
+Improper Handling of Case Sensitivity,Base,Incomplete
+Incorrect Behavior Order: Early Validation,Base,Incomplete
+Collapse of Data into Unsafe Value,Base,Draft
+Permissive List of Allowed Inputs,Base,Draft
+Incomplete List of Disallowed Inputs,Base,Draft
+Overly Restrictive Regular Expression,Base,Draft
+Reliance on Data/Memory Layout,Base,Draft
+Integer Overflow or Wraparound,Base,Stable
+Integer Underflow (Wrap or Wraparound),Base,Draft
+Off-by-one Error,Base,Draft
+Numeric Truncation Error,Base,Incomplete
+Use of Incorrect Byte Ordering,Base,Draft
+Insertion of Sensitive Information Into Sent Data,Base,Draft
+Observable Discrepancy,Base,Incomplete
+Observable Response Discrepancy,Base,Incomplete
+Observable Behavioral Discrepancy,Base,Incomplete
+Observable Timing Discrepancy,Base,Incomplete
+Generation of Error Message Containing Sensitive Information,Base,Draft
+Self-generated Error Message Containing Sensitive Information,Base,Draft
+Externally-Generated Error Message Containing Sensitive Information,Base,Incomplete
+Improper Removal of Sensitive Information Before Storage or Transfer,Base,Incomplete
+Exposure of Sensitive Information Due to Incompatible Policies,Base,Draft
+Invocation of Process Using Visible Sensitive Information,Base,Incomplete
+Insertion of Sensitive Information Into Debugging Code,Base,Draft
+Truncation of Security-relevant Information,Base,Draft
+Omission of Security-relevant Information,Base,Draft
+Obscured Security-relevant Information by Alternate Name,Base,Incomplete
+Sensitive Information in Resource Not Removed Before Reuse,Base,Draft
+Improper Handling of Values,Base,Incomplete
+Improper Handling of Parameters,Base,Incomplete
+Improper Handling of Structural Elements,Base,Incomplete
+Improper Handling of Inconsistent Structural Elements,Base,Draft
+Improper Handling of Unexpected Data Type,Base,Draft
+Use of Inherently Dangerous Function,Base,Draft
+Uncaught Exception,Base,Draft
+Execution with Unnecessary Privileges,Base,Draft
+Unchecked Return Value,Base,Draft
+Incorrect Check of Function Return Value,Base,Incomplete
+Plaintext Storage of a Password,Base,Incomplete
+Storing Passwords in a Recoverable Format,Base,Incomplete
+Password in Configuration File,Base,Incomplete
+Weak Encoding for Password,Base,Incomplete
+Not Using Password Aging,Base,Draft
+Password Aging with Long Expiration,Base,Draft
+Incorrect Privilege Assignment,Base,Draft
+Privilege Defined With Unsafe Actions,Base,Incomplete
+Privilege Chaining,Base,Draft
+Privilege Context Switching Error,Base,Draft
+Least Privilege Violation,Base,Incomplete
+Improper Check for Dropped Privileges,Base,Incomplete
+Improper Handling of Insufficient Privileges,Base,Draft
+Incorrect Default Permissions,Base,Draft
+Improper Handling of Insufficient Permissions or Privileges ,Base,Draft
+Improper Preservation of Permissions,Base,Draft
+Unverified Ownership,Base,Draft
+Authentication Bypass Using an Alternate Path or Channel,Base,Incomplete
+Authentication Bypass by Alternate Name,Base,Incomplete
+Authentication Bypass by Spoofing,Base,Incomplete
+Authentication Bypass by Capture-replay,Base,Incomplete
+Improper Certificate Validation,Base,Draft
+Improper Following of a Certificate's Chain of Trust,Base,Draft
+Improper Check for Certificate Revocation,Base,Draft
+Reflection Attack in an Authentication Protocol,Base,Draft
+Authentication Bypass by Assumed-Immutable Data,Base,Incomplete
+Incorrect Implementation of Authentication Algorithm,Base,Draft
+Missing Critical Step in Authentication,Base,Draft
+Authentication Bypass by Primary Weakness,Base,Draft
+Missing Authentication for Critical Function,Base,Draft
+Improper Restriction of Excessive Authentication Attempts,Base,Draft
+Use of Single-factor Authentication,Base,Draft
+Use of Password System for Primary Authentication,Base,Draft
+Cleartext Storage of Sensitive Information,Base,Draft
+Cleartext Transmission of Sensitive Information,Base,Draft
+Key Exchange without Entity Authentication,Base,Draft
+Use of a Key Past its Expiration Date,Base,Draft
+Missing Cryptographic Step,Base,Draft
+Use of Weak Hash,Base,Draft
+Insufficient Entropy,Base,Draft
+Small Space of Random Values,Base,Draft
+Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG),Base,Draft
+Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG),Base,Draft
+Predictable from Observable State,Base,Draft
+Predictable Exact Value from Previous Values,Base,Draft
+Predictable Value Range from Previous Values,Base,Draft
+Use of Invariant Value in Dynamically Changing Context,Base,Draft
+Improper Verification of Cryptographic Signature,Base,Draft
+Use of Less Trusted Source,Base,Draft
+Acceptance of Extraneous Untrusted Data With Trusted Data,Base,Draft
+Insufficient Type Distinction,Base,Draft
+Missing Support for Integrity Check,Base,Draft
+Improper Validation of Integrity Check Value,Base,Draft
+Product UI does not Warn User of Unsafe Actions,Base,Incomplete
+Insufficient UI Warning of Dangerous Operations,Base,Draft
+Improperly Implemented Security Check for Standard,Base,Draft
+Exposure of Private Personal Information to an Unauthorized Actor,Base,Incomplete
+Trust of System Event Data,Base,Incomplete
+Race Condition Enabling Link Following,Base,Draft
+Signal Handler Race Condition,Base,Incomplete
+Race Condition within a Thread,Base,Draft
+Time-of-check Time-of-use (TOCTOU) Race Condition,Base,Incomplete
+Context Switching Race Condition,Base,Draft
+Divide By Zero,Base,Draft
+Incomplete Internal State Distinction,Base,Draft
+Passing Mutable Objects to an Untrusted Method,Base,Draft
+Returning a Mutable Object to an Untrusted Caller,Base,Draft
+Creation of Temporary File With Insecure Permissions,Base,Draft
+Creation of Temporary File in Directory with Insecure Permissions,Base,Incomplete
+Covert Timing Channel,Base,Incomplete
+Symbolic Name not Mapping to Correct Object,Base,Draft
+Detection of Error Condition Without Action,Base,Draft
+Unchecked Error Condition,Base,Incomplete
+Missing Report of Error Condition,Base,Draft
+Return of Wrong Status Code,Base,Draft
+Unexpected Status Code or Return Value,Base,Draft
+Use of NullPointerException Catch to Detect NULL Pointer Dereference,Base,Draft
+Declaration of Catch for Generic Exception,Base,Draft
+Declaration of Throws for Generic Exception,Base,Draft
+Exposure of File Descriptor to Unintended Control Sphere ('File Descriptor Leak'),Base,Draft
+Incorrect Behavior Order: Early Amplification,Base,Draft
+Improper Handling of Highly Compressed Data (Data Amplification),Base,Incomplete
+Insufficient Resource Pool,Base,Incomplete
+Unrestricted Externally Accessible Lock,Base,Incomplete
+Improper Resource Locking,Base,Draft
+Missing Lock Check,Base,Draft
+Unprotected Primary Channel,Base,Draft
+Unprotected Alternate Channel,Base,Draft
+Race Condition During Access to Alternate Channel,Base,Draft
+Direct Request ('Forced Browsing'),Base,Incomplete
+Untrusted Search Path,Base,Stable
+Uncontrolled Search Path Element,Base,Draft
+Unquoted Search Path or Element,Base,Draft
+Deployment of Wrong Handler,Base,Incomplete
+Missing Handler,Base,Draft
+Dangerous Signal Handler not Disabled During Sensitive Operations,Base,Draft
+Unrestricted Upload of File with Dangerous Type,Base,Draft
+Incomplete Model of Endpoint Features,Base,Incomplete
+Behavioral Change in New Version or Environment,Base,Draft
+Expected Behavior Violation,Base,Draft
+Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling'),Base,Incomplete
+Unimplemented or Unsupported Feature in UI,Base,Draft
+Obsolete Feature in UI,Base,Draft
+The UI Performs the Wrong Action,Base,Incomplete
+Multiple Interpretations of UI Input,Base,Draft
+External Initialization of Trusted Variables or Data Stores,Base,Draft
+Non-exit on Failed Initialization,Base,Draft
+Incomplete Cleanup,Base,Draft
+Improper Cleanup on Thrown Exception,Base,Draft
+Duplicate Key in Associative List (Alist),Base,Incomplete
+Deletion of Data Structure Sentinel,Base,Incomplete
+Addition of Data Structure Sentinel,Base,Incomplete
+Return of Pointer Value Outside of Expected Range,Base,Draft
+Incorrect Pointer Scaling,Base,Incomplete
+Use of Pointer Subtraction to Determine Size,Base,Draft
+Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection'),Base,Draft
+Modification of Assumed-Immutable Data (MAID),Base,Draft
+External Control of Assumed-Immutable Web Parameter,Base,Draft
+Use of Function with Inconsistent Implementations,Base,Draft
+Undefined Behavior for Input to API,Base,Incomplete
+NULL Pointer Dereference,Base,Stable
+Use of Obsolete Function,Base,Draft
+Missing Default Case in Multiple Condition Expression,Base,Draft
+Use of Incorrect Operator,Base,Draft
+Incorrect Block Delimitation,Base,Draft
+Omitted Break Statement in Switch,Base,Draft
+Reliance on Package-level Scope,Base,Incomplete
+Exposure of Data Element to Wrong Session,Base,Draft
+Active Debug Code,Base,Draft
+Download of Code Without Integrity Check,Base,Draft
+Exposure of Sensitive System Information to an Unauthorized Control Sphere,Base,Incomplete
+Trust Boundary Violation,Base,Draft
+Deserialization of Untrusted Data,Base,Draft
+Trojan Horse,Base,Incomplete
+Non-Replicating Malicious Code,Base,Incomplete
+Replicating Malicious Code (Virus or Worm),Base,Incomplete
+Trapdoor,Base,Incomplete
+Logic/Time Bomb,Base,Incomplete
+Spyware,Base,Incomplete
+Covert Storage Channel,Base,Incomplete
+Weak Password Requirements,Base,Draft
+Unprotected Transport of Credentials,Base,Incomplete
+Use of Cache Containing Sensitive Information,Base,Incomplete
+Insertion of Sensitive Information into Log File,Base,Incomplete
+Insertion of Sensitive Information into Externally-Accessible File or Directory,Base,Draft
+Inclusion of Sensitive Information in Source Code,Base,Incomplete
+Missing Standardized Error Handling Mechanism,Base,Draft
+Missing Password Field Masking,Base,Draft
+Incorrect Behavior Order: Authorization Before Parsing and Canonicalization,Base,Incomplete
+Files or Directories Accessible to External Parties,Base,Draft
+Dead Code,Base,Draft
+Return of Stack Variable Address,Base,Draft
+Reliance on Cookies without Validation and Integrity Checking,Base,Incomplete
+Unsynchronized Access to Shared Data in a Multithreaded Context,Base,Draft
+Expression is Always False,Base,Draft
+Expression is Always True,Base,Draft
+Object Model Violation: Just One of Equals and Hashcode Defined,Base,Draft
+Return Inside Finally Block,Base,Draft
+Empty Synchronized Block,Base,Draft
+Assignment of a Fixed Address to a Pointer,Base,Draft
+Uncaught Exception in Servlet ,Base,Draft
+URL Redirection to Untrusted Site ('Open Redirect'),Base,Draft
+Use of Client-Side Authentication,Base,Draft
+Multiple Binds to the Same Port,Base,Draft
+Unchecked Input for Loop Condition,Base,Draft
+Double-Checked Locking,Base,Draft
+Improper Restriction of XML External Entity Reference,Base,Draft
+Improper Authorization of Index Containing Sensitive Information,Base,Draft
+Insufficient Session Expiration,Base,Incomplete
+Reachable Assertion,Base,Draft
+Exposed Unsafe ActiveX Method,Base,Incomplete
+Dangling Database Cursor ('Cursor Injection'),Base,Incomplete
+Unverified Password Change,Base,Draft
+Variable Extraction Error,Base,Incomplete
+Executable Regular Expression Error,Base,Incomplete
+Permissive Regular Expression,Base,Draft
+Dynamic Variable Evaluation,Base,Incomplete
+Function Call with Incorrectly Specified Arguments,Base,Draft
+Authorization Bypass Through User-Controlled Key,Base,Incomplete
+Weak Password Recovery Mechanism for Forgotten Password,Base,Incomplete
+Improper Restriction of Names for Files and Other Resources,Base,Incomplete
+Improper Neutralization of Data within XPath Expressions ('XPath Injection'),Base,Incomplete
+Overly Restrictive Account Lockout Mechanism,Base,Incomplete
+Incorrect Use of Privileged APIs,Base,Incomplete
+Reliance on Obfuscation or Encryption of Security-Relevant Inputs without Integrity Checking,Base,Incomplete
+Improper Neutralization of Data within XQuery Expressions ('XQuery Injection'),Base,Incomplete
+Improper Isolation or Compartmentalization,Base,Draft
+Reliance on a Single Factor in a Security Decision,Base,Draft
+Insufficient Psychological Acceptability,Base,Draft
+Reliance on Security Through Obscurity,Base,Draft
+Use of a Non-reentrant Function in a Concurrent Context,Base,Draft
+Use of Potentially Dangerous Function,Base,Draft
+Incorrect Conversion between Numeric Types,Base,Draft
+Use of Multiple Resources with Duplicate Identifier,Base,Incomplete
+Use of Low-Level Functionality,Base,Incomplete
+Execution After Redirect (EAR),Base,Incomplete
+Incorrect Ownership Assignment,Base,Incomplete
+Compiler Optimization Removal or Modification of Security-critical Code,Base,Incomplete
+Exposed Dangerous Method or Function,Base,Incomplete
+Missing Custom Error Page,Base,Incomplete
+Selection of Less-Secure Algorithm During Negotiation ('Algorithm Downgrade'),Base,Incomplete
+Release of Invalid Pointer or Reference,Base,Incomplete
+Multiple Locks of a Critical Resource,Base,Incomplete
+Multiple Unlocks of a Critical Resource,Base,Incomplete
+Allocation of Resources Without Limits or Throttling,Base,Incomplete
+Missing Reference to Active Allocated Resource,Base,Incomplete
+Missing Release of Resource after Effective Lifetime,Base,Draft
+Improper Restriction of Recursive Entity References in DTDs ('XML Entity Expansion'),Base,Draft
+Insufficient Logging,Base,Draft
+Logging of Excessive Data,Base,Draft
+Operator Precedence Logic Error,Base,Draft
+Access of Memory Location Before Start of Buffer,Base,Incomplete
+Out-of-bounds Write,Base,Draft
+Access of Memory Location After End of Buffer,Base,Incomplete
+Incomplete Filtering of Special Elements,Base,Incomplete
+Only Filtering Special Elements at a Specified Location,Base,Incomplete
+Use of Hard-coded Credentials,Base,Draft
+Guessable CAPTCHA,Base,Incomplete
+Buffer Access with Incorrect Length Value,Base,Incomplete
+Reliance on Untrusted Inputs in a Security Decision,Base,Incomplete
+Missing Synchronization,Base,Incomplete
+Incorrect Synchronization,Base,Incomplete
+Untrusted Pointer Dereference,Base,Incomplete
+Use of Out-of-range Pointer Offset,Base,Incomplete
+Access of Uninitialized Pointer,Base,Incomplete
+Expired Pointer Dereference,Base,Incomplete
+Premature Release of Resource During Expected Lifetime,Base,Incomplete
+Signal Handler with Functionality that is not Asynchronous-Safe,Base,Incomplete
+Inclusion of Functionality from Untrusted Control Sphere,Base,Incomplete
+Signal Handler Function Associated with Multiple Signals,Base,Incomplete
+Unlock of a Resource that is not Locked,Base,Incomplete
+Deadlock,Base,Incomplete
+Loop with Unreachable Exit Condition ('Infinite Loop'),Base,Incomplete
+Use of Password Hash Instead of Password for Authentication,Base,Incomplete
+Improper Enforcement of a Single, Unique Action,Base,Incomplete
+Inappropriate Encoding for Output Context,Base,Incomplete
+Numeric Range Comparison Without Minimum Check,Base,Incomplete
+Improper Enforcement of Behavioral Workflow,Base,Incomplete
+Placement of User into Incorrect Group,Base,Incomplete
+Access of Resource Using Incompatible Type ('Type Confusion'),Base,Incomplete
+Use of Uninitialized Resource,Base,Incomplete
+Missing Initialization of Resource,Base,Incomplete
+Use of Expired File Descriptor,Base,Incomplete
+Improper Update of Reference Count,Base,Incomplete
+Improper Control of Dynamically-Identified Variables,Base,Incomplete
+Improperly Controlled Modification of Dynamically-Determined Object Attributes,Base,Incomplete
+Use of Password Hash With Insufficient Computational Effort,Base,Incomplete
+Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection'),Base,Incomplete
+Server-Side Request Forgery (SSRF),Base,Incomplete
+Improper Restriction of Power Consumption,Base,Incomplete
+Storage of Sensitive Data in a Mechanism without Access Control,Base,Incomplete
+Improper Enforcement of Message Integrity During Transmission in a Communication Channel,Base,Incomplete
+Improper Authorization in Handler for Custom URL Scheme,Base,Incomplete
+Improper Verification of Source of a Communication Channel,Base,Incomplete
+Incorrectly Specified Destination in a Communication Channel,Base,Incomplete
+Insufficient Visual Distinction of Homoglyphs Presented to User,Base,Incomplete
+Improper Restriction of Rendered UI Layers or Frames,Base,Incomplete
+Comparison of Incompatible Types,Base,Incomplete
+Comparison Using Wrong Factors,Base,Incomplete
+Processor Optimization Removal or Modification of Security-critical Code,Base,Incomplete
+Use of Redundant Code,Base,Incomplete
+Data Element Aggregating an Excessively Large Number of Non-Primitive Elements,Base,Incomplete
+Architecture with Number of Horizontal Layers Outside of Expected Range,Base,Incomplete
+Creation of Immutable Text Using String Concatenation,Base,Incomplete
+Modules with Circular Dependencies,Base,Incomplete
+Invokable Control Element with Large Number of Outward Calls,Base,Incomplete
+Excessive Data Query Operations in a Large Data Table,Base,Incomplete
+Excessive Platform Resource Consumption within a Loop,Base,Incomplete
+Initialization with Hard-Coded Network Resource Configuration Data,Base,Incomplete
+Excessive Use of Hard-Coded Literals in Initialization,Base,Incomplete
+Missing Documentation for Design,Base,Incomplete
+Invocation of a Control Element at an Unnecessarily Deep Horizontal Layer,Base,Incomplete
+Multiple Inheritance from Concrete Classes,Base,Incomplete
+Invokable Control Element with Variadic Parameters,Base,Incomplete
+Data Access Operations Outside of Expected Data Manager Component,Base,Incomplete
+Invokable Control Element in Multi-Thread Context with non-Final Static Storable or Member Element,Base,Incomplete
+Excessive Number of Inefficient Server-Side Data Accesses,Base,Incomplete
+Parent Class with References to Child Class,Base,Incomplete
+Creation of Class Instance within a Static Code Block,Base,Incomplete
+Invokable Control Element with Signature Containing an Excessive Number of Parameters,Base,Incomplete
+Runtime Resource Management Control Element in a Component Built to Run on Application Servers,Base,Incomplete
+Missing Serialization Control Element,Base,Incomplete
+Excessive Execution of Sequential Searches of Data Resource,Base,Incomplete
+Inconsistency Between Implementation and Documented Design,Base,Incomplete
+Empty Exception Block,Base,Incomplete
+Serializable Data Element Containing non-Serializable Item Elements,Base,Incomplete
+Empty Code Block,Base,Incomplete
+Data Resource Access without Use of Connection Pooling,Base,Incomplete
+Non-SQL Invokable Control Element with Excessive Number of Data Resource Accesses,Base,Incomplete
+Class with Excessively Deep Inheritance,Base,Incomplete
+Unconditional Control Flow Transfer outside of Switch Block,Base,Incomplete
+Parent Class without Virtual Destructor Method,Base,Incomplete
+Source Code File with Excessive Number of Lines of Code,Base,Incomplete
+Class Instance Self Destruction Control Element,Base,Incomplete
+Data Access from Outside Expected Data Manager Component,Base,Incomplete
+Invokable Control Element with Excessive File or Data Access Operations,Base,Incomplete
+Invokable Control Element with Excessive Volume of Commented-out Code,Base,Incomplete
+Class with Excessive Number of Child Classes,Base,Incomplete
+Class with Virtual Method without a Virtual Destructor,Base,Incomplete
+Synchronous Access of Remote Resource without Timeout,Base,Incomplete
+Large Data Table with Excessive Number of Indices,Base,Incomplete
+Method Containing Access of a Member Element from Another Class,Base,Incomplete
+Use of Object without Invoking Destructor Method,Base,Incomplete
+Use of Same Invokable Control Element in Multiple Architectural Layers,Base,Incomplete
+Excessive Index Range Scan for a Data Resource,Base,Incomplete
+Loop Condition Value Update within the Loop,Base,Incomplete
+Persistent Storable Data Element without Associated Comparison Control Element,Base,Incomplete
+Inconsistent Naming Conventions for Identifiers,Base,Incomplete
+Insufficient Isolation of System-Dependent Functions,Base,Incomplete
+Reliance on Runtime Component in Generated Code,Base,Incomplete
+Reliance on Machine-Dependent Data Representation,Base,Incomplete
+Use of Platform-Dependent Third Party Components,Base,Incomplete
+Use of Unmaintained Third Party Components,Base,Incomplete
+Insufficient Encapsulation of Machine-Dependent Functionality,Base,Incomplete
+Insufficient Use of Symbolic Constants,Base,Incomplete
+Insufficient Isolation of Symbolic Constant Definitions,Base,Incomplete
+Excessive Reliance on Global Variables,Base,Incomplete
+Use of Same Variable for Multiple Purposes,Base,Incomplete
+Incomplete Design Documentation,Base,Incomplete
+Incomplete I/O Documentation,Base,Incomplete
+Incomplete Documentation of Program Execution,Base,Incomplete
+Inappropriate Comment Style,Base,Incomplete
+Inappropriate Whitespace Style,Base,Incomplete
+Source Code Element without Standard Prologue,Base,Incomplete
+Inaccurate Comments,Base,Incomplete
+Callable with Insufficient Behavioral Summary,Base,Incomplete
+Insufficient Documentation of Error Handling Techniques,Base,Incomplete
+Excessive Use of Unconditional Branching,Base,Incomplete
+Excessive McCabe Cyclomatic Complexity,Base,Incomplete
+Excessive Halstead Complexity,Base,Incomplete
+Excessive Use of Self-Modifying Code,Base,Incomplete
+Excessively Deep Nesting,Base,Incomplete
+Excessive Attack Surface,Base,Incomplete
+Declaration of Variable with Unnecessarily Wide Scope,Base,Incomplete
+Compilation with Insufficient Warnings or Errors,Base,Incomplete
+Improper Use of Validation Framework,Base,Draft
+Insecure Default Initialization of Resource,Base,Incomplete
+Improper Isolation of Shared Resources on System-on-a-Chip (SoC),Base,Stable
+DMA Device Enabled Too Early in Boot Phase,Base,Draft
+On-Chip Debug and Test Interface With Improper Access Control,Base,Stable
+System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers,Base,Draft
+Power-On of Untrusted Execution Core Before Enabling Fabric Access Control,Base,Draft
+Generation of Weak Initialization Vector (IV),Base,Incomplete
+Failure to Disable Reserved Bits,Base,Incomplete
+Insufficient Granularity of Access Control,Base,Incomplete
+Incorrect Register Defaults or Module Parameters,Base,Incomplete
+Race Condition for Write-Once Attributes,Base,Incomplete
+Improper Restriction of Write-Once Bit Fields,Base,Incomplete
+Exposure of Sensitive Information Through Metadata,Base,Incomplete
+Improper Prevention of Lock Bit Modification,Base,Stable
+Improper Lock Behavior After Power State Transition,Base,Incomplete
+Security-Sensitive Hardware Controls with Missing Lock Bit Protection,Base,Stable
+Hardware Internal or Debug Modes Allow Override of Locks,Base,Incomplete
+Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations,Base,Incomplete
+Improper Neutralization of Formula Elements in a CSV File,Base,Incomplete
+Use of a Cryptographic Primitive with a Risky Implementation,Base,Draft
+Use of Predictable Algorithm in Random Number Generator,Base,Draft
+Inclusion of Undocumented Features or Chicken Bits,Base,Incomplete
+Sensitive Non-Volatile Information Not Protected During Debug,Base,Incomplete
+Internal Asset Exposed to Unsafe Debug Access Level or State,Base,Stable
+Improper Finite State Machines (FSMs) in Hardware Logic,Base,Incomplete
+Improper Write Handling in Limited-write Non-Volatile Memories,Base,Incomplete
+Improper Protection Against Voltage and Clock Glitches,Base,Stable
+Semiconductor Defects in Hardware Logic with Security-Sensitive Implications,Base,Incomplete
+Application-Level Admin Tool with Inconsistent View of Underlying Operating System,Base,Incomplete
+Improper Preservation of Consistency Between Independent Representations of Shared State,Base,Incomplete
+Mirrored Regions with Different Values,Base,Incomplete
+CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations,Base,Incomplete
+Incorrect Selection of Fuse Values,Base,Draft
+Incorrect Comparison Logic Granularity,Base,Draft
+Improper Restriction of Software Interfaces to Hardware Features,Base,Stable
+Improper Access Control Applied to Mirrored or Aliased Memory Regions,Base,Incomplete
+Exposure of Sensitive System Information Due to Uncleared Debug Information,Base,Draft
+Improper Restriction of Security Token Assignment,Base,Incomplete
+Improper Handling of Overlap Between Protected Memory Ranges,Base,Stable
+Improper Handling of Single Event Upsets,Base,Draft
+Improper Access Control for Register Interface,Base,Stable
+Hardware Logic with Insecure De-Synchronization between Control and Data Channels,Base,Incomplete
+Unintended Reentrant Invocation of Non-reentrant Code Via Nested Calls,Base,Draft
+Improper Scrubbing of Sensitive Data from Decommissioned Device,Base,Incomplete
+Policy Uses Obsolete Encoding,Base,Draft
+Policy Privileges are not Assigned Consistently Between Control and Data Agents,Base,Draft
+Product Released in Non-Release Configuration,Base,Incomplete
+Generation of Incorrect Security Tokens,Base,Incomplete
+Uninitialized Value on Reset for Registers Holding Security Settings,Base,Incomplete
+Sensitive Information Uncleared Before Debug/Power State Transition,Base,Stable
+Device Unlock Credential Sharing,Base,Incomplete
+Improper Access Control for Volatile Memory Containing Boot Code,Base,Stable
+Hardware Child Block Incorrectly Connected to Parent System,Base,Incomplete
+Firmware Not Updateable,Base,Draft
+Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques,Base,Incomplete
+Cryptographic Operations are run Before Supporting Units are Ready,Base,Incomplete
+Access Control Check Implemented After Asset is Accessed,Base,Incomplete
+Sequence of Processor Instructions Leads to Unexpected Behavior,Base,Incomplete
+Assumed-Immutable Data is Stored in Writable Memory,Base,Incomplete
+Mutable Attestation or Measurement Reporting Data,Base,Incomplete
+Improper Validation of Specified Quantity in Input,Base,Incomplete
+Improper Validation of Specified Index, Position, or Offset in Input,Base,Incomplete
+Improper Validation of Syntactic Correctness of Input,Base,Incomplete
+Improper Validation of Specified Type of Input,Base,Incomplete
+Improper Validation of Consistency within Input,Base,Incomplete
+Improper Validation of Unsafe Equivalence in Input,Base,Incomplete
+Incorrect Decoding of Security Identifiers ,Base,Incomplete
+Public Key Re-Use for Signing both Debug and Production Code,Base,Draft
+Incorrect Conversion of Security Identifiers,Base,Draft
+Missing Source Correlation of Multiple Independent Data,Base,Draft
+Debug Messages Revealing Unnecessary Information,Base,Incomplete
+Incorrect Chaining or Granularity of Debug Components,Base,Incomplete
+Unprotected Confidential Information on Device is Accessible by OSAT Vendors,Base,Incomplete
+Hardware Logic Contains Race Conditions,Base,Draft
+Missing Protection Mechanism for Alternate Hardware Interface,Base,Draft
+Improper Protection of Physical Side Channels,Base,Stable
+Insufficient or Incomplete Data Removal within Hardware Component,Base,Incomplete
+Missing Security Identifier,Base,Incomplete
+Non-Transparent Sharing of Microarchitectural Resources,Base,Draft
+Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation,Base,Draft
+Missing Ability to Patch ROM Code,Base,Draft
+Improper Translation of Security Attributes by Fabric Bridge,Base,Draft
+Missing Protection for Mirrored Regions in On-Chip Fabric Firewall,Base,Draft
+Hardware Allows Activation of Test or Debug Logic at Runtime,Base,Draft
+Missing Write Protection for Parametric Data Values,Base,Draft
+Improper Setting of Bus Controlling Capability in Fabric End-point,Base,Incomplete
+Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges,Base,Draft
+Improper Access Control in Fabric Bridge,Base,Draft
+Missing Support for Security Features in On-chip Fabrics or Buses,Base,Incomplete
+Improper Protection against Electromagnetic Fault Injection (EM-FI),Base,Incomplete
+Improper Protection for Outbound Error Messages and Alert Signals,Base,Draft
+Use of Blocking Code in Single-threaded, Non-blocking Context,Base,Incomplete
+Improper Management of Sensitive Trace Data,Base,Draft
+Improperly Controlled Sequential Memory Allocation,Base,Incomplete
+Missing Immutable Root of Trust in Hardware,Base,Draft
+Binding to an Unrestricted IP Address,Base,Incomplete
+Security Version Number Mutable to Older Versions,Base,Draft
+Reliance on Component That is Not Updateable,Base,Incomplete
+Improper Isolation of Shared Resources in Network On Chip (NoC),Base,Stable
+Improper Handling of Faults that Lead to Instruction Skips,Base,Stable
+Inefficient Regular Expression Complexity,Base,Draft
+Unauthorized Error Injection Can Degrade Hardware Redundancy,Base,Draft
+Incorrect Bitwise Shift of Integer,Base,Draft
+Improper Neutralization of Special Elements Used in a Template Engine,Base,Incomplete
+Improper Protections Against Hardware Overheating,Base,Draft
+Insufficient Precision or Accuracy of a Real Number,Base,Draft
+Multiple Releases of Same Resource or Handle,Base,Incomplete
+Information Exposure through Microarchitectural State after Transient Execution,Base,Incomplete
+Improper Handling of Hardware Behavior in Exceptionally Cold Environments,Base,Incomplete
+Insecure Operation on Windows Junction / Mount Point,Base,Incomplete
+Incorrect Parsing of Numbers with Different Radices,Base,Incomplete
+Use of Default Credentials,Base,Incomplete
+Use of Default Password,Base,Incomplete
+Use of Default Cryptographic Key,Base,Incomplete

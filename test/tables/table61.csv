@@ -1,0 +1,100 @@
+CWE-ID,Name
+5,J2EE Misconfiguration: Data Transmission Without Encryption
+6,J2EE Misconfiguration: Insufficient Session-ID Length
+7,J2EE Misconfiguration: Missing Custom Error Page
+8,J2EE Misconfiguration: Entity Bean Declared Remote
+9,J2EE Misconfiguration: Weak Access Permissions for EJB Methods
+11,ASP.NET Misconfiguration: Creating Debug Binary
+12,ASP.NET Misconfiguration: Missing Custom Error Page
+13,ASP.NET Misconfiguration: Password in Configuration File
+14,Compiler Removal of Code to Clear Buffers
+15,External Control of System or Configuration Setting
+20,Improper Input Validation
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+23,Relative Path Traversal
+24,Path Traversal: '../filedir'
+25,Path Traversal: '/../filedir'
+26,Path Traversal: '/dir/../filename'
+27,Path Traversal: 'dir/../../filename'
+28,Path Traversal: '..filedir'
+29,Path Traversal: '..filename'
+30,Path Traversal: 'dir..filename'
+31,Path Traversal: 'dir....filename'
+32,Path Traversal: '...' (Triple Dot)
+33,Path Traversal: '....' (Multiple Dot)
+34,Path Traversal: '....//'
+35,Path Traversal: '.../...//'
+36,Absolute Path Traversal
+37,Path Traversal: '/absolute/pathname/here'
+38,Path Traversal: 'absolutepathnamehere'
+39,Path Traversal: 'C:dirname'
+40,Path Traversal: 'UNCsharename' (Windows UNC Share)
+41,Improper Resolution of Path Equivalence
+42,Path Equivalence: 'filename.' (Trailing Dot)
+43,Path Equivalence: 'filename....' (Multiple Trailing Dot)
+44,Path Equivalence: 'file.name' (Internal Dot)
+45,Path Equivalence: 'file...name' (Multiple Internal Dot)
+46,Path Equivalence: 'filename ' (Trailing Space)
+47,Path Equivalence: ' filename' (Leading Space)
+48,Path Equivalence: 'file name' (Internal Whitespace)
+49,Path Equivalence: 'filename/' (Trailing Slash)
+50,Path Equivalence: '//multiple/leading/slash'
+51,Path Equivalence: '/multiple//internal/slash'
+52,Path Equivalence: '/multiple/trailing/slash//'
+53,Path Equivalence: 'multipleinternalbackslash'
+54,Path Equivalence: 'filedir' (Trailing Backslash)
+55,Path Equivalence: '/./' (Single Dot Directory)
+56,Path Equivalence: 'filedir*' (Wildcard)
+57,Path Equivalence: 'fakedir/../realdir/filename'
+58,Path Equivalence: Windows 8.3 Filename
+59,Improper Link Resolution Before File Access ('Link Following')
+62,UNIX Hard Link
+64,Windows Shortcut Following (.LNK)
+65,Windows Hard Link
+66,Improper Handling of File Names that Identify Virtual Resources
+67,Improper Handling of Windows Device Names
+69,Improper Handling of Windows ::DATA Alternate Data Stream
+72,Improper Handling of Apple HFS+ Alternate Data Stream Path
+73,External Control of File Name or Path
+74,Improper Neutralization of Special Elements in Output Used by a Downstream Component ('Injection')
+75,Failure to Sanitize Special Elements into a Different Plane (Special Element Injection)
+76,Improper Neutralization of Equivalent Special Elements
+77,Improper Neutralization of Special Elements used in a Command ('Command Injection')
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+80,Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS)
+81,Improper Neutralization of Script in an Error Message Web Page
+82,Improper Neutralization of Script in Attributes of IMG Tags in a Web Page
+83,Improper Neutralization of Script in Attributes in a Web Page
+84,Improper Neutralization of Encoded URI Schemes in a Web Page
+85,Doubled Character XSS Manipulations
+86,Improper Neutralization of Invalid Characters in Identifiers in Web Pages
+87,Improper Neutralization of Alternate XSS Syntax
+88,Improper Neutralization of Argument Delimiters in a Command ('Argument Injection')
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+90,Improper Neutralization of Special Elements used in an LDAP Query ('LDAP Injection')
+91,XML Injection (aka Blind XPath Injection)
+93,Improper Neutralization of CRLF Sequences ('CRLF Injection')
+94,Improper Control of Generation of Code ('Code Injection')
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
+96,Improper Neutralization of Directives in Statically Saved Code ('Static Code Injection')
+97,Improper Neutralization of Server-Side Includes (SSI) Within a Web Page
+99,Improper Control of Resource Identifiers ('Resource Injection')
+102,Struts: Duplicate Validation Forms
+103,Struts: Incomplete validate() Method Definition
+104,Struts: Form Bean Does Not Extend Validation Class
+105,Struts: Form Field Without Validator
+106,Struts: Plug-in Framework not in Use
+107,Struts: Unused Validation Form
+108,Struts: Unvalidated Action Form
+109,Struts: Validator Turned Off
+110,Struts: Validator Without Form Field
+111,Direct Use of Unsafe JNI
+112,Missing XML Validation
+113,Improper Neutralization of CRLF Sequences in HTTP Headers ('HTTP Request/Response Splitting')
+114,Process Control
+115,Misinterpretation of Input
+116,Improper Encoding or Escaping of Output
+117,Improper Output Neutralization for Logs
+118,Incorrect Access of Indexable Resource ('Range Error')
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer

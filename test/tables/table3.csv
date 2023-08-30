@@ -1,0 +1,14 @@
+﻿Name
+Improper Input Validation
+Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+Improper Link Resolution Before File Access ('Link Following')
+Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+Improper Control of Generation of Code ('Code Injection')
+Improper Restriction of Operations within the Bounds of a Memory Buffer
+Use of Externally-Controlled Format String
+Exposure of Sensitive Information to an Unauthorized Actor
+Improper Authentication
+Cross-Site Request Forgery (CSRF)
+Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')

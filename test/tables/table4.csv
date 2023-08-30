@@ -1,0 +1,14 @@
+﻿CWE-ID,Name
+20,Improper Input Validation
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+59,Improper Link Resolution Before File Access ('Link Following')
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+94,Improper Control of Generation of Code ('Code Injection')
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer
+134,Use of Externally-Controlled Format String
+200,Exposure of Sensitive Information to an Unauthorized Actor
+287,Improper Authentication
+352,Cross-Site Request Forgery (CSRF)
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')

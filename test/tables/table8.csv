@@ -1,0 +1,79 @@
+﻿CWE-ID,Name
+5,J2EE Misconfiguration: Data Transmission Without Encryption
+6,J2EE Misconfiguration: Insufficient Session-ID Length
+7,J2EE Misconfiguration: Missing Custom Error Page
+95,Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
+102,Struts: Duplicate Validation Forms
+103,Struts: Incomplete validate() Method Definition
+104,Struts: Form Bean Does Not Extend Validation Class
+105,Struts: Form Field Without Validator
+106,Struts: Plug-in Framework not in Use
+107,Struts: Unused Validation Form
+108,Struts: Unvalidated Action Form
+109,Struts: Validator Turned Off
+110,Struts: Validator Without Form Field
+111,Direct Use of Unsafe JNI
+191,Integer Underflow (Wrap or Wraparound)
+192,Integer Coercion Error
+197,Numeric Truncation Error
+209,Generation of Error Message Containing Sensitive Information
+245,J2EE Bad Practices: Direct Management of Connections
+246,J2EE Bad Practices: Direct Use of Sockets
+248,Uncaught Exception
+362,Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
+366,Race Condition within a Thread
+374,Passing Mutable Objects to an Untrusted Method
+375,Returning a Mutable Object to an Untrusted Caller
+382,J2EE Bad Practices: Use of System.exit()
+383,J2EE Bad Practices: Direct Use of Threads
+395,Use of NullPointerException Catch to Detect NULL Pointer Dereference
+396,Declaration of Catch for Generic Exception
+397,Declaration of Throws for Generic Exception
+460,Improper Cleanup on Thrown Exception
+462,Duplicate Key in Associative List (Alist)
+470,Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')
+476,NULL Pointer Dereference
+478,Missing Default Case in Multiple Condition Expression
+481,Assigning instead of Comparing
+484,Omitted Break Statement in Switch
+486,Comparison of Classes by Name
+487,Reliance on Package-level Scope
+491,Public cloneable() Method Without Final ('Object Hijack')
+492,Use of Inner Class Containing Sensitive Data
+493,Critical Public Variable Without Final Modifier
+495,Private Data Structure Returned From A Public Method
+496,Public Data Assigned to Private Array-Typed Field
+498,Cloneable Class Containing Sensitive Information
+499,Serializable Class Containing Sensitive Data
+500,Public Static Field Not Marked Final
+502,Deserialization of Untrusted Data
+537,Java Runtime Error Message Containing Sensitive Information
+543,Use of Singleton Pattern Without Synchronization in a Multithreaded Context
+567,Unsynchronized Access to Shared Data in a Multithreaded Context
+568,finalize() Method Without super.finalize()
+572,Call to Thread run() instead of start()
+574,EJB Bad Practices: Use of Synchronization Primitives
+575,EJB Bad Practices: Use of AWT Swing
+576,EJB Bad Practices: Use of Java I/O
+577,EJB Bad Practices: Use of Sockets
+578,EJB Bad Practices: Use of Class Loader
+579,J2EE Bad Practices: Non-serializable Object Stored in Session
+580,clone() Method Without super.clone()
+581,Object Model Violation: Just One of Equals and Hashcode Defined
+582,Array Declared Public, Final, and Static
+583,finalize() Method Declared Public
+585,Empty Synchronized Block
+586,Explicit Call to Finalize()
+594,J2EE Framework: Saving Unserializable Objects to Disk
+595,Comparison of Object References Instead of Object Contents
+607,Public Static Final Field References Mutable Object
+608,Struts: Non-private Field in ActionForm Class
+609,Double-Checked Locking
+766,Critical Data Element Declared Public
+767,Access to Critical Private Variable via Public Method
+917,Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')
+1235,Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations
+1335,Incorrect Bitwise Shift of Integer
+1336,Improper Neutralization of Special Elements Used in a Template Engine
+1341,Multiple Releases of Same Resource or Handle
+,

@@ -1,0 +1,200 @@
+CWE-ID,Name
+120,Buffer Copy without Checking Size of Input ('Classic Buffer Overflow')
+121,Stack-based Buffer Overflow
+122,Heap-based Buffer Overflow
+123,Write-what-where Condition
+124,Buffer Underwrite ('Buffer Underflow')
+125,Out-of-bounds Read
+126,Buffer Over-read
+127,Buffer Under-read
+128,Wrap-around Error
+129,Improper Validation of Array Index
+130,Improper Handling of Length Parameter Inconsistency
+131,Incorrect Calculation of Buffer Size
+134,Use of Externally-Controlled Format String
+135,Incorrect Calculation of Multi-Byte String Length
+138,Improper Neutralization of Special Elements
+140,Improper Neutralization of Delimiters
+141,Improper Neutralization of Parameter/Argument Delimiters
+142,Improper Neutralization of Value Delimiters
+143,Improper Neutralization of Record Delimiters
+144,Improper Neutralization of Line Delimiters
+145,Improper Neutralization of Section Delimiters
+146,Improper Neutralization of Expression/Command Delimiters
+147,Improper Neutralization of Input Terminators
+148,Improper Neutralization of Input Leaders
+149,Improper Neutralization of Quoting Syntax
+150,Improper Neutralization of Escape, Meta, or Control Sequences
+151,Improper Neutralization of Comment Delimiters
+152,Improper Neutralization of Macro Symbols
+153,Improper Neutralization of Substitution Characters
+154,Improper Neutralization of Variable Name Delimiters
+155,Improper Neutralization of Wildcards or Matching Symbols
+156,Improper Neutralization of Whitespace
+157,Failure to Sanitize Paired Delimiters
+158,Improper Neutralization of Null Byte or NUL Character
+159,Improper Handling of Invalid Use of Special Elements
+160,Improper Neutralization of Leading Special Elements
+161,Improper Neutralization of Multiple Leading Special Elements
+162,Improper Neutralization of Trailing Special Elements
+163,Improper Neutralization of Multiple Trailing Special Elements
+164,Improper Neutralization of Internal Special Elements
+165,Improper Neutralization of Multiple Internal Special Elements
+166,Improper Handling of Missing Special Element
+167,Improper Handling of Additional Special Element
+168,Improper Handling of Inconsistent Special Elements
+170,Improper Null Termination
+172,Encoding Error
+173,Improper Handling of Alternate Encoding
+174,Double Decoding of the Same Data
+175,Improper Handling of Mixed Encoding
+176,Improper Handling of Unicode Encoding
+177,Improper Handling of URL Encoding (Hex Encoding)
+178,Improper Handling of Case Sensitivity
+179,Incorrect Behavior Order: Early Validation
+180,Incorrect Behavior Order: Validate Before Canonicalize
+181,Incorrect Behavior Order: Validate Before Filter
+182,Collapse of Data into Unsafe Value
+183,Permissive List of Allowed Inputs
+184,Incomplete List of Disallowed Inputs
+185,Incorrect Regular Expression
+186,Overly Restrictive Regular Expression
+187,Partial String Comparison
+188,Reliance on Data/Memory Layout
+190,Integer Overflow or Wraparound
+191,Integer Underflow (Wrap or Wraparound)
+193,Off-by-one Error
+194,Unexpected Sign Extension
+195,Signed to Unsigned Conversion Error
+196,Unsigned to Signed Conversion Error
+197,Numeric Truncation Error
+198,Use of Incorrect Byte Ordering
+200,Exposure of Sensitive Information to an Unauthorized Actor
+201,Insertion of Sensitive Information Into Sent Data
+202,Exposure of Sensitive Information Through Data Queries
+203,Observable Discrepancy
+204,Observable Response Discrepancy
+205,Observable Behavioral Discrepancy
+206,Observable Internal Behavioral Discrepancy
+207,Observable Behavioral Discrepancy With Equivalent Products
+208,Observable Timing Discrepancy
+209,Generation of Error Message Containing Sensitive Information
+210,Self-generated Error Message Containing Sensitive Information
+211,Externally-Generated Error Message Containing Sensitive Information
+212,Improper Removal of Sensitive Information Before Storage or Transfer
+213,Exposure of Sensitive Information Due to Incompatible Policies
+214,Invocation of Process Using Visible Sensitive Information
+215,Insertion of Sensitive Information Into Debugging Code
+219,Storage of File with Sensitive Data Under Web Root
+220,Storage of File With Sensitive Data Under FTP Root
+221,Information Loss or Omission
+222,Truncation of Security-relevant Information
+223,Omission of Security-relevant Information
+224,Obscured Security-relevant Information by Alternate Name
+226,Sensitive Information in Resource Not Removed Before Reuse
+228,Improper Handling of Syntactically Invalid Structure
+229,Improper Handling of Values
+230,Improper Handling of Missing Values
+231,Improper Handling of Extra Values
+232,Improper Handling of Undefined Values
+233,Improper Handling of Parameters
+234,Failure to Handle Missing Parameter
+235,Improper Handling of Extra Parameters
+236,Improper Handling of Undefined Parameters
+237,Improper Handling of Structural Elements
+238,Improper Handling of Incomplete Structural Elements
+239,Failure to Handle Incomplete Element
+240,Improper Handling of Inconsistent Structural Elements
+241,Improper Handling of Unexpected Data Type
+242,Use of Inherently Dangerous Function
+243,Creation of chroot Jail Without Changing Working Directory
+244,Improper Clearing of Heap Memory Before Release ('Heap Inspection')
+245,J2EE Bad Practices: Direct Management of Connections
+246,J2EE Bad Practices: Direct Use of Sockets
+248,Uncaught Exception
+250,Execution with Unnecessary Privileges
+252,Unchecked Return Value
+253,Incorrect Check of Function Return Value
+256,Plaintext Storage of a Password
+257,Storing Passwords in a Recoverable Format
+258,Empty Password in Configuration File
+259,Use of Hard-coded Password
+260,Password in Configuration File
+261,Weak Encoding for Password
+262,Not Using Password Aging
+263,Password Aging with Long Expiration
+266,Incorrect Privilege Assignment
+267,Privilege Defined With Unsafe Actions
+268,Privilege Chaining
+269,Improper Privilege Management
+270,Privilege Context Switching Error
+271,Privilege Dropping / Lowering Errors
+272,Least Privilege Violation
+273,Improper Check for Dropped Privileges
+274,Improper Handling of Insufficient Privileges
+276,Incorrect Default Permissions
+277,Insecure Inherited Permissions
+278,Insecure Preserved Inherited Permissions
+279,Incorrect Execution-Assigned Permissions
+280,Improper Handling of Insufficient Permissions or Privileges 
+281,Improper Preservation of Permissions
+282,Improper Ownership Management
+283,Unverified Ownership
+284,Improper Access Control
+285,Improper Authorization
+286,Incorrect User Management
+287,Improper Authentication
+288,Authentication Bypass Using an Alternate Path or Channel
+289,Authentication Bypass by Alternate Name
+290,Authentication Bypass by Spoofing
+293,Using Referer Field for Authentication
+294,Authentication Bypass by Capture-replay
+296,Improper Following of a Certificate's Chain of Trust
+297,Improper Validation of Certificate with Host Mismatch
+298,Improper Validation of Certificate Expiration
+299,Improper Check for Certificate Revocation
+300,Channel Accessible by Non-Endpoint
+301,Reflection Attack in an Authentication Protocol
+302,Authentication Bypass by Assumed-Immutable Data
+303,Incorrect Implementation of Authentication Algorithm
+304,Missing Critical Step in Authentication
+305,Authentication Bypass by Primary Weakness
+306,Missing Authentication for Critical Function
+307,Improper Restriction of Excessive Authentication Attempts
+308,Use of Single-factor Authentication
+309,Use of Password System for Primary Authentication
+311,Missing Encryption of Sensitive Data
+312,Cleartext Storage of Sensitive Information
+313,Cleartext Storage in a File or on Disk
+314,Cleartext Storage in the Registry
+315,Cleartext Storage of Sensitive Information in a Cookie
+316,Cleartext Storage of Sensitive Information in Memory
+317,Cleartext Storage of Sensitive Information in GUI
+318,Cleartext Storage of Sensitive Information in Executable
+319,Cleartext Transmission of Sensitive Information
+321,Use of Hard-coded Cryptographic Key
+322,Key Exchange without Entity Authentication
+323,Reusing a Nonce, Key Pair in Encryption
+324,Use of a Key Past its Expiration Date
+325,Missing Cryptographic Step
+326,Inadequate Encryption Strength
+327,Use of a Broken or Risky Cryptographic Algorithm
+328,Use of Weak Hash
+329,Generation of Predictable IV with CBC Mode
+330,Use of Insufficiently Random Values
+331,Insufficient Entropy
+332,Insufficient Entropy in PRNG
+333,Improper Handling of Insufficient Entropy in TRNG
+334,Small Space of Random Values
+335,Incorrect Usage of Seeds in Pseudo-Random Number Generator (PRNG)
+336,Same Seed in Pseudo-Random Number Generator (PRNG)
+337,Predictable Seed in Pseudo-Random Number Generator (PRNG)
+338,Use of Cryptographically Weak Pseudo-Random Number Generator (PRNG)
+339,Small Seed Space in PRNG
+340,Generation of Predictable Numbers or Identifiers
+341,Predictable from Observable State
+342,Predictable Exact Value from Previous Values
+343,Predictable Value Range from Previous Values
+344,Use of Invariant Value in Dynamically Changing Context
+345,Insufficient Verification of Data Authenticity
+346,Origin Validation Error

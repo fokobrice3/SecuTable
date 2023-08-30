@@ -1,0 +1,78 @@
+﻿Name
+J2EE Misconfiguration: Data Transmission Without Encryption
+J2EE Misconfiguration: Insufficient Session-ID Length
+J2EE Misconfiguration: Missing Custom Error Page
+Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection')
+Struts: Duplicate Validation Forms
+Struts: Incomplete validate() Method Definition
+Struts: Form Bean Does Not Extend Validation Class
+Struts: Form Field Without Validator
+Struts: Plug-in Framework not in Use
+Struts: Unused Validation Form
+Struts: Unvalidated Action Form
+Struts: Validator Turned Off
+Struts: Validator Without Form Field
+Direct Use of Unsafe JNI
+Integer Underflow (Wrap or Wraparound)
+Integer Coercion Error
+Numeric Truncation Error
+Generation of Error Message Containing Sensitive Information
+J2EE Bad Practices: Direct Management of Connections
+J2EE Bad Practices: Direct Use of Sockets
+Uncaught Exception
+Concurrent Execution using Shared Resource with Improper Synchronization ('Race Condition')
+Race Condition within a Thread
+Passing Mutable Objects to an Untrusted Method
+Returning a Mutable Object to an Untrusted Caller
+J2EE Bad Practices: Use of System.exit()
+J2EE Bad Practices: Direct Use of Threads
+Use of NullPointerException Catch to Detect NULL Pointer Dereference
+Declaration of Catch for Generic Exception
+Declaration of Throws for Generic Exception
+Improper Cleanup on Thrown Exception
+Duplicate Key in Associative List (Alist)
+Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection')
+NULL Pointer Dereference
+Missing Default Case in Multiple Condition Expression
+Assigning instead of Comparing
+Omitted Break Statement in Switch
+Comparison of Classes by Name
+Reliance on Package-level Scope
+Public cloneable() Method Without Final ('Object Hijack')
+Use of Inner Class Containing Sensitive Data
+Critical Public Variable Without Final Modifier
+Private Data Structure Returned From A Public Method
+Public Data Assigned to Private Array-Typed Field
+Cloneable Class Containing Sensitive Information
+Serializable Class Containing Sensitive Data
+Public Static Field Not Marked Final
+Deserialization of Untrusted Data
+Java Runtime Error Message Containing Sensitive Information
+Use of Singleton Pattern Without Synchronization in a Multithreaded Context
+Unsynchronized Access to Shared Data in a Multithreaded Context
+finalize() Method Without super.finalize()
+Call to Thread run() instead of start()
+EJB Bad Practices: Use of Synchronization Primitives
+EJB Bad Practices: Use of AWT Swing
+EJB Bad Practices: Use of Java I/O
+EJB Bad Practices: Use of Sockets
+EJB Bad Practices: Use of Class Loader
+J2EE Bad Practices: Non-serializable Object Stored in Session
+clone() Method Without super.clone()
+Object Model Violation: Just One of Equals and Hashcode Defined
+Array Declared Public, Final, and Static
+finalize() Method Declared Public
+Empty Synchronized Block
+Explicit Call to Finalize()
+J2EE Framework: Saving Unserializable Objects to Disk
+Comparison of Object References Instead of Object Contents
+Public Static Final Field References Mutable Object
+Struts: Non-private Field in ActionForm Class
+Double-Checked Locking
+Critical Data Element Declared Public
+Access to Critical Private Variable via Public Method
+Improper Neutralization of Special Elements used in an Expression Language Statement ('Expression Language Injection')
+Incorrect Use of Autoboxing and Unboxing for Performance Critical Operations
+Incorrect Bitwise Shift of Integer
+Improper Neutralization of Special Elements Used in a Template Engine
+Multiple Releases of Same Resource or Handle
