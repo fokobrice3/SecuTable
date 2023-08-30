@@ -8,9 +8,9 @@
   <h3 align="center">SecuTable Dataset</h3>
 
   <p align="center">
-    A Tabular Dataset on Security Domain!
+    A set of tabular data on the field of IT security!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/fokobrice3/SecuTable"><strong>Explore the docs »</strong></a>
     <br />
     <br />
   </p>
