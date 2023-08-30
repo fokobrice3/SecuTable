@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-1628"
+CVE-2008-1657,Red Hat,2008-04-03,Mark J Cox,"Not vulnerable. These issues did not affect the versions of OpenSSH as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1661,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July 11, 2008"
+CVE-2008-1668,Red Hat,2008-10-13,Joshua Bressers,Not vulnerable.  This flaw does not affect teh version of wu-ftpd as shipped in Red Hat Enterprise Linux 2.1.
+CVE-2008-1670,Red Hat,2008-05-01,Joshua Bressers,"Not vulnerable. This issue did not affect versions of KDE as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1671,Red Hat,2008-05-01,Joshua Bressers,"Not vulnerable. This issue did not affect versions of KDE as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1672,Red Hat,2008-05-30,Mark J Cox,"Not vulnerable. This issue did not affect the versions of OpenSSL as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1673,Red Hat,2009-09-08,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2, 3, 4, 5 or Red Hat Enterprise MRG.
+
+The but existed on Red Hat Enterprise Linux 3, 4, and 5. However, this is only a security issue if the SLOB or SLUB memory allocators were used (introduced in Linux kernel versions 2.6.16 and 2.6.22, respectively). All Red Hat Enterprise Linux and Red Hat Enterprise MRG kernels use the SLAB memory allocator, which in this case, cannot be exploited to allow arbitrary code execution. As a preventive measure, the underlying bug was addressed in Red Hat Enterprise Linux 3, 4, and 5, via the advisories RHSA-2008:0973, RHSA-2008:0508, and RHSA-2008:0519, respectively."
+CVE-2008-1675,Red Hat,2008-05-06,Mark J Cox,"Not vulnerable. This issue did not affect versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1678,Red Hat,2009-05-28,Mark J Cox,"Not vulnerable. This issue did not affect the versions of mod_ssl or httpd as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 prior to 5.3.
+
+In Red Hat Enterprise Linux 5.3, OpenSSL packages were rebased to upstream version 0.9.8e via RHBA-2009:0181 (https://rhn.redhat.com/errata/RHBA-2009-0181.html), introducing this problem in Red Hat Enterprise Linux 5.  Updated httpd packages were released via: https://rhn.redhat.com/errata/RHSA-2009-1075.html"
+CVE-2008-1679,Red Hat,2008-04-22,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1679
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-1685,Red Hat,2008-07-24,Joshua Bressers,"The Red Hat Security Response Team is aware of this new gcc behavior and is currently working to determine what impact these changes will have on the source code processed by the compiler. These changes do not affect Red Hat Enterprise Linux 2, 3, 4, or 5."
+CVE-2008-1687,Red Hat,2008-04-15,Joshua Bressers,Red Hat does not consider this to be a security issue.  After careful analysis of this issue the Red Hat Security Response Team has determined that this bug has no security impact outside of expected m4 behavior.
+CVE-2008-1688,Red Hat,2008-04-15,Joshua Bressers,Red Hat does not consider this to be a security issue.  After careful analysis of this issue the Red Hat Security Response Team has determined that this bug has no security impact outside of expected m4 behavior.
+CVE-2008-1694,Red Hat,2008-05-01,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1694

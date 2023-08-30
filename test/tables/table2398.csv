@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+https://rhn.redhat.com/errata/RHSA-2009-1529.html"
+CVE-2009-1892,Red Hat,2009-07-20,Mark J Cox,"Not vulnerable.  Red Hat Enterprise Linux 3, 4, and 5 provide earlier versions of ISC DHCP which are not vulnerable to this issue."
+CVE-2009-1897,Red Hat,2009-09-02,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-1897
+
+The flaw only affects the Red Hat Enterprise Linux 5.4 beta kernel, which includes a backport of the upstream bug fix introducing this flaw (git commit 33dccbb0). This issue did not affect the final released Red Hat Enterprise Linux 5.4 kernel.  It is also possible to mitigate this flaw by ensuring that the permissions for /dev/net/tun is restricted to root only.
+
+This issue does not affect any other released kernel in any Red Hat product."
+CVE-2009-1914,Red Hat,2009-06-05,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG. Red Hat does not provide support for the Linux kernel on the SPARC64 architecture."
+CVE-2009-1961,Red Hat,2009-07-15,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and 5. It was addressed in Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1157.html"
+CVE-2009-2042,Red Hat,2010-07-14,Mark J Cox,"This issue has been addressed in Red Hat Enterprise Linux 3, 4, and 5 via https://rhn.redhat.com/errata/RHSA-2010-0534.html."
+CVE-2009-2139,Red Hat,2009-09-10,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of openoffice.org and openoffice.org2 packages as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2260,Red Hat,2009-07-01,Tomas Hoger,Not vulnerable. This issue did not affect the versions of stardict as shipped with Red Hat Enterprise Linux 5.
+CVE-2009-2287,Red Hat,2009-07-01,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and 5, and Red Hat Enterprise MRG."
+CVE-2009-2406,Red Hat,2009-08-18,Mark J Cox,"The Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG did not include support for eCryptfs, and therefore are not affected by this issue.
+
+Red Hat Enterprise Linux 5 was vulnerable to this issue and was addressed via: https://rhn.redhat.com/errata/RHSA-2009-1193.html"
+CVE-2009-2407,Red Hat,2009-08-18,Mark J Cox,"The Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG did not include support for eCryptfs, and therefore are not affected by this issue.
+
+Red Hat Enterprise Linux 5 was vulnerable to this issue and was addressed via: https://rhn.redhat.com/errata/RHSA-2009-1193.html"
+CVE-2009-2446,Red Hat,2010-02-17,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2446

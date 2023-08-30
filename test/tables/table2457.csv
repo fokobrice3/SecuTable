@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+Issue was addressed in MySQL packages as shipped in Red Hat Enterprise Linux 5 via:
+
+https://rhn.redhat.com/errata/RHSA-2008-0364.html"
+CVE-2006-4262,Red Hat,2009-06-16,Mark J Cox,"Red Hat Enterprise Linux 5 was not vulnerable to this issue as it contained a backported patch since its first release.
+
+In Red Hat Enterprise Linux 3 and 4, this issue was addressed via: https://rhn.redhat.com/errata/RHSA-2009-1101.html"
+CVE-2006-4310,Red Hat,2006-09-21,Joshua Bressers,"Red Hat does not consider this flaw a security issue.  This flaw is the result of a NULL pointer dereference, which is not exploitable and can only cause a client crash."
+CVE-2006-4318,Texas Imperial Software,2011-01-07,Texas Imperial Software,"Texas Imperial Software has tested this issue against current versions of WFTPD and WFTPD Pro, and finds that versions after 3.23 are not vulnerable. Users of WFTPD or WFTPD Pro should update to the most current version in order to address this issue. The update is free to fully registered users unregistered users can download a fresh copy of the shareware version of the application."
+CVE-2006-4334,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4335,Red Hat,2007-03-14,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=220595
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-4336,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4337,Red Hat,2007-03-14,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=220595
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-4338,Red Hat,2007-03-14,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=220595

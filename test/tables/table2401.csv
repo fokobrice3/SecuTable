@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-2691,Red Hat,2009-11-04,Mark J Cox,"The Red Hat Security Response Team has rated this issue as having moderate security impact.
+
+We currently have no plans to fix this flaw in Red Hat Enterprise Linux 3, 4, and 5 as it is not possible to trigger the information leak if the suid_dumpable tunable is set to zero (which is the default).
+
+It was addressed in Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1540.html"
+CVE-2009-2692,Red Hat,2009-09-14,Mark J Cox,"Red Hat is aware of this issue. Please see http://kbase.redhat.com/faq/docs/DOC-18065.
+
+Updates for Red Hat Enterprise Linux 3, 4, 5, and Red Hat Enterprise MRG to correct this issue are available: https://rhn.redhat.com/cve/CVE-2009-2692.html"
+CVE-2009-2693,Red Hat,2010-03-02,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2693
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/
+
+This issue has been addressed in JBoss Enterprise Web Server 1.0.1: https://rhn.redhat.com/errata/RHSA-2010-0119.html"
+CVE-2009-2698,Red Hat,2009-09-14,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise MRG. Updates for Red Hat Enterprise Linux 3, 4 and 5 to correct this issue are available: https://rhn.redhat.com/cve/CVE-2009-2698.html"
+CVE-2009-2699,Apache,2010-01-21,Mark Cox,"Clarification 1: This issue only affects Solaris 10 and OpenSolaris.  Other versions of Solaris and non-Solaris platforms are not affected.
+
+
+Clarification 2: This issue only affects 2.2.x versions of Apache HTTP Server, APR 1.1 through 1.3.8.  APR 0.9.x is not affected."
+CVE-2009-2699,Red Hat,2010-02-23,Joshua Bressers,"This flaw does not affect the version of APR shipped in Red Hat Enterprise Linux.

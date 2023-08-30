@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Red Hat Enterprise Linux 3 is now in Production 3 of the maintenance life-cycle, http://www.redhat.com/security/updates/errata, and this issue is rated as having low impact, therefore the fix for this issue is not currently planned to be included in the future updates."
+CVE-2009-4021,Red Hat,2010-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2009-4021
+
+The Linux kernel packages as shipped with Red Hat Enterprise Linux 3 and 4 do not include support for FUSE, and therefore are not affected by this issue.
+
+It was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0046.html
+
+A future kernel update for Red Hat Enterprise MRG will address this flaw."
+CVE-2009-4026,Red Hat,2009-12-03,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG. Shipped kernels do not include upstream commits d75636ef and d92684e6 that introduced the problem."
+CVE-2009-4027,Red Hat,2009-12-03,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2009-4027.
+
+This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4 as they do not have support for the mac80211 framework.
+
+It did not affect the version of the Linux kernel as shipped with Red Hat Enterprise MRG as they do not include the upstream patch that introduced this vulnerability.
+
+A future update will address this flaw in Red Hat Enterprise Linux 5."
+CVE-2009-4029,Red Hat,2010-03-31,Mark Cox,"Red Hat is aware of this issue and is tracking it via the following
+bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-4029
+
+This issue was addressed in the automake, automake14, automake15, automake16 and automake17 packages as shipped with Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2010-0321.html

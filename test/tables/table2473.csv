@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2006-7204,Red Hat,2007-05-29,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2006-7205,Red Hat,2007-05-29,Mark J Cox,"The memory_limit configuration option is used to constrain the amount of memory which a script can consume during execution.  If this setting is disabled (or set unreasonably high), it is expected behaviour that scripts will be able to consume large amounts of memory during script execution.
+
+The memory_limit setting is enabled by default in all versions of PHP distributed in Red Hat Enterprise Linux and Application Stack."
+CVE-2006-7221,Red Hat,2007-08-10,Mark J Cox,"Red Hat does not consider a user assisted client crash such as this to be a
+security flaw."
+CVE-2006-7232,Red Hat,2008-07-25,Mark J Cox,"This issue did not affect the MySQL packages as shipped in Red Hat Enterprise Linux 2.1, 3, and 4 as they did not support INFORMATION_SCHEMA, introduced in MySQL version 5.
+
+MySQL packages as shipped in Red Hat Enterprise Linux 5 were fixed via:
+
+https://rhn.redhat.com/errata/RHSA-2008-0364.html
+
+The MySQL packages as shipped in Red Hat Application Stack v1 and v2 are based on upstream version which has the fix included."
+CVE-2006-7236,Red Hat,2009-01-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the xterm package, as shipped with Red Hat Enterprise Linux 3, 4, and 5, and the version of the XFree86 (providing xterm) and hanterm-xf packages, as shipped with Red Hat Enterprise Linux 2.1."
+CVE-2007-0003,Red Hat,2007-01-24,Mark J Cox,"Not vulnerable. These issues did not affect the versions of pam as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-0010,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2007-0059,Apple,2007-03-19,Ron Dumont,"This issue is addressed in QuickTime 7.1.5, which was released on March 5.  Information on the security fixes provided in QuickTime 7.1.5, and links to obtain the update are provided in:
+http://docs.info.apple.com/article.html?artnum=305149"
+CVE-2007-0061,Red Hat,2008-06-03,Mark J Cox,"Not vulnerable. This issue did not affect the versions of dhcp as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-0062,Red Hat,2008-06-03,Mark J Cox,"The Red Hat Security Response Team has rated this issue as having low security impact. The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 2.1, 3, 4, or 5:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2007-0062"

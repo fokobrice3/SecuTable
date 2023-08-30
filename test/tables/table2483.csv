@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-1700,Red Hat,2007-04-16,Mark J Cox,"The PHP interpreter does not offer a reliable &quot;sandboxed&quot; security
+layer (as found in, say, a JVM) in which untrusted scripts can be run;
+any script run by the PHP interpreter must be trusted with the
+privileges of the interpreter itself.  We therefore do not classify
+this issue as security-sensitive since no trust boundary is crossed."
+CVE-2007-1701,Red Hat,2007-05-01,Mark J Cox,This CVE name is a duplicate as the vulnerability is addressed by CVE-2007-0910.
+CVE-2007-1709,Red Hat,2007-04-17,Mark J Cox,"Not vulnerable. PHP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5, Red Hat Application Stack, and Stronghold 4.0 do not include PHPDoc support."
+CVE-2007-1710,Red Hat,2007-04-17,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-1716,Red Hat,2007-04-09,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=233581
+
+The Red Hat Security Response Team has rated this issue as having low security
+impact, a future update may address this flaw.  More information regarding
+issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2007-1717,Red Hat,2007-05-04,Mark J Cox,This issue has no security impact.
+CVE-2007-1730,Red Hat,2007-10-23,Mark J Cox,"Not vulnerable. This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-1734,Red Hat,2007-10-23,Mark J Cox,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-1741,Red Hat,2007-04-19,Mark J Cox,These attacks are reliant on an insecure configuration of the server - that the user the server runs as has write access to the document root. The suexec security model is not intented to protect against privilege escalation in such a configuration
+CVE-2007-1742,Red Hat,2007-04-19,Mark J Cox,These attacks are reliant on an insecure configuration of the server - that the user the server runs as has write access to the document root. The suexec security model is not intented to protect against privilege escalation in such a configuration
+CVE-2007-1743,Red Hat,2007-04-19,Mark J Cox,These attacks are reliant on an insecure configuration of the server - that the user the server runs as has write access to the document root. The suexec security model is not intented to protect against privilege escalation in such a configuration

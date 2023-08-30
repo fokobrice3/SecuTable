@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+This issue also affects the fence package in Red Hat Cluster Suite for Enterprise Linux 4AS, a future update may address this flaw:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-4579"
+CVE-2008-4580,Red Hat,2009-11-12,Tomas Hoger,"Manual fencing agent is documented to only be provided for testing purposes and should not be used in production environments. Therefore, there is no plan to fix this flaw in Red Hat Cluster Suite for Red Hat Enterprise Linux 4, and in Red Hat Enterprise Linux 5."
+CVE-2008-4609,Red Hat,2009-09-08,Joshua Bressers,"The attacks reported by Outpost24 AB target the design limitations of the TCP protocol. Due to upstreams decision not to release updates, Red Hat do not plan to release updates to resolve these issues however, the effects of these attacks can be reduced via the mitigation methods as written in http://kbase.redhat.com/faq/docs/DOC-18730."
+CVE-2008-4618,Red Hat,2009-01-22,Tomas Hoger,"The versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 were not affected by this issue.
+
+This issue only affected the version of Linux kernel as shipped with Red Hat Enterprise MRG and was addressed via: https://rhn.redhat.com/errata/RHSA-2009-0009.html"
+CVE-2008-4677,Red Hat,2008-10-25,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of vim as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-4680,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4681,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4682,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4683,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4684,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4685,Red Hat,2009-03-05,Tomas Hoger,"This issue has been addressed in Wireshark packages as shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2009-0313.html"
+CVE-2008-4723,Red Hat,2009-01-21,Joshua Bressers,Red Hat does not consider this to be a security flaw.  Firefox is handling the ftp:// URL as expected.
+CVE-2008-4799,Red Hat,2008-10-31,Tomas Hoger,This issue can only cause pamperspective to crash when used on specially crafted messages.  We do not consider this to be a security issue.
+CVE-2008-4865,Red Hat,2009-02-05,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-4865
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-4907,Red Hat,2008-11-21,Joshua Bressers,"Not vulnerable. This issue did not affect the versions of the dovecot package, as shipped with Red Hat Enterprise Linux 4 or 5."
+CVE-2008-4936,Mandriva,2008-12-09,Vincent Danen,"This issue was fixed on May 5, 2003 for all Mandriva Linux products."

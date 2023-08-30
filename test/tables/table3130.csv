@@ -1,0 +1,7 @@
+annotation/documentation/0/__text,unique/selector/_xpath,unique/field/_xpath,unique/_name,_name,_type
+The Observables construct represents a collection of cyber observables.,.//*,@id,unique-observables-id,Observables,cybox:ObservablesType
+The Observable construct represents a description of a single cyber observable.,.//*,@id,unique-observable-id,Observable,cybox:ObservableType
+"The Event construct enables specification of a cyber observable event that is dynamic in nature with specific action(s) taken against specific cyber relevant objects (e.g. a file is deleted, a registry key is created or an HTTP Get Request is received).",.//*,@id,unique-event-id,Event,cybox:EventType
+The Action construct enables description/specification of a single cyber observable action.,.//*,@id,unique-action-id,Action,cybox:ActionType
+"The Object construct identifies and specificies the characteristics of a specific cyber-relevant object (e.g. a file, a registry key or a process).",.//*,@id,unique-object-id,Object,cybox:ObjectType
+The Property element represents the specification of a single Object Property.,.//*,@id,unique-property-id,Property,cyboxCommon:PropertyType

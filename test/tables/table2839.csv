@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2018-20644,MEDIUM,PHP Scripts Mall Basic B2B Script 2.0.9 has Cross-Site Request Forgery (CSRF) via the Edit profile feature.
+CVE-2018-20645,LOW,PHP Scripts Mall Basic B2B Script 2.0.9 has HTML injection via the First Name or Last Name field.
+CVE-2018-20646,MEDIUM,PHP Scripts Mall Basic B2B Script 2.0.9 has has directory traversal via a direct request for a listing of an image directory such as an uploads/ directory.
+CVE-2018-20647,MEDIUM,PHP Scripts Mall Car Rental Script 2.0.8 has directory traversal via a direct request for a listing of an image directory such as an images/ directory.
+CVE-2018-20648,MEDIUM,PHP Scripts Mall Car Rental Script 2.0.8 has Cross-Site Request Forgery (CSRF) via accountedit.php.
+CVE-2018-2065,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20650,MEDIUM,"A reachable Object::dictLookup assertion in Poppler 0.72.0 allows attackers to cause a denial of service due to the lack of a check for the dict data type, as demonstrated by use of the FileSpec class (in FileSpec.cc) in pdfdetach."
+CVE-2018-20651,MEDIUM,"A NULL pointer dereference was discovered in elf_link_add_object_symbols in elflink.c in the Binary File Descriptor (BFD) library (aka libbfd), as distributed in GNU Binutils 2.31.1. This occurs for a crafted ET_DYN with no program headers. A specially crafted ELF file allows remote attackers to cause a denial of service, as demonstrated by ld."
+CVE-2018-20652,MEDIUM,"An attempted excessive memory allocation was discovered in the function tinyexr::AllocateImage in tinyexr.h in tinyexr v0.9.5. Remote attackers could leverage this vulnerability to cause a denial-of-service via crafted input, which leads to an out-of-memory exception."
+CVE-2018-20655,HIGH,"When receiving calls using WhatsApp for iOS, a missing size check when parsing a sender-provided packet allowed for a stack-based overflow. This issue affects WhatsApp for iOS prior to v2.18.90.24 and WhatsApp Business for iOS prior to v2.18.90.24."
+CVE-2018-20657,MEDIUM,"The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, has a memory leak via a crafted string, leading to a denial of service (memory consumption), as demonstrated by cxxfilt, a related issue to CVE-2018-12698."
+CVE-2018-20658,MEDIUM,The server in Core FTP 2.0 build 653 on 32-bit platforms allows remote attackers to cause a denial of service (daemon crash) via a crafted XRMD command.
+CVE-2018-20659,MEDIUM,"An issue was discovered in Bento4 1.5.1-627. The AP4_StcoAtom class in Core/Ap4StcoAtom.cpp has an attempted excessive memory allocation when called from AP4_AtomFactory::CreateAtomFromStream in Core/Ap4AtomFactory.cpp, as demonstrated by mp42hls."
+CVE-2018-2066,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20662,MEDIUM,"In Poppler 0.72.0, PDFDoc::setup in PDFDoc.cc allows attackers to cause a denial-of-service (application crash caused by Object.h SIGABRT, because of a wrong return value from PDFDoc::setup) by crafting a PDF file in which an xref data structure is mishandled during extractPDFSubtype processing."
+CVE-2018-20663,LOW,"The Reporting Addon (aka Reports Addon) through 2019-01-02 for CUBA Platform through 6.10.x has Persistent XSS via the ""Reports > Reports"" name field."
+CVE-2018-20664,HIGH,Zoho ManageEngine ADSelfService Plus 5.x before build 5701 has XXE via an uploaded product license.
+CVE-2018-20669,HIGH,"An issue where a provided address with access_ok() is not checked was discovered in i915_gem_execbuffer2_ioctl in drivers/gpu/drm/i915/i915_gem_execbuffer.c in the Linux kernel through 4.19.13. A local attacker can craft a malicious IOCTL function call to overwrite arbitrary kernel memory, resulting in a Denial of Service or privilege escalation."
+CVE-2018-2067,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20671,MEDIUM,load_specific_debug_section in objdump.c in GNU Binutils through 2.31.1 contains an integer overflow vulnerability that can trigger a heap-based buffer overflow via a crafted section size.
+CVE-2018-20673,MEDIUM,"The demangle_template function in cplus-dem.c in GNU libiberty, as distributed in GNU Binutils 2.31.1, contains an integer overflow vulnerability (for ""Create an array for saving the template argument values"") that can trigger a heap-based buffer overflow, as demonstrated by nm."
+CVE-2018-20674,MEDIUM,"D-Link DIR-822 C1 before v3.11B01Beta, DIR-822-US C1 before v3.11B01Beta, DIR-850L A* before v1.21B08Beta, DIR-850L B* before v2.22B03Beta, and DIR-880L A* before v1.20B02Beta devices allow authenticated remote command execution."
+CVE-2018-20675,HIGH,"D-Link DIR-822 C1 before v3.11B01Beta, DIR-822-US C1 before v3.11B01Beta, DIR-850L A* before v1.21B08Beta, DIR-850L B* before v2.22B03Beta, and DIR-880L A* before v1.20B02Beta devices allow authentication bypass."
+CVE-2018-20676,MEDIUM,"In Bootstrap before 3.4.0, XSS is possible in the tooltip data-viewport attribute."
+CVE-2018-20677,MEDIUM,"In Bootstrap before 3.4.0, XSS is possible in the affix configuration target property."
+CVE-2018-20678,MEDIUM,"LibreNMS through 1.47 allows SQL injection via the html/ajax_table.php sort[hostname] parameter, exploitable by authenticated users during a search."
+CVE-2018-20679,MEDIUM,"An issue was discovered in BusyBox before 1.30.0. An out of bounds read in udhcp components (consumed by the DHCP server, client, and relay) allows a remote attacker to leak sensitive information from the stack by sending a crafted DHCP message. This is related to verification in udhcp_get_option() in networking/udhcp/common.c that 4-byte options are indeed 4 bytes."
+CVE-2018-2068,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20680,LOW,Frog CMS 0.9.5 has XSS in the admin/?/page/edit/1 body field.
+CVE-2018-20681,LOW,"mate-screensaver before 1.20.2 in MATE Desktop Environment allows physically proximate attackers to view screen content and possibly control applications. By unplugging and re-plugging or power-cycling external output devices (such as additionally attached graphical outputs via HDMI, VGA, DVI, etc.) the content of a screensaver-locked session can be revealed. In some scenarios, the attacker can execute applications, such as by clicking with a mouse."
+CVE-2018-20682,LOW,"Fork CMS 5.0.6 allows stored XSS via the private/en/settings facebook_admin_ids parameter (aka ""Admin ids"" input in the Facebook section)."
+CVE-2018-20683,MEDIUM,"commands/rsync in Gitolite before 3.6.11, if .gitolite.rc enables rsync, mishandles the rsync command line, which allows attackers to have a ""bad"" impact by triggering use of an option other than -v, -n, -q, or -P."
+CVE-2018-20684,MEDIUM,"In WinSCP before 5.14 beta, due to missing validation, the scp implementation would accept arbitrary files sent by the server, potentially overwriting unrelated files. This affects TSCPFileSystem::SCPSink in core/ScpFileSystem.cpp."
+CVE-2018-20685,LOW,"In OpenSSH 7.9, scp.c in the scp client allows remote SSH servers to bypass intended access restrictions via the filename of . or an empty filename. The impact is modifying the permissions of the target directory on the client side."
+CVE-2018-20686,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+CVE-2018-20687,HIGH,An XML external entity (XXE) vulnerability in CommandCenterWebServices/.*?wsdl in Raritan CommandCenter Secure Gateway before 8.0.0 allows remote unauthenticated users to read arbitrary files or conduct server-side request forgery (SSRF) attacks via a crafted DTD in an XML request.
+CVE-2018-2069,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20698,MEDIUM,The floragunn Search Guard plugin before 6.x-16 for Kibana allows URL injection for login redirects on the login page when basePath is set.
+CVE-2018-20699,MEDIUM,"Docker Engine before 18.09 allows attackers to cause a denial of service (dockerd memory consumption) via a large integer in a --cpuset-mems or --cpuset-cpus value, related to daemon/daemon_unix.go, pkg/parsers/parsers.go, and pkg/sysinfo/sysinfo.go."
+CVE-2018-2070,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20703,LOW,CubeCart 6.2.2 has Reflected XSS via a /{ADMIN-FILE}/ query string.
+CVE-2018-2071,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20710,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2019-6285. Reason: This candidate is a duplicate of CVE-2019-6285. A typo caused the wrong ID to be used. Notes: All CVE users should reference CVE-2019-6285 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2018-20712,MEDIUM,"A heap-based buffer over-read exists in the function d_expression_1 in cp-demangle.c in GNU libiberty, as distributed in GNU Binutils 2.31.1. A crafted input can cause segmentation faults, leading to denial-of-service, as demonstrated by c++filt."
+CVE-2018-20713,MEDIUM,"Shopware before 5.4.3 allows SQL Injection by remote authenticated users, aka SW-21404."
+CVE-2018-20714,MEDIUM,"The logging system of the Automattic WooCommerce plugin before 3.4.6 for WordPress is vulnerable to a File Deletion vulnerability. This allows deletion of woocommerce.php, which leads to certain privilege checks not being in place, and therefore a shop manager can escalate privileges to admin."
+CVE-2018-20715,HIGH,The DB abstraction layer of OXID eSales 4.10.6 is vulnerable to SQL injection via the oxid or synchoxid parameter to the oxConfig::getRequestParameter() method in core/oxconfig.php.
+CVE-2018-20716,HIGH,"CubeCart before 6.1.13 has SQL Injection via the validate[] parameter of the ""I forgot my Password!"" feature."
+CVE-2018-20717,MEDIUM,"In the orders section of PrestaShop before 1.7.2.5, an attack is possible after gaining access to a target store with a user role with the rights of at least a Salesman or higher privileges. The attacker can then inject arbitrary PHP objects into the process and abuse an object chain in order to gain Remote Code Execution. This occurs because protection against serialized objects looks for a 0: followed by an integer, but does not consider 0:+ followed by an integer."
+CVE-2018-20718,HIGH,"In Pydio before 8.2.2, an attack is possible via PHP Object Injection because a user is allowed to use the $phpserial$a:0:{} syntax to store a preference. An attacker either needs a ""public link"" of a file, or access to any unprivileged user account for creation of such a link."
+CVE-2018-20719,MEDIUM,"In Tiki before 17.2, the user task component is vulnerable to a SQL Injection via the tiki-user_tasks.php show_history parameter."
+CVE-2018-2072,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20720,HIGH,"ABB Relion 630 devices 1.1 before 1.1.0.C0, 1.2 before 1.2.0.B3, and 1.3 before 1.3.0.A6 allow remote attackers to cause a denial of service (reboot) via a reboot command in an SPA message."
+CVE-2018-20721,HIGH,"URI_FUNC() in UriParse.c in uriparser before 0.9.1 has an out-of-bounds read (in uriParse*Ex* functions) for an incomplete URI with an IPv6 address containing an embedded IPv4 address, such as a ""//[::44.1"" address."
+CVE-2018-20723,LOW,A cross-site scripting (XSS) vulnerability exists in color_templates.php in Cacti before 1.2.0 due to lack of escaping of unintended characters in the Name field for a Color.
+CVE-2018-20724,LOW,A cross-site scripting (XSS) vulnerability exists in pollers.php in Cacti before 1.2.0 due to lack of escaping of unintended characters in the Website Hostname for Data Collectors.
+CVE-2018-20725,LOW,A cross-site scripting (XSS) vulnerability exists in graph_templates.php in Cacti before 1.2.0 due to lack of escaping of unintended characters in the Graph Vertical Label.
+CVE-2018-20726,LOW,A cross-site scripting (XSS) vulnerability exists in host.php (via tree.php) in Cacti before 1.2.0 due to lack of escaping of unintended characters in the Website Hostname field for Devices.
+CVE-2018-20727,MEDIUM,"Multiple command injection vulnerabilities in NeDi before 1.7Cp3 allow authenticated users to execute code on the server side via the flt parameter to Nodes-Traffic.php, the dv parameter to Devices-Graph.php, or the tit parameter to drawmap.php."
+CVE-2018-20728,MEDIUM,A cross site request forgery (CSRF) vulnerability in NeDi before 1.7Cp3 allows remote attackers to escalate privileges via User-Management.php.
+CVE-2018-20729,MEDIUM,A reflected cross site scripting (XSS) vulnerability in NeDi before 1.7Cp3 allows remote attackers to inject arbitrary web script or HTML via the reg parameter in mh.php.
+CVE-2018-2073,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20730,MEDIUM,A SQL injection vulnerability in NeDi before 1.7Cp3 allows any user to execute arbitrary SQL read commands via the query.php component.
+CVE-2018-20731,MEDIUM,A stored cross site scripting (XSS) vulnerability in NeDi before 1.7Cp3 allows remote attackers to inject arbitrary web script or HTML via User-Chat.php.
+CVE-2018-20732,HIGH,SAS Web Infrastructure Platform before 9.4M6 allows remote attackers to execute arbitrary code via a Java deserialization variant.
+CVE-2018-20733,MEDIUM,BI Web Services in SAS Web Infrastructure Platform before 9.4M6 allows XXE.
+CVE-2018-20735,HIGH,"** DISPUTED ** An issue was discovered in BMC PATROL Agent through 11.3.01. It was found that the PatrolCli application can allow for lateral movement and escalation of privilege inside a Windows Active Directory environment. It was found that by default the PatrolCli / PATROL Agent application only verifies if the password provided for the given username is correct; it does not verify the permissions of the user on the network. This means if you have PATROL Agent installed on a high value target (domain controller), you can use a low privileged domain user to authenticate with PatrolCli and then connect to the domain controller and run commands as SYSTEM. This means any user on a domain can escalate to domain admin through PATROL Agent. NOTE: the vendor disputes this because they believe it is adequate to prevent this escalation by means of a custom, non-default configuration."
+CVE-2018-20736,LOW,An issue was discovered in WSO2 API Manager 2.1.0 and 2.6.0. A DOM-based XSS exists in the store part of the product.
+CVE-2018-20737,LOW,An issue was discovered in WSO2 API Manager 2.1.0 and 2.6.0. Reflected XSS exists in the carbon part of the product.
+CVE-2018-2074,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20742,MEDIUM,An issue was discovered in UC Berkeley RISE Opaque before 2018-12-01. There is no boundary check on ocall_malloc. The return value could be a pointer to enclave memory. It could cause an arbitrary enclave memory write.
+CVE-2018-20743,MEDIUM,"murmur in Mumble through 1.2.19 before 2018-08-31 mishandles multiple concurrent requests that are persisted in the database, which allows remote attackers to cause a denial of service (daemon hang or crash) via a message flood."
+CVE-2018-20744,MEDIUM,"The Olivier Poitrey Go CORS handler through 1.3.0 actively converts a wildcard CORS policy into reflecting an arbitrary Origin header value, which is incompatible with the CORS security design, and could lead to CORS misconfiguration security problems."
+CVE-2018-20745,MEDIUM,"Yii 2.x through 2.0.15.1 actively converts a wildcard CORS policy into reflecting an arbitrary Origin header value, which is incompatible with the CORS security design, and could lead to CORS misconfiguration security problems."
+CVE-2018-20748,HIGH,LibVNC before 0.9.12 contains multiple heap out-of-bounds write vulnerabilities in libvncclient/rfbproto.c. The fix for CVE-2018-20019 was incomplete.
+CVE-2018-20749,HIGH,LibVNC before 0.9.12 contains a heap out-of-bounds write vulnerability in libvncserver/rfbserver.c. The fix for CVE-2018-15127 was incomplete.
+CVE-2018-2075,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20750,HIGH,LibVNC through 0.9.12 contains a heap out-of-bounds write vulnerability in libvncserver/rfbserver.c. The fix for CVE-2018-15127 was incomplete.
+CVE-2018-20751,MEDIUM,"An issue was discovered in crop_page in PoDoFo 0.9.6. For a crafted PDF document, pPage->GetObject()->GetDictionary().AddKey(PdfName(""MediaBox""),var) can be problematic due to the function GetObject() being called for the pPage NULL pointer object. The value of pPage at this point is 0x0, which causes a NULL pointer dereference."
+CVE-2018-20752,HIGH,"An issue was discovered in Recon-ng before 4.9.5. Lack of validation in the modules/reporting/csv.py file allows CSV injection. More specifically, when a Twitter user possesses an Excel macro for a username, it will not be properly sanitized when exported to a CSV file. This can result in remote code execution for the attacker."
+CVE-2018-20753,HIGH,"Kaseya VSA RMM before R9.3 9.3.0.35, R9.4 before 9.4.0.36, and R9.5 before 9.5.0.5 allows unprivileged remote attackers to execute PowerShell payloads on all managed devices. In January 2018, attackers actively exploited this vulnerability in the wild."
+CVE-2018-20755,MEDIUM,MODX Revolution through v2.7.0-pl allows XSS via the User Photo field.
+CVE-2018-20756,MEDIUM,"MODX Revolution through v2.7.0-pl allows XSS via a document resource (such as pagetitle), which is mishandled during an Update action, a Quick Edit action, or the viewing of manager logs."
+CVE-2018-20757,MEDIUM,MODX Revolution through v2.7.0-pl allows XSS via an extended user field such as Container name or Attribute name.
+CVE-2018-20758,LOW,MODX Revolution through v2.7.0-pl allows XSS via User Settings such as Description.
+CVE-2018-2076,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20760,MEDIUM,"In GPAC 0.7.1 and earlier, gf_text_get_utf8_line in media_tools/text_import.c in libgpac_static.a allows an out-of-bounds write because a certain -1 return value is mishandled."
+CVE-2018-20761,MEDIUM,GPAC version 0.7.1 and earlier has a Buffer Overflow vulnerability in the gf_sm_load_init function in scene_manager.c in libgpac_static.a.
+CVE-2018-20762,MEDIUM,GPAC version 0.7.1 and earlier has a buffer overflow vulnerability in the cat_multiple_files function in applications/mp4box/fileimport.c when MP4Box is used for a local directory containing crafted filenames.
+CVE-2018-20763,MEDIUM,"In GPAC 0.7.1 and earlier, gf_text_get_utf8_line in media_tools/text_import.c in libgpac_static.a allows an out-of-bounds write because of missing szLineConv bounds checking."
+CVE-2018-20764,HIGH,"A buffer overflow exists in HelpSystems tcpcrypt on Linux, used for BoKS encrypted telnet through BoKS version 6.7.1. Since tcpcrypt is setuid, exploitation leads to privilege escalation."
+CVE-2018-20767,MEDIUM,"An issue was discovered on Xerox WorkCentre 3655, 3655i, 58XX, 58XXi, 59XX, 59XXi, 6655, 6655i, 72XX, 72XXi, 78XX, 78XXi, 7970, 7970i, EC7836, and EC7856 devices before R18-05 073.xxx.0487.15000. There is authenticated remote command execution."
+CVE-2018-20768,HIGH,"An issue was discovered on Xerox WorkCentre 3655, 3655i, 58XX, 58XXi, 59XX, 59XXi, 6655, 6655i, 72XX, 72XXi, 78XX, 78XXi, 7970, 7970i, EC7836, and EC7856 devices before R18-05 073.xxx.0487.15000. An attacker can execute PHP code by leveraging a writable file."
+CVE-2018-20769,MEDIUM,"An issue was discovered on Xerox WorkCentre 3655, 3655i, 58XX, 58XXi, 59XX, 59XXi, 6655, 6655i, 72XX, 72XXi, 78XX, 78XXi, 7970, 7970i, EC7836, and EC7856 devices before R18-05 073.xxx.0487.15000. There is a Local File Inclusion vulnerability."
+CVE-2018-2077,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20770,HIGH,"An issue was discovered on Xerox WorkCentre 3655, 3655i, 58XX, 58XXi, 59XX, 59XXi, 6655, 6655i, 72XX, 72XXi, 78XX, 78XXi, 7970, 7970i, EC7836, and EC7856 devices before R18-05 073.xxx.0487.15000. There is Blind SQL Injection."
+CVE-2018-20771,HIGH,"An issue was discovered on Xerox WorkCentre 3655, 3655i, 58XX, 58XXi, 59XX, 59XXi, 6655, 6655i, 72XX, 72XXi, 78XX, 78XXi, 7970, 7970i, EC7836, and EC7856 devices before R18-05 073.xxx.0487.15000. There is unauthenticated Remote Command Execution."
+CVE-2018-20772,MEDIUM,Frog CMS 0.9.5 allows PHP code execution via <?php to the admin/?/layout/edit/1 URI.
+CVE-2018-20773,MEDIUM,Frog CMS 0.9.5 allows PHP code execution by visiting admin/?/page/edit/1 and inserting additional <?php lines.
+CVE-2018-20774,LOW,Frog CMS 0.9.5 has XSS via the admin/?/layout/edit/1 Body field.
+CVE-2018-20775,MEDIUM,"admin/?/plugin/file_manager in Frog CMS 0.9.5 allows PHP code execution by creating a new .php file containing PHP code, and then visiting this file under the public/ URI."
+CVE-2018-20776,MEDIUM,Frog CMS 0.9.5 provides a directory listing for a /public request.
+CVE-2018-20777,LOW,Frog CMS 0.9.5 has XSS via the admin/?/snippet/edit/1 Body field.
+CVE-2018-20778,MEDIUM,admin/?/plugin/file_manager in Frog CMS 0.9.5 allows XSS by creating a new file containing a crafted attribute of an IMG element.
+CVE-2018-20779,HIGH,Traq 3.7.1 allows SQL Injection via a tickets?search= URI.
+CVE-2018-2078,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20780,MEDIUM,Traq 3.7.1 allows admin/users/new CSRF to create an admin account (aka group_id=1).
+CVE-2018-20781,LOW,"In pam/gkr-pam-module.c in GNOME Keyring before 3.27.2, the user's password is kept in a session-child process spawned from the LightDM daemon. This can expose the credential in cleartext."
+CVE-2018-20782,MEDIUM,The GloBee plugin before 1.1.2 for WooCommerce mishandles IPN messages.
+CVE-2018-20783,MEDIUM,"In PHP before 5.6.39, 7.x before 7.0.33, 7.1.x before 7.1.25, and 7.2.x before 7.2.13, a buffer over-read in PHAR reading functions may allow an attacker to read allocated or unallocated memory past the actual data when trying to parse a .phar file. This is related to phar_parse_pharfile in ext/phar/phar.c."
+CVE-2018-20784,HIGH,"In the Linux kernel before 4.20.2, kernel/sched/fair.c mishandles leaf cfs_rq's, which allows attackers to cause a denial of service (infinite loop in update_blocked_averages) or possibly have unspecified other impact by inducing a high load."
+CVE-2018-20785,MEDIUM,"Secure boot bypass and memory extraction can be achieved on Neato Botvac Connected 2.2.0 devices. During startup, the AM335x secure boot feature decrypts and executes firmware. Secure boot can be bypassed by starting with certain commands to the USB serial port. Although a power cycle occurs, this does not completely reset the chip: memory contents are still in place. Also, it restarts into a boot menu that enables XMODEM upload and execution of an unsigned QNX IFS system image, thereby completing the bypass of secure boot. Moreover, the attacker can craft custom IFS data and write it to unused memory to extract all memory contents that had previously been present. This includes the original firmware and sensitive information such as Wi-Fi credentials."
+CVE-2018-20786,MEDIUM,"libvterm through 0+bzr726, as used in Vim and other products, mishandles certain out-of-memory conditions, leading to a denial of service (application crash), related to screen.c, state.c, and vterm.c."
+CVE-2018-20787,HIGH,The ft5x46 touchscreen driver for custom Linux kernels on the Xiaomi perseus-p-oss MIX 3 device through 2018-11-26 has an integer overflow and OOPS because of missing checks of the size argument in tpdbg_write in drivers/input/touchscreen/ft5x46/ft5x46_ts.c. This is exploitable for a device crash via a syscall by a crafted application on a rooted device.
+CVE-2018-20788,MEDIUM,drivers/leds/leds-aw2023.c in the led driver for custom Linux kernels on the Xiaomi Redmi 6pro daisy-o-oss phone has several integer overflows because of a left-shifting operation when the right-hand operand can be equal to or greater than the integer length. This can be exploited by a crafted application for denial of service.
+CVE-2018-20789,MEDIUM,tecrail Responsive FileManager 9.13.4 allows remote attackers to delete an arbitrary directory as a consequence of a paths[0] path traversal mitigation bypass through the delete_folder action in execute.php.
+CVE-2018-2079,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20790,MEDIUM,tecrail Responsive FileManager 9.13.4 allows remote attackers to delete an arbitrary file as a consequence of a paths[0] path traversal mitigation bypass through the delete_file action in execute.php.
+CVE-2018-20791,MEDIUM,"tecrail Responsive FileManager 9.13.4 allows XSS via a media file upload with an XSS payload in the name, because of mishandling of the media_preview action."
+CVE-2018-20792,MEDIUM,"tecrail Responsive FileManager 9.13.4 allows remote attackers to read arbitrary file via path traversal with the path parameter, through the get_file action in ajax_calls.php."
+CVE-2018-20793,MEDIUM,"tecrail Responsive FileManager 9.13.4 allows remote attackers to write to an arbitrary file as a consequence of a paths[0] path traversal mitigation bypass, through the create_file action in execute.php."
+CVE-2018-20794,MEDIUM,"tecrail Responsive FileManager 9.13.4 allows remote attackers to write to an arbitrary image file (jpg/jpeg/png) via path traversal with the path parameter, through the save_img action in ajax_calls.php."
+CVE-2018-20795,MEDIUM,"tecrail Responsive FileManager 9.13.4 allows remote attackers to read arbitrary files via path traversal with the path parameter, through the copy_cut action in ajax_calls.php and the paste_clipboard action in execute.php."
+CVE-2018-20796,MEDIUM,"In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled Recursion, as demonstrated by '(\227|)(\\1\\1|t1|\\\2537)+' in grep."
+CVE-2018-20797,MEDIUM,An issue was discovered in PoDoFo 0.9.6. There is an attempted excessive memory allocation in PoDoFo::podofo_calloc in base/PdfMemoryManagement.cpp when called from PoDoFo::PdfPredictorDecoder::PdfPredictorDecoder in base/PdfFiltersPrivate.cpp.
+CVE-2018-20798,MEDIUM,"The expiretable configuration in pfSense 2.4.4_1 establishes block durations that are incompatible with the block durations implemented by sshguard, which might make it easier for attackers to bypass intended access restrictions."
+CVE-2018-20799,MEDIUM,"In pfSense 2.4.4_1, blocking of source IP addresses on the basis of failed HTTPS authentication is inconsistent with blocking of source IP addresses on the basis of failed SSH authentication (the behavior does not match the sshguard documentation), which might make it easier for attackers to bypass intended access restrictions."
+CVE-2018-2080,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20800,MEDIUM,An issue was discovered in Open Ticket Request System (OTRS) 5.0.31 and 6.0.13. Users updating to 6.0.13 (also patchlevel updates) or 5.0.31 (only major updates) will experience data loss in their agent preferences table.
+CVE-2018-20801,MEDIUM,"In js/parts/SvgRenderer.js in Highcharts JS before 6.1.0, the use of backtracking regular expressions permitted an attacker to conduct a denial of service attack against the SVGRenderer component, aka ReDoS."
+CVE-2018-20802,MEDIUM,"A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries with compound indexes affecting QueryPlanner. This issue affects: MongoDB Inc. MongoDB Server v3.6 versions prior to 3.6.9, v4.0 versions prior to 4.0.3."
+CVE-2018-20803,MEDIUM,"A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which loop indefinitely in mathematics processing while retaining locks. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.5; v3.6 versions prior to 3.6.10; v3.4 versions prior to 3.4.19."
+CVE-2018-20804,MEDIUM,A user authorized to perform database queries may trigger denial of service by issuing specially crafted applyOps invocations. This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.10; v3.6 versions prior to 3.6.13.
+CVE-2018-20805,MEDIUM,"A user authorized to perform database queries may trigger denial of service by issuing specially crafted queries, which perform an $elemMatch This issue affects: MongoDB Inc. MongoDB Server v4.0 versions prior to 4.0.5; v3.6 versions prior to 3.6.10. This issue affects: MongoDB Inc. MongoDB Server 3.6 versions prior to 3.6.10; 4.0 versions prior to 4.0.5."
+CVE-2018-20806,MEDIUM,Phamm (aka PHP LDAP Virtual Hosting Manager) 0.6.8 allows XSS via the login page (the /public/main.php action parameter).
+CVE-2018-20807,MEDIUM,"An XSS issue has been found in welcome.cgi in Pulse Secure Pulse Connect Secure (PCS) 8.1.x before 8.1R12, 8.2.x before 8.2R9, and 8.3.x before 8.3R3 due to one of the URL parameters not being sanitized properly."
+CVE-2018-20808,MEDIUM,An XSS issue has been found with rd.cgi in Pulse Secure Pulse Connect Secure 8.3RX before 8.3R3 due to improper header sanitization. This is not applicable to 8.1RX.
+CVE-2018-20809,MEDIUM,A crafted message can cause the web server to crash with Pulse Secure Pulse Connect Secure (PCS) 8.3RX before 8.3R5 and Pulse Policy Secure 5.4RX before 5.4R5. This is not applicable to PCS 8.1RX.
+CVE-2018-2081,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20810,HIGH,"Session data between cluster nodes during cluster synchronization is not properly encrypted in Pulse Secure Pulse Connect Secure (PCS) 8.3RX before 8.3R2 and Pulse Policy Secure (PPS) 5.4RX before 5.4R2. This is not applicable to PCS 8.1RX, PPS 5.2RX, or stand-alone devices."
+CVE-2018-20811,MEDIUM,A hidden RPC service issue was found with Pulse Secure Pulse Connect Secure 8.3RX before 8.3R2 and 8.1RX before 8.1R12.
+CVE-2018-20812,MEDIUM,An information exposure issue where IPv6 DNS traffic would be sent outside of the VPN tunnel (when Traffic Enforcement was enabled) exists in Pulse Secure Pulse Secure Desktop 9.0R1 and below. This is applicable only to dual-stack (IPv4/IPv6) endpoints.
+CVE-2018-20813,HIGH,An input validation issue has been found with login_meeting.cgi in Pulse Secure Pulse Connect Secure 8.3RX before 8.3R2.
+CVE-2018-20814,MEDIUM,An XSS issue was found with Psaldownload.cgi in Pulse Secure Pulse Connect Secure (PCS) 8.3R2 before 8.3R2 and Pulse Policy Secure (PPS) 5.4RX before 5.4R2. This is not applicable to PCS 8.1RX or PPS 5.2RX.
+CVE-2018-20815,HIGH,"In QEMU 3.1.0, load_device_tree in device_tree.c calls the deprecated load_image function, which has a buffer overflow risk."
+CVE-2018-20816,MEDIUM,"An XSS combined with CSRF vulnerability discovered in SalesAgility SuiteCRM 7.x before 7.8.24 and 7.10.x before 7.10.11 leads to cookie stealing, aka session hijacking. This issue affects the ""add dashboard pages"" feature where users can receive a malicious attack through a phished URL, with script executed."
+CVE-2018-20817,HIGH,"SV_SteamAuthClient in various Activision Infinity Ward Call of Duty games before 2015-08-11 is missing a size check when reading authBlob data into a buffer, which allows one to execute code on the remote target machine when sending a steam authentication request. This affects Call of Duty: Modern Warfare 2, Call of Duty: Modern Warfare 3, Call of Duty: Ghosts, Call of Duty: Advanced Warfare, Call of Duty: Black Ops 1, and Call of Duty: Black Ops 2."
+CVE-2018-20818,HIGH,"A buffer overflow vulnerability was discovered in the OpenPLC controller, in the OpenPLC_v2 and OpenPLC_v3 versions. It occurs in the modbus.cpp mapUnusedIO() function, which can cause a runtime crash of the PLC or possibly have unspecified other impact."
+CVE-2018-20819,MEDIUM,io/ZlibCompression.cc in the decompression component in Dropbox Lepton 1.2.1 allows attackers to cause a denial of service (heap-based buffer overflow and application crash) or possibly have unspecified other impact by crafting a jpg image file. The root cause is a missing check of header payloads that may be (incorrectly) larger than the maximum file size.
+CVE-2018-2082,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20820,MEDIUM,read_ujpg in jpgcoder.cc in Dropbox Lepton 1.2.1 allows attackers to cause a denial-of-service (application runtime crash because of an integer overflow) via a crafted file.
+CVE-2018-20821,MEDIUM,The parsing component in LibSass through 3.5.5 allows attackers to cause a denial-of-service (uncontrolled recursion in Sass::Parser::parse_css_variable_value in parser.cpp).
+CVE-2018-20822,MEDIUM,LibSass 3.5.4 allows attackers to cause a denial-of-service (uncontrolled recursion in Sass::Complex_Selector::perform in ast.hpp and Sass::Inspect::operator in inspect.cpp).
+CVE-2018-20823,MEDIUM,"The gyroscope on Xiaomi Mi 5s devices allows attackers to cause a denial of service (resonance and false data) via a 20.4 kHz audio signal, aka a MEMS ultrasound attack."
+CVE-2018-20824,MEDIUM,The WallboardServlet resource in Jira before version 7.13.1 allows remote attackers to inject arbitrary HTML or JavaScript via a cross site scripting (XSS) vulnerability in the cyclePeriod parameter.
+CVE-2018-20826,MEDIUM,The inline-create rest resource in Jira before version 7.12.3 allows authenticated remote attackers to set the reporter in issues via a missing authorisation check.
+CVE-2018-20827,LOW,The activity stream gadget in Jira before version 7.13.1 allows remote attackers to inject arbitrary HTML or JavaScript via a cross site scripting (XSS) vulnerability in the country parameter.
+CVE-2018-2083,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20834,MEDIUM,"A vulnerability was found in node-tar before version 4.4.2 (excluding version 2.2.2). An Arbitrary File Overwrite issue exists when extracting a tarball containing a hardlink to a file that already exists on the system, in conjunction with a later plain file with the same name as the hardlink. This plain file content replaces the existing file content. A patch has been applied to node-tar v2.2.2)."
+CVE-2018-20835,MEDIUM,"A vulnerability was found in tar-fs before 1.16.2. An Arbitrary File Overwrite issue exists when extracting a tarball containing a hardlink to a file that already exists on the system, in conjunction with a later plain file with the same name as the hardlink. This plain file content replaces the existing file content."
+CVE-2018-20836,HIGH,"An issue was discovered in the Linux kernel before 4.20. There is a race condition in smp_task_timedout() and smp_task_done() in drivers/scsi/libsas/sas_expander.c, leading to a use-after-free."
+CVE-2018-20837,LOW,include/admin/Menu/Ajax.php in Typesetter 5.1 has index.php/Admin/Menu/Ajax?cmd=AddHidden title XSS.
+CVE-2018-20838,LOW,ampforwp_save_steps_data in the AMP for WP plugin before 0.9.97.21 for WordPress allows stored XSS.
+CVE-2018-20839,MEDIUM,"systemd 242 changes the VT1 mode upon a logout, which allows attackers to read cleartext passwords in certain circumstances, such as watching a shutdown, or using Ctrl-Alt-F1 and Ctrl-Alt-F2. This occurs because the KDGKBMODE (aka current keyboard mode) check is mishandled."
+CVE-2018-2084,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20840,MEDIUM,"An unhandled exception vulnerability exists during Google Sign-In with Google API C++ Client before 2019-04-10. It potentially causes an outage of third-party services that were not designed to recover from exceptions. On the client, ID token handling can cause an unhandled exception because of misinterpretation of an integer as a string, resulting in denial-of-service and then other users can no longer login/sign-in to the affected third-party service. Once this third-party service uses Google Sign-In with google-api-cpp-client, a malicious user can trigger this client/auth/oauth2_authorization.cc vulnerability by requesting the client to receive the ID token from a Google authentication server."
+CVE-2018-20841,HIGH,HooToo TripMate Titan HT-TM05 and HT-05 routers with firmware 2.000.022 and 2.000.082 allow remote command execution via shell metacharacters in the mac parameter of a protocol.csp?function=set&fname=security&opt=mac_table request.
+CVE-2018-20843,HIGH,"In libexpat in Expat before 2.2.7, XML input including XML names that contain a large number of colons could make the XML parser consume a high amount of RAM and CPU resources while processing (enough to be usable for denial-of-service attacks)."
+CVE-2018-20845,MEDIUM,"Division-by-zero vulnerabilities in the functions pi_next_pcrl, pi_next_cprl, and pi_next_rpcl in openmj2/pi.c in OpenJPEG through 2.3.0 allow remote attackers to cause a denial of service (application crash)."
+CVE-2018-20846,MEDIUM,"Out-of-bounds accesses in the functions pi_next_lrcp, pi_next_rlcp, pi_next_rpcl, pi_next_pcrl, pi_next_rpcl, and pi_next_cprl in openmj2/pi.c in OpenJPEG through 2.3.0 allow remote attackers to cause a denial of service (application crash)."
+CVE-2018-20847,MEDIUM,"An improper computation of p_tx0, p_tx1, p_ty0 and p_ty1 in the function opj_get_encoding_parameters in openjp2/pi.c in OpenJPEG through 2.3.0 can lead to an integer overflow."
+CVE-2018-20848,MEDIUM,"Advisto PEEL SHOPPING 9.0.0 has CSRF via en/achat/caddie_ajout.php and en/achat/caddie_affichage.php, as demonstrated by an XSS payload in the couleurId[0] parameter to the latter."
+CVE-2018-20849,MEDIUM,Arastta eCommerce 1.6.2 is vulnerable to XSS via the PATH_INFO to the login/ URI.
+CVE-2018-2085,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20850,HIGH,Stormshield Network Security 2.0.0 through 2.13.0 and 3.0.0 through 3.7.1 has self-XSS in the command line interface of the SNS web server.
+CVE-2018-20851,MEDIUM,Helpy before 2.2.0 allows agents to edit admins.
+CVE-2018-20852,MEDIUM,"http.cookiejar.DefaultPolicy.domain_return_ok in Lib/http/cookiejar.py in Python before 3.7.3 does not correctly validate the domain: it can be tricked into sending existing cookies to the wrong server. An attacker may abuse this flaw by using a server with a hostname that has another valid hostname as a suffix (e.g., pythonicexample.com to steal cookies for example.com). When a program uses http.cookiejar.DefaultPolicy and tries to do an HTTP connection to an attacker-controlled server, existing cookies can be leaked to the attacker. This affects 2.x through 2.7.16, 3.x before 3.4.10, 3.5.x before 3.5.7, 3.6.x before 3.6.9, and 3.7.x before 3.7.3."
+CVE-2018-20853,MEDIUM,An issue was discovered in the MailPoet Newsletters (aka wysija-newsletters) plugin before 2.8.2 for WordPress. The plugin is vulnerable to SPAM attacks.
+CVE-2018-20854,MEDIUM,An issue was discovered in the Linux kernel before 4.20. drivers/phy/mscc/phy-ocelot-serdes.c has an off-by-one error with a resultant ctrl->phys out-of-bounds read.
+CVE-2018-20855,LOW,"An issue was discovered in the Linux kernel before 4.18.7. In create_qp_common in drivers/infiniband/hw/mlx5/qp.c, mlx5_ib_create_qp_resp was never initialized, resulting in a leak of stack memory to userspace."
+CVE-2018-20856,MEDIUM,"An issue was discovered in the Linux kernel before 4.18.7. In block/blk-core.c, there is an __blk_drain_queue() use-after-free because a certain error case is mishandled."
+CVE-2018-20857,MEDIUM,Zendesk Samlr before 2.6.2 allows an XML nodes comment attack such as a name_id node with user@example.com followed by <!---->. and then the attacker's domain name.
+CVE-2018-20858,MEDIUM,Recommender before 2018-07-18 allows XSS.
+CVE-2018-20859,MEDIUM,edx-platform before 2018-07-18 allows XSS via a response to a Chemical Equation advanced problem.
+CVE-2018-2086,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20860,MEDIUM,libopenmpt before 0.3.13 allows a crash with malformed MED files.
+CVE-2018-20861,MEDIUM,libopenmpt before 0.3.11 allows a crash with certain malformed custom tunings in MPTM files.
+CVE-2018-20862,LOW,cPanel before 76.0.8 unsafely performs PostgreSQL password changes (SEC-366).
+CVE-2018-20863,HIGH,cPanel before 76.0.8 allows remote attackers to execute arbitrary code via mailing-list attachments (SEC-452).
+CVE-2018-20864,MEDIUM,cPanel before 76.0.8 allows a persistent Virtual FTP accounts after removal of its associated domain (SEC-454).
+CVE-2018-20865,MEDIUM,cPanel before 76.0.8 has Self XSS in the WHM Additional Backup Destination field (SEC-459).
+CVE-2018-20866,MEDIUM,"cPanel before 76.0.8 has Stored XSS in the WHM ""Reset a DNS Zone"" feature (SEC-461)."
+CVE-2018-20867,MEDIUM,cPanel before 76.0.8 has an open redirect when resetting connections (SEC-462).
+CVE-2018-20868,MEDIUM,cPanel before 76.0.8 has Stored XSS in the WHM MultiPHP Manager interface (SEC-464).
+CVE-2018-20869,HIGH,cPanel before 76.0.8 allows arbitrary code execution in the context of the root account via dnssec adminbin (SEC-465).
+CVE-2018-2087,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20870,LOW,The WebDAV transport feature in cPanel before 76.0.8 enables debug logging (SEC-467).
+CVE-2018-20871,MEDIUM,"In Univa Grid Engine before 8.6.3, when configured for Docker jobs and execd spooling on root_squash, weak file permissions (""other"" write access) occur in certain cases (GE-6890)."
+CVE-2018-20872,MEDIUM,"DrayTek routers before 2018-05-23 allow CSRF attacks to change DNS or DHCP settings, a related issue to CVE-2017-11649."
+CVE-2018-20873,LOW,cPanel before 74.0.8 allows local users to disable the ClamAV daemon (SEC-409).
+CVE-2018-20874,LOW,"cPanel before 74.0.8 allows self XSS in the WHM ""Create a New Account"" interface (SEC-428)."
+CVE-2018-20875,LOW,cPanel before 74.0.8 allows self XSS in the WHM Security Questions interface (SEC-433).
+CVE-2018-20876,LOW,cPanel before 74.0.8 allows self XSS in the Site Software Moderation interface (SEC-434).
+CVE-2018-20877,LOW,cPanel before 74.0.8 allows self XSS in WHM Style Upload interface (SEC-437).
+CVE-2018-20878,LOW,"cPanel before 74.0.8 allows stored XSS in WHM ""File and Directory Restoration"" interface (SEC-441)."
+CVE-2018-20879,MEDIUM,cPanel before 74.0.8 allows demo accounts to execute arbitrary code via the Fileman::viewfile API (SEC-444).
+CVE-2018-2088,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20880,LOW,cPanel before 74.0.8 mishandles account suspension because of an invalid email_accounts.json file (SEC-445).
+CVE-2018-20881,LOW,cPanel before 74.0.8 allows self stored XSS on the Security Questions login page (SEC-446).
+CVE-2018-20882,MEDIUM,cPanel before 74.0.8 allows arbitrary file-write operations in the context of the root account during WHM Force Password Change (SEC-447).
+CVE-2018-20883,MEDIUM,cPanel before 74.0.8 allows FTP access during account suspension (SEC-449).
+CVE-2018-20884,LOW,cPanel before 74.0.0 allows stored XSS in the WHM File Restoration interface (SEC-367).
+CVE-2018-20885,MEDIUM,cPanel before 74.0.0 allows Apache HTTP Server configuration injection because of DocumentRoot variable interpolation (SEC-416).
+CVE-2018-20886,MEDIUM,cPanel before 74.0.0 insecurely stores phpMyAdmin session files (SEC-418).
+CVE-2018-20887,HIGH,cPanel before 74.0.0 allows SQL injection during database backups (SEC-420).
+CVE-2018-20888,MEDIUM,cPanel before 74.0.0 allows file modification in the context of the root account because of incorrect HTTP authentication (SEC-424).
+CVE-2018-20889,LOW,cPanel before 74.0.0 allows certain file-read operations via password file caching (SEC-425).
+CVE-2018-2089,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20890,MEDIUM,cPanel before 74.0.0 allows arbitrary zone file modifications during record edits (SEC-426).
+CVE-2018-20891,MEDIUM,cPanel before 74.0.0 allows arbitrary file-read operations during File Restoration (SEC-436).
+CVE-2018-20892,MEDIUM,cPanel before 74.0.0 allows arbitrary zone file modifications because of incorrect CAA record handling (SEC-439).
+CVE-2018-20893,LOW,cPanel before 74.0.0 allows file-rename operations during account renames (SEC-442).
+CVE-2018-20894,LOW,cPanel before 74.0.0 makes web-site contents accessible to other local users via Git repositories (SEC-443).
+CVE-2018-20895,MEDIUM,"In cPanel before 71.9980.37, API tokens retain ACLs after those ACLs are removed from the corresponding accounts (SEC-393)."
+CVE-2018-20896,LOW,cPanel before 71.9980.37 allows code injection in the WHM cPAddons interface (SEC-394).
+CVE-2018-20897,LOW,cPanel before 71.9980.37 allows arbitrary file-unlink operations via the cPAddons moderation system (SEC-395).
+CVE-2018-20898,MEDIUM,cPanel before 71.9980.37 allows e-mail injection during cPAddons moderation (SEC-396).
+CVE-2018-20899,MEDIUM,cPanel before 71.9980.37 allows stored XSS in the WHM cPAddons installation interface (SEC-398).
+CVE-2018-2090,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20900,MEDIUM,cPanel before 71.9980.37 allows stored XSS in the YUM autorepair functionality (SEC-399).
+CVE-2018-20901,MEDIUM,cPanel before 71.9980.37 allows Remote-Stored XSS in WHM Save Theme Interface (SEC-400).
+CVE-2018-20902,LOW,cPanel before 71.9980.37 allows attackers to read root's crontab file by leveraging ClamAV installation (SEC-408).
+CVE-2018-20903,MEDIUM,cPanel before 71.9980.37 allows self XSS in the WHM Backup Configuration interface (SEC-421).
+CVE-2018-20904,MEDIUM,cPanel before 71.9980.37 allows attackers to make API calls that bypass the cron feature restriction (SEC-427).
+CVE-2018-20905,MEDIUM,cPanel before 71.9980.37 allows attackers to make API calls that bypass the backup feature restriction (SEC-429).
+CVE-2018-20906,MEDIUM,cPanel before 71.9980.37 allows attackers to make API calls that bypass the images feature restriction (SEC-430).
+CVE-2018-20907,MEDIUM,cPanel before 71.9980.37 does not enforce the Mime::list_hotlinks API feature restriction (SEC-432).
+CVE-2018-20908,LOW,cPanel before 71.9980.37 allows arbitrary file-read operations during pkgacct custom template handling (SEC-435).
+CVE-2018-20909,LOW,cPanel before 70.0.23 allows arbitrary file-chmod operations during legacy incremental backups (SEC-338).
+CVE-2018-2091,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20910,MEDIUM,cPanel before 70.0.23 allows self XSS in the WHM cPAddons showsecurity Interface (SEC-357).
+CVE-2018-20911,MEDIUM,"cPanel before 70.0.23 allows code execution because ""."" is in @INC during a Perl syntax check of cpaddonsup (SEC-359)."
+CVE-2018-20912,MEDIUM,cPanel before 70.0.23 allows demo accounts to execute code via awstats (SEC-362).
+CVE-2018-20913,LOW,cPanel before 70.0.23 allows attackers to read the root accesshash via the WHM /cgi/trustclustermaster.cgi (SEC-364).
+CVE-2018-20914,MEDIUM,"In cPanel before 70.0.23, OpenID providers can inject arbitrary data into cPanel session files (SEC-368)."
+CVE-2018-20915,LOW,cPanel before 70.0.23 allows stored XSS via a WHM Edit DNS Zone action (SEC-369).
+CVE-2018-20916,LOW,cPanel before 70.0.23 allows Stored XSS via a WHM Edit MX Entry (SEC-370).
+CVE-2018-20917,LOW,cPanel before 70.0.23 allows any user to disable Solr (SEC-371).
+CVE-2018-20918,MEDIUM,cPanel before 70.0.23 allows stored XSS in WHM DNS Cluster (SEC-372).
+CVE-2018-20919,MEDIUM,cPanel before 70.0.23 allows stored XSS via a WHM Create Account action (SEC-373).
+CVE-2018-2092,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20920,MEDIUM,cPanel before 70.0.23 allows stored XSS via a WHM Edit DNS Zone action (SEC-374).
+CVE-2018-20921,MEDIUM,"cPanel before 70.0.23 allows stored XSS via a WHM ""Delete a DNS Zone"" action (SEC-375)."
+CVE-2018-20922,MEDIUM,cPanel before 70.0.23 allows stored XSS via a WHM DNS Cleanup action (SEC-376).
+CVE-2018-20923,MEDIUM,cPanel before 70.0.23 allows stored XSS via a WHM Synchronize DNS Records action (SEC-377).
+CVE-2018-20924,HIGH,cPanel before 70.0.23 allows arbitrary file-read and file-unlink operations via WHM style uploads (SEC-378).
+CVE-2018-20925,MEDIUM,cPanel before 70.0.23 allows local privilege escalation via the WHM Legacy Language File Upload interface (SEC-379).
+CVE-2018-20926,HIGH,cPanel before 70.0.23 allows local privilege escalation via the WHM Locale XML Upload interface (SEC-380).
+CVE-2018-20927,LOW,cPanel before 70.0.23 allows jailshell escape because of incorrect crontab parsing (SEC-382).
+CVE-2018-20928,MEDIUM,cPanel before 70.0.23 allows stored XSS via the cpaddons vendor interface (SEC-391).
+CVE-2018-20929,MEDIUM,cPanel before 70.0.23 allows an open redirect via the /unprotected/redirect.html endpoint (SEC-392).
+CVE-2018-2093,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20930,MEDIUM,cPanel before 70.0.23 allows .htaccess restrictions bypass when Htaccess Optimization is enabled (SEC-401).
+CVE-2018-20931,MEDIUM,cPanel before 70.0.23 allows demo accounts to execute code via the Landing Page (SEC-405).
+CVE-2018-20932,MEDIUM,cPanel before 70.0.23 exposes Apache HTTP Server logs after creation of certain domains (SEC-406).
+CVE-2018-20933,LOW,cPanel before 70.0.23 has Stored XSS via an WHM Edit DNS Zone action (SEC-410).
+CVE-2018-20934,MEDIUM,cPanel before 70.0.23 does not prevent e-mail account suspensions from being applied to unowned accounts (SEC-411).
+CVE-2018-20935,LOW,"cPanel before 70.0.23 allows stored XSS in via a WHM ""Reset a DNS Zone"" action (SEC-412)."
+CVE-2018-20936,LOW,cPanel before 68.0.27 allows attackers to read the SRS secret via exim.conf (SEC-308).
+CVE-2018-20937,MEDIUM,cPanel before 68.0.27 does not validate database and dbuser names during renames (SEC-321).
+CVE-2018-20938,MEDIUM,cPanel before 68.0.27 does not enforce ownership during addpkgext and delpkgext WHM API calls (SEC-324).
+CVE-2018-20939,LOW,cPanel before 68.0.27 allows a user to discover contents of directories (that are not owned by that user) by leveraging backups (SEC-339).
+CVE-2018-2094,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20940,LOW,cPanel before 68.0.27 allows attackers to read root's crontab file during a short time interval upon the enabling of backups (SEC-342).
+CVE-2018-20941,MEDIUM,cPanel before 68.0.27 allows arbitrary file-read operations via restore adminbin (SEC-349).
+CVE-2018-20942,LOW,cPanel before 68.0.27 allows attackers to read root's crontab file during a short time interval upon configuring crontab (SEC-351).
+CVE-2018-20943,LOW,cPanel before 68.0.27 allows attackers to read root's crontab file during a short time interval upon a post-update task (SEC-352).
+CVE-2018-20944,LOW,cPanel before 68.0.27 allows attackers to read a copy of httpd.conf that is created during a syntax test (SEC-353).
+CVE-2018-20945,HIGH,bin/csvprocess in cPanel before 68.0.27 allows insecure file operations (SEC-354).
+CVE-2018-20946,LOW,cPanel before 68.0.27 allows attackers to read zone information because a world-readable archive is created by the archive_sync_zones script (SEC-355).
+CVE-2018-20947,LOW,cPanel before 68.0.27 allows certain file-write operations via the telnetcrt script (SEC-356).
+CVE-2018-20948,MEDIUM,cPanel before 68.0.27 allows self XSS in cPanel Backup Restoration (SEC-383).
+CVE-2018-20949,MEDIUM,cPanel before 68.0.27 allows self XSS in WHM Apache Configuration Include Editor (SEC-385).
+CVE-2018-2095,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20950,MEDIUM,cPanel before 68.0.27 allows self stored XSS in WHM Account Transfer (SEC-386).
+CVE-2018-20951,MEDIUM,cPanel before 68.0.27 allows self XSS in WHM Spamd Startup Config (SEC-387).
+CVE-2018-20952,MEDIUM,cPanel before 68.0.27 creates world-readable files during use of WHM Apache Includes Editor (SEC-388).
+CVE-2018-20953,MEDIUM,cPanel before 68.0.27 allows self XSS in the WHM listips interface (SEC-389).
+CVE-2018-20954,MEDIUM,"The ""Security and Privacy"" Encryption feature in Mailpile before 1.0.0rc4 does not exclude disabled, revoked, and expired keys."
+CVE-2018-20955,HIGH,"Swann SWWHD-INTCAM-HD devices have the twipc root password, leading to FTP access as root. NOTE: all affected customers were migrated by 2020-08-31."
+CVE-2018-20956,LOW,Swann SWWHD-INTCAM-HD devices leave the PSK in logs after a factory reset. NOTE: all affected customers were migrated by 2020-08-31.
+CVE-2018-20957,MEDIUM,The Bluetooth Low Energy (BLE) subsystem on Tapplock devices before 2018-06-12 allows replay attacks.
+CVE-2018-20958,LOW,"The Bluetooth Low Energy (BLE) subsystem on Tapplock devices before 2018-06-12 relies on Key1 and SerialNo for unlock operations; however, these are derived from the MAC address, which is broadcasted by the device."
+CVE-2018-20959,MEDIUM,Jura E8 devices lack Bluetooth connection security.
+CVE-2018-2096,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20960,MEDIUM,Nespresso Prodigio devices lack Bluetooth connection security.
+CVE-2018-20961,HIGH,"In the Linux kernel before 4.16.4, a double free vulnerability in the f_midi_set_alt function of drivers/usb/gadget/function/f_midi.c in the f_midi driver may allow attackers to cause a denial of service or possibly have unspecified other impact."
+CVE-2018-20962,MEDIUM,The Backpack\CRUD Backpack component before 3.4.9 for Laravel allows XSS via the select field type.
+CVE-2018-20963,MEDIUM,The contact-form-to-email plugin before 1.2.66 for WordPress has XSS.
+CVE-2018-20964,MEDIUM,The contact-form-to-email plugin before 1.2.66 for WordPress has CSRF.
+CVE-2018-20965,MEDIUM,The ultimate-member plugin before 2.0.4 for WordPress has XSS.
+CVE-2018-20966,MEDIUM,The woocommerce-jetpack plugin before 3.8.0 for WordPress has XSS in the Products Per Page feature.
+CVE-2018-20967,MEDIUM,The wp-ultimate-csv-importer plugin before 5.6.1 for WordPress has CSRF.
+CVE-2018-20968,MEDIUM,The wp-ultimate-exporter plugin before 1.4.2 for WordPress has CSRF.
+CVE-2018-20969,HIGH,"do_ed_script in pch.c in GNU patch through 2.7.6 does not block strings beginning with a ! character. NOTE: this is the same commit as for CVE-2019-13638, but the ! syntax is specific to ed, and is unrelated to a shell metacharacter."
+CVE-2018-2097,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2018.  Notes: none.
+CVE-2018-20970,MEDIUM,The pdf-print plugin before 2.0.3 for WordPress has multiple XSS issues.
+CVE-2018-20971,MEDIUM,The church-admin plugin before 1.2550 for WordPress has CSRF affecting the upload of a bible reading plan.
+CVE-2018-20972,MEDIUM,The companion-auto-update plugin before 3.2.1 for WordPress has CSRF.
+CVE-2018-20973,HIGH,The companion-auto-update plugin before 3.2.1 for WordPress has local file inclusion.
+CVE-2018-20974,MEDIUM,The js-jobs plugin before 1.0.7 for WordPress has CSRF.
+CVE-2018-20975,MEDIUM,Fat Free CRM before 0.18.1 has XSS in the tags_helper in app/helpers/tags_helper.rb.
+CVE-2018-20976,MEDIUM,"An issue was discovered in fs/xfs/xfs_super.c in the Linux kernel before 4.18. A use after free exists, related to xfs_fs_fill_super failure."
+CVE-2018-20977,MEDIUM,The all-in-one-schemaorg-rich-snippets plugin before 1.5.0 for WordPress has XSS on the settings page.

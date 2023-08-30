@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2010-1104,Red Hat,2010-04-21,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2010-1104
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update may address this flaw."
+CVE-2010-1128,Red Hat,2010-04-14,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=577582
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2010-1129,Red Hat,2010-03-27,Vincent Danen,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2010-1130,Red Hat,2010-03-27,Vincent Danen,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2010-1146,Red Hat,2010-04-12,Vincent Danen,"Not vulnerable. The Linux kernel as shipped with with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG did not include support for reiserfs and therefore are not affected by this issue."
+CVE-2010-1148,Red Hat,2010-04-30,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG as they did not include support for POSIX opens on lookup."
+CVE-2010-1157,Red Hat,2010-07-13,Vincent Danen,"For official statement, please refer to: https://www.redhat.com/security/data/cve/CVE-2010-1157.html"
+CVE-2010-1158,Red Hat,2010-04-22,Tomas Hoger,"The Red Hat Security Response Team has rated this issue as having low security impact. The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2010-1160,Red Hat,2010-04-16,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2010-1160
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2010-1161,Red Hat,2010-04-16,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2010-1161
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2010-1167,Red Hat,2010-05-10,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-1167
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2010-1188,Red Hat,2010-04-09,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:

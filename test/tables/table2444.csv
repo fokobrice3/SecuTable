@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+http:bugzilla.redhat.combugzillashow_bug.cgi?id=139478#c1"
+CVE-2005-4268,Red Hat,2010-03-15,Mark J Cox,"This issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2007-0245.html and in Red Hat Enterprise Linux 3 via https://rhn.redhat.com/errata/RHSA-2010-0145.html. 
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2005-4348,Red Hat,2007-01-31,Mark J Cox,"The Red Hat Security Response Team has rated this issue as having low security impact.  An update is available for Red Hat Enterprise Linux 4 to correct this issue:
+http://rhn.redhat.com/errata/RHSA-2007-0018.html
+
+This issue did not affect Red Hat Enterprise Linux 2.1 and 3."
+CVE-2005-4442,Red Hat,2006-08-30,Mark J Cox,"This issue did not affect the versions of OpenLDAP as distributed with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-4481,Polopoly,2006-10-05,Jorgen Rydenius,"1. The XSS flaw described was only part of the custom implementation of the http://www.polopoly.com/ site. It was never part of any version of any Polopoly product, nor delivered to any of Polopoly’s customers.
+2. The XSS flaw that existed (the search form in the upper right corner) on the www.polopoly.com site has been fixed.
+3. When www.polopoly.com had the XSS flaw it was based on Polopoly 8.6. Polopoly 9.x was never involved what so ever in this issue. And as I said earlier, the flaw was not part of Polopoly 8.6 either, it was only in custom implementation code of the www.polopoly.com site.
+4. The www.polopoly.com site is not personalized nor permission controlled, so there was no information of any value to steal by exploiting the XSS flaw."
+CVE-2005-4493,Speartek,2006-11-07,Jesse Heady,"We are aware of numerous existing script vulnerabilities and exploits and stand by the security of our system and our ability to address these.  This particular exploit is not particularly serious as no sensitive or private user information is ever held within cookies during our checkout process.  All user information and client information is secure in our platform.  We take all security threats quite seriously and view the efforts of the author of this particular exploit as harmful to our professional image.  This is especially important to note because the particular script vulnerability that has been raised poses no real threat to the stability or security of our systems.  Again, we are formally responding to this posted cross-site script vulnerability to communicate that we take all such potential security issues very seriously and this particular issue has been addressed.
+
+In version 7.0.0 of our software, we have addressed the mentioned cross site scripting vulnerabilities.  On any page that a form is on, the query string is sanitized to eliminate the vectors outlined in the XSS vulnerability.  Form data is handled to protect against a form post from a different site to try and initialize a cross site scripting attacking via a form post. Sensitive data is not stored in session cookies and in the event that a cookie was stolen, it would contain nothing useful for the attacker.  Our software is a hosted application, which allows us to make quick remedies as new exploits are found.  Also, our system is monitored consistently and alerts are sent to our administrators when any malicious attempt is seen.   The details of this alert include the data sent, from what referral and if there is a specific user that is being targeted on our system."
+CVE-2005-4636,Red Hat,2006-08-30,Mark J Cox,"This issue did not affect the versions of OpenOffice.org as distributed with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-4667,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=178960
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/

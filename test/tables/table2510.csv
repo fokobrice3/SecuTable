@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-5970,Red Hat,2008-01-09,Mark J Cox,"Not vulnerable.  This issue did not affect the mysql packages as shipped in Red Hat Enterprise Linux 2.1, 3, 4, 5, Red Hat Application Stack v1, and v2, as the versions shipped do not support table partitioning. The partitioning feature was introduced in development MySQL version 5.1."
+CVE-2007-5971,Red Hat,2007-12-14,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-5971
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  See
+http://marc.info/?m=119743235325151"
+CVE-2007-5972,Red Hat,2007-12-14,Mark J Cox,"This issue is not a vulnerability, for more information see http://marc.info/?m=119743235325151"
+CVE-2007-6025,Red Hat,2007-11-20,Mark J Cox,Not vulnerable. This issue did not affect the versions of wpa_supplicant as shipped with Red Hat Enterprise Linux 4 and 5.
+CVE-2007-6039,Red Hat,2007-12-06,Mark J Cox,"Red Hat doesn’t consider this a security issue. The arguments to the functions in question should always be under the control of the script author, rather than untrusted script input, so these issues would not be treated as security-sensitive."
+CVE-2007-6109,Red Hat,2007-12-11,Mark J Cox,"Red Hat does not consider this issue to be a security vulnerability since no trust boundary is crossed. The user must voluntarily interact with the attack mechanism to exploit this flaw, with the result being the ability to run code as themselves."
+CVE-2007-6113,Red Hat,2008-01-04,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-6113
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-6199,Red Hat,2007-12-06,Mark J Cox,"Red Hat does not consider this to be a security issue. Versions of rsync as shipped with Red Hat Enterprise Linux 2.1, 3, 4 and 5 behave as expected and that behavior was well documented."
+CVE-2007-6200,Red Hat,2007-12-06,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-6200
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-6203,Apache,2008-06-09,Mark J Cox,"The Apache Software Foundation security team  does not consider this issue to be a security vulnerability. In order to exploit this for cross-site scripting, the attacker would have to get the victim to supply an arbitrary malformed HTTP method to a target site."
+CVE-2007-6203,Red Hat,2007-12-06,Mark J Cox,"Red Hat does not consider this issue to be a vulnerability.  In order to exploit this for cross-site scripting, the attacker would have to get the victim to supply an arbitrary malformed HTTP method to a target site."
+CVE-2007-6209,Red Hat,2007-12-04,Mark J Cox,"Not vulnerable. These issues did not affect the versions of the zsh package as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-6227,Red Hat,2007-12-11,Mark J Cox,"Xen and KVM, as shipped with Red Hat Enterprise Linux 5 by default use only peripheral device emulation of QEMU and are therefore not vulnerable to this issue."
+CVE-2007-6278,Red Hat,2007-12-11,Mark J Cox,Red Hat does not consider this a security issue. The downloading of arbitrary files will be harmless unless there is a vulnerability in the application handling these other filetypes.
+CVE-2007-6279,Red Hat,2007-12-11,Mark J Cox,This flaw is not exploitable to run arbitrary code and can only cause an application crash. Red Hat does not consider a crash of the flac application or applications that use flac libraries such as media players to be a security issue.

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+This upstream commit was backported in Red Hat Enterprise Linux 5 via RHBA-2008:0314 update. Issue was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0046.html"
+CVE-2009-3557,Red Hat,2009-11-24,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2009-3558,Red Hat,2009-11-24,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2009-3564,Red Hat,2009-10-08,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-3564
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update for Red Hat Enterprise MRG may address this flaw."
+CVE-2009-3607,Red Hat,2009-10-23,Tomas Hoger,Not vulnerable. This issue did not affect the version of poppler as shipped with Red Hat Enterprise Linux 5.
+CVE-2009-3612,Red Hat,2009-12-17,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2009-3612
+
+This issue has been rated as having moderate security impact.
+
+It was addressed in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1670.html and https://rhn.redhat.com/errata/RHSA-2009-1540.html respectively.
+
+A future kernel update in Red Hat Enterprise Linux 4 will address this flaw.
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3 due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important or critical impact are addressed.
+
+For further information about the Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2009-3621,Red Hat,2009-12-17,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:

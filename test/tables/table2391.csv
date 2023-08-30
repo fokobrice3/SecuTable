@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2009-0758,Red Hat,2010-07-13,Tomas Hoger,This issue has been addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0528.html.
+CVE-2009-0778,Red Hat,2009-05-19,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2009-0326.html ."
+CVE-2009-0781,Red Hat,2009-03-17,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0781
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0787,Red Hat,2009-05-19,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2009-0473.html ."
+CVE-2009-0789,Red Hat,2009-03-30,Tomas Hoger,"Not vulnerable. This issue only affects a small number of operating systems and does not affect the openssl packages as shipped with Red Hat Enterprise Linux 2.1, 3, 4 or 5."
+CVE-2009-0793,Red Hat,2009-04-09,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0793
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future lcms packages update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0796,Red Hat,2009-06-11,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0796
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future mod_perl package update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0801,Red Hat,2009-03-09,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0801
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0819,Red Hat,2009-10-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mysql packages, as shipped with Red Hat Enterprise Linux 3, 4, or 5, and Red Hat Application Stack v2."
+CVE-2009-0835,Red Hat,2009-05-19,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5.

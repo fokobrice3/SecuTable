@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+While we have been unable to confirm the existence of the second
+vulnerability, designated CVE-2013-3926, we are taking it seriously
+and have reached out to the author directly for more details. If we
+can confirm that there is a vulnerability, a patch will be issued and
+all Crowd customers will be emailed details on how to update."
+CVE-2013-5092,AlgoSec,2014-08-06,AlgoSec,"This vulnerability has been fixed in AlgoSec Firewall Analyzer version 6.1 and on. 
+Customers should upgrade to Firewall Analyzer version 6.1-b157 or later, 6.2-b224 or later, or any version of 6.3 to 6.6.   
+Note that Firewall Analyzer 6.1 to 6.4  are already past their end-of-support date, and AlgoSec recommends that customers upgrade to a supported version. As of July 2014 the latest generally available version is 6.6."
+CVE-2013-7318,AlgoSec,2014-08-06,AlgoSec,"This vulnerability has been fixed in AlgoSec BusinessFlow version 6.5 and on. 
+Customers should upgrade to BusinessFlow version 6.5-b85 or later, or any version of 6.6.   
+Note that as of July 2014 the latest generally available version is 6.6."
+CVE-2014-4164,AlgoSec,2014-08-06,AlgoSec,"This vulnerability has been fixed in AlgoSec FireFlow version 6.3 and on. 
+Customers should upgrade to FireFlow version 6.3-b119 or later, 6.4-b170 or later, or any version of 6.5 or 6.6.   
+Note that FireFlow 6.4 and below are already past their end-of-support date, and AlgoSec recommends that customers upgrade to a supported version. As of July 2014 the latest generally available version is 6.6."
+CVE-2014-0329,ZTE,2014-03-13,a representative,"According to the vulnerability found in ZTE ZXV10 W300 router version 2.1.0, a mitigation measure has been adopted in the W300 general frame structure versions after 2011, which means the ZTE ZXV10 W300 router produced since 2011 has closed the telnet default function to avoid the information security incident caused by such vulnerability. If any customer has a special requirement, please follow the instructions in our product manual to open the telnet function, but ZTE will not bear the legal liability for any security incident loss that might be the consequence of this operation. If you have any questions please contact us by calling our 24h service hotline +86-755-26770188."
+CVE-2014-2084,Skybox Security,2014-06-09,Vulnerability Research Team,https://www.skyboxsecurity.com/sites/default/files/file_resources/Skybox_Security_Appliance_Vulnerability.pdf
+CVE-2010-1320,Red Hat,2010-04-22,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of krb5 as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2014-6881,PNC,2014-10-08,PNC,"The PNC Virtual Wallet (aka com.pnc.ecommerce.mobile.vw.android application 2.1.1 for Android has been replaced by PNC Virtual Wallet 2.2. Version 2.1.1 is no longer available for use."""
+CVE-2014-9113,CCH Group,2014-12-15,Srinivasu Maradana,"A security update has been released on 12/03/2014 to address the vulnerability in CCH Wolters Kluwer ProSystem fx Engagement. This update corrects the permissions on necessary application services. Please see the online release bulletin for instructions on how to apply the security update. 
+<a href=""https://support.cch.com/updates/Engagement/pdf/Services%20Security%20Update%20-%20Release%20Bulletin%20-%20US.pdf"" rel=""nofollow"">https://support.cch.com/updates/Engagement/pdf/Services%20Security%20Update%20-%20Release%20Bulletin%20-%20US.pdf</a>"
+CVE-2014-9245,Zenoss,2016-03-21,Zenoss,Addressed in 5.0. Will be addressed in next 425 maintenance release.

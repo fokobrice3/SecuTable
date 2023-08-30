@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2004-0996,Red Hat,2009-04-09,Mark J Cox,"Not vulnerable. cscope packages shipped with Red Hat Enterprise Linux 3, 4, and 5 contain a backported patch since their first release."
+CVE-2004-1002,Red Hat,2006-08-30,Mark J Cox,This issue is only will only cause a denial of service on the connection the attacker is using.  It therefore is not a security issue.
+CVE-2004-1020,Red Hat,2007-08-26,Joshua Bressers,Red Hat does not consider this issue to be a security vulnerability since no trust boundary is crossed.  There are no known uses of this function which could allow a remote attacker to execute arbitrary code.
+CVE-2004-1051,Red Hat,2006-08-30,Mark J Cox,"We do not consider this to be a security issue:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=139478#c1"
+CVE-2004-1063,Red Hat,2008-10-30,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2004-1064,Red Hat,2008-10-30,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2004-1170,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1177,Red Hat,2006-08-30,Mark J Cox,"This issue did not affect the versions of mailman shipped with Red Hat Enterprise Linux 2.1, 3, or 4.  In addition, we believe this issue does not apply to the 2.0.x versions of
+mailman due to setting of STEALTH_MODE"
+CVE-2004-1185,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1186,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1287,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1296,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1307,Red Hat,2008-08-12,Tomas Hoger,"This issue was resolved in all affected libtiff versions as shipped with Red Hat Enterprise Linux 2.1, 3, and 4 via a patch for CVE-2004-0886.  For updates containing patches for CVE-2004-0886, see: https://rhn.redhat.com/errata/CVE-2004-0886.html"
+CVE-2004-1377,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-1392,Red Hat,2006-08-30,Mark J Cox,"We do not consider these to be security issues:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1"
+CVE-2004-1595,ShixxNOTE,2007-11-16,Ozren Sirola,"Upgrade to the latest version of ShixxNOTE 6.net (released December 2006), available from the ShixxNOTE 6.net Web site. http://www.shixxnote.com"
+CVE-2004-1653,Red Hat,2009-11-25,Tomas Hoger,"Permitting TCP forwarding is the expected and known default configuration. If it is not desired, it can disabled using the AllowTcpForwarding option in the /etc/ssh/sshd_config configuration file. However, only disabling TCP forwarding does not improve security unless users are also denied shell access. For more information, see man sshd_config."

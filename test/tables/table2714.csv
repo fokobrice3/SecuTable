@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2016-10761,LOW,"Logitech Unifying devices before 2016-02-26 allow keystroke injection, bypassing encryption, aka MouseJack."
+CVE-2016-10762,MEDIUM,The CampTix Event Ticketing plugin before 1.5 for WordPress allows CSV injection when the export tool is used.
+CVE-2016-10763,LOW,The CampTix Event Ticketing plugin before 1.5 for WordPress allows XSS in the admin section via a ticket title or body.
+CVE-2016-10764,HIGH,"In the Linux kernel before 4.9.6, there is an off by one in the drivers/mtd/spi-nor/cadence-quadspi.c cqspi_setup_flash() function. There are CQSPI_MAX_CHIPSELECT elements in the ->f_pdata array so the "">"" should be "">="" instead."
+CVE-2016-10765,MEDIUM,edx-platform before 2016-06-10 allows account activation with a spoofed e-mail address.
+CVE-2016-10766,MEDIUM,edx-platform before 2016-06-06 allows CSRF.
+CVE-2016-10767,LOW,cPanel before 60.0.25 allows stored XSS in the WHM Repair Mailbox Permissions interface (SEC-159).
+CVE-2016-10768,MEDIUM,cPanel before 60.0.25 allows file-overwrite operations during preparation for MySQL upgrades (SEC-161).
+CVE-2016-10769,MEDIUM,cPanel before 60.0.25 allows an open redirect via /cgi-sys/FormMail-clone.cgi (SEC-162).
+CVE-2016-1077,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10770,MEDIUM,cPanel before 60.0.25 allows arbitrary file-overwrite operations during a Roundcube update (SEC-164).
+CVE-2016-10771,MEDIUM,cPanel before 60.0.25 allows file-create and file-chmod operations during ModSecurity Audit logfile processing (SEC-165).
+CVE-2016-10772,LOW,cPanel before 60.0.25 does not enforce feature-list restrictions when calling the multilang adminbin (SEC-168).
+CVE-2016-10773,MEDIUM,cPanel before 60.0.25 allows format-string injection in exception-message handling (SEC-171).
+CVE-2016-10774,LOW,cPanel before 60.0.25 allows self XSS in the tail_ea4_migration.cgi interface (SEC-172).
+CVE-2016-10775,MEDIUM,cPanel before 60.0.25 allows arbitrary file-chown operations via reassign_post_terminate_cruft (SEC-173).
+CVE-2016-10776,LOW,cPanel before 60.0.25 allows stored XSS during the homedir removal phase of WHM Account termination (SEC-174).
+CVE-2016-10777,LOW,cPanel before 60.0.25 allows self XSS in WHM Tweak Settings for autodiscover_host (SEC-177).
+CVE-2016-10778,LOW,cPanel before 60.0.25 allows self stored XSS in the listftpstable API (SEC-178).
+CVE-2016-10779,LOW,cPanel before 60.0.25 allows stored XSS in api1_listautoresponders (SEC-179).
+CVE-2016-1078,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10780,LOW,cPanel before 60.0.25 allows stored XSS in the ftp_sessions API (SEC-180).
+CVE-2016-10781,LOW,cPanel before 60.0.25 allows self XSS in the UI_confirm API (SEC-180).
+CVE-2016-10782,LOW,cPanel before 60.0.25 allows self stored XSS in postgres API1 listdbs (SEC-181).
+CVE-2016-10783,LOW,cPanel before 60.0.25 allows self stored XSS in SSL_listkeys (SEC-182).
+CVE-2016-10784,LOW,cPanel before 60.0.25 allows self XSS in the alias upload interface (SEC-184).
+CVE-2016-10785,MEDIUM,cPanel before 60.0.25 allows attackers to discover file contents during file copy operations (SEC-185).
+CVE-2016-10786,MEDIUM,cPanel before 60.0.25 allows members of the nobody group to read Apache HTTP Server SSL keys (SEC-186).
+CVE-2016-10787,MEDIUM,The Host Access Control feature in cPanel before 60.0.25 mishandles actionless host.deny entries (SEC-187).
+CVE-2016-10788,HIGH,cPanel before 60.0.25 allows arbitrary code execution via Maketext in PostgreSQL adminbin (SEC-188).
+CVE-2016-10789,MEDIUM,cPanel before 60.0.25 allows code execution via the cpsrvd 403 error response handler (SEC-191).
+CVE-2016-1079,MEDIUM,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to obtain sensitive information from process memory via unspecified vectors, a different vulnerability than CVE-2016-1092."
+CVE-2016-10790,MEDIUM,cPanel before 60.0.25 does not use TLS for HTTP POSTs to listinput.cpanel.net (SEC-192).
+CVE-2016-10791,MEDIUM,"cPanel before 60.0.15 does not ensure that system accounts lack a valid password, so that logins are impossible (CPANEL-9559)."
+CVE-2016-10792,MEDIUM,cPanel before 59.9999.145 allows code execution in the context of other accounts via mailman list archives (SEC-141).
+CVE-2016-10793,MEDIUM,cPanel before 59.9999.145 allows arbitrary code execution due to an incorrect #! in Mail::SPF scripts (SEC-152).
+CVE-2016-10794,MEDIUM,cPanel before 59.9999.145 allows arbitrary file-read operations because of a multipart form processing error (SEC-154).
+CVE-2016-10795,MEDIUM,cPanel before 59.9999.145 allows stored XSS in the WHM tail_upcp2.cgi interface (SEC-156).
+CVE-2016-10796,LOW,cPanel before 58.0.4 initially uses weak permissions for Apache HTTP Server log files (SEC-130).
+CVE-2016-10797,MEDIUM,"cPanel before 58.0.4 allows WHM ""Purchase and Install an SSL Certificate"" page visitors to list all server domains (SEC-133)."
+CVE-2016-10798,MEDIUM,cPanel before 58.0.4 allows a file-ownership change (to nobody) via rearrangeacct (SEC-134).
+CVE-2016-10799,LOW,cPanel before 58.0.4 does not set the Pear tmp directory during a PHP installation (SEC-137).
+CVE-2016-1080,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10800,MEDIUM,cPanel before 58.0.4 allows demo-mode escape via Site Templates and Boxtrapper API calls (SEC-138).
+CVE-2016-10801,MEDIUM,cPanel before 58.0.4 has improper session handling for shared users (SEC-139).
+CVE-2016-10802,MEDIUM,cPanel before 58.0.4 allows code execution in the context of other user accounts through the PHP CGI handler (SEC-142).
+CVE-2016-10803,MEDIUM,cPanel before 57.9999.105 allows newline injection via LOC records (CPANEL-6923).
+CVE-2016-10804,HIGH,The SQLite journal feature in cPanel before 57.9999.54 allows arbitrary file-overwrite operations during Horde Restore (SEC-58).
+CVE-2016-10805,MEDIUM,cPanel before 57.9999.54 allows demo accounts to execute arbitrary code via ajax_maketext_syntax_util.pl (SEC-109).
+CVE-2016-10806,LOW,cPanel before 57.9999.54 allows self XSS on the Paper Lantern Landing Page (SEC-110).
+CVE-2016-10807,MEDIUM,cPanel before 57.9999.54 allows certain denial-of-service outcomes via /scripts/killpvhost (SEC-112).
+CVE-2016-10808,HIGH,"In cPanel before 57.9999.54, /scripts/addpop and /scripts/delpop exposed TTYs (SEC-113)."
+CVE-2016-10809,HIGH,"In cPanel before 57.9999.54, /scripts/checkinfopages exposed a TTY to an unprivileged process (SEC-114)."
+CVE-2016-1081,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10810,HIGH,"In cPanel before 57.9999.54, /scripts/maildir_converter exposed a TTY to an unprivileged process (SEC-115)."
+CVE-2016-10811,HIGH,"In cPanel before 57.9999.54, /scripts/unsuspendacct exposed TTYs (SEC-116)."
+CVE-2016-10812,HIGH,"In cPanel before 57.9999.54, /scripts/enablefileprotect exposed TTYs (SEC-117)."
+CVE-2016-10813,LOW,cPanel before 57.9999.54 allows self XSS during ftp account creation under addon domains (SEC-118).
+CVE-2016-10814,MEDIUM,cPanel before 57.9999.54 allows demo-mode escape via show_template.stor (SEC-119).
+CVE-2016-10815,MEDIUM,cPanel before 57.9999.54 allows arbitrary file-read operations for Webmail accounts via Branding APIs (SEC-120).
+CVE-2016-10816,MEDIUM,cPanel before 57.9999.54 allows Webmail accounts to execute arbitrary code through forwarders (SEC-121).
+CVE-2016-10817,HIGH,cPanel before 57.9999.54 allows SQL Injection via the ModSecurity TailWatch log file (SEC-123).
+CVE-2016-10818,MEDIUM,cPanel before 57.9999.54 incorrectly sets log-file permissions in dnsadmin-startup and spamd-startup (SEC-124).
+CVE-2016-10819,MEDIUM,"In cPanel before 57.9999.54, user log files become world-readable when rotated by cpanellogd (SEC-125)."
+CVE-2016-1082,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10820,HIGH,cPanel before 55.9999.141 allows daemons to access their controlling TTYs (SEC-31).
+CVE-2016-10821,MEDIUM,"In cPanel before 55.9999.141, Scripts/addpop reveals a command-line password in a process list (SEC-75)."
+CVE-2016-10822,LOW,cPanel before 55.9999.141 allows self XSS in X3 Reseller Branding Images (SEC-88).
+CVE-2016-10823,HIGH,cPanel before 55.9999.141 allows arbitrary code execution in the context of the root account because of MakeText interpolation (SEC-89).
+CVE-2016-10824,HIGH,cPanel before 55.9999.141 allows unauthenticated arbitrary code execution via DNS NS entry poisoning (SEC-90).
+CVE-2016-10825,MEDIUM,cPanel before 55.9999.141 allows attackers to bypass a Security Policy by faking static documents (SEC-92).
+CVE-2016-10826,MEDIUM,cPanel before 55.9999.141 allows attackers to bypass Two Factor Authentication via DNS clustering requests (SEC-93).
+CVE-2016-10827,LOW,cPanel before 55.9999.141 allows self stored XSS in WHM Edit System Mail Preferences (SEC-96).
+CVE-2016-10828,HIGH,cPanel before 55.9999.141 allows arbitrary code execution because of an unsafe @INC path (SEC-97).
+CVE-2016-10829,MEDIUM,cPanel before 55.9999.141 allows arbitrary file-read operations because of a multipart form processing error (SEC-99).
+CVE-2016-1083,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10830,MEDIUM,cPanel before 55.9999.141 allows ACL bypass for AppConfig applications via magic_revision (SEC-100).
+CVE-2016-10831,MEDIUM,cPanel before 55.9999.141 does not perform as two-factor authentication check when possessing another account (SEC-101).
+CVE-2016-10832,MEDIUM,cPanel before 55.9999.141 allows FTP cPHulk bypass via account name munging (SEC-102).
+CVE-2016-10833,MEDIUM,cPanel before 55.9999.141 mishandles username-based blocking for PRE requests in cPHulkd (SEC-104).
+CVE-2016-10834,MEDIUM,cPanel before 55.9999.141 allows account-suspension bypass via ftp (SEC-105).
+CVE-2016-10835,MEDIUM,cPanel before 55.9999.141 allows a POP/IMAP cPHulk bypass via account name munging (SEC-107).
+CVE-2016-10836,MEDIUM,cPanel before 55.9999.141 allows arbitrary file-read operations during authentication with caldav (SEC-108).
+CVE-2016-10837,HIGH,cPanel before 11.54.0.4 allows arbitrary code execution because of an unsafe @INC path (SEC-46).
+CVE-2016-10838,MEDIUM,cPanel before 11.54.0.4 allows arbitrary file-read operations via the bin/fmq script (SEC-70).
+CVE-2016-10839,MEDIUM,cPanel before 11.54.0.4 allows SQL injection in bin/horde_update_usernames (SEC-71).
+CVE-2016-1084,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10840,HIGH,cPanel before 11.54.0.4 allows arbitrary code execution during locale duplication (SEC-72).
+CVE-2016-10841,LOW,The bin/mkvhostspasswd script in cPanel before 11.54.0.4 discloses password hashes (SEC-73).
+CVE-2016-10842,MEDIUM,cPanel before 11.54.0.4 allows certain file-read operations in bin/setup_global_spam_filter.pl (SEC-74).
+CVE-2016-10843,MEDIUM,cPanel before 11.54.0.4 allows code execution in the context of shared users via JSON-API (SEC-76).
+CVE-2016-10844,MEDIUM,The chcpass script in cPanel before 11.54.0.4 reveals a password hash (SEC-77).
+CVE-2016-10845,MEDIUM,cPanel before 11.54.0.4 allows arbitrary file-overwrite operations in scripts/check_system_storable (SEC-78).
+CVE-2016-10846,HIGH,cPanel before 11.54.0.4 allows arbitrary file-chown and file-chmod operations during Roundcube database conversions (SEC-79).
+CVE-2016-10847,MEDIUM,cPanel before 11.54.0.4 allows arbitrary file-read and file-write operations via scripts/fixmailboxpath (SEC-80).
+CVE-2016-10848,HIGH,cPanel before 11.54.0.4 allows arbitrary file-overwrite operations in scripts/quotacheck (SEC-81).
+CVE-2016-10849,MEDIUM,cPanel before 11.54.0.4 allows certain file-chmod operations in scripts/secureit (SEC-82).
+CVE-2016-1085,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10850,HIGH,cPanel before 11.54.0.4 allows arbitrary code execution via scripts/synccpaddonswithsqlhost (SEC-83).
+CVE-2016-10851,LOW,cPanel before 11.54.0.4 allows self XSS in the WHM PHP Configuration editor interface (SEC-84).
+CVE-2016-10852,MEDIUM,cPanel before 11.54.0.4 lacks ACL enforcement in the AppConfig subsystem (SEC-85).
+CVE-2016-10853,LOW,cPanel before 11.54.0.4 allows stored XSS in the WHM Feature Manager interface (SEC-86).
+CVE-2016-10854,LOW,cPanel before 11.54.0.4 allows self XSS in the X3 Entropy Banner interface (SEC-87).
+CVE-2016-10855,HIGH,cPanel before 11.54.0.4 allows unauthenticated arbitrary code execution via cpsrvd (SEC-91).
+CVE-2016-10856,MEDIUM,cPanel before 11.54.0.0 allows subaccounts to discover sensitive data through comet feeds (SEC-29).
+CVE-2016-10857,MEDIUM,cPanel before 11.54.0.0 allows a bypass of the e-mail sending limit (SEC-60).
+CVE-2016-10858,HIGH,cPanel before 11.54.0.0 allows unauthenticated arbitrary code execution via DNS NS entry poisoning (SEC-64).
+CVE-2016-10859,MEDIUM,cPanel before 11.54.0.0 allows unauthorized password changes via Webmail API commands (SEC-65).
+CVE-2016-1086,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1088, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10860,MEDIUM,cPanel before 11.54.0.0 allows unauthorized zone modification via the WHM API (SEC-66).
+CVE-2016-10861,MEDIUM,Neet AirStream NAS1.1 devices allow CSRF attacks that cause the settings binary to change the AP name and password.
+CVE-2016-10862,MEDIUM,Neet AirStream NAS1.1 devices have a password of ifconfig for the root account. This cannot be changed via the configuration page.
+CVE-2016-10863,MEDIUM,Edimax Wi-Fi Extender devices allow goform/formwlencryptvxd CSRF with resultant PSK key disclosure.
+CVE-2016-10864,LOW,NETGEAR EX7000 V1.0.0.42_1.0.94 devices allow XSS via the SSID.
+CVE-2016-10865,MEDIUM,"The Lightbox Plus Colorbox plugin through 2.7.2 for WordPress has cross-site request forgery (CSRF) via wp-admin/admin.php?page=lightboxplus, as demonstrated by resultant width XSS."
+CVE-2016-10866,MEDIUM,The all-in-one-wp-security-and-firewall plugin before 4.2.0 for WordPress has multiple XSS issues.
+CVE-2016-10867,MEDIUM,The all-in-one-wp-security-and-firewall plugin before 4.0.6 for WordPress has XSS in settings pages.
+CVE-2016-10868,MEDIUM,"The all-in-one-wp-security-and-firewall plugin before 4.0.5 for WordPress has XSS in the blacklist, file system, and file change detection settings pages."
+CVE-2016-10869,MEDIUM,The contact-form-plugin plugin before 4.0.2 for WordPress has XSS.
+CVE-2016-1087,HIGH,"Untrusted search path vulnerability in Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allows local users to gain privileges via a Trojan horse resource in an unspecified directory, a different vulnerability than CVE-2016-1090 and CVE-2016-4106."
+CVE-2016-10870,MEDIUM,The google-language-translator plugin before 5.0.06 for WordPress has XSS.
+CVE-2016-10871,MEDIUM,The mailchimp-for-wp plugin before 4.0.11 for WordPress has XSS on the integration settings page.
+CVE-2016-10872,MEDIUM,The ultimate-member plugin before 1.3.40 for WordPress has XSS on the login form.
+CVE-2016-10873,MEDIUM,The wp-database-backup plugin before 4.3.3 for WordPress has XSS.
+CVE-2016-10874,MEDIUM,The wp-database-backup plugin before 4.3.3 for WordPress has CSRF.
+CVE-2016-10875,MEDIUM,The wp-database-backup plugin before 4.3.1 for WordPress has XSS.
+CVE-2016-10876,MEDIUM,The wp-database-backup plugin before 4.3.1 for WordPress has CSRF.
+CVE-2016-10877,MEDIUM,The wp-editor plugin before 1.2.6.3 for WordPress has multiple XSS issues.
+CVE-2016-10878,MEDIUM,The wp-google-map-plugin plugin before 3.1.2 for WordPress has XSS.
+CVE-2016-10879,MEDIUM,The wp-live-chat-support plugin before 6.2.02 for WordPress has XSS.
+CVE-2016-1088,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1093, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10880,MEDIUM,The google-document-embedder plugin before 2.6.1 for WordPress has XSS.
+CVE-2016-10881,MEDIUM,The google-document-embedder plugin before 2.6.2 for WordPress has XSS.
+CVE-2016-10882,MEDIUM,The google-document-embedder plugin before 2.6.2 for WordPress has CSRF.
+CVE-2016-10883,MEDIUM,The simple-add-pages-or-posts plugin before 1.7 for WordPress has CSRF for deleting users.
+CVE-2016-10884,MEDIUM,The simple-membership plugin before 3.3.3 for WordPress has multiple CSRF issues.
+CVE-2016-10885,MEDIUM,The wp-editor plugin before 1.2.6 for WordPress has CSRF.
+CVE-2016-10886,HIGH,The wp-editor plugin before 1.2.6 for WordPress has incorrect permissions.
+CVE-2016-10887,HIGH,The all-in-one-wp-security-and-firewall plugin before 4.0.9 for WordPress has multiple SQL injection issues.
+CVE-2016-10888,HIGH,The all-in-one-wp-security-and-firewall plugin before 4.0.7 for WordPress has multiple SQL injection issues.
+CVE-2016-10889,HIGH,The nextgen-gallery plugin before 2.1.57 for WordPress has SQL injection via a gallery name.
+CVE-2016-1089,HIGH,"Use-after-free vulnerability in Adobe Reader and Acrobat before 11.0.18, Acrobat and Acrobat Reader DC Classic before 15.006.30243, and Acrobat and Acrobat Reader DC Continuous before 15.020.20039 on Windows and OS X allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1091, CVE-2016-6944, CVE-2016-6945, CVE-2016-6946, CVE-2016-6949, CVE-2016-6952, CVE-2016-6953, CVE-2016-6961, CVE-2016-6962, CVE-2016-6963, CVE-2016-6964, CVE-2016-6965, CVE-2016-6967, CVE-2016-6968, CVE-2016-6969, CVE-2016-6971, CVE-2016-6979, CVE-2016-6988, and CVE-2016-6993."
+CVE-2016-10890,MEDIUM,The aryo-activity-log plugin before 2.3.2 for WordPress has XSS.
+CVE-2016-10891,MEDIUM,The aryo-activity-log plugin before 2.3.3 for WordPress has XSS.
+CVE-2016-10892,MEDIUM,The chained-quiz plugin before 1.0 for WordPress has multiple XSS issues.
+CVE-2016-10893,MEDIUM,The crayon-syntax-highlighter plugin before 2.8.4 for WordPress has multiple XSS issues via AJAX requests.
+CVE-2016-10894,LOW,"xtrlock through 2.10 does not block multitouch events. Consequently, an attacker at a locked screen can send input to (and thus control) various programs such as Chromium via events such as pan scrolling, ""pinch and zoom"" gestures, or even regular mouse clicks (by depressing the touchpad once and then clicking with a different finger)."
+CVE-2016-10895,MEDIUM,The option-tree plugin before 2.6.0 for WordPress has XSS via an add_list_item or add_social_links AJAX request.
+CVE-2016-10896,MEDIUM,The seo-redirection plugin before 4.3 for WordPress has stored XSS.
+CVE-2016-10897,MEDIUM,The sermon-browser plugin before 0.45.16 for WordPress has multiple XSS issues.
+CVE-2016-10898,MEDIUM,The total-security plugin before 3.4.1 for WordPress has XSS.
+CVE-2016-10899,MEDIUM,The total-security plugin before 3.4.1 for WordPress has a settings-change vulnerability.
+CVE-2016-1090,HIGH,"Untrusted search path vulnerability in Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allows local users to gain privileges via a Trojan horse resource in an unspecified directory, a different vulnerability than CVE-2016-1087 and CVE-2016-4106."
+CVE-2016-10900,MEDIUM,The uji-countdown plugin before 2.0.7 for WordPress has XSS.
+CVE-2016-10901,MEDIUM,The wp-customer-reviews plugin before 3.0.9 for WordPress has XSS in the admin tools.
+CVE-2016-10902,MEDIUM,The wp-customer-reviews plugin before 3.0.9 for WordPress has CSRF in the admin tools.
+CVE-2016-10903,MEDIUM,The GoDaddy godaddy-email-marketing-sign-up-forms plugin before 1.1.3 for WordPress has CSRF.
+CVE-2016-10904,HIGH,The olimometer plugin before 2.57 for WordPress has SQL injection.
+CVE-2016-10905,MEDIUM,An issue was discovered in fs/gfs2/rgrp.c in the Linux kernel before 4.8. A use-after-free is caused by the functions gfs2_clear_rgrpd and read_rindex_entry.
+CVE-2016-10906,MEDIUM,An issue was discovered in drivers/net/ethernet/arc/emac_main.c in the Linux kernel before 4.5. A use-after-free is caused by a race condition between the functions arc_emac_tx and arc_emac_tx_clean.
+CVE-2016-10907,MEDIUM,An issue was discovered in drivers/iio/dac/ad5755.c in the Linux kernel before 4.8.6. There is an out of bounds write in the function ad5755_parse_dt.
+CVE-2016-10908,MEDIUM,The booking-calendar-contact-form plugin before 1.0.24 for WordPress has XSS.
+CVE-2016-10909,HIGH,The booking-calendar-contact-form plugin before 1.0.24 for WordPress has SQL injection.
+CVE-2016-1091,HIGH,"Use-after-free vulnerability in Adobe Reader and Acrobat before 11.0.18, Acrobat and Acrobat Reader DC Classic before 15.006.30243, and Acrobat and Acrobat Reader DC Continuous before 15.020.20039 on Windows and OS X allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1089, CVE-2016-6944, CVE-2016-6945, CVE-2016-6946, CVE-2016-6949, CVE-2016-6952, CVE-2016-6953, CVE-2016-6961, CVE-2016-6962, CVE-2016-6963, CVE-2016-6964, CVE-2016-6965, CVE-2016-6967, CVE-2016-6968, CVE-2016-6969, CVE-2016-6971, CVE-2016-6979, CVE-2016-6988, and CVE-2016-6993."
+CVE-2016-10910,MEDIUM,The formbuilder plugin before 1.06 for WordPress has multiple XSS issues.
+CVE-2016-10911,MEDIUM,The profile-builder plugin before 2.4.2 for WordPress has multiple XSS issues.
+CVE-2016-10912,MEDIUM,The universal-analytics plugin before 1.3.1 for WordPress has XSS.
+CVE-2016-10913,MEDIUM,The wp-latest-posts plugin before 3.7.5 for WordPress has XSS.
+CVE-2016-10914,MEDIUM,The add-from-server plugin before 3.3.2 for WordPress has CSRF for importing a large file.
+CVE-2016-10915,MEDIUM,The popup-by-supsystic plugin before 1.7.9 for WordPress has CSRF.
+CVE-2016-10916,HIGH,"The appointment-booking-calendar plugin before 1.1.24 for WordPress has SQL injection, a different vulnerability than CVE-2015-7319."
+CVE-2016-10917,HIGH,"The search-everything plugin before 8.1.6 for WordPress has SQL injection related to empty search strings, a different vulnerability than CVE-2014-2316."
+CVE-2016-10918,MEDIUM,The gallery-by-supsystic plugin before 1.8.6 for WordPress has CSRF.
+CVE-2016-10919,MEDIUM,"The wassup plugin before 1.9.1 for WordPress has XSS via the Top stats widget or the wassupURI::add_siteurl method, a different vulnerability than CVE-2012-2633."
+CVE-2016-1092,MEDIUM,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to obtain sensitive information from process memory via unspecified vectors, a different vulnerability than CVE-2016-1079."
+CVE-2016-10920,MEDIUM,The gnucommerce plugin before 0.5.7-BETA for WordPress has XSS.
+CVE-2016-10921,HIGH,The gallery-photo-gallery plugin before 1.0.1 for WordPress has SQL injection.
+CVE-2016-10922,HIGH,The woocommerce-store-toolkit plugin before 1.5.7 for WordPress has privilege escalation.
+CVE-2016-10923,HIGH,The woocommerce-store-toolkit plugin before 1.5.8 for WordPress has privilege escalation.
+CVE-2016-10924,MEDIUM,The ebook-download plugin before 1.2 for WordPress has directory traversal.
+CVE-2016-10925,MEDIUM,The peters-login-redirect plugin before 2.9.1 for WordPress has XSS during the editing of redirect URLs.
+CVE-2016-10926,MEDIUM,The nelio-ab-testing plugin before 4.5.9 for WordPress has SSRF in ajax/iesupport.php.
+CVE-2016-10927,MEDIUM,The nelio-ab-testing plugin before 4.5.11 for WordPress has SSRF in ajax/iesupport.php.
+CVE-2016-10928,MEDIUM,The onelogin-saml-sso plugin before 2.2.0 for WordPress has a hardcoded @@@nopass@@@ password for just-in-time provisioned users.
+CVE-2016-10929,MEDIUM,The advanced-ajax-page-loader plugin before 2.7.7 for WordPress has no protection against the reading of uploaded files when not logged in.
+CVE-2016-1093,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1095, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10930,HIGH,The wp-support-plus-responsive-ticket-system plugin before 7.1.0 for WordPress has insecure direct object reference via a ticket number.
+CVE-2016-10931,MEDIUM,An issue was discovered in the openssl crate before 0.9.0 for Rust. There is an SSL/TLS man-in-the-middle vulnerability because certificate verification is off by default and there is no API for hostname verification.
+CVE-2016-10932,MEDIUM,An issue was discovered in the hyper crate before 0.9.4 for Rust on Windows. There is an HTTPS man-in-the-middle vulnerability because hostname verification was omitted.
+CVE-2016-10933,MEDIUM,An issue was discovered in the portaudio crate through 0.7.0 for Rust. There is a man-in-the-middle issue because the source code is downloaded over cleartext HTTP.
+CVE-2016-10934,MEDIUM,The check-email plugin before 0.5.2 for WordPress has XSS.
+CVE-2016-10935,HIGH,The woocommerce-exporter plugin before 1.8.4 for WordPress has privilege escalation.
+CVE-2016-10936,MEDIUM,The wp-polls plugin before 2.73.1 for WordPress has XSS via the Poll bar option.
+CVE-2016-10937,MEDIUM,IMAPFilter through 2.6.12 does not validate the hostname in an SSL certificate.
+CVE-2016-10938,MEDIUM,The copy-me plugin 1.0.0 for WordPress has CSRF for copying non-public posts to a public location.
+CVE-2016-10939,MEDIUM,The xtremelocator plugin 1.5 for WordPress has SQL injection via the id parameter.
+CVE-2016-1094,HIGH,"Use-after-free vulnerability in Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allows attackers to execute arbitrary code via unspecified vectors, a different vulnerability than CVE-2016-1045, CVE-2016-1046, CVE-2016-1047, CVE-2016-1048, CVE-2016-1049, CVE-2016-1050, CVE-2016-1051, CVE-2016-1052, CVE-2016-1053, CVE-2016-1054, CVE-2016-1055, CVE-2016-1056, CVE-2016-1057, CVE-2016-1058, CVE-2016-1059, CVE-2016-1060, CVE-2016-1061, CVE-2016-1065, CVE-2016-1066, CVE-2016-1067, CVE-2016-1068, CVE-2016-1069, CVE-2016-1070, CVE-2016-1075, CVE-2016-1121, CVE-2016-1122, CVE-2016-4102, and CVE-2016-4107."
+CVE-2016-10940,MEDIUM,The zm-gallery plugin 1.0 for WordPress has SQL injection via the order parameter.
+CVE-2016-10941,MEDIUM,The podlove-podcasting-plugin-for-wordpress plugin before 2.3.16 for WordPress has XSS exploitable via CSRF.
+CVE-2016-10942,HIGH,The podlove-podcasting-plugin-for-wordpress plugin before 2.3.16 for WordPress has SQL injection via the insert_id parameter exploitable via CSRF.
+CVE-2016-10943,MEDIUM,The zx-csv-upload plugin 1 for WordPress has SQL injection via the id parameter.
+CVE-2016-10944,MEDIUM,The multisite-post-duplicator plugin before 1.1.3 for WordPress has wp-admin/tools.php?page=mpd CSRF.
+CVE-2016-10945,MEDIUM,The PageLines theme 1.1.4 for WordPress has wp-admin/admin-post.php?page=pagelines CSRF.
+CVE-2016-10946,MEDIUM,The wp-d3 plugin before 2.4.1 for WordPress has CSRF.
+CVE-2016-10947,MEDIUM,The Post Indexer plugin before 3.0.6.2 for WordPress has SQL injection via the period parameter by a super admin.
+CVE-2016-10948,MEDIUM,The Post Indexer plugin before 3.0.6.2 for WordPress has incorrect handling of data passed to the unserialize function.
+CVE-2016-10949,MEDIUM,The Relevanssi Premium plugin before 1.14.6.1 for WordPress has SQL injection with resultant unsafe unserialization.
+CVE-2016-1095,HIGH,"Adobe Reader and Acrobat before 11.0.16, Acrobat and Acrobat Reader DC Classic before 15.006.30172, and Acrobat and Acrobat Reader DC Continuous before 15.016.20039 on Windows and OS X allow attackers to execute arbitrary code or cause a denial of service (memory corruption) via unspecified vectors, a different vulnerability than CVE-2016-1037, CVE-2016-1063, CVE-2016-1064, CVE-2016-1071, CVE-2016-1072, CVE-2016-1073, CVE-2016-1074, CVE-2016-1076, CVE-2016-1077, CVE-2016-1078, CVE-2016-1080, CVE-2016-1081, CVE-2016-1082, CVE-2016-1083, CVE-2016-1084, CVE-2016-1085, CVE-2016-1086, CVE-2016-1088, CVE-2016-1093, CVE-2016-1116, CVE-2016-1118, CVE-2016-1119, CVE-2016-1120, CVE-2016-1123, CVE-2016-1124, CVE-2016-1125, CVE-2016-1126, CVE-2016-1127, CVE-2016-1128, CVE-2016-1129, CVE-2016-1130, CVE-2016-4088, CVE-2016-4089, CVE-2016-4090, CVE-2016-4093, CVE-2016-4094, CVE-2016-4096, CVE-2016-4097, CVE-2016-4098, CVE-2016-4099, CVE-2016-4100, CVE-2016-4101, CVE-2016-4103, CVE-2016-4104, and CVE-2016-4105."
+CVE-2016-10950,MEDIUM,The sirv plugin before 1.3.2 for WordPress has SQL injection via the id parameter.
+CVE-2016-10951,MEDIUM,The fs-shopping-cart plugin 2.07.02 for WordPress has SQL injection via the pid parameter.
+CVE-2016-10952,MEDIUM,The quotes-collection plugin before 2.0.6 for WordPress has XSS via the wp-admin/admin.php?page=quotes-collection page parameter.
+CVE-2016-10953,MEDIUM,The Headway theme before 3.8.9 for WordPress has XSS via the license key field.
+CVE-2016-10954,HIGH,The Neosense theme before 1.8 for WordPress has qquploader unrestricted file upload.
+CVE-2016-10955,HIGH,The cysteme-finder plugin before 1.4 for WordPress has unrestricted file upload because of incorrect session tracking.
+CVE-2016-10956,MEDIUM,The mail-masta plugin 1.0 for WordPress has local file inclusion in count_of_send.php and csvexport.php.
+CVE-2016-10957,MEDIUM,The Akal theme through 2016-08-22 for WordPress has XSS via the framework/brad-shortcodes/tinymce/preview.php sc parameter.
+CVE-2016-10958,MEDIUM,The estatik plugin before 2.3.0 for WordPress has unauthenticated arbitrary file upload via es_media_images[] to wp-admin/admin-ajax.php.
+CVE-2016-10959,MEDIUM,The estatik plugin before 2.3.1 for WordPress has authenticated arbitrary file upload (exploitable with CSRF) via es_media_images[] to wp-admin/admin-ajax.php.
+CVE-2016-1096,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-10960,MEDIUM,The wsecure plugin before 2.4 for WordPress has remote code execution via shell metacharacters in the wsecure-config.php publish parameter.
+CVE-2016-10961,MEDIUM,The colorway theme before 3.4.2 for WordPress has XSS via the contactName parameter.
+CVE-2016-10962,MEDIUM,The icegram plugin before 1.9.19 for WordPress has CSRF via the wp-admin/edit.php option_name parameter.
+CVE-2016-10963,MEDIUM,The icegram plugin before 1.9.19 for WordPress has XSS.
+CVE-2016-10964,MEDIUM,The dwnldr plugin before 1.01 for WordPress has XSS via the User-Agent HTTP header.
+CVE-2016-10965,MEDIUM,The real3d-flipbook-lite plugin 1.0 for WordPress has deleteBook=../ directory traversal for file deletion.
+CVE-2016-10966,MEDIUM,The real3d-flipbook-lite plugin 1.0 for WordPress has bookName=../ directory traversal for file upload.
+CVE-2016-10967,MEDIUM,The real3d-flipbook-lite plugin 1.0 for WordPress has XSS via the wp-content/plugins/real3d-flipbook/includes/flipbooks.php bookId parameter.
+CVE-2016-10968,MEDIUM,The peepso-core plugin before 1.6.1 for WordPress has PeepSoProfilePreferencesAjax->save() privilege escalation.
+CVE-2016-10969,MEDIUM,The supportflow plugin before 0.7 for WordPress has XSS via a discussion ticket title.
+CVE-2016-1097,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-10970,MEDIUM,The supportflow plugin before 0.7 for WordPress has XSS via a ticket excerpt.
+CVE-2016-10971,HIGH,The MemberSonic Lite plugin before 1.302 for WordPress has incorrect login access control because only knowlewdge of an e-mail address is required.
+CVE-2016-10972,HIGH,The newspaper theme before 6.7.2 for WordPress has a lack of options access control via td_ajax_update_panel.
+CVE-2016-10973,MEDIUM,The Brafton plugin before 3.4.8 for WordPress has XSS via the wp-admin/admin.php?page=BraftonArticleLoader tab parameter to BraftonAdminPage.php.
+CVE-2016-10974,MEDIUM,The fluid-responsive-slideshow plugin before 2.2.7 for WordPress has frs_save CSRF with resultant stored XSS.
+CVE-2016-10975,MEDIUM,The fluid-responsive-slideshow plugin before 2.2.7 for WordPress has reflected XSS via the skin parameter.
+CVE-2016-10976,MEDIUM,"The safe-editor plugin before 1.2 for WordPress has no se_save authentication, with resultant XSS."
+CVE-2016-10977,MEDIUM,The nelio-ab-testing plugin before 4.5.0 for WordPress has filename=..%2f directory traversal.
+CVE-2016-10978,MEDIUM,The fossura-tag-miner plugin before 1.1.5 for WordPress has CSRF.
+CVE-2016-10979,MEDIUM,The fossura-tag-miner plugin before 1.1.5 for WordPress has XSS.
+CVE-2016-1098,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-10980,MEDIUM,The kento-post-view-counter plugin through 2.8 for WordPress has XSS via kento_pvc_geo.
+CVE-2016-10981,MEDIUM,"The kento-post-view-counter plugin through 2.8 for WordPress has stored XSS via kento_pvc_numbers_lang, kento_pvc_today_text, or kento_pvc_total_text."
+CVE-2016-10982,MEDIUM,The kento-post-view-counter plugin through 2.8 for WordPress has wp-admin/admin.php?page=kentopvc_settings CSRF.
+CVE-2016-10983,MEDIUM,The ghost plugin before 0.5.6 for WordPress has no access control for wp-admin/tools.php?ghostexport=true downloads of exported data.
+CVE-2016-10984,MEDIUM,The echosign plugin before 1.2 for WordPress has XSS via the inc.php page parameter.
+CVE-2016-10985,MEDIUM,The echosign plugin before 1.2 for WordPress has XSS via the templates/add_templates.php id parameter.
+CVE-2016-10986,MEDIUM,"The tweet-wheel plugin before 1.0.3.3 for WordPress has XSS via consumer_key, consumer_secret, access_token, and access_token_secret."
+CVE-2016-10987,MEDIUM,The persian-woocommerce-sms plugin before 3.3.4 for WordPress has ps_sms_numbers XSS.
+CVE-2016-10988,MEDIUM,"The leenkme plugin before 2.6.0 for WordPress has stored XSS via facebook_message, facebook_linkname, facebook_caption, facebook_description, default_image, or _wp_http_referer."
+CVE-2016-10989,MEDIUM,The leenkme plugin before 2.6.0 for WordPress has wp-admin/admin.php?page=leenkme_facebook CSRF.
+CVE-2016-1099,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-10990,MEDIUM,The wp-cerber plugin before 2.7 for WordPress has XSS via the X-Forwarded-For HTTP header.
+CVE-2016-10991,MEDIUM,The imdb-widget plugin before 1.0.9 for WordPress has Local File Inclusion.
+CVE-2016-10992,MEDIUM,The music-store plugin before 1.0.43 for WordPress has XSS via the wp-admin/admin.php?page=music-store-menu-reports from_year parameter.
+CVE-2016-10993,LOW,The ScoreMe theme through 2016-04-01 for WordPress has XSS via the s parameter.
+CVE-2016-10994,MEDIUM,The Truemag theme 2016 Q2 for WordPress has XSS via the s parameter.
+CVE-2016-10995,HIGH,The Tevolution plugin before 2.3.0 for WordPress has arbitrary file upload via single_upload.php or single-upload.php.
+CVE-2016-10996,MEDIUM,The optinmonster plugin before 1.1.4.6 for WordPress has incorrect access control for shortcodes because of a nonce leak.
+CVE-2016-10997,MEDIUM,The beauty-premium theme 1.0.8 for WordPress has CSRF with resultant arbitrary file upload in includes/sendmail.php.
+CVE-2016-10998,MEDIUM,The ocim-mp3 plugin through 2016-03-07 for WordPress has wp-content/plugins/ocim-mp3/source/pages.php?id= XSS.
+CVE-2016-10999,MEDIUM,The Goodnews theme through 2016-02-28 for WordPress has XSS via the s parameter.
+CVE-2016-1100,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-11000,HIGH,The wp-ultimate-exporter plugin through 1.1 for WordPress has SQL injection via the export_type_name parameter.
+CVE-2016-11001,MEDIUM,The user-submitted-posts plugin before 20160215 for WordPress has XSS via the user-submitted-content field.
+CVE-2016-11002,MEDIUM,The Elegant Themes Extra theme before 1.2.4 for WordPress has privilege escalation.
+CVE-2016-11003,MEDIUM,The Elegant Themes Bloom plugin before 1.1.1 for WordPress has privilege escalation.
+CVE-2016-11004,MEDIUM,The Elegant Themes Monarch plugin before 1.2.7 for WordPress has privilege escalation.
+CVE-2016-11005,MEDIUM,The instalinker plugin before 1.1.2 for WordPress has includes/instalinker-admin-preview.php?client_id= XSS.
+CVE-2016-11006,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control for admin_init settings changes.
+CVE-2016-11007,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control over wpi_user_id for invoice retrieval.
+CVE-2016-11008,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control over wpi_paypal payer metadata updates.
+CVE-2016-11009,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control over wpi_interkassa payer metadata updates.
+CVE-2016-1101,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-11010,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has incorrect access control over wpi_twocheckout payer metadata updates.
+CVE-2016-11011,MEDIUM,The wp-invoice plugin before 4.1.1 for WordPress has wpi_update_user_option privilege escalation.
+CVE-2016-11012,LOW,The sola-support-tickets plugin before 3.13 for WordPress has incorrect access control for /wp-admin with resultant XSS.
+CVE-2016-11013,MEDIUM,The wp-listings plugin before 2.0.2 for WordPress has includes/views/single-listing.php XSS.
+CVE-2016-11014,HIGH,NETGEAR JNR1010 devices before 1.0.0.32 have Incorrect Access Control because the ok value of the auth cookie is a special case.
+CVE-2016-11015,MEDIUM,NETGEAR JNR1010 devices before 1.0.0.32 allow cgi-bin/webproc CSRF via the :InternetGatewayDevice.X_TWSZ-COM_URL_Filter.BlackList.1.URL parameter.
+CVE-2016-11016,MEDIUM,NETGEAR JNR1010 devices before 1.0.0.32 allow webproc?getpage= XSS.
+CVE-2016-11017,HIGH,The application login page in AKIPS Network Monitor 15.37 through 16.5 allows a remote unauthenticated attacker to execute arbitrary OS commands via shell metacharacters in the username parameter (a failed login attempt returns the command-injection output to a limited login failure field). This is fixed in 16.6.
+CVE-2016-11018,HIGH,An issue was discovered in the Huge-IT gallery-images plugin before 1.9.0 for WordPress. The headers Client-Ip and X-Forwarded-For are prone to unauthenticated SQL injection. The affected file is gallery-images.php. The affected function is huge_it_image_gallery_ajax_callback().
+CVE-2016-1102,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-11020,HIGH,"Kunena before 5.0.4 does not restrict avatar file extensions to gif, jpeg, jpg, and png. This can lead to XSS and remote code execution."
+CVE-2016-11021,HIGH,setSystemCommand on D-Link DCS-930L devices before 2.12 allows a remote attacker to execute code via an OS command in the SystemCommand parameter.
+CVE-2016-11022,MEDIUM,"NETGEAR Prosafe WC9500 5.1.0.17, WC7600 5.1.0.17, and WC7520 2.5.0.35 devices allow a remote attacker to execute code with root privileges via shell metacharacters in the reqMethod parameter to login_handler.php."
+CVE-2016-11023,HIGH,odata4j 0.7.0 allows ExecuteCountQueryCommand.java SQL injection. NOTE: this product is apparently discontinued.
+CVE-2016-11024,HIGH,odata4j 0.7.0 allows ExecuteJPQLQueryCommand.java SQL injection. NOTE: this product is apparently discontinued.
+CVE-2016-11025,HIGH,An issue was discovered on Samsung mobile devices with software through 2016-09-13 (Exynos AP chipsets). There is a memcpy heap-based buffer overflow in the OTP service. The Samsung ID is SVE-2016-7114 (December 2016).
+CVE-2016-11026,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. BootReceiver allows attackers to trigger a system crash because of incorrect exception handling. The Samsung ID is SVE-2016-7118 (December 2016)."
+CVE-2016-11027,LOW,"An issue was discovered on Samsung mobile devices with M(6.0) software. In the Shade Locked state, a physically proximate attacker can read notifications on the lock screen. The Samsung ID is SVE-2016-7132 (December 2016)."
+CVE-2016-11028,HIGH,An issue was discovered on Samsung mobile devices with software through 2016-09-13 (Exynos AP chipsets). There is a stack-based buffer overflow in the OTP TrustZone trustlet. The Samsung IDs are SVE-2016-7173 and SVE-2016-7174 (December 2016).
+CVE-2016-11029,MEDIUM,"An issue was discovered on Samsung mobile devices with L(5.0/5.1), M(6.0), and N(7.0) software. Attackers can read the password of the Mobile Hotspot in the log because of an unprotected intent. The Samsung ID is SVE-2016-7301 (December 2016)."
+CVE-2016-1103,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-11030,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) (with Hrm sensor support) software. The sysfs of the MAX86902 sensor driver does not prevent concurrent access, leading to a race condition and resultant heap-based buffer overflow. The Samsung ID is SVE-2016-7341 (December 2016)."
+CVE-2016-11031,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. AntService allows a system_server crash and reboot. The Samsung ID is SVE-2016-7044 (November 2016)."
+CVE-2016-11032,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) software. An attacker can disable all Sound functionality by broadcasting an unprotected intent. The Samsung IDs are SVE-2016-7179 and SVE-2016-7182 (November 2016).
+CVE-2016-11033,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) software. There is a heap-based buffer overflow in tlc_server. The Samsung IDs are SVE-2016-7220 and SVE-2016-7225 (November 2016).
+CVE-2016-11034,HIGH,An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. The decode function in Qjpeg in Qt 5.7 allows attackers to trigger a system crash via a malformed image. The Samsung ID is SVE-2016-6560 (October 2016).
+CVE-2016-11035,MEDIUM,An issue was discovered on Samsung mobile devices with software through 2016-05-27 (Exynos AP chipsets). A local graphics user can cause a Kernel Crash via the fb0(DECON) frame buffer interface. The Samsung ID is SVE-2016-7011 (October 2016).
+CVE-2016-11036,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) software. There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2016-6008 (August 2016).
+CVE-2016-11037,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2016-6604. Reason: This candidate is a reservation duplicate of CVE-2016-6604. Notes: All CVE users should reference CVE-2016-6604 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2016-11038,HIGH,"An issue was discovered on Samsung mobile devices with software through 2016-04-05 (incorporating the Samsung Professional Audio SDK). The Jack audio service doesn't implement access control for shared memory, leading to arbitrary code execution or privilege escalation. The Samsung ID is SVE-2016-5953 (July 2016)."
+CVE-2016-11039,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) (AP + CP MDM9x35, or Qualcomm Onechip) software. There is a NULL pointer dereference issue in the IPC socket code. The Samsung ID is SVE-2016-5980 (July 2016)."
+CVE-2016-1104,HIGH,"Unspecified vulnerability in Adobe Flash Player 21.0.0.213 and earlier, as used in the Adobe Flash libraries in Microsoft Internet Explorer 10 and 11 and Microsoft Edge, has unknown impact and attack vectors, a different vulnerability than other CVEs listed in MS16-064."
+CVE-2016-11040,LOW,An issue was discovered on Samsung mobile devices with L(5.0/5.1) (with USB OTG MyFile2014_L_ESS support) software. There is a Factory Reset Protection (FRP) bypass. The Samsung ID is SVE-2015-5068 (June 2016).
+CVE-2016-11041,LOW,An issue was discovered on Samsung mobile devices with KK(4.4) software. Attackers can bypass the lockscreen by sending an AT command over USB. The Samsung ID is SVE-2015-5301 (June 2016).
+CVE-2016-11042,MEDIUM,An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. There is a SIM Lock bypass. The Samsung ID is SVE-2016-5381 (June 2016).
+CVE-2016-11043,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) software. The S/MIME implementation in EAS uses DES (where 3DES is intended). The Samsung ID is SVE-2016-5871 (June 2016).
+CVE-2016-11044,MEDIUM,An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) (with Fingerprint support) software. The check of an application's signature can be bypassed during installation. The Samsung ID is SVE-2016-5923 (June 2016).
+CVE-2016-11045,MEDIUM,An issue was discovered on Samsung mobile devices with L(5.0/5.1) software. The Gallery library allow memory corruption via a malformed image. The Samsung ID is SVE-2016-5317 (May 2016).
+CVE-2016-11046,MEDIUM,"An issue was discovered on Samsung mobile devices with JBP(4.3), KK(4.4), and L(5.0/5.1) software. Because of a misused whitelist, attackers can reach the radio layer (aka RIL or RILD) to place calls or send SMS messages. The Samsung ID is SVE-2016-5733 (May 2016)."
+CVE-2016-11047,MEDIUM,An issue was discovered on Samsung mobile devices with JBP(4.2) and KK(4.4) (Marvell chipsets) software. The ACIPC-MSOCKET driver allows local privilege escalation via a stack-based buffer overflow. The Samsung ID is SVE-2016-5393 (April 2016).

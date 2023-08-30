@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+An update to Red Hat Enterprise Linux 5 was released to correct this issue:
+https://rhn.redhat.com/errata/RHSA-2008-0297.html"
+CVE-2008-1218,Red Hat,2008-03-12,Joshua Bressers,Not vulnerable. This issue did not affect versions of Dovecot as shipped with Red Hat Enterprise Linux 4 or 5.
+CVE-2008-1294,Red Hat,2009-01-15,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2008-0612.html"
+CVE-2008-1309,Red Hat,2008-03-18,Mark J Cox,"Not vulnerable. This issue did not affect versions of RealPlayer as shipped with Red Hat Enterprise Linux 3 Extras, 4 Extras, or 5 Supplementary."
+CVE-2008-1364,Red Hat,2008-06-03,Mark J Cox,"Not vulnerable. This issue did not affect the versions of dhcp as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1372,Red Hat,2008-10-17,Joshua Bressers,"Red Hat has re-evaluated the potential impact of this flaw and has released an update which corrects this behavior:
+http://rhn.redhat.com/errata/RHSA-2008-0893.html"
+CVE-2008-1382,Red Hat,2009-03-04,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1382
+
+This issue does not affect the version of libpng as shipped with Red Hat Enterprise Linux 3.
+
+Updates for affected versions of Red Hat Enterprise Linux can be found here:
+http://rhn.redhat.com/errata/RHSA-2009-0333.html"
+CVE-2008-1384,Red Hat,2008-03-28,Mark J Cox,"Red Hat do not consider this to be a security vulnerability:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-1384"
+CVE-2008-1391,Red Hat,2009-09-24,Tomas Hoger,Red Hat does not consider this to be a security issue. Properly written application should not use arbitrary untrusted data as part of the format string passed to functions as strfmon or printf family functions.
+CVE-2008-1447,Red Hat,2008-07-09,Mark J Cox,http://rhn.redhat.com/errata/RHSA-2008-0533.html
+CVE-2008-1483,Red Hat,2010-03-19,Mark J Cox,"All openssh versions shipped in Red Hat Enterprise Linux 5 include the patch for this issue.

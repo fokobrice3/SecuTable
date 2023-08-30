@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3140,Red Hat,2008-07-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5"
+CVE-2008-3141,Red Hat,2008-10-17,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-3145,Red Hat,2008-10-17,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-3196,Red Hat,2008-07-17,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-3196
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2008-3214,Red Hat,2008-07-25,Mark J Cox,Not vulnerable. This issue did not affect the version of dnsmasq as shipped with Red Hat Enterprise Linux 5.
+CVE-2008-3234,Red Hat,2008-07-21,Joshua Bressers,"Upon investigating this issue, the Red Hat Security Response Team has determined that this is not a vulnerability.  The ability to specify a desired role when connecting to OpenSSH is a feature of how OpenSSH interacts with SELinux.  Users can only assign themselves SELinux roles which they have permission to access.  They cannot assign themselves arbitrary roles."
+CVE-2008-3247,Red Hat,2008-07-30,Mark J Cox,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped
+with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2008-3257,Oracle,2008-07-31,Oracle,"Oracle has released a workaround for CVE-2008-3257.  Information is available at:
+
+http://www.oracle.com/technology/deploy/security/alerts/alert_cve2008-3257.html"
+CVE-2008-3259,Red Hat,2008-07-23,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of openssh as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3294,Red Hat,2008-07-25,Tomas Hoger,"This issue can only be exploited during the package build and it does not affect users of pre-built packages distributed with Red Hat Enterprise Linux. Therefore, we do not plan to backport a fix for this issue to already released version of Red Hat Enterprise Linux 2.1, 3, 4, and 5."
+CVE-2008-3329,Red Hat,2008-11-13,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of links as shipped with Red Hat Enterprise Linux 2.1, and versions of elinks as shipped with Red Hat Enterprise Linux 3, 4, or 5. Versions of links / elinks shipped do not support &quot;only proxies&quot; feature."
+CVE-2008-3350,Red Hat,2008-07-30,Mark J Cox,Not vulnerable. These issues did not affect the version of dnsmasq as shipped with Red Hat Enterprise Linux 5.
+CVE-2008-3437,Red Hat,2008-08-04,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of OpenOffice.org as shipped with Red Hat Enterprise Linux 3, 4, or 5. The updated Red Hat Enterprise Linux packages are not distributed via the openoffice.org update service, but rather via Red Hat Network, using the package manager capabilities to verify authenticity of updates."
+CVE-2008-3440,Red Hat,2008-08-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Sun Java packages as shipped with Red Hat Enterprise Linux 4 Extras, or 5 Supplementary. The updated Red Hat Enterprise Linux packages are not distributed via the java.sun.com update service (which is only used for Windows version of Sun Java), but rather via Red Hat Network, using the package manager capabilities to verify authenticity of updates."
+CVE-2008-3444,Red Hat,2008-08-04,Joshua Bressers,Red Hat does not consider this flaw a security issue. This flaw is not exploitable beyond causing the web browser to crash.
+CVE-2008-3493,Red Hat,2008-08-07,Joshua Bressers,This flaw does not affect the Linux version of RealVNC as shipped in Red Hat Enterprise Linux.

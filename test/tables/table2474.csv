@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-0063,Red Hat,2008-06-03,Mark J Cox,This issue is the same as CVE-2007-5365.  The affected dhcp versions were fixed via: https://rhn.redhat.com/errata/RHSA-2007-0970.html
+CVE-2007-0080,Red Hat,2007-01-05,Mark J Cox,"Not vulnerable.  The affected code is in an optional module that is not shipped in Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-0086,Red Hat,2007-01-11,Mark J Cox,"Red Hat does not consider this issue to be a security vulnerability.  The pottential attacker has to send acknowledgement packets periodically to make server generate traffic.  Exactly the same effect could be achieved by simply downloading the file.  The statement that setting the TCP window size to arbitrarily high value would permit the attacker to disconnect and stop sending ACKs is false, because Red Hat Enterprise Linux limits the size of the TCP send buffer to 4MB by default."
+CVE-2007-0103,Red Hat,2008-01-09,Mark J Cox,"Some implementations of the PDF specification erroneously allow page tree objects that refer back to themselves. As a result, an infinite loop could be created.  We believe this could only result in a denial of service against the application.  We do not consider a user-assisted DoS of a client application to be a security issue."
+CVE-2007-0104,Red Hat,2007-01-15,Joshua Bressers,"Not Vulnerable.  This flaw is the result of an infinite recursion flaw in xpdf, which cannot result in arbitrary code execution."
+CVE-2007-0120,Acunetix Limited,2007-01-31,Kevin J. Vella,"Information about HTTP Sniffer:
+The HTTP Sniffer is an in-build proxy server in Acunetix WVS which purpose is to analyse web traffic between a web client (browser) and a web server. By default this tool is not enabled and when enabled it accepts traffic only from the same computer running Acunetix WVS (Localhost). The default TCP port used in 8080.
+
+This means that when the HTTP Sniffer is enabled, it is only enabled on the local network interface and no one from the network can access the HTTP Sniffer port.
+
+How the exploit works:
+The exploit works by sending a specially crafted packet containing an invalid Content-Length field in the HTTP header to the TCP port on which the HTTP Sniffer is listening. This causes the application to crash (Denial of Service). Since the HTTP Sniffer component by default is enabled only on the local network interface, it is not possible to take advantage of this exploit remotely. The user has to manually change the listening interface from within the application’s configuration to make the HTTP Sniffer available on the network for this exploit to work remotely.
+
+Solution:
+Upgrade to the latest version of Acunetix WVS (v4.0 build 20060717 or later)"
+CVE-2007-0157,Red Hat,2007-01-15,Mark J Cox,"Not vulnerable.  This issue does not affect the older versions of neon as shipped with Red Hat Enterprise Linux 2.1, 3, and 4.  This issue also does not affect the older versions of neon included in the cadaver package."
+CVE-2007-0227,Mandriva,2007-01-19,Vincent Danen,Not vulnerable. This issue does not affect the versions of slocate as shipped with Mandriva Linux 2007.0 or earlier.
+CVE-2007-0227,Red Hat,2007-01-18,Mark J Cox,"Not vulnerable. This issue did not affect the versions of slocate as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-0235,Red Hat,2007-07-27,Joshua Bressers,"Not vulnerable. This issue did not affect the versions of libgtop as shipped with Red Hat Enterprise Linux 2.1 or 3.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+This flaw is fixed in Red Hat Enterprise Linux 2.1 via the errata RHSA-2003:280.
+
+This flaw is fixed in Red Hat Enterprise Linux 3 as a backported patch.  The source RPM contains the patch openssh-3.6.1p2-owl-realloc.diff which resolved this flaw before Red Hat Enterprise Linux 3 GA.
+
+This flaw does not affect any subsequent versions of Red Hat Enterprise Linux."
+CVE-2003-0693,Red Hat,2007-06-01,Mark J Cox,"Not vulnerable.
+
+This flaw is fixed in Red Hat Enterprise Linux 2.1 via the errata RHSA-2003:280.
+
+This flaw is fixed in Red Hat Enterprise Linux 3 as a backported patch.  The source RPM contains the patch openssh-3.6.1p2-owl-realloc.diff which resolved this flaw before Red Hat Enterprise Linux 3 GA.
+
+This flaw does not affect any subsequent versions of Red Hat Enterprise Linux."
+CVE-2003-0695,Red Hat,2007-06-01,Mark J Cox,"Not vulnerable.
+
+This flaw is fixed in Red Hat Enterprise Linux 2.1 via the errata RHSA-2003:280.
+
+This flaw is fixed in Red Hat Enterprise Linux 3 as a backported patch.  The source RPM contains the patch openssh-3.6.1p2-owl-realloc.diff which resolved this flaw before Red Hat Enterprise Linux 3 GA.
+
+This flaw does not affect any subsequent versions of Red Hat Enterprise Linux."
+CVE-2003-0789,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.48:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2003-0857,Red Hat,2007-11-21,Mark J Cox,Not affected.  Red Hat did not ship iptables-devel or anything else that used these vulnerable functions with Red Hat Enterprise Linux 2.1 or 3.  Red Hat Enterprise Linux 4 and 5 contained a backported patch to correct this issue.

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2002-0389,Red Hat,2016-12-27,Joshua Bressers,"Red Hat does not intend to take any action on this issue. This is the expected behavior of Mailman and is not considered to be a security flaw by upstream.  If Mailman upstream addresses this issue in a future update, we may revisit our decision."
+CVE-2002-0392,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.37 and 1.3.26:
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2002-0497,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2002-0510,Red Hat,2008-03-25,Mark J Cox,"Red Hat do not consider this to be a security issue and there are many ways that you can identify or fingerprint a Linux machine.  Users that wish to block fingerprinting can use various techniques to disguise their operating system, for example see
+http://www.infosecwriters.com/text_resources/pdf/nmap.pdf"
+CVE-2002-0639,Red Hat,2008-05-15,Mark J Cox,"Not vulnerable.  This issue did not affect the versions of OpenSSH as shipped with Red Hat Enterprise Linux 3 or later.
+
+This issue did not affect the OpenSSL packages as shipped with Red Hat Enterprise Linux 2.1 as they were not compiled with S/Key or BSD_AUTH support.  The upstream patch for this issue and CVE-2002-0640 was included in an errata so that users recompiling OpenSSL with support for those authentication methods would also be protected:
+https://rhn.redhat.com/errata/RHSA-2002-131.html"
+CVE-2002-0654,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.40:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2002-0661,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.40:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2002-0839,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 1.3.27:
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2002-0840,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.43 and 1.3.27:
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2002-0843,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 1.3.27:
+http://httpd.apache.org/security/vulnerabilities_13.html"

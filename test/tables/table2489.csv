@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+https://rhn.redhat.com/errata/RHSA-2008-0364.html"
+CVE-2007-2618,Drake CMS,2007-05-16,legolas558,"An apposite mailing list (drakecms-security@lists.sourceforge.net) has been created to discuss all publicly disclosed security reports (mostly from National Vulnerability Database and Security Focus); for the valid security reports temporary solutions will be offered even before the official patch release. Specific patches will be released for all critical vulnerabilities (available through the automatic update feature).
+
+This vulnerability has been fixed in the upcoming Drake CMS v0.4.1 Beta, previous versions’ users can update their software directly from the administrative backend. Cumulative patches will also be available in the project downloads area.
+
+References to Advisories, Solutions, and Tools -&gt; http://drakecms.sourceforge.net/ (official vendor website) will soon contain news about the security vulnerabilities and the released patches."
+CVE-2007-2645,Red Hat,2007-05-24,Joshua Bressers,"Red Hat does not consider this flaw to have security consequences.  For more details please see the following:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=240055"
+CVE-2007-2683,Red Hat,2007-06-04,Joshua Bressers,"Updates for Red Hat Enterprise Linux are available from
+http://rhn.redhat.com/errata/RHSA-2007-0386.html"
+CVE-2007-2691,Red Hat,2007-05-29,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-2691
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2007-2692,Red Hat,2008-07-25,Joshua Bressers,"This issue did not affect mysql packages as shipped in Red Hat Enterprise Linux 2.1, 3 and 4.
+
+Affected mysql packages as shipped in Red Hat Enterprise Linux 5 and Red Hat Application Stack were fixed via:
+
+https://rhn.redhat.com/errata/CVE-2007-2692.html"
+CVE-2007-2693,Red Hat,2007-06-14,Joshua Bressers,"Not vulnerable. These issues did not affect the versions of mysql as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."

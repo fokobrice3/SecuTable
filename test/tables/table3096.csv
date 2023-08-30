@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2000-0622,HIGH,"Buffer overflow in Webfind CGI program in O'Reilly WebSite Professional web server 2.x allows remote attackers to execute arbitrary commands via a URL containing a long ""keywords"" parameter."
+CVE-2000-0623,HIGH,Buffer overflow in O'Reilly WebSite Professional web server 2.4 and earlier allows remote attackers to execute arbitrary commands via a long GET request or Referrer header.
+CVE-2000-0624,HIGH,Buffer overflow in Winamp 2.64 and earlier allows remote attackers to execute arbitrary commands via a long #EXTINF: extension in the M3U playlist.
+CVE-2000-0625,MEDIUM,"NetZero 3.0 and earlier uses weak encryption for storing a user's login information, which allows a local user to decrypt the password."
+CVE-2000-0626,MEDIUM,Buffer overflow in Alibaba web server allows remote attackers to cause a denial of service via a long GET request.
+CVE-2000-0627,HIGH,"BlackBoard CourseInfo 4.0 does not properly authenticate users, which allows local users to modify CourseInfo database information and gain privileges by directly calling the supporting CGI programs such as user_update_passwd.pl and user_update_admin.pl."
+CVE-2000-0628,HIGH,The source.asp example script in the Apache ASP module Apache::ASP 1.93 and earlier allows remote attackers to modify files.
+CVE-2000-0629,HIGH,"The default configuration of the Sun Java web server 2.0 and earlier allows remote attackers to execute arbitrary commands by uploading Java code to the server via board.html, then directly calling the JSP compiler servlet."
+CVE-2000-0630,MEDIUM,"IIS 4.0 and 5.0 allows remote attackers to obtain fragments of source code by appending a +.htr to the URL, a variant of the ""File Fragment Reading via .HTR"" vulnerability."
+CVE-2000-0631,MEDIUM,"An administrative script from IIS 3.0, later included in IIS 4.0 and 5.0, allows remote attackers to cause a denial of service by accessing the script without a particular argument, aka the ""Absent Directory Browser Argument"" vulnerability."
+CVE-2000-0632,HIGH,Buffer overflow in the web archive component of L-Soft Listserv 1.8d and earlier allows remote attackers to execute arbitrary commands via a long query string.
+CVE-2000-0633,LOW,Vulnerability in Mandrake Linux usermode package allows local users to to reboot or halt the system.
+CVE-2000-0634,MEDIUM,The web administration interface for CommuniGate Pro 3.2.5 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0635,HIGH,The view_page.html sample page in the MiniVend shopping cart program allows remote attackers to execute arbitrary commands via shell metacharacters.
+CVE-2000-0636,MEDIUM,HP JetDirect printers versions G.08.20 and H.08.20 and earlier allow remote attackers to cause a denial of service via a malformed FTP quote command.
+CVE-2000-0637,MEDIUM,"Microsoft Excel 97 and 2000 allows an attacker to execute arbitrary commands by specifying a malicious .dll using the Register.ID function, aka the ""Excel REGISTER.ID Function"" vulnerability."
+CVE-2000-0638,HIGH,bb-hostsvc.sh in Big Brother 1.4h1 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack on the HOSTSVC parameter.
+CVE-2000-0639,HIGH,"The default configuration of Big Brother 1.4h2 and earlier does not include proper access restrictions, which allows remote attackers to execute arbitrary commands by using bbd to upload a file whose extension will cause it to be executed as a CGI script by the web server."
+CVE-2000-0640,HIGH,"Guild FTPd allows remote attackers to determine the existence of files outside the FTP root via a .. (dot dot) attack, which provides different error messages depending on whether the file exists or not."
+CVE-2000-0641,HIGH,Savant web server allows remote attackers to execute arbitrary commands via a long GET request.
+CVE-2000-0642,MEDIUM,"The default configuration of WebActive HTTP Server 1.00 stores the web access log active.log in the document root, which allows remote attackers to view the logs by directly requesting the page."
+CVE-2000-0643,MEDIUM,Buffer overflow in WebActive HTTP Server 1.00 allows remote attackers to cause a denial of service via a long URL.
+CVE-2000-0644,MEDIUM,WFTPD and WFTPD Pro 2.41 allows remote attackers to cause a denial of service by executing a STAT command while the LIST command is still executing.
+CVE-2000-0645,MEDIUM,"WFTPD and WFTPD Pro 2.41 allows remote attackers to cause a denial of service by using the RESTART (REST) command and writing beyond the end of a file, or writing to a file that does not exist, via commands such as STORE UNIQUE (STOU), STORE (STOR), or APPEND (APPE)."
+CVE-2000-0646,MEDIUM,WFTPD and WFTPD Pro 2.41 allows remote attackers to obtain the real pathname for a file by executing a STATUS (STAT) command while the file is being transferred.
+CVE-2000-0647,MEDIUM,WFTPD and WFTPD Pro 2.41 allows remote attackers to cause a denial of service by executing an MLST command before logging into the server.
+CVE-2000-0648,MEDIUM,WFTPD and WFTPD Pro 2.41 allows local users to cause a denial of service by executing the RENAME TO (RNTO) command before a RENAME FROM (RNFR) command.
+CVE-2000-0649,LOW,IIS 4.0 allows remote attackers to obtain the internal IP address of the server via an HTTP 1.0 request for a web page which is protected by basic authentication and has no realm defined.
+CVE-2000-0650,LOW,"The default installation of VirusScan 4.5 and NetShield 4.5 has insecure permissions for the registry key that identifies the AutoUpgrade directory, which allows local users to execute arbitrary commands by replacing SETUP.EXE in that directory with a Trojan Horse."
+CVE-2000-0651,HIGH,"The ClientTrust program in Novell BorderManager does not properly verify the origin of authentication requests, which could allow remote attackers to impersonate another user by replaying the authentication requests and responses from port 3024 of the victim's machine."
+CVE-2000-0652,MEDIUM,"IBM WebSphere allows remote attackers to read source code for executable web files by directly calling the default InvokerServlet using a URL which contains the ""/servlet/file"" string."
+CVE-2000-0653,MEDIUM,"Microsoft Outlook Express allows remote attackers to monitor a user's email by creating a persistent browser link to the Outlook Express windows, aka the ""Persistent Mail-Browser Link"" vulnerability."
+CVE-2000-0654,MEDIUM,"Microsoft Enterprise Manager allows local users to obtain database passwords via the Data Transformation Service (DTS) package Registered Servers Dialog dialog, aka a variant of the ""DTS Password"" vulnerability."
+CVE-2000-0655,MEDIUM,Netscape Communicator 4.73 and earlier allows remote attackers to cause a denial of service or execute arbitrary commands via a JPEG image containing a comment with an illegal field length of 1.
+CVE-2000-0656,MEDIUM,Buffer overflow in AnalogX proxy server 4.04 and earlier allows remote attackers to cause a denial of service via a long USER command in the FTP protocol.
+CVE-2000-0657,MEDIUM,Buffer overflow in AnalogX proxy server 4.04 and earlier allows remote attackers to cause a denial of service via a long HELO command in the SMTP protocol.
+CVE-2000-0658,MEDIUM,Buffer overflow in AnalogX proxy server 4.04 and earlier allows remote attackers to cause a denial of service via a long USER command in the POP3 protocol.
+CVE-2000-0659,MEDIUM,Buffer overflow in AnalogX proxy server 4.04 and earlier allows remote attackers to cause a denial of service via a long user ID in a SOCKS4 CONNECT request.
+CVE-2000-0660,MEDIUM,The WDaemon web server for WorldClient 2.1 allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0661,MEDIUM,WircSrv IRC Server 5.07s allows remote attackers to cause a denial of service via a long string to the server port.
+CVE-2000-0662,MEDIUM,Internet Explorer 5.x and Microsoft Outlook allows remote attackers to read arbitrary files by redirecting the contents of an IFRAME using the DHTML Edit Control (DHTMLED).
+CVE-2000-0663,MEDIUM,"The registry entry for the Windows Shell executable (Explorer.exe) in Windows NT and Windows 2000 uses a relative path name, which allows local users to execute arbitrary commands by inserting a Trojan Horse named Explorer.exe into the %Systemdrive% directory, aka the ""Relative Shell Path"" vulnerability."
+CVE-2000-0664,MEDIUM,AnalogX SimpleServer:WWW 1.06 and earlier allows remote attackers to read arbitrary files via a modified .. (dot dot) attack that uses the %2E URL encoding for the dots.
+CVE-2000-0665,MEDIUM,GAMSoft TelSrv telnet server 1.5 and earlier allows remote attackers to cause a denial of service via a long username.
+CVE-2000-0666,HIGH,"rpc.statd in the nfs-utils package in various Linux distributions does not properly cleanse untrusted format strings, which allows remote attackers to gain root privileges."
+CVE-2000-0667,LOW,Vulnerability in gpm in Caldera Linux allows local users to delete arbitrary files or conduct a denial of service.
+CVE-2000-0668,MEDIUM,pam_console PAM module in Linux systems allows a user to access the system console and reboot the system when a display manager such as gdm or kdm has XDMCP enabled.
+CVE-2000-0669,MEDIUM,Novell NetWare 5.0 allows remote attackers to cause a denial of service by flooding port 40193 with random data.
+CVE-2000-0670,HIGH,The cvsweb CGI script in CVSWeb 1.80 allows remote attackers with write access to a CVS repository to execute arbitrary commands via shell metacharacters.
+CVE-2000-0671,MEDIUM,"Roxen web server earlier than 2.0.69 allows allows remote attackers to bypass access restrictions, list directory contents, and read source code by inserting a null character (%00) to the URL."
+CVE-2000-0672,MEDIUM,"The default configuration of Jakarta Tomcat does not restrict access to the /admin context, which allows remote attackers to read arbitrary files by directly calling the administrative servlets to add a context for the root directory."
+CVE-2000-0673,MEDIUM,"The NetBIOS Name Server (NBNS) protocol does not perform authentication, which allows remote attackers to cause a denial of service by sending a spoofed Name Conflict or Name Release datagram, aka the ""NetBIOS Name Server Protocol Spoofing"" vulnerability."
+CVE-2000-0674,MEDIUM,ftp.pl CGI program for Virtual Visions FTP browser allows remote attackers to read directories outside of the document root via a .. (dot dot) attack.
+CVE-2000-0675,HIGH,Buffer overflow in Infopulse Gatekeeper 3.5 and earlier allows remote attackers to execute arbitrary commands via a long string.
+CVE-2000-0676,MEDIUM,"Netscape Communicator and Navigator 4.04 through 4.74 allows remote attackers to read arbitrary files by using a Java applet to open a connection to a URL using the ""file"", ""http"", ""https"", and ""ftp"" protocols, as demonstrated by Brown Orifice."
+CVE-2000-0677,HIGH,Buffer overflow in IBM Net.Data db2www CGI program allows remote attackers to execute arbitrary commands via a long PATH_INFO environmental variable.
+CVE-2000-0678,MEDIUM,"PGP 5.5.x through 6.5.3 does not properly check if an Additional Decryption Key (ADK) is stored in the signed portion of a public certificate, which allows an attacker who can modify a victim's public certificate to decrypt any data that has been encrypted with the modified certificate."
+CVE-2000-0679,LOW,"The CVS 1.10.8 client trusts pathnames that are provided by the CVS server, which allows the server to force the client to create arbitrary files."
+CVE-2000-0680,HIGH,"The CVS 1.10.8 server does not properly restrict users from creating arbitrary Checkin.prog or Update.prog programs, which allows remote CVS committers to modify or create Trojan horse programs with the Checkin.prog or Update.prog names, then performing a CVS commit action."
+CVE-2000-0681,HIGH,Buffer overflow in BEA WebLogic server proxy plugin allows remote attackers to execute arbitrary commands via a long URL with a .JSP extension.
+CVE-2000-0682,MEDIUM,"BEA WebLogic 5.1.x allows remote attackers to read source code for parsed pages by inserting /ConsoleHelp/ into the URL, which invokes the FileServlet."
+CVE-2000-0683,MEDIUM,"BEA WebLogic 5.1.x allows remote attackers to read source code for parsed pages by inserting /*.shtml/ into the URL, which invokes the SSIServlet."
+CVE-2000-0684,HIGH,"BEA WebLogic 5.1.x does not properly restrict access to the JSPServlet, which could allow remote attackers to compile and execute Java JSP code by directly invoking the servlet on any source file."
+CVE-2000-0685,HIGH,"BEA WebLogic 5.1.x does not properly restrict access to the PageCompileServlet, which could allow remote attackers to compile and execute Java JHTML code by directly invoking the servlet on any source file."
+CVE-2000-0686,MEDIUM,Auction Weaver CGI script 1.03 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack in the fromfile parameter.
+CVE-2000-0687,HIGH,Auction Weaver CGI script 1.03 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack in the catdir parameter.
+CVE-2000-0688,HIGH,"Subscribe Me LITE does not properly authenticate attempts to change the administrator password, which allows remote attackers to gain privileges for the Account Manager by directly calling the subscribe.pl script with the setpwd parameter."
+CVE-2000-0689,HIGH,"Account Manager LITE does not properly authenticate attempts to change the administrator password, which allows remote attackers to gain privileges for the Account Manager by directly calling the amadmin.pl script with the setpasswd parameter."
+CVE-2000-0690,HIGH,Auction Weaver CGI script 1.02 and earlier allows remote attackers to execute arbitrary commands via shell metacharacters in the fromfile parameter.
+CVE-2000-0691,LOW,The faxrunq and faxrunqd in the mgetty package allows local users to create or modify arbitrary files via a symlink attack which creates a symlink in from /var/spool/fax/outgoing/.last_run to the target file.
+CVE-2000-0692,MEDIUM,ISS RealSecure 3.2.1 and 3.2.2 allows remote attackers to cause a denial of service via a flood of fragmented packets with the SYN flag set.
+CVE-2000-0693,HIGH,"pgxconfig in the Raptor GFX configuration tool uses a relative path name for a system call to the ""cp"" program, which allows local users to execute arbitrary commands by modifying their path to point to an alternate ""cp"" program."
+CVE-2000-0694,HIGH,pgxconfig in the Raptor GFX configuration tool allows local users to gain privileges via a symlink attack.
+CVE-2000-0695,HIGH,Buffer overflows in pgxconfig in the Raptor GFX configuration tool allow local users to gain privileges via command line options.
+CVE-2000-0696,HIGH,"The administration interface for the dwhttpd web server in Solaris AnswerBook2 does not properly authenticate requests to its supporting CGI scripts, which allows remote attackers to add user accounts to the interface by directly calling the admin CGI script."
+CVE-2000-0697,HIGH,The administration interface for the dwhttpd web server in Solaris AnswerBook2 allows interface users to remotely execute commands via shell metacharacters.
+CVE-2000-0698,MEDIUM,Minicom 1.82.1 and earlier on some Linux systems allows local users to create arbitrary files owned by the uucp user via a symlink attack.
+CVE-2000-0699,HIGH,Format string vulnerability in ftpd in HP-UX 10.20 allows remote attackers to cause a denial of service or execute arbitrary commands via format strings in the PASS command.
+CVE-2000-0700,MEDIUM,"Cisco Gigabit Switch Routers (GSR) with Fast Ethernet / Gigabit Ethernet cards, from IOS versions 11.2(15)GS1A up to 11.2(19)GS0.2 and some versions of 12.0, do not properly handle line card failures, which allows remote attackers to bypass ACLs or force the interface to stop forwarding packets."
+CVE-2000-0701,MEDIUM,"The wrapper program in mailman 2.0beta3 and 2.0beta4 does not properly cleanse untrusted format strings, which allows local users to gain privileges."
+CVE-2000-0702,HIGH,The net.init rc script in HP-UX 11.00 (S008net.init) allows local users to overwrite arbitrary files via a symlink attack that points from /tmp/stcp.conf to the targeted file.
+CVE-2000-0703,HIGH,"suidperl (aka sperl) does not properly cleanse the escape sequence ""~!"" before calling /bin/mail to send an error report, which allows local users to gain privileges by setting the ""interactive"" environmental variable and calling suidperl with a filename that contains the escape sequence."
+CVE-2000-0704,HIGH,"Buffer overflow in SGI Omron WorldView Wnn allows remote attackers to execute arbitrary commands via long JS_OPEN, JS_MKDIR, or JS_FILE_INFO commands."
+CVE-2000-0705,MEDIUM,ntop running in web mode allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0706,HIGH,Buffer overflows in ntop running in web mode allows remote attackers to execute arbitrary commands.
+CVE-2000-0707,HIGH,"PCCS MySQLDatabase Admin Tool Manager 1.2.4 and earlier installs the file dbconnect.inc within the web root, which allows remote attackers to obtain sensitive information such as the administrative password."
+CVE-2000-0708,MEDIUM,Buffer overflow in Pragma Systems TelnetServer 2000 version 4.0 allows remote attackers to cause a denial of service via a long series of null characters to the rexec port.
+CVE-2000-0709,MEDIUM,The shtml.exe component of Microsoft FrontPage 2000 Server Extensions 1.1 allows remote attackers to cause a denial of service in some components by requesting a URL whose name includes a standard DOS device name.
+CVE-2000-0710,MEDIUM,The shtml.exe component of Microsoft FrontPage 2000 Server Extensions 1.1 allows remote attackers to determine the physical path of the server components by requesting an invalid URL whose name includes a standard DOS device name.
+CVE-2000-0711,HIGH,"Netscape Communicator does not properly prevent a ServerSocket object from being created by untrusted entities, which allows remote attackers to create a server on the victim's system via a malicious applet, as demonstrated by Brown Orifice."
+CVE-2000-0712,HIGH,Linux Intrusion Detection System (LIDS) 0.9.7 allows local users to gain root privileges when LIDS is disabled via the security=0 boot option.
+CVE-2000-0713,HIGH,"Buffer overflow in Adobe Acrobat 4.05, Reader, Business Tools, and Fill In products that handle PDF files allows attackers to execute arbitrary commands via a long /Registry or /Ordering specifier."
+CVE-2000-0714,HIGH,umb-scheme 3.2-11 for Red Hat Linux is installed with world-writeable files.
+CVE-2000-0715,LOW,DiskCheck script diskcheck.pl in Red Hat Linux 6.2 allows local users to create or overwrite arbitrary files via a symlink attack on a temporary file.
+CVE-2000-0716,LOW,"WorldClient email client in MDaemon 2.8 includes the session ID in the referer field of an HTTP request when the user clicks on a URL, which allows the visited web site to hijack the session ID and read the user's email."
+CVE-2000-0717,MEDIUM,GoodTech FTP server allows remote attackers to cause a denial of service via a large number of RNTO commands.
+CVE-2000-0718,LOW,A race condition in MandrakeUpdate allows local users to modify RPM files while they are in the /tmp directory before they are installed.
+CVE-2000-0719,MEDIUM,"VariCAD 7.0 is installed with world-writeable files, which allows local users to replace the VariCAD programs with a Trojan horse program."
+CVE-2000-0720,MEDIUM,"news.cgi in GWScripts News Publisher does not properly authenticate requests to add an author to the author index, which allows remote attackers to add new authors by directly posting an HTTP request to the new.cgi program with an addAuthor parameter, and setting the Referer to the news.cgi program."
+CVE-2000-0721,MEDIUM,"The FSserial, FlagShip_c, and FlagShip_p programs in the FlagShip package are installed world-writeable, which allows local users to replace them with Trojan horses."
+CVE-2000-0722,MEDIUM,Helix GNOME Updater helix-update 0.5 and earlier allows local users to install arbitrary RPM packages by creating the /tmp/helix-install installation directory before root has begun installing packages.
+CVE-2000-0723,LOW,"Helix GNOME Updater helix-update 0.5 and earlier does not properly create /tmp directories, which allows local users to create empty system configuration files such as /etc/config.d/bashrc, /etc/config.d/csh.cshrc, and /etc/rc.config."
+CVE-2000-0724,MEDIUM,"The go-gnome Helix GNOME pre-installer allows local users to overwrite arbitrary files via a symlink attack on various files in /tmp, including uudecode, snarf, and some installer files."
+CVE-2000-0725,HIGH,"Zope before 2.2.1 does not properly restrict access to the getRoles method, which allows users who can edit DTML to add or modify roles by modifying the roles list that is included in a request."
+CVE-2000-0726,LOW,CGIMail.exe CGI program in Stalkerlab Mailers 1.1.2 allows remote attackers to read arbitrary files by specifying the file in the $Attach$ hidden form variable.
+CVE-2000-0727,HIGH,"xpdf PDF viewer client earlier than 0.91 does not properly launch a web browser for embedded URL's, which allows an attacker to execute arbitrary commands via a URL that contains shell metacharacters."
+CVE-2000-0728,HIGH,xpdf PDF viewer client earlier than 0.91 allows local users to overwrite arbitrary files via a symlink attack.
+CVE-2000-0729,LOW,"FreeBSD 5.x, 4.x, and 3.x allows local users to cause a denial of service by executing a program with a malformed ELF image header."
+CVE-2000-0730,MEDIUM,Vulnerability in newgrp command in HP-UX 11.0 allows local users to gain privileges.
+CVE-2000-0731,MEDIUM,Directory traversal vulnerability in Worm HTTP server allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0732,MEDIUM,Worm HTTP server allows remote attackers to cause a denial of service via a long URL.
+CVE-2000-0733,HIGH,"Telnetd telnet server in IRIX 5.2 through 6.1 does not properly cleans user-injected format strings, which allows remote attackers to execute arbitrary commands via a long RLD variable in the IAC-SB-TELOPT_ENVIRON request."
+CVE-2000-0734,MEDIUM,eEye IRIS 1.01 beta allows remote attackers to cause a denial of service via a large number of UDP connections.
+CVE-2000-0735,MEDIUM,Buffer overflow in Becky! Internet Mail client 1.26.03 and earlier allows remote attackers to cause a denial of service via a long Content-type: MIME header when the user replies to a message.
+CVE-2000-0736,MEDIUM,Buffer overflow in Becky! Internet Mail client 1.26.04 and earlier allows remote attackers to cause a denial of service via a long Content-type: MIME header when the user forwards a message.
+CVE-2000-0737,MEDIUM,"The Service Control Manager (SCM) in Windows 2000 creates predictable named pipes, which allows a local user with console access to gain administrator privileges, aka the ""Service Control Manager Named Pipe Impersonation"" vulnerability."
+CVE-2000-0738,MEDIUM,"WebShield SMTP 4.5 allows remote attackers to cause a denial of service by sending e-mail with a From: address that has a . (period) at the end, which causes WebShield to continuously send itself copies of the e-mail."
+CVE-2000-0739,MEDIUM,Directory traversal vulnerability in strong.exe program in NAI Net Tools PKI server 1.0 before HotFix 3 allows remote attackers to read arbitrary files via a .. (dot dot) attack in an HTTPS request to the enrollment server.
+CVE-2000-0740,MEDIUM,Buffer overflow in strong.exe program in NAI Net Tools PKI server 1.0 before HotFix 3 allows remote attackers to execute arbitrary commands via a long URL in the HTTPS port.
+CVE-2000-0741,HIGH,Format string vulnerability in strong.exe program in NAI Net Tools PKI server 1.0 before HotFix 3 allows remote attackers to execute arbitrary code via format strings in a URL with a .XUDA extension.
+CVE-2000-0742,MEDIUM,"The IPX protocol implementation in Microsoft Windows 95 and 98 allows remote attackers to cause a denial of service by sending a ping packet with a source IP address that is a broadcast address, aka the ""Malformed IPX Ping Packet"" vulnerability."
+CVE-2000-0743,HIGH,Buffer overflow in University of Minnesota (UMN) gopherd 2.x allows remote attackers to execute arbitrary commands via a DES key generation request (GDESkey) that contains a long ticket value.
+CVE-2000-0744,HIGH,DEPRECATED.  This entry has been deprecated.  It is a duplicate of CVE-2000-0743.
+CVE-2000-0745,HIGH,"admin.php3 in PHP-Nuke does not properly verify the PHP-Nuke administrator password, which allows remote attackers to gain privileges by requesting a URL that does not specify the aid or pwd parameter."
+CVE-2000-0746,HIGH,"Vulnerabilities in IIS 4.0 and 5.0 do not properly protect against cross-site scripting (CSS) attacks.  They allow a malicious web site operator to embed scripts in a link to a trusted site, which are returned without quoting in an error message back to the client.  The client then executes those scripts in the same context as the trusted site, aka the ""IIS Cross-Site Scripting"" vulnerabilities."
+CVE-2000-0747,HIGH,The logrotate script for OpenLDAP before 1.2.11 in Conectiva Linux sends an improper signal to the kernel log daemon (klogd) and kills it.
+CVE-2000-0748,MEDIUM,"OpenLDAP 1.2.11 and earlier improperly installs the ud binary with group write permissions, which could allow any user in that group to replace the binary with a Trojan horse."
+CVE-2000-0749,HIGH,Buffer overflow in the Linux binary compatibility module in FreeBSD 3.x through 5.x allows local users to gain root privileges via long filenames in the linux shadow file system.
+CVE-2000-0750,HIGH,Buffer overflow in mopd (Maintenance Operations Protocol loader daemon) allows remote attackers to execute arbitrary commands via a long file name.
+CVE-2000-0751,HIGH,"mopd (Maintenance Operations Protocol loader daemon) does not properly cleanse user-injected format strings, which allows remote attackers to execute arbitrary commands."
+CVE-2000-0752,HIGH,Buffer overflows in brouted in FreeBSD and possibly other OSes allows local users to gain root privileges via long command line arguments.
+CVE-2000-0753,MEDIUM,The Microsoft Outlook mail client identifies the physical path of the sender's machine within a winmail.dat attachment to Rich Text Format (RTF) files.
+CVE-2000-0754,LOW,Vulnerability in HP OpenView Network Node Manager (NMM) version 6.1 related to passwords.
+CVE-2000-0755,MEDIUM,Vulnerability in the newgrp command in HP-UX 11.00 allows local users to gain privileges.
+CVE-2000-0756,MEDIUM,"Microsoft Outlook 2000 does not properly process long or malformed fields in vCard (.vcf) files, which allows attackers to cause a denial of service."
+CVE-2000-0757,HIGH,"The sysgen service in Aptis Totalbill does not perform authentication, which allows remote attackers to gain root privileges by connecting to the service and specifying the commands to be executed."
+CVE-2000-0758,MEDIUM,The web interface for Lyris List Manager 3 and 4 allows list subscribers to obtain administrative access by modifying the value of the list_admin hidden form field.
+CVE-2000-0759,MEDIUM,"Jakarta Tomcat 3.1 under Apache reveals physical path information when a remote attacker requests a URL that does not exist, which generates an error message that includes the physical path."
+CVE-2000-0760,MEDIUM,The Snoop servlet in Jakarta Tomcat 3.1 and 3.0 under Apache reveals sensitive system information when a remote attacker requests a nonexistent URL with a .snp extension.
+CVE-2000-0761,MEDIUM,OS2/Warp 4.5 FTP server allows remote attackers to cause a denial of service via a long username.
+CVE-2000-0762,HIGH,"The default installation of eTrust Access Control (formerly SeOS) uses a default encryption key, which allows remote attackers to spoof the eTrust administrator and gain privileges."
+CVE-2000-0763,HIGH,"xlockmore and xlockf do not properly cleanse user-injected format strings, which allows local users to gain root privileges via the -d option."
+CVE-2000-0764,MEDIUM,Intel Express 500 series switches allow a remote attacker to cause a denial of service via a malformed IP packet.
+CVE-2000-0765,MEDIUM,"Buffer overflow in the HTML interpreter in Microsoft Office 2000 allows an attacker to execute arbitrary commands via a long embedded object tag, aka the ""Microsoft Office HTML Object Tag"" vulnerability."
+CVE-2000-0766,HIGH,Buffer overflow in vqSoft vqServer 1.4.49 allows remote attackers to cause a denial of service or possibly gain privileges via a long HTTP GET request.
+CVE-2000-0767,LOW,"The ActiveX control for invoking a scriptlet in Internet Explorer 4.x and 5.x renders arbitrary file types instead of HTML, which allows an attacker to read arbitrary files, aka the ""Scriptlet Rendering"" vulnerability."
+CVE-2000-0768,LOW,"A function in Internet Explorer 4.x and 5.x does not properly verify the domain of a frame within a browser window, which allows a remote attacker to read client files, aka a variant of the ""Frame Domain Verification"" vulnerability."
+CVE-2000-0769,HIGH,"O'Reilly WebSite Pro 2.3.7 installs the uploader.exe program with execute permissions for all users, which allows remote attackers to create and execute arbitrary files by directly calling uploader.exe."
+CVE-2000-0770,MEDIUM,"IIS 4.0 and 5.0 does not properly restrict access to certain types of files when their parent folders have less restrictive permissions, which could allow remote attackers to bypass access restrictions to some files, aka the ""File Permission Canonicalization"" vulnerability."
+CVE-2000-0771,LOW,"Microsoft Windows 2000 allows local users to cause a denial of service by corrupting the local security policy via malformed RPC traffic, aka the ""Local Security Policy Corruption"" vulnerability."
+CVE-2000-0772,HIGH,"The installation of Tumbleweed Messaging Management System (MMS) 4.6 and earlier (formerly Worldtalk Worldsecure) creates a default account ""sa"" with no password."
+CVE-2000-0773,MEDIUM,"Bajie HTTP web server 0.30a allows remote attackers to read arbitrary files via a URL that contains a ""...."", a variant of the dot dot directory traversal attack."
+CVE-2000-0774,MEDIUM,"The sample Java servlet ""test"" in Bajie HTTP web server 0.30a reveals the real pathname of the web document root."
+CVE-2000-0775,HIGH,"Buffer overflow in RobTex Viking server earlier than 1.06-370 allows remote attackers to cause a denial of service or execute arbitrary commands via a long HTTP GET request, or long Unless-Modified-Since, If-Range, or If-Modified-Since headers."
+CVE-2000-0776,HIGH,Mediahouse Statistics Server 5.02x allows remote attackers to execute arbitrary commands via a long HTTP GET request.
+CVE-2000-0777,HIGH,"The password protection feature of Microsoft Money can store the password in plaintext, which allows attackers with physical access to the system to obtain the password, aka the ""Money Password"" vulnerability."
+CVE-2000-0778,MEDIUM,"IIS 5.0 allows remote attackers to obtain source code for .ASP files and other scripts via an HTTP GET request with a ""Translate: f"" header, aka the ""Specialized Header"" vulnerability."
+CVE-2000-0779,HIGH,Checkpoint Firewall-1 with the RSH/REXEC setting enabled allows remote attackers to bypass access restrictions and connect to a RSH/REXEC client via malformed connection requests.
+CVE-2000-0780,MEDIUM,The web server in IPSWITCH IMail 6.04 and earlier allows remote attackers to read and delete arbitrary files via a .. (dot dot) attack.
+CVE-2000-0781,HIGH,"uagentsetup in ARCServeIT Client Agent 6.62 does not properly check for the existence or ownership of a temporary file which is moved to the agent.cfg configuration file, which allows local users to execute arbitrary commands by modifying the temporary file before it is moved."
+CVE-2000-0782,MEDIUM,netauth.cgi program in Netwin Netauth 4.2e and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0783,MEDIUM,Watchguard Firebox II allows remote attackers to cause a denial of service by sending a malformed URL to the authentication service on port 4100.
+CVE-2000-0784,HIGH,"sshd program in the Rapidstream 2.1 Beta VPN appliance has a hard-coded ""rsadmin"" account with a null password, which allows remote attackers to execute arbitrary commands via ssh."
+CVE-2000-0785,MEDIUM,"WircSrv IRC Server 5.07s allows IRC operators to read arbitrary files via the importmotd command, which sets the Message of the Day (MOTD) to the specified file."
+CVE-2000-0786,MEDIUM,"GNU userv 1.0.0 and earlier does not properly perform file descriptor swapping, which can corrupt the USERV_GROUPS and USERV_GIDS environmental variables and allow local users to bypass some access restrictions."
+CVE-2000-0787,HIGH,IRC Xchat client versions 1.4.2 and earlier allows remote attackers to execute arbitrary commands by encoding shell metacharacters into a URL which XChat uses to launch a web browser.
+CVE-2000-0788,HIGH,"The Mail Merge tool in Microsoft Word does not prompt the user before executing Visual Basic (VBA) scripts in an Access database, which could allow an attacker to execute arbitrary commands."
+CVE-2000-0789,MEDIUM,"WinU 5.x and earlier uses weak encryption to store its configuration password, which allows local users to decrypt the password and gain privileges."
+CVE-2000-0790,MEDIUM,The web-based folder display capability in Microsoft Internet Explorer 5.5 on Windows 98 allows local users to insert Trojan horse programs by modifying the Folder.htt file and using the InvokeVerb method in the ShellDefView ActiveX control to specify a default execute option for the first file that is listed in the folder.
+CVE-2000-0791,MEDIUM,"Trustix installs the httpsd program for Apache-SSL with world-writeable permissions, which allows local users to replace it with a Trojan horse."
+CVE-2000-0792,HIGH,"Gnome Lokkit firewall package before 0.41 does not properly restrict access to some ports, even if a user does not make any services available."
+CVE-2000-0793,HIGH,Norton AntiVirus 5.00.01C with the Novell Netware client does not properly restart the auto-protection service after the first user has logged off of the system.
+CVE-2000-0794,HIGH,Buffer overflow in IRIX libgl.so library allows local users to gain root privileges via a long HOME variable to programs such as (1) gmemusage and (2) gr_osview.
+CVE-2000-0795,HIGH,Buffer overflow in lpstat in IRIX 6.2 and 6.3 allows local users to gain root privileges via a long -n option.
+CVE-2000-0796,HIGH,Buffer overflow in dmplay in IRIX 6.2 and 6.3 allows local users to gain root privileges via a long command line option.
+CVE-2000-0797,HIGH,Buffer overflow in gr_osview in IRIX 6.2 and 6.3 allows local users to gain privileges via a long -D option.
+CVE-2000-0798,HIGH,"The truncate function in IRIX 6.x does not properly check for privileges when the file is in the xfs file system, which allows local users to delete the contents of arbitrary files."
+CVE-2000-0799,LOW,inpview in InPerson in SGI IRIX 5.3 through IRIX 6.5.10 allows local users to gain privileges via a symlink attack on the .ilmpAAA temporary file.
+CVE-2000-0800,HIGH,String parsing error in rpc.kstatd in the linuxnfs or knfsd packages in SuSE and possibly other Linux systems allows remote attackers to gain root privileges.
+CVE-2000-0801,HIGH,Buffer overflow in bdf program in HP-UX 11.00 may allow local users to gain root privileges via a long -t option.
+CVE-2000-0802,LOW,"The BAIR program does not properly restrict access to the Internet Explorer Internet options menu, which allows local users to obtain access to the menu by modifying the registry key that starts BAIR."
+CVE-2000-0803,HIGH,"GNU Groff uses the current working directory to find a device description file, which allows a local user to gain additional privileges by including a malicious postpro directive in the description file, which is executed when another user runs groff."
+CVE-2000-0804,HIGH,"Check Point VPN-1/FireWall-1 4.1 and earlier allows remote attackers to bypass the directionality check via fragmented TCP connection requests or reopening closed TCP connection requests, aka ""One-way Connection Enforcement Bypass."""
+CVE-2000-0805,HIGH,"Check Point VPN-1/FireWall-1 4.1 and earlier improperly retransmits encapsulated FWS packets, even if they do not come from a valid FWZ client, aka ""Retransmission of Encapsulated Packets."""
+CVE-2000-0806,MEDIUM,"The inter-module authentication mechanism (fwa1) in Check Point VPN-1/FireWall-1 4.1 and earlier may allow remote attackers to conduct a denial of service, aka ""Inter-module Communications Bypass."""
+CVE-2000-0807,HIGH,"The OPSEC communications authentication mechanism (fwn1) in Check Point VPN-1/FireWall-1 4.1 and earlier allows remote attackers to spoof connections, aka the ""OPSEC Authentication Vulnerability."""
+CVE-2000-0808,HIGH,"The seed generation mechanism in the inter-module S/Key authentication mechanism in Check Point VPN-1/FireWall-1 4.1 and earlier allows remote attackers to bypass authentication via a brute force attack, aka ""One-time (s/key) Password Authentication."""
+CVE-2000-0809,MEDIUM,Buffer overflow in Getkey in the protocol checker in the inter-module communication mechanism in Check Point VPN-1/FireWall-1 4.1 and earlier allows remote attackers to cause a denial of service.
+CVE-2000-0810,HIGH,"Auction Weaver 1.0 through 1.04 does not properly validate the names of form fields, which allows remote attackers to delete arbitrary files and directories via a .. (dot dot) attack."
+CVE-2000-0811,MEDIUM,Auction Weaver 1.0 through 1.04 allows remote attackers to read arbitrary files via a .. (dot dot) attack on the username or bidfile form fields.
+CVE-2000-0812,HIGH,The administration module in Sun Java web server allows remote attackers to execute arbitrary commands by uploading Java code to the module and invoke the com.sun.server.http.pagecompile.jsp92.JspServlet by requesting a URL that begins with a /servlet/ tag.
+CVE-2000-0813,MEDIUM,"Check Point VPN-1/FireWall-1 4.1 and earlier allows remote attackers to redirect FTP connections to other servers (""FTP Bounce"") via invalid FTP commands that are processed improperly by FireWall-1, aka ""FTP Connection Enforcement Bypass."""
+CVE-2000-0816,LOW,Linux tmpwatch --fuser option allows local users to execute arbitrary commands by creating files whose names contain shell metacharacters.
+CVE-2000-0817,HIGH,"Buffer overflow in the HTTP protocol parser for Microsoft Network Monitor (Netmon) allows remote attackers to execute arbitrary commands via malformed data, aka the ""Netmon Protocol Parsing"" vulnerability."
+CVE-2000-0818,HIGH,"The default installation for the Oracle listener program 7.3.4, 8.0.6, and 8.1.6 allows an attacker to cause logging information to be appended to arbitrary files and execute commands via the SET TRC_FILE or SET LOG_FILE commands."
+CVE-2000-0824,HIGH,"The unsetenv function in glibc 2.1.1 does not properly unset an environmental variable if the variable is provided twice to a program, which could allow local users to execute arbitrary commands in setuid programs by specifying their own duplicate environmental variables such as LD_PRELOAD or LD_LIBRARY_PATH."
+CVE-2000-0825,MEDIUM,"Ipswitch Imail 6.0 allows remote attackers to cause a denial of service via a large number of connections in which a long Host: header is sent, which causes a thread to crash."
+CVE-2000-0826,HIGH,Buffer overflow in ddicgi.exe program in Mobius DocumentDirect for the Internet 1.2 allows remote attackers to execute arbitrary commands via a long GET request.
+CVE-2000-0827,HIGH,Buffer overflow in the web authorization form of Mobius DocumentDirect for the Internet 1.2 allows remote attackers to cause a denial of service or execute arbitrary commands via a long username.
+CVE-2000-0828,HIGH,Buffer overflow in ddicgi.exe in Mobius DocumentDirect for the Internet 1.2 allows remote attackers to execute arbitrary commands via a long User-Agent parameter.
+CVE-2000-0829,LOW,"The tmpwatch utility in Red Hat Linux forks a new process for each directory level, which allows local users to cause a denial of service by creating deeply nested directories in /tmp or /var/tmp/."
+CVE-2000-0830,MEDIUM,"annclist.exe in webTV for Windows allows remote attackers to cause a denial of service by via a large, malformed UDP packet to ports 22701 through 22705."
+CVE-2000-0831,HIGH,Buffer overflow in Fastream FTP++ 2.0 allows remote attackers to cause a denial of service and possibly execute arbitrary commands via a long username.
+CVE-2000-0832,MEDIUM,Htgrep CGI program allows remote attackers to read arbitrary files by specifying the full pathname in the hdr parameter.
+CVE-2000-0833,HIGH,Buffer overflow in WinSMTP 1.06f and 2.X allows remote attackers to cause a denial of service via a long (1) USER or (2) HELO command.
+CVE-2000-0834,HIGH,"The Windows 2000 telnet client attempts to perform NTLM authentication by default, which allows remote attackers to capture and replay the NTLM challenge/response via a telnet:// URL that points to the malicious server, aka the ""Windows 2000 Telnet Client NTLM Authentication"" vulnerability."
+CVE-2000-0835,MEDIUM,search.dll Sambar ISAPI Search utility in Sambar Server 4.4 Beta 3 allows remote attackers to read arbitrary directories by specifying the directory in the query parameter.
+CVE-2000-0836,HIGH,Buffer overflow in CamShot WebCam Trial2.6 allows remote attackers to execute arbitrary commands via a long Authorization header.
+CVE-2000-0837,MEDIUM,FTP Serv-U 2.5e allows remote attackers to cause a denial of service by sending a large number of null bytes.
+CVE-2000-0838,MEDIUM,Fastream FUR HTTP server 1.0b allows remote attackers to cause a denial of service via a long GET request.
+CVE-2000-0839,MEDIUM,WinCOM LPD 1.00.90 allows remote attackers to cause a denial of service via a large number of LPD options to the LPD port (515).
+CVE-2000-0840,HIGH,Buffer overflow in XMail POP3 server before version 0.59 allows remote attackers to execute arbitrary commands via a long USER command.
+CVE-2000-0841,HIGH,Buffer overflow in XMail POP3 server before version 0.59 allows remote attackers to execute arbitrary commands via a long APOP command.
+CVE-2000-0842,MEDIUM,"The search97cgi/vtopic"" in the UnixWare 7 scohelphttp webserver allows remote attackers to read arbitrary files via a .. (dot dot) attack."
+CVE-2000-0843,HIGH,Buffer overflow in pam_smb and pam_ntdom pluggable authentication modules (PAM) allow remote attackers to execute arbitrary commands via a login with a long user name.
+CVE-2000-0844,HIGH,"Some functions that implement the locale subsystem on Unix do not  properly cleanse user-injected format strings, which allows local attackers to execute arbitrary commands via functions such as gettext and catopen."
+CVE-2000-0845,MEDIUM,kdebug daemon (kdebugd) in Digital Unix 4.0F allows remote attackers to read arbitrary files by specifying the full file name in the initialization packet.
+CVE-2000-0846,HIGH,Buffer overflow in Darxite 0.4 and earlier allows a remote attacker to execute arbitrary commands via a long username or password.
+CVE-2000-0847,HIGH,Buffer overflow in University of Washington c-client library (used by pine and other programs) allows remote attackers to execute arbitrary commands via a long X-Keywords header.
+CVE-2000-0848,HIGH,Buffer overflow in IBM WebSphere web application server (WAS) allows remote attackers to execute arbitrary commands via a long Host:  request header.
+CVE-2000-0849,LOW,"Race condition in Microsoft Windows Media server allows remote attackers to cause a denial of service in the Windows Media Unicast Service via a malformed request, aka the ""Unicast Service Race Condition"" vulnerability."
+CVE-2000-0850,HIGH,"Netegrity SiteMinder before 4.11 allows remote attackers to bypass its authentication mechanism by appending ""$/FILENAME.ext"" (where ext is .ccc, .class, or .jpg) to the requested URL."
+CVE-2000-0851,MEDIUM,"Buffer overflow in the Still Image Service in Windows 2000 allows local users to gain additional privileges via a long WM_USER message, aka the ""Still Image Service Privilege Escalation"" vulnerability."
+CVE-2000-0852,HIGH,Multiple buffer overflows in eject on FreeBSD and possibly other OSes allows local users to gain root privileges.
+CVE-2000-0853,MEDIUM,YaBB Bulletin Board 9.1.2000 allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0854,HIGH,"When a Microsoft Office 2000 document is launched, the directory of that document is first used to locate DLL's such as riched20.dll and msi.dll, which could allow an attacker to execute arbitrary commands by inserting a Trojan Horse DLL into the same directory as the document."
+CVE-2000-0855,MEDIUM,SunFTP build 9(1) allows remote attackers to cause a denial of service by connecting to the server and disconnecting before sending a newline.
+CVE-2000-0856,HIGH,Buffer overflow in SunFTP build 9(1) allows remote attackers to cause a denial of service or possibly execute arbitrary commands via a long GET request.
+CVE-2000-0857,HIGH,"The logging capability in muh 2.05d IRC server does not properly cleanse user-injected format strings, which allows remote attackers to cause a denial of service or execute arbitrary commands via a malformed nickname."
+CVE-2000-0858,MEDIUM,"Vulnerability in Microsoft Windows NT 4.0 allows remote attackers to cause a denial of service in IIS by sending it a series of malformed requests which cause INETINFO.EXE to fail, aka the ""Invalid URL"" vulnerability."
+CVE-2000-0859,MEDIUM,The web configuration server for NTMail V5 and V6 allows remote attackers to cause a denial of service via a series of partial HTTP requests.
+CVE-2000-0860,MEDIUM,The file upload capability in PHP versions 3 and 4 allows remote attackers to read arbitrary files by setting hidden form fields whose names match the names of internal PHP script variables.
+CVE-2000-0861,HIGH,Mailman 1.1 allows list administrators to execute arbitrary commands via shell metacharacters in the %(listname) macro expansion.
+CVE-2000-0862,MEDIUM,Vulnerability in an administrative interface utility for Allaire Spectra 1.0.1 allows remote attackers to read and modify sensitive configuration information.
+CVE-2000-0863,HIGH,Buffer overflow in listmanager earlier than 2.105.1 allows local users to gain additional privileges.
+CVE-2000-0864,MEDIUM,"Race condition in the creation of a Unix domain socket in GNOME esound 0.2.19 and earlier allows a local user to change the permissions of arbitrary files and directories, and gain additional privileges, via a  symlink attack."
+CVE-2000-0865,HIGH,Buffer overflow in dvtermtype in Tridia Double Vision 3.07.00 allows local users to gain root privileges via a long terminal type argument.
+CVE-2000-0866,LOW,Interbase 6 SuperServer for Linux allows an attacker to cause a denial of service via a query containing 0 bytes.
+CVE-2000-0867,HIGH,"Kernel logging daemon (klogd) in Linux does not properly cleanse user-injected format strings, which allows local users to gain root privileges by triggering malformed kernel messages."
+CVE-2000-0868,MEDIUM,The default configuration of Apache 1.3.12 in SuSE Linux 6.4 allows remote attackers to read source code for CGI scripts by replacing the /cgi-bin/ in the requested URL with /cgi-bin-sdb/.
+CVE-2000-0869,MEDIUM,"The default configuration of Apache 1.3.12 in SuSE Linux 6.4 enables WebDAV, which allows remote attackers to list arbitrary directories via the PROPFIND HTTP request method."
+CVE-2000-0870,HIGH,Buffer overflow in EFTP allows remote attackers to cause a denial of service via a long string.
+CVE-2000-0871,MEDIUM,"Buffer overflow in EFTP allows remote attackers to cause a denial of service by sending a string that does not contain a newline, then disconnecting from the server."
+CVE-2000-0872,MEDIUM,explorer.php in PhotoAlbum 0.9.9 allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0873,LOW,"netstat in AIX 4.x.x does not properly restrict access to the -Zi option, which allows local users to clear network interface statistics and possibly hide evidence of unusual network activities."
+CVE-2000-0874,MEDIUM,Eudora mail client includes the absolute path of the sender's host within a virtual card (VCF).
+CVE-2000-0875,MEDIUM,WFTPD and WFTPD Pro 2.41 RC12 allows remote attackers to cause a denial of service by sending a long string of unprintable characters.
+CVE-2000-0876,MEDIUM,"WFTPD and WFTPD Pro 2.41 RC12 allows remote attackers to obtain the  full pathname of the server via a ""%C"" command, which generates an error message that includes the pathname."
+CVE-2000-0877,MEDIUM,"mailform.pl CGI script in MailForm 2.0 allows remote attackers to read arbitrary files by specifying the file name in the XX-attach_file parameter, which MailForm then sends to the attacker."
+CVE-2000-0878,HIGH,The mailto CGI script allows remote attacker to execute arbitrary commands via shell metacharacters in the emailadd form field.
+CVE-2000-0879,LOW,"LPPlus programs dccsched, dcclpdser, dccbkst, dccshut, dcclpdshut, and dccbkstshut are installed setuid root and world executable, which allows arbitrary local users to start and stop various LPD services."
+CVE-2000-0880,LOW,"LPPlus creates the lpdprocess file with world-writeable permissions, which allows local users to kill arbitrary processes by specifying an alternate process ID and using the setuid dcclpdshut program to kill the process that was specified in the lpdprocess file."
+CVE-2000-0881,LOW,"The dccscan setuid program in LPPlus does not properly check if the user has the permissions to print the file that is specified to dccscan, which allows local users to print arbitrary files."
+CVE-2000-0882,MEDIUM,"Intel Express 500 series switches allow a remote attacker to cause a denial of service via a malformed ICMP packet, which causes the CPU to crash."
+CVE-2000-0883,MEDIUM,"The default configuration of mod_perl for Apache as installed on Mandrake Linux 6.1 through 7.1 sets the /perl/ directory to be browseable, which allows remote attackers to list the contents of that directory."
+CVE-2000-0884,HIGH,"IIS 4.0 and 5.0 allows remote attackers to read documents outside of the web root, and possibly execute arbitrary commands, via malformed URLs that contain UNICODE encoded characters, aka the ""Web Server Folder Traversal"" vulnerability."
+CVE-2000-0885,HIGH,"Buffer overflows in Microsoft Network Monitor (Netmon) allow remote attackers to execute arbitrary commands via a long Browser Name in a CIFS Browse Frame, a long SNMP community name, or a long username or filename in an SMB session, aka the ""Netmon Protocol Parsing"" vulnerability.  NOTE: It is highly likely that this candidate will be split into multiple candidates."
+CVE-2000-0886,HIGH,"IIS 5.0 allows remote attackers to execute arbitrary commands via a malformed request for an executable file whose name is appended with operating system commands, aka the ""Web Server File Request Parsing"" vulnerability."
+CVE-2000-0887,MEDIUM,"named in BIND 8.2 through 8.2.2-P6 allows remote attackers to cause a denial of service by making a compressed zone transfer (ZXFR) request and performing a name service query on an authoritative record that is not cached, aka the ""zxfr bug."""
+CVE-2000-0888,MEDIUM,"named in BIND 8.2 through 8.2.2-P6 allows remote attackers to cause a denial of service by sending an SRV record to the server, aka the ""srv bug."""
+CVE-2000-0889,MEDIUM,"Two Sun security certificates have been compromised, which could allow attackers to insert malicious code such as applets and make it appear that it is signed by Sun."
+CVE-2000-0890,LOW,"periodic in FreeBSD 4.1.1 and earlier, and possibly other operating systems, allows local users to overwrite arbitrary files via a symlink attack."
+CVE-2000-0891,HIGH,A default ECL in Lotus Notes before 5.02 allows remote attackers to execute arbitrary commands by attaching a malicious program in an email message that is automatically executed when the user opens the email.
+CVE-2000-0892,LOW,"Some telnet clients allow remote telnet servers to request environment variables from the client that may contain sensitive information, or remote web servers to obtain the information via a telnet: URL."
+CVE-2000-0893,MEDIUM,The presence of the Distributed GL Daemon (dgld) service on port 5232 on SGI IRIX systems allows remote attackers to identify the target host as an SGI system.
+CVE-2000-0894,HIGH,"HTTP server on the WatchGuard SOHO firewall does not properly restrict access to administrative functions such as password resets or rebooting, which allows attackers to cause a denial of service or conduct unauthorized activities."
+CVE-2000-0895,HIGH,Buffer overflow in HTTP server on the WatchGuard SOHO firewall allows remote attackers to cause a denial of service and possibly execute arbitrary code via a long GET request.
+CVE-2000-0896,MEDIUM,"WatchGuard SOHO firewall allows remote attackers to cause a denial of service via a flood of fragmented IP packets, which causes the firewall to drop connections and stop forwarding packets."
+CVE-2000-0897,MEDIUM,"Small HTTP Server 2.03 and earlier allows remote attackers to cause a denial of service by repeatedly requesting a URL that references a directory that does not contain an index.html file, which consumes memory that is not released after the request is completed."
+CVE-2000-0898,MEDIUM,"Small HTTP Server 2.01 does not properly process Server Side Includes (SSI) tags that contain null values, which allows local users, and possibly remote attackers, to cause the server to crash by inserting the SSI into an HTML file."
+CVE-2000-0899,MEDIUM,"Small HTTP Server 2.01 allows remote attackers to cause a denial of service by connecting to the server and sending out multiple GET, HEAD, or POST requests and closing the connection before the server responds to the requests."
+CVE-2000-0900,HIGH,"Directory traversal vulnerability in ssi CGI program in thttpd 2.19 and earlier allows remote attackers to read arbitrary files via a ""%2e%2e"" string, a variation of the .. (dot dot) attack."
+CVE-2000-0901,MEDIUM,Format string vulnerability in screen 3.9.5 and earlier allows local users to gain root privileges via format characters in the vbell_msg initialization variable.
+CVE-2000-0902,MEDIUM,getalbum.php in PhotoAlbum before 0.9.9 allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0903,MEDIUM,Directory traversal vulnerability in Voyager web server 2.01B in the demo disks for QNX 405 allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0904,MEDIUM,"Voyager web server 2.01B in the demo disks for QNX 405 stores sensitive web client information in the .photon directory in the web document root, which allows remote attackers to obtain that information."
+CVE-2000-0905,MEDIUM,QNX Embedded Resource Manager in Voyager web server 2.01B in the demo disks for QNX 405 allows remote attackers to read sensitive system statistics information via the embedded.html web page.
+CVE-2000-0906,MEDIUM,Directory traversal vulnerability in Moreover.com cached_feed.cgi script version 4.July.00 allows remote attackers to read arbitrary files via a .. (dot dot) attack on the category or format parameters.
+CVE-2000-0907,HIGH,EServ 2.92 Build 2982 allows remote attackers to cause a denial of service and possibly execute arbitrary commands via long HELO and MAIL FROM commands.
+CVE-2000-0908,MEDIUM,BrowseGate 2.80 allows remote attackers to cause a denial of service and possibly execute arbitrary commands via long Authorization or Referer MIME headers in the HTTP request.
+CVE-2000-0909,HIGH,Buffer overflow in the automatic mail checking component of Pine 4.21 and earlier allows remote attackers to execute arbitrary commands via a long From: header.
+CVE-2000-0910,MEDIUM,"Horde library 1.02 allows attackers to execute arbitrary commands via shell metacharacters in the ""from"" address."
+CVE-2000-0911,MEDIUM,"IMP 2.2 and earlier allows attackers to read and delete arbitrary files by modifying the attachment_name hidden form variable, which causes IMP to send the file to the attacker as an attachment."
+CVE-2000-0912,MEDIUM,"MultiHTML CGI script allows remote attackers to read arbitrary files and possibly execute arbitrary commands by specifying the file name to the ""multi"" parameter."
+CVE-2000-0913,MEDIUM,mod_rewrite in Apache 1.3.12 and earlier allows remote attackers to read arbitrary files if a RewriteRule directive is expanded to include a filename whose name contains a regular expression.
+CVE-2000-0914,MEDIUM,OpenBSD 2.6 and earlier allows remote attackers to cause a denial of service by flooding the server with ARP requests.
+CVE-2000-0915,MEDIUM,fingerd in FreeBSD 4.1.1 allows remote attackers to read arbitrary files by specifying the target file name instead of a regular user name.
+CVE-2000-0916,HIGH,"FreeBSD 4.1.1 and earlier, and possibly other BSD-based OSes, uses an insufficient random number generator to generate initial TCP sequence numbers (ISN), which allows remote attackers to spoof TCP connections."
+CVE-2000-0917,HIGH,Format string vulnerability in use_syslog() function in LPRng 3.6.24 allows remote attackers to execute arbitrary commands.
+CVE-2000-0918,HIGH,Format string vulnerability in kvt in KDE 1.1.2 may allow local users to execute arbitrary commands via a DISPLAY environmental variable that contains formatting characters.
+CVE-2000-0919,MEDIUM,Directory traversal vulnerability in PHPix Photo Album 1.0.2 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-2000-0920,MEDIUM,"Directory traversal vulnerability in BOA web server 0.94.8.2 and earlier allows remote attackers to read arbitrary files via a modified .. (dot dot) attack in the GET HTTP request that uses a ""%2E"" instead of a ""."""
+CVE-2000-0921,MEDIUM,Directory traversal vulnerability in Hassan Consulting shop.cgi shopping cart program allows remote attackers to read arbitrary files via a .. (dot dot) attack on the page parameter.
+CVE-2000-0922,MEDIUM,Directory traversal vulnerability in Bytes Interactive Web Shopper shopping cart program (shopper.cgi) 2.0 and earlier allows remote attackers to read arbitrary files via a .. (dot dot) attack on the newpage parameter.
+CVE-2000-0923,HIGH,authenticate.cgi CGI program in Aplio PRO allows remote attackers to execute arbitrary commands via shell metacharacters in the password parameter.
+CVE-2000-0924,MEDIUM,"Directory traversal vulnerability in search.cgi CGI script in Armada Master Index allows remote attackers to read arbitrary files via a .. (dot dot) attack in the ""catigory"" parameter."
+CVE-2000-0925,MEDIUM,"The default installation of SmartWin CyberOffice Shopping Cart 2 (aka CyberShop) installs the _private directory with world readable permissions, which allows remote attackers to obtain sensitive information."
+CVE-2000-0926,HIGH,"SmartWin CyberOffice Shopping Cart 2 (aka CyberShop) allows remote attackers to modify price information by changing the ""Price"" hidden form variable."
+CVE-2000-0927,MEDIUM,"WQuinn QuotaAdvisor 4.1 does not properly record file sizes if they are stored in alternative data streams, which allows users to bypass quota restrictions."
+CVE-2000-0928,LOW,WQuinn QuotaAdvisor 4.1 allows users to list directories and files by running a report on the targeted shares.
+CVE-2000-0929,MEDIUM,"Microsoft Windows Media Player 7 allows attackers to cause a denial of service in RTF-enabled email clients via an embedded OCX control that is not closed properly, aka the ""OCX Attachment"" vulnerability."
+CVE-2000-0930,MEDIUM,Pegasus Mail 3.12 allows remote attackers to read arbitrary files via an embedded URL that calls the mailto: protocol with a -F switch.
+CVE-2000-0931,HIGH,Buffer overflow in Pegasus Mail 3.11 allows remote attackers to cause a denial of service and possibly execute arbitrary commands via a long email message containing binary data.
+CVE-2000-0932,MEDIUM,"MAILsweeper for SMTP 3.x does not properly handle corrupt CDA documents in a ZIP file and hangs, which allows remote attackers to cause a denial of service."
+CVE-2000-0933,MEDIUM,"The Input Method Editor (IME) in the Simplified Chinese version of Windows 2000 does not disable access to privileged functionality that should normally be restricted, which allows local users to gain privileges, aka the ""Simplified Chinese IME State Recognition"" vulnerability."
+CVE-2000-0934,HIGH,Glint in Red Hat Linux 5.2 allows local users to overwrite arbitrary files and cause a denial of service via a symlink attack.
+CVE-2000-0935,HIGH,Samba Web Administration Tool (SWAT) in Samba 2.0.7 allows local users to overwrite arbitrary files via a symlink attack on the cgi.log file.
+CVE-2000-0936,LOW,"Samba Web Administration Tool (SWAT) in Samba 2.0.7 installs the cgi.log logging file with world readable permissions, which allows local users to read sensitive information such as user names and passwords."
+CVE-2000-0937,HIGH,"Samba Web Administration Tool (SWAT) in Samba 2.0.7 does not log login attempts in which the username is correct but the password is wrong, which allows remote attackers to conduct brute force password guessing attacks."
+CVE-2000-0938,MEDIUM,"Samba Web Administration Tool (SWAT) in Samba 2.0.7 supplies a different error message when a valid username is provided versus an invalid name, which allows remote attackers to identify valid users on the server."
+CVE-2000-0939,MEDIUM,Samba Web Administration Tool (SWAT) in Samba 2.0.7 allows remote attackers to cause a denial of service by repeatedly submitting a nonstandard URL in the GET HTTP request and forcing it to restart.
+CVE-2000-0940,MEDIUM,"Directory traversal vulnerability in Metertek pagelog.cgi allows remote attackers to read arbitrary files via a .. (dot dot) attack on the ""name"" or ""display"" parameter."
+CVE-2000-0941,HIGH,"Kootenay Web KW Whois 1.0 CGI program allows remote attackers to execute arbitrary commands via shell metacharacters in the ""whois"" parameter."
+CVE-2000-0942,MEDIUM,"The CiWebHitsFile component in Microsoft Indexing Services for Windows 2000 allows remote attackers to conduct a cross site scripting (CSS) attack via a CiRestriction parameter in a .htw request, aka the ""Indexing Services Cross Site Scripting"" vulnerability."

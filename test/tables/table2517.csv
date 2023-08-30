@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Exposure is eliminated in Managed Workplace 6.0 Service Pack 3. This Service Pack is currently in Beta and will be generally available within the next 20 days."
+CVE-2008-0674,Red Hat,2008-02-20,Mark J Cox,"Not vulnerable. This issue did not affect the versions of PCRE as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-0758,Group Logic,2008-02-21,,"Group Logic has fixed this issue in the ExtremeZ-IP 5.1.3x03 hotfix released on February 20, 2008. The update is free for all customers with active service contracts who own a version 5.x license and can be downloaded from http://www.grouplogic.com/files/ez/hot/hotFix51.cfm"
+CVE-2008-0759,Group Logic,2008-02-21,,"Group Logic has fixed this issue in the ExtremeZ-IP 5.1.3x03 hotfix released on February 20, 2008. The update is free for all customers with active service contracts who own a version 5.x license and can be downloaded from http://www.grouplogic.com/files/ez/hot/hotFix51.cfm"
+CVE-2008-0766,"Brooks Internet Software, Inc.",2008-02-15,,RPM Remote Print Manager version 4.5.1.12 resolves the issue found in this security advisory. The latest software can be downloaded from http://lpd.brooksnet.com.
+CVE-2008-0767,Group Logic,2008-02-21,,"Group Logic has fixed this issue in the ExtremeZ-IP 5.1.3x03 hotfix released on February 20, 2008. The update is free for all customers with active service contracts who own a version 5.x license and can be downloaded from http://www.grouplogic.com/files/ez/hot/hotFix51.cfm"
+CVE-2008-0883,Red Hat,2008-03-06,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: 
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-0883
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2008-0891,Red Hat,2008-05-30,Mark J Cox,"Not vulnerable. This issue did not affect the versions of OpenSSL as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-0973,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0974,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0975,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0976,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0977,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0978,Double-Take,2009-06-12,Double-Take,"These findings indicate risk only in a situation where a customer’s network security infrastructure has been breached. Double-Take is committed to continually improving the security of our products, and these findings will be addressed in a future release."
+CVE-2008-0979,Double-Take,2009-05-08,,"This issue was fixed in version 5.1 which was released July  11, 2008"
+CVE-2008-0992,Red Hat,2008-03-20,Mark J Cox,"Not vulnerable. This issue did not affect versions of pax as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1026,Red Hat,2008-04-24,Mark J Cox,"Not vulnerable. This issue did not affect versions of pcre as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1033,Red Hat,2008-06-03,Mark J Cox,"Not vulnerable. This issue did not affect the versions of cups as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2008-1070,Red Hat,2008-10-17,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"

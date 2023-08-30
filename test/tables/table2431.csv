@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2019-9484,Glen Dimplex Deutschland GmbH,2020-05-29,Bernd Muller,"Glen Dimplex Deutschland GmbH does not deliver the Carel pCOweb card with an open port 10000 or 10001. 
+The shown password ‘1234’ on the webpage is not being used in any current application. 
+It was being used in former times together with a connection via modem, this is not realized anymore.
+More details to the current application: www.dimplex.de/wiki."
+CVE-2019-0090,Intel,2019-11-08,Intel PSIRT,"After an attacker gains access, they would need to invest additional effort in preparation or execution of the vulnerable component in order to use this vulnerability."
+CVE-2019-19033,Jalios,2019-12-06,Olivier Jaquemet,"Jalios confirms this vulnerability which affects a plugin (extension) of Jalios JPlatform which must only be used in development environment : 
+the DevTools Plugin.
+
+All our SaaS customer were already protected from this vulnerability as this plugin is not enabled in their production environment.
+All our others customers were informed of the vulnerability as soon as the official fix was available.
+
+Fixed versions of the DevTools plugin have officially been published for our customers :
+https://community.jalios.com/jcms/jc2_361389/en/dev-tools-plugin-8-1
+
+We would like to thanks Ricardo José Ruiz Fernández for his responsible disclosure."
+CVE-2020-10264,Universal Robots,2022-04-12,Grzegorz Zieba,"Software version 5.10 brings improvements to usability and configurability of Secure Shell Protocol (SSH), such that tunneling can be used to secure primary, secondary, RT, RTDE, DashBoard server and other interfaces. Universal Robots recommends that all users use SSH tunneling to access these interfaces in applications requiring authentication and encryption.
+
+Additionally, SW version 5.10 includes a built-in configurable firewall, allowing fine-grained restrictions of remote access, and number of other security improvements. Universal Robots (UR) recommends always using the latest UR software, as security improvements will be rolled out continuously.
+
+CB2 and CB3 cobots are designed to be operating in factory networks where security relies on boundary protection (firewalls) and trusted clients on the network. They must only be connected to trusted networks and operated by authorized personnel."
+CVE-2020-10265,Universal Robots,2022-04-12,Grzegorz Zieba,"Software version 5.10 brings improvements to usability and configurability of Secure Shell Protocol (SSH), such that tunneling can be used to secure primary, secondary, RT, RTDE, DashBoard server and other interfaces. Universal Robots recommends that all users use SSH tunneling to access these interfaces in applications requiring authentication and encryption.

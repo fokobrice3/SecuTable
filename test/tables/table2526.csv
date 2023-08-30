@@ -1,0 +1,3 @@
+_namespace,_schemaLocation
+http://cpe.mitre.org/language/2.0,http://scap.nist.gov/schema/cpe/2.3/cpe-language_2.3.xsd
+http://cybox.mitre.org/common-2,http://cybox.mitre.org/XMLSchema/common/2.1/cybox_common.xsd

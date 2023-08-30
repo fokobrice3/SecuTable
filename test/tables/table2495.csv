@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-3474,Red Hat,2008-02-14,Mark J Cox,"This issue did not affect the versions of gd as shipped with Red Hat Enterprise Linux 2.1 or 3 as they did not offer GIF image support.
+
+We do not plan to backport a fix for this issue to the gd packages as shipped in Red Hat Enterprise Linux 4 and 5 due to the low
+likelihood of an application affected by this problem being exposed in a way that would allow a trust boundary to be crossed."
+CVE-2007-3475,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-3475
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-3476,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-3476
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-3477,Red Hat,2008-02-14,Mark J Cox,"Due to the minimal impact of this flaw (temporary DoS by high CPU usage) and low likelihood of this problem being exposed in a way that would allow trust boundary crossing, we currently do not plan to backport a fix for this issue to the versions of gd as shipped in Red Hat Enterprise Linux 2.1, 3, 4 or 5."
+CVE-2007-3478,Red Hat,2008-02-14,Mark J Cox,"We currently do not plan to backport a fix for this issue to gd packages in current versions of Red Hat Enterprise Linux 2.1, 3, 4, and 5 due to the low likelihood of and application affected by this problem being exposed in a way that would allow trust boundary to be crossed."
+CVE-2007-3506,Red Hat,2007-07-05,Joshua Bressers,"Not vulnerable. These issues did not affect the versions of freetype as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-3508,Mandriva,2007-09-17,Vincent Danen,"Based on the analysis of Red Hat and several Glibc developers, Mandriva does not believe this to be exploitable."
+CVE-2007-3508,Red Hat,2007-07-05,Joshua Bressers,"After careful analysis by Red Hat and several Glibc developers, it has been determined that this bug is not exploitable.
+
+For more information please see Red Hat Bugzilla bug #247208
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=247208"
+CVE-2007-3513,Red Hat,2007-10-18,Mark J Cox,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-3564,Red Hat,2007-07-20,Mark J Cox,"Not vulnerable.  The curl packages as shipped with Red Hat Enterprise Linux versions 2.1, 3, 4 and 5 are not linked against the gnutls library."

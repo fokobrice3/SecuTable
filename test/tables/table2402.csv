@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+This flaw affected JBoss Enterprise Web Server running on the Solaris platform. Updated httpd packages are available for download from Customer Support Portal: https://support.redhat.com/jbossnetwork/restricted/listSoftware.html?product=webserver&amp;downloadType=securityPatches&amp;version=1.0.0"
+CVE-2009-2700,Red Hat,2009-09-03,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of qt and qt4 as shipped with Red Hat Enterprise Linux 3, 4, or 5.  Affected code was introduced upstream in version 4.3."
+CVE-2009-2702,Red Hat,2009-09-18,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2702
+
+This issue did not affect kdelibs packages as shipped in Red Hat Enterprise Linux 3 and 4.
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw in Red Hat Enterprise Linux 5."
+CVE-2009-2707,Red Hat,2009-09-23,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of ia32el as shipped with Red Hat Enterprise Linux 3, 4 or 5."
+CVE-2009-2767,Red Hat,2009-08-18,Mark J Cox,"Not vulnerable. This issue only affected kernels version 2.6.28-rc1 and later.
+Therefore this issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG.."
+CVE-2009-2768,Red Hat,2009-08-18,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG. Red Hat does not provide support for flat binary support, and additionally this issue only affected kernels version 2.6.29-rc1 and later."
+CVE-2009-2844,Red Hat,2009-08-19,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG.
+
+Please note this issue only affected Linux kernel versions after v2.6.30-rc1 and was fixed in v2.6.31-rc6."
+CVE-2009-2846,Red Hat,2009-08-19,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG. Red Hat does not provide support for the Linux kernel on the PA-RISC architecture."
+CVE-2009-2847,Red Hat,2009-09-15,Tomas Hoger,"This issue has been rated as having moderate security impact. It was addressed in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG:
+http://rhn.redhat.com/cve/CVE-2009-2847.html
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important or critical impact are addressed.  For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2009-2849,Red Hat,2009-11-04,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2849

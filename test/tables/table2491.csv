@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+http://rhn.redhat.com/errata/RHSA-2007-0740.html"
+CVE-2007-2930,Red Hat,2007-09-12,Mark J Cox,"Not vulnerable. This issue did not affect the versions of bind as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-2953,Red Hat,2007-08-06,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=248542
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2007-2958,Red Hat,2007-08-28,Mark J Cox,"Not vulnerable.  This issue did not affect version of Sylpheed as shipped with Red Hat Enterprise Linux 2.1.  Sylpheed and claws-mail are not shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2007-2970,8e6 Technologies,2007-07-06,Mark Parker,"I am pleased to inform you that we have released an update (version 2.0.05) which addresses this issue.
+ 
+All 8e6 customers with a current license will automatically download this update, and can install it once the download is complete. 
+ 
+This update was placed on our update servers on Thu Jul  5 16:32:57 PDT 2007.
+ 
+Further information can be found at:
+http://www.8e6.com/products/R3000/patches/r3000_patches.htm"
+CVE-2007-2997,ComCity LLC,2007-06-15,Michael Barber,"These tests preported to be discussed were reported falsely and were based upon an old unreleased flashy marketing created demonstration of the product and not using any &quot;officially&quot; released version of the software distributed to any customers.  This information was explained with the reporting party and they chose to ignore it.  ComCity has attempted to reproduce the reported issue using the SQL injection strings and a variety of other SQL injection strings and cannot reproduce the vulnerability on its currently released software.  In addition, the version of the software preported to be affected by this technique is no longer sold or even supported by ComCity and was discontinued nearly a year ago and replaced with a ASP.NET version.  However, we have attempted to reproduce this technique in this old, unsupported release of software that used ASP as well, and cannot reproduce it.
+ 
+It is difficult to combat all combinations of SQL Injections through simple sanitation so ComCity discontinued these older ASP based products nearly a year ago.  ASP.NET is less susceptible to SQL Injection and we have informed our customers that the continued use of ASP in the current Internet security climate is unadvisable.  We advise all customers to upgrade to the latest products.  We welcome any report or finding that will help us improve or discover issues unknown to us.  However, the code in question does santize SQL injections and this entire report is inaccurate and was used in conjunction with an extortion request by a 3rd party company solicitating its services."
+CVE-2007-3007,Red Hat,2007-06-07,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-3008,Red Hat,2008-03-05,Joshua Bressers,"The Apache Software Foundation do not treat this as a security issue. A configuration change can be made to disable the ability to respond to HTTP TRACE requests if required.
+
+For more information please see:

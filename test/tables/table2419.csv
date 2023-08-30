@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2010-0426,Red Hat,2010-03-02,Tomas Hoger,"This issue was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2010-0122.html
+
+It did not affect the versions of the sudo package as shipped with Red Hat Enterprise Linux 3 and 4."
+CVE-2010-0427,Red Hat,2010-03-02,Tomas Hoger,"This issue was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2010-0122.html
+
+It did not affect the versions of the sudo packages as shipped with Red Hat Enterprise Linux 3 and 4."
+CVE-2010-0434,Red Hat,2010-04-13,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-0434
+
+This issue was fixed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2010-0168.html
+
+This issue was fixed in Red Hat Enterprise
+Linux 4 via: https://rhn.redhat.com/errata/RHSA-2010-0175.html
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw on Red Hat Enterprise Linux 3. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2010-0437,Red Hat,2010-03-25,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0437.
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4, as they do not include support for Optimistic Duplicate Address Detection (DAD) in IPv6. This was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-9419.html. A future update in Red Hat Enterprise MRG may address this flaw."
+CVE-2010-0562,Red Hat,2010-02-09,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of fetchmail as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2010-0622,Red Hat,2010-03-12,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0622.

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-4724,Apache,2007-09-06,Mark J Cox,This name is a duplicate of CVE-2006-7196.  This issue was fixed in Apache Tomcat 4.1.32 and 5.5.16.
+CVE-2007-4730,Red Hat,2007-09-26,Joshua Bressers,"This flaw was fixed for Red Hat Enterprise Linux 4 in RHSA-2007-0898:
+https://rhn.redhat.com/errata/RHSA-2007-0898.html
+
+Red Hat Enterprise Linux 5 is not affected by this flaw.  More information can be found here:
+https://bugzilla.redhat.com/show_bug.cgi?id=285991
+
+Red Hat Enterprise Linux 2.1 and 3 do not support the composite extension and are not vulnerable to this flaw."
+CVE-2007-4752,Red Hat,2008-08-28,Mark J Cox,"This issue did not affect the OpenSSH packages as distributed with Red Hat Enterprise Linux 2.1 or 3, as they do not support Trusted X11 forwarding.
+
+For Red Hat Enterprise Linux 4 and 5, this issue was addressed via: https://rhn.redhat.com/errata/RHSA-2008-0855.html"
+CVE-2007-4782,Red Hat,2007-09-12,Joshua Bressers,"We do not consider this to be a security issue. For more information please see
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-4783,Red Hat,2007-09-12,Joshua Bressers,"We do not consider this to be a security issue. For more information please see
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-4784,Red Hat,2007-09-12,Joshua Bressers,"We do not consider this to be a security issue. For more information please see
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-4825,Red Hat,2007-09-12,Joshua Bressers,"We do not consider this to be a security issue. For more information please see
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+http://www.redhat.com/security/updates/classification/"
+CVE-2005-2693,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-2700,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP server 2.0.55:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-2728,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.55:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-2797,Red Hat,2009-11-25,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of OpenSSH as shipped with Red Hat Enterprise Linux 2.1, 3 or 4."
+CVE-2005-2798,Red Hat,2006-11-20,Joshua Bressers,"This issue does not affect Red Hat Enterprise Linux 2.1 and 3.
+
+This flaw was fixed in Red Hat Enterprise Linux 4 via errata RHSA-2005:527:
+http://rhn.redhat.com/errata/RHSA-2005-527.html"
+CVE-2005-2929,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-2946,Red Hat,2006-09-20,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169803
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2005-2959,Red Hat,2006-08-30,Mark J Cox,"We do not consider this to be a security issue:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=139478#c1"
+CVE-2005-2968,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable. These issues did not affect the versions of Mozilla and Firefox as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-2969,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-2970,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.55:

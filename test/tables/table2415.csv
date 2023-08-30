@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2009-4227,Red Hat,2009-12-15,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-4227
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-4228,Red Hat,2009-12-15,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-4228
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-4235,Red Hat,2009-12-15,Tomas Hoger,"Red Hat considers this to be a duplicate of the CVE-2009-4033, rather than a separate issue. For further details, see: https://bugzilla.redhat.com/show_bug.cgi?id=542926#c10"
+CVE-2009-4270,Red Hat,2009-12-22,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of ghostscript as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-4271,Red Hat,2010-03-22,Vincent Danen,"This security issue did not affect the Linux kernels as shipped with Red Hat Enterprise Linux 3, 5 and Red Hat Enterprise MRG. This issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2010-0146.html."
+CVE-2009-4272,Red Hat,2010-01-28,Tomas Hoger,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4 and Red Hat Enterprise MRG. Shipped kernels do not include upstream commits c6153b5b and 1080d709 that introduced the problem.
+
+It was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0046.html"
+CVE-2009-4274,Red Hat,2010-02-17,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-4274
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-4307,Red Hat,2009-12-15,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2009-4307
+
+The Linux kernel packages as shipped with Red Hat Enterprise Linux 3, 4 and Red Hat Enterprise MRG do not include support for EXT4, and therefore are not affected by this issue.
+
+A future kernel update for Red Hat Enterprise Linux 5 will address this flaw."
+CVE-2009-4308,Red Hat,2010-03-17,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:

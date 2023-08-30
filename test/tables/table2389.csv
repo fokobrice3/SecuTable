@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The OpenSSL packages in Red Hat Enterprise Linux 3 and 4 (openssl, openssl096b) contain a backported patch since their initial release.
+
+The OpenSSL packages in Red Hat Enterprise Linux 5 are based on fixed upstream release (openssl), or contain backported patch since their initial release (openssl097a)."
+CVE-2003-0544,Red Hat,2008-07-07,Mark J Cox,"For Red Hat Enterprise Linux 2.1 OpenSSL packages (openssl, openssl096, openssl095a) issue was addressed via RHSA-2003:293.
+
+The OpenSSL packages in Red Hat Enterprise Linux 3 and 4 (openssl, openssl096b) contain a backported patch since their initial release.
+
+The OpenSSL packages in Red Hat Enterprise Linux 5 are based on fixed upstream release (openssl), or contain backported patch since their initial release (openssl097a)."
+CVE-2003-0545,Red Hat,2008-07-07,Mark J Cox,"Not vulnerable.  The OpenSSL packages in Red Hat Enterprise Linux 2.1 were not affected by this issue.
+
+The OpenSSL packages in Red Hat Enterprise Linux 3 and 4 contain a backported patch since their initial release (openssl), or were not affected by this issue (openssl096b).
+
+The OpenSSL packages in Red Hat Enterprise Linux 5 are based on fixed upstream release (openssl), or contain backported patch since their initial release (openssl097a)."
+CVE-2003-0618,Red Hat,2006-09-19,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=114923
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/
+
+This issue does not affect Red Hat Enterprise Linux 4."
+CVE-2003-0682,Red Hat,2007-03-27,Joshua Bressers,"Not vulnerable.

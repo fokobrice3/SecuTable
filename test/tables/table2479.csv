@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Red Hat Application Stack 1."
+CVE-2007-1401,Red Hat,2007-03-19,Mark J Cox,"Not vulnerable. PHP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 does not include Cracklib support."
+CVE-2007-1411,Red Hat,2007-03-19,Mark J Cox,"Not vulnerable. PHP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 does not include mssql support."
+CVE-2007-1412,Red Hat,2007-03-19,Mark J Cox,"Not vulnerable. PHP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 does not include ClibPDF support."
+CVE-2007-1413,Red Hat,2007-03-19,Mark J Cox,Not vulnerable. The php-snmp package as shipped with Red Hat Enterprise Linux 4 and 5 use net-snmp which is not vulnerable to this issue.
+CVE-2007-1420,Red Hat,2008-07-25,Joshua Bressers,"This issue did not affect mysql packages as shipped in Red Hat Enterprise Linux 2.1, 3, and 4.
+
+Issue was addressed in mysql packages as shipped in Red Hat Enterprise Linux 5 via:
+
+https://rhn.redhat.com/errata/RHSA-2008-0364.html"
+CVE-2007-1452,Red Hat,2007-04-16,Mark J Cox,"Not vulnerable. The filter extension was not shipped in versions of PHP 
+provided for Red Hat Enterprise Linux 2.1, 3, 4, 5, Stronghold 4.0, or
+Red Hat Application Stack 1."
+CVE-2007-1453,Red Hat,2007-04-16,Mark J Cox,"Not vulnerable. The filter extension was not shipped in versions of PHP 
+provided for Red Hat Enterprise Linux 2.1, 3, 4, 5, Stronghold 4.0, or
+Red Hat Application Stack 1."
+CVE-2007-1454,Red Hat,2007-04-16,Mark J Cox,"Not vulnerable. The filter extension was not shipped in versions of PHP 
+provided for Red Hat Enterprise Linux 2.1, 3, 4, 5, Stronghold 4.0, or
+Red Hat Application Stack 1."
+CVE-2007-1460,Red Hat,2007-04-16,Mark J Cox,"Not vulnerable. The zip extension was not shipped in versions of PHP 
+provided for Red Hat Enterprise Linux 2.1, 3, 4, 5, Stronghold 4.0, or
+Red Hat Application Stack 1."

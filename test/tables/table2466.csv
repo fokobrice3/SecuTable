@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2006-5794,Red Hat,2009-09-24,Joshua Bressers,"This issue did not affect Red Hat Enterprise Linux 2.1.
+
+This issue was addressed in Red Hat Enterprise Linux 3 and 4 via
+https://rhn.redhat.com/errata/RHSA-2006-0738.html .
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-5823,Red Hat,2007-03-14,Joshua Bressers,"The CVE-2006-5823 is about a corrupted cramfs (MOKB-07-11-2006) that can cause a memory corruption and so crash the machine.
+
+For Red Hat Enterpise Linux 3 this issue is tracked via Bugzilla #216960 and for Red Hat Enterprise Linux 4 it is tracked via Bugzilla #216958.
+
+Red Hat Enterprise Linux 2.1 is not vulnerable to this issue.
+
+This issue has been rated as having low impact, because root privileges or physical access to the machine are needed to mount a corrupted filesystem and crash the machine.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-5826,Texas Imperial Software,2011-01-07,Texas Imperial Software,"Texas Imperial Software has tested this issue against current versions of WFTPD and WFTPD Pro, and finds that versions after 3.23 are not vulnerable. Users of WFTPD or WFTPD Pro should update to the most current version in order to address this issue. The update is free to fully registered users unregistered users can download a fresh copy of the shareware version of the application."
+CVE-2006-5840,abarcar Software,2006-12-20,Helmut Fleischhauer,"The version 5.1.5 of the abarcar Realty Portal has been discontinued 2003.
+The version 6.xx has been discontinued beginning 2006.
+A fix for above versions has been available since that time.
+
+As of version 7.0 static pages are created
+- a parameter for cat.php is no longer used

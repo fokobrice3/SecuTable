@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+
+The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 2.1 which is in maintenance mode."
+CVE-2005-4745,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable.  This issue did not affect the FreeRADIUS packages as distributed with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-4746,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable.  This issue did not affect the FreeRADIUS packages as distributed with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-4784,Red Hat,2006-08-30,Mark J Cox,This issue did not affect the Linux glibc.
+CVE-2005-4807,Red Hat,2006-08-24,Mark J Cox,gas (and gcc) make no promise that they are fault tolerant to bad input.  We do not plan on producing security updates for Red Hat Enterprise Linux to correct these bugs.
+CVE-2005-4808,Red Hat,2006-08-24,Mark J Cox,gas (and gcc) make no promise that they are fault tolerant to bad input.  We do not plan on producing security updates for Red Hat Enterprise Linux to correct these bugs.
+CVE-2005-4835,Red Hat,2007-04-17,Mark J Cox,"Not vulnerable. The MadWiFi wireless driver is not shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2005-4881,Red Hat,2009-10-22,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2005-4881
+
+This issue has been rated as having moderate security impact. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 5, and Red Hat Enterprise MRG. It affects Red Hat Enterprise Linux 3, and 4.
+
+It was addressed in Red Hat Enterprise Linux 4 via: https://rhn.redhat.com/errata/RHSA-2009-1522.html
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important and critical impact are addressed.
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2006-0043,Red Hat,2006-08-30,Mark J Cox,"This issue did not affect Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2006-0097,Red Hat,2008-10-30,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of php as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2006-0151,Red Hat,2008-01-24,Mark J Cox,"We do not consider this to be a security issue.

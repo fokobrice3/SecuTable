@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2010-1084,Red Hat,2010-04-07,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-1084
+
+This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise 3 and 4, as it did not use sysfs files. A future update in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw."
+CVE-2010-1085,Red Hat,2010-04-07,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-1085
+
+This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3 and Red Hat Enterprise MRG as they did not include the affected function. A future update in Red Hat Enterprise Linux 4 and 5 may address this flaw."
+CVE-2010-1086,Red Hat,2010-04-07,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-1086
+
+This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise Linux 3 as it did not include support for ULE (Unidirectional Lightweight Encapsulation). A future update in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG may address this flaw."
+CVE-2010-1087,Red Hat,2010-04-07,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-1087
+
+This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4 as they did not include the upstream commit 150030b7 that had introduced the problem. A future update in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw."
+CVE-2010-1088,Red Hat,2010-04-07,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-1088
+
+This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4 as this issue only affects kernel version 2.6.18 and onwards. A future update in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw."

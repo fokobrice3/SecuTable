@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2005-1229,Red Hat,2006-08-30,Mark J Cox,"This is defined and documented behaviour:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=156313"
+CVE-2005-1268,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.55:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-1306,Red Hat,2006-08-30,Mark J Cox,Not vulnerable.  Adobe told us this issue did not affect the Linux version of Adobe Reader.
+CVE-2005-1344,Red Hat,2007-12-04,Mark J Cox,Red Hat does not consider this to be a vulnerability.  htdigest is not supplied setuid or setgid and should not be run from a CGI program.
+CVE-2005-1544,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable. This issue did not affect the versions of libtiff as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-1704,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1705,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1730,Red Hat,2007-04-02,Mark J Cox,"Based on our research we believe that the &quot;OpenSSL ASN.1 brute forcer.&quot; is actually exploiting flaws CVE-2003-0543, CVE-2003-0544, CVE-2003-0545.  Those issues are all addressed in Red Hat Enterprise Linux and therefore CVE-2005-1730 is a duplicate assignment."
+CVE-2005-1751,Red Hat,2006-09-19,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=158995
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2005-1753,Red Hat,2006-08-30,Mark J Cox,"We do not believe this is a security issue; this is a deliberate circumvention of the Javamail API. The Javamail API provides a comprehensive and secure method to retrieve mail. In this example, the author retreives the message directly from the mail directory on the
+filesystem.  Even if the user insists on using this incorrect way of accessing mail, then the
+permissions set by the dovecot and tomcat packages are enough to protect against
+direct access to most of the files listed in the bug report."
+CVE-2005-1797,Red Hat,2008-07-08,Joshua Bressers,"The OpenSSL Team do not consider this issue to be a practical threat. Conducting an attack such as this has shown to be impractical outside of a controlled lab environment. If the OpenSSL Team decide to produce an update to correct this issue, we will consider including it in a future security update."
+CVE-2005-2069,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-2088,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.55:

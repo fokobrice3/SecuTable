@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+at.com/errata/RHSA-2010-0147.html respectively.
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important or criti
+cal impact are addressed.
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2010-0006,Red Hat,2010-01-28,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG as they did not have support for network namespaces, and did not include upstream commit 483a47d2 that introduced the problem."
+CVE-2010-0007,Red Hat,2010-03-17,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0007.
+
+This issue did not affect the version of Linux kernel as shipped with Red Hat Enterprise Linux 3, as it did not include support for
+ebtables. This issue was addressed in Red Hat Enterprise Linux 4 and 5 via https://rhn.redhat.com/errata/RHSA-2010-0146.html and https://rhn.redhat.com/errata/RHSA-2010-0147.html respectively. A futur
+e update in Red Hat Enterprise MRG may address this flaw."
+CVE-2010-0008,Red Hat,2010-03-22,Vincent Danen,This issue did not affect the version of Linux kernel as shipped with Red Hat Enterprise Linux 3 as it did not include support for SCTP. It did not affect the version of Linux kernel as shipped with Red Hat Enterprise MRG as it has already had the fix to this issue. This was addressed in Red Hat Enterprise Linux 4 and 5 via https://rhn.redhat.com/errata/RHSA-2010-0146.html and https://rhn.redhat.com/errata/RHSA-2010-9419.html respectively.
+CVE-2010-0010,Red Hat,2010-02-03,Joshua Bressers,"This issue does not affect the Apache HTTP Server versions 2 and greater. This flaw does not affect any supported versions of Red Hat Enterprise Linux.
+
+This flaw does affect Red Hat Network Proxy and Red Hat Network Satellite. While those products do not use this feature, we are tracking the issue with the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-0010"
+CVE-2009-0122,Red Hat,2009-01-19,Tomas Hoger,Not vulnerable. This issue did not affect the versions of hplip as shipped with Red Hat Enterprise Linux 5.
+CVE-2009-0127,Red Hat,2009-01-21,Tomas Hoger,"Red Hat does not consider this to be a security issue.  M2Crypto provides python interfaces to multiple OpenSSL functions.  Neither of those interfaces is further used by M2Crypto in an insecure way.  Additionally, no application shipped in Red Hat Enterprise Linux is known to use affected interfaces provided by M2Crypto.
+
+Further details can be found in the following bug report: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-0127#c1"

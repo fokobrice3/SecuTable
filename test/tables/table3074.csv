@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2022-27271,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the component python-lib. This vulnerability is triggered via a crafted packet.
+CVE-2022-27272,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the function sub_1791C. This vulnerability is triggered via a crafted packet.
+CVE-2022-27273,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the function sub_12168. This vulnerability is triggered via a crafted packet.
+CVE-2022-27274,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the function sub_12028. This vulnerability is triggered via a crafted packet.
+CVE-2022-27275,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the function sub_122D0. This vulnerability is triggered via a crafted packet.
+CVE-2022-27276,HIGH,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a remote code execution (RCE) vulnerability via the function sub_10F2C. This vulnerability is triggered via a crafted packet.
+CVE-2022-27277,MEDIUM,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain an arbitrary file deletion vulnerability via the function sub_17C08.
+CVE-2022-27279,MEDIUM,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain an arbitrary file read via the function sub_177E0.
+CVE-2022-27280,LOW,InHand Networks InRouter 900 Industrial 4G Router before v1.0.0.r11700 was discovered to contain a stored cross-site scripting (XSS) vulnerability via the web_exec parameter at /apply.cgi.
+CVE-2022-27286,HIGH,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formSetWanNonLogin. This vulnerability allows attackers to cause a Denial of Service (DoS) via the curTime parameter.
+CVE-2022-27287,HIGH,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formSetWanPPPoE. This vulnerability allows attackers to cause a Denial of Service (DoS) via the curTime parameter.
+CVE-2022-27288,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formSetWanPPTP. This vulnerability allows attackers to cause a Denial of Service (DoS) via the curTime parameter.
+CVE-2022-27289,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formSetWanL2TP. This vulnerability allows attackers to cause a Denial of Service (DoS) via the curTime parameter.
+CVE-2022-27290,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formSetWanDhcpplus. This vulnerability allows attackers to cause a Denial of Service (DoS) via the curTime parameter.
+CVE-2022-27291,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formdumpeasysetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the config.save_network_enabled parameter.
+CVE-2022-27292,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formLanguageChange. This vulnerability allows attackers to cause a Denial of Service (DoS) via the nextPage parameter.
+CVE-2022-27293,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+CVE-2022-27294,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formWlanWizardSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+CVE-2022-27295,MEDIUM,D-Link DIR-619 Ax v1.00 was discovered to contain a stack overflow in the function formAdvanceSetup. This vulnerability allows attackers to cause a Denial of Service (DoS) via the webpage parameter.
+CVE-2022-27299,Unknown,Hospital Management System v1.0 was discovered to contain a SQL injection vulnerability via the component room.php.
+CVE-2022-27304,HIGH,Student Grading System v1.0 was discovered to contain a SQL injection vulnerability via the user parameter.
+CVE-2022-27306,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+CVE-2022-27311,Unknown,Gibbon v3.4.4 and below allows attackers to execute a Server-Side Request Forgery (SSRF) via a crafted URL.
+CVE-2022-27313,Unknown,An arbitrary file deletion vulnerability in Gitea v1.16.3 allows attackers to cause a Denial of Service (DoS) via deleting the configuration file.
+CVE-2022-27330,Unknown,A cross-site scripting (XSS) vulnerability in /public/admin/index.php?add_product of E-Commerce Website v1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Product Title text field.
+CVE-2022-27331,Unknown,"An access control issue in Zammad v5.0.3 broadcasts administrative configuration changes to all users who have an active application instance, including settings that should only be visible to authenticated users."
+CVE-2022-27332,Unknown,An access control issue in Zammad v5.0.3 allows attackers to write entries to the CTI caller log without authentication. This vulnerability can allow attackers to execute phishing attacks or cause a Denial of Service (DoS).
+CVE-2022-27333,MEDIUM,"idcCMS v1.10 was discovered to contain an issue which allows attackers to arbitrarily delete the install.lock file, resulting in a reset of the CMS settings and data."
+CVE-2022-27336,Unknown,Seacms v11.6 was discovered to contain a remote code execution (RCE) vulnerability via the component /admin/weixin.php.
+CVE-2022-27340,Unknown,MCMS v5.2.7 contains a Cross-Site Request Forgery (CSRF) via /role/saveOrUpdateRole.do. This vulnerability allows attackers to escalate privileges and modify data.
+CVE-2022-27341,HIGH,JFinalCMS v2.0 was discovered to contain a SQL injection vulnerability via the Article Management function.
+CVE-2022-27342,HIGH,Link-Admin v0.0.1 was discovered to contain a SQL injection vulnerability via DictRest.ResponseResult().
+CVE-2022-27346,MEDIUM,Ecommece-Website v1.1.0 was discovered to contain an arbitrary file upload vulnerability via /admin/index.php?slides. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-27348,LOW,Social Codia SMS v1 was discovered to contain a stored cross-site scripting (XSS) vulnerability via add_post.php. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Post Title text field.
+CVE-2022-27349,MEDIUM,Social Codia SMS v1 was discovered to contain an arbitrary file upload vulnerability via addteacher.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-27351,HIGH,Zoo Management System v1.0 was discovered to contain an arbitrary file upload vulnerability via /public_html/apply_vacancy. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-27352,MEDIUM,Simple House Rental System v1 was discovered to contain an arbitrary file upload vulnerability via /app/register.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-27357,HIGH,Ecommerce-Website v1 was discovered to contain an arbitrary file upload vulnerability via /customer_register.php. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-27365,MEDIUM,Cscms Music Portal System v4.2 was discovered to contain a SQL injection vulnerability via the component dance_Dance.php_del.
+CVE-2022-27366,MEDIUM,Cscms Music Portal System v4.2 was discovered to contain a blind SQL injection vulnerability via the component dance_Dance.php_hy.
+CVE-2022-27367,MEDIUM,Cscms Music Portal System v4.2 was discovered to contain a SQL injection vulnerability via the component dance_Topic.php_del.
+CVE-2022-27368,MEDIUM,Cscms Music Portal System v4.2 was discovered to contain a SQL injection vulnerability via the component dance_Lists.php_zhuan.
+CVE-2022-27369,MEDIUM,Cscms Music Portal System v4.2 was discovered to contain a SQL injection vulnerability via the component news_News.php_hy.
+CVE-2022-27374,Unknown,Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_42E328 at /goform/SysToolReboot.
+CVE-2022-27375,Unknown,Tenda AX12 V22.03.01.21_CN was discovered to contain a Cross-Site Request Forgery (CSRF) via the function sub_422168 at /goform/WifiExtraSet.
+CVE-2022-27376,MEDIUM,"MariaDB Server v10.6.5 and below was discovered to contain an use-after-free in the component Item_args::walk_arg, which is exploited via specially crafted SQL statements."
+CVE-2022-27377,MEDIUM,"MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component Item_func_in::cleanup(), which is exploited via specially crafted SQL statements."
+CVE-2022-27378,MEDIUM,An issue in the component Create_tmp_table::finalize of MariaDB Server v10.7 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27379,MEDIUM,An issue in the component Arg_comparator::compare_real_fixed of MariaDB Server v10.6.2 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27380,MEDIUM,An issue in the component my_decimal::operator= of MariaDB Server v10.6.3 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27381,MEDIUM,An issue in the component Field::set_default of MariaDB Server v10.6 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27382,MEDIUM,MariaDB Server v10.7 and below was discovered to contain a segmentation fault via the component Item_field::used_tables/update_depend_map_for_order.
+CVE-2022-27383,MEDIUM,"MariaDB Server v10.6 and below was discovered to contain an use-after-free in the component my_strcasecmp_8bit, which is exploited via specially crafted SQL statements."
+CVE-2022-27384,MEDIUM,An issue in the component Item_subselect::init_expr_cache_tracker of MariaDB Server v10.6 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27385,MEDIUM,An issue in the component Used_tables_and_const_cache::used_tables_and_const_cache_join of MariaDB Server v10.7 and below was discovered to allow attackers to cause a Denial of Service (DoS) via specially crafted SQL statements.
+CVE-2022-27386,MEDIUM,MariaDB Server v10.7 and below was discovered to contain a segmentation fault via the component sql/sql_class.cc.
+CVE-2022-27387,MEDIUM,"MariaDB Server v10.7 and below was discovered to contain a global buffer overflow in the component decimal_bin_size, which is exploited via specially crafted SQL statements."
+CVE-2022-27404,HIGH,FreeType commit 1e2eb65048f75c64b68708efed6ce904c31f3b2f was discovered to contain a heap buffer overflow via the function sfnt_init_face.
+CVE-2022-27405,MEDIUM,FreeType commit 53dfdcd8198d2b3201a23c4bad9190519ba918db was discovered to contain a segmentation violation via the function FNT_Size_Request.
+CVE-2022-27406,MEDIUM,FreeType commit 22a0cccb4d9d002f33c1ba7a4b36812c7d4f46b5 was discovered to contain a segmentation violation via the function FT_Request_Size.
+CVE-2022-27413,Unknown,Hospital Management System v1.0 was discovered to contain a SQL injection vulnerability via the adminname parameter in admin.php.
+CVE-2022-27416,MEDIUM,Tcpreplay v4.4.1 was discovered to contain a double-free via __interceptor_free.
+CVE-2022-27418,MEDIUM,Tcpreplay v4.4.1 has a heap-based buffer overflow in do_checksum_math at /tcpedit/checksum.c.
+CVE-2022-27419,MEDIUM,rtl_433 21.12 was discovered to contain a stack overflow in the function acurite_00275rm_decode at /devices/acurite.c. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted file.
+CVE-2022-27420,Unknown,Hospital Management System v1.0 was discovered to contain a SQL injection vulnerability via the patient_contact parameter in patientsearch.php.
+CVE-2022-27421,MEDIUM,"Chamilo LMS v1.11.13 lacks validation on the user modification form, allowing attackers to escalate privileges to Platform Admin."
+CVE-2022-27422,MEDIUM,A reflected cross-site scripting (XSS) vulnerability in Chamilo LMS v1.11.13 allows attackers to execute arbitrary web scripts or HTML via user interaction with a crafted URL.
+CVE-2022-27423,HIGH,Chamilo LMS v1.11.13 was discovered to contain a SQL injection vulnerability via the blog_id parameter at /blog/blog.php.
+CVE-2022-27425,MEDIUM,Chamilo LMS v1.11.13 was discovered to contain a cross-site scripting (XSS) vulnerability via the component /blog/blog.php.
+CVE-2022-27426,MEDIUM,A Server-Side Request Forgery (SSRF) in Chamilo LMS v1.11.13 allows attackers to enumerate the internal network and execute arbitrary system commands via a crafted Phar file.
+CVE-2022-27427,MEDIUM,A zero-code remote code injection vulnerability via configuration.php in Chamilo LMS v1.11.13 allows attackers to upload arbitrary code in the form of a new plugin.
+CVE-2022-27428,Unknown,A stored cross-site scripting (XSS) vulnerability in /index.php/album/add of GalleryCMS v2.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the album_name parameter.
+CVE-2022-27429,Unknown,Jizhicms v1.9.5 was discovered to contain a Server-Side Request Forgery (SSRF) vulnerability via /admin.php/Plugins/update.html.
+CVE-2022-27431,Unknown,Wuzhicms v4.1.0 was discovered to contain a SQL injection vulnerability via the groupid parameter at /coreframe/app/member/admin/group.php.
+CVE-2022-27432,MEDIUM,A Cross-Site Request Forgery (CSRF) in Pluck CMS v4.7.15 allows attackers to change the password of any given user by exploiting this feature leading to account takeover.
+CVE-2022-27435,MEDIUM,An unrestricted file upload at /public/admin/index.php?add_product of Ecommerce-Website v1.1.0 allows attackers to upload a webshell via the Product Image component.
+CVE-2022-27436,LOW,A cross-site scripting (XSS) vulnerability in /public/admin/index.php?add_user at Ecommerce-Website v1.1.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the username text field.
+CVE-2022-27441,LOW,A stored cross-site scripting (XSS) vulnerability in TPCMS v3.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Phone text box.
+CVE-2022-27442,MEDIUM,TPCMS v3.2 allows attackers to access the ThinkPHP log directory and obtain sensitive information such as the administrator's user name and password.
+CVE-2022-27444,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_subselect.cc.
+CVE-2022-27445,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/sql_window.cc.
+CVE-2022-27446,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.h.
+CVE-2022-27447,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a use-after-free via the component Binary_string::free_buffer() at /sql/sql_string.h.
+CVE-2022-27448,MEDIUM,There is an Assertion failure in MariaDB Server v10.9 and below via 'node->pcur->rel_pos == BTR_PCUR_ON' at /row/row0mysql.cc.
+CVE-2022-27449,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_func.cc:148.
+CVE-2022-27451,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/field_conv.cc.
+CVE-2022-27452,MEDIUM,MariaDB Server v10.9 and below was discovered to contain a segmentation fault via the component sql/item_cmpfunc.cc.
+CVE-2022-27455,MEDIUM,MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_wildcmp_8bit_impl at /strings/ctype-simple.c.
+CVE-2022-27456,MEDIUM,MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component VDec::VDec at /sql/sql_type.cc.
+CVE-2022-27457,MEDIUM,MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component my_mb_wc_latin1 at /strings/ctype-latin1.c.
+CVE-2022-27458,MEDIUM,MariaDB Server v10.6.3 and below was discovered to contain an use-after-free in the component Binary_string::free_buffer() at /sql/sql_string.h.
+CVE-2022-27461,Unknown,"In nopCommerce 4.50.1, an open redirect vulnerability can be triggered by luring a user to authenticate to a nopCommerce page by clicking on a crafted link."
+CVE-2022-27462,MEDIUM,"Cross Site Scripting (XSS) vulnerability in objects/function.php in function getDeviceID in WWBN AVideo through 11.6, via the yptDevice parameter to view/include/head.php."
+CVE-2022-27463,MEDIUM,"Open redirect vulnerability in objects/login.json.php in WWBN AVideo through 11.6, allows attackers to arbitrarily redirect users from a crafted url to the login page."
+CVE-2022-27466,Unknown,MCMS v5.2.27 was discovered to contain a SQL injection vulnerability in the orderBy parameter at /dict/list.do.
+CVE-2022-27468,Unknown,Monstaftp v2.10.3 was discovered to contain an arbitrary file upload which allows attackers to execute arbitrary code via a crafted file uploaded to the web server.
+CVE-2022-27469,Unknown,Monstaftp v2.10.3 was discovered to allow attackers to execute Server-Side Request Forgery (SSRF).
+CVE-2022-27470,Unknown,SDL_ttf v2.0.18 and below was discovered to contain an arbitrary memory write via the function TTF_RenderText_Solid(). This vulnerability is triggered via a crafted TTF file.
+CVE-2022-27472,HIGH,"SQL injection vulnerability in Topics Counting feature of Roothub 2.6.0 allows unauthorized attackers to execute arbitrary SQL commands via the ""s"" parameter remotely."
+CVE-2022-27473,HIGH,"SQL injection vulnerability in Topics Searching feature of Roothub 2.6.0 allows unauthorized attackers to execute arbitrary SQL commands via the ""s"" parameter remotely."
+CVE-2022-27474,MEDIUM,SuiteCRM v7.11.23 was discovered to allow remote code execution via a crafted payload injected into the FirstName text field.
+CVE-2022-27475,MEDIUM,"Cross site scripting (XSS) vulnerability in tramyardg hotel-mgmt-system, allows attackers to execute arbitrary code when when /admin.php is loaded."
+CVE-2022-27476,MEDIUM,A cross-site scripting (XSS) vulnerability at /admin/goods/update in Newbee-Mall v1.0.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the goodsName parameter.
+CVE-2022-27477,HIGH,Newbee-Mall v1.0.0 was discovered to contain an arbitrary file upload via the Upload function at /admin/goods/edit.
+CVE-2022-27478,MEDIUM,Victor v1.0 was discovered to contain a remote code execution (RCE) vulnerability via the component admin/profile.php?section=admin.
+CVE-2022-27479,HIGH,Apache Superset before 1.4.2 is vulnerable to SQL injection in chart data requests. Users should update to 1.4.2 or higher which addresses this issue.
+CVE-2022-27480,MEDIUM,"A vulnerability has been identified in SICAM A8000 CP-8031 (All versions < V4.80), SICAM A8000 CP-8050 (All versions < V4.80). Affected devices do not require an user to be authenticated to access certain files. This could allow unauthenticated attackers to download these files."
+CVE-2022-27481,MEDIUM,"A vulnerability has been identified in SCALANCE W1788-1 M12 (All versions < V3.0.0), SCALANCE W1788-2 EEC M12 (All versions < V3.0.0), SCALANCE W1788-2 M12 (All versions < V3.0.0), SCALANCE W1788-2IA M12 (All versions < V3.0.0). Affected devices do not properly handle resources of ARP requests. This could allow an attacker to cause a race condition that leads to a crash of the entire device."
+CVE-2022-27496,MEDIUM,Cross-site scripting vulnerability in Zero-channel BBS Plus v0.7.4 and earlier allows a remote attacker to inject an arbitrary script via unspecified vectors.
+CVE-2022-27503,LOW,Cross-site Scripting (XSS) vulnerability in Citrix StoreFront affects version 1912 before CU5 and version 3.12 before CU9
+CVE-2022-27505,MEDIUM,Reflected cross site scripting (XSS)
+CVE-2022-27506,MEDIUM,Hard-coded credentials allow administrators to access the shell via the SD-WAN CLI
+CVE-2022-27523,MEDIUM,A buffer over-read can be exploited in Autodesk TrueView 2022 may lead to an exposure of sensitive information or a crash through using a maliciously crafted DWG file as an Input. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.
+CVE-2022-27524,MEDIUM,An out-of-bounds read can be exploited in Autodesk TrueView 2022 may lead to an exposure of sensitive information or a crash through using a maliciously crafted DWG file as an Input. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.
+CVE-2022-27525,MEDIUM,A malicious crafted .dwf file when consumed through DesignReview.exe application could lead to memory corruption vulnerability by write access violation. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current proces.
+CVE-2022-27526,MEDIUM,A malicious crafted TGA file when consumed through DesignReview.exe application could lead to memory corruption vulnerability. This vulnerability in conjunction with other vulnerabilities could lead to code execution in the context of the current process.
+CVE-2022-27527,MEDIUM,A Memory Corruption vulnerability may lead to code execution through maliciously crafted DLL files. It was fixed in PDFTron earlier than 9.0.7 version in Autodesk Navisworks 2022.
+CVE-2022-27528,MEDIUM,A maliciously crafted DWFX and SKP files in Autodesk Navisworks 2022 can be used to trigger use-after-free vulnerability. Exploitation of this vulnerability may lead to code execution.
+CVE-2022-27529,MEDIUM,"A maliciously crafted PICT, BMP, PSD or TIF file in Autodesk AutoCAD 2022, 2021, 2020, 2019 may be used to write beyond the allocated buffer while parsing PICT, BMP, PSD or TIF file. This vulnerability may be exploited to execute arbitrary code."
+CVE-2022-27530,MEDIUM,"A maliciously crafted TIF or PICT file in Autodesk AutoCAD 2022, 2021, 2020, 2019 can be used to write beyond the allocated buffer through Buffer overflow vulnerability. This vulnerability may be exploited to execute arbitrary code."
+CVE-2022-27534,HIGH,Kaspersky Anti-Virus products for home and Kaspersky Endpoint Security with antivirus databases released before 12 March 2022 had a bug in a data parsing module that potentially allowed an attacker to execute arbitrary code. The fix was delivered automatically. Credits: Georgy Zaytsev (Positive Technologies).
+CVE-2022-27536,MEDIUM,Certificate.Verify in crypto/x509 in Go 1.18.x before 1.18.1 can be caused to panic on macOS when presented with certain malformed certificates. This allows a remote TLS server to cause a TLS client to panic.
+CVE-2022-27567,HIGH,Null pointer dereference vulnerability in parser_hvcC function of libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by remote attackers.
+CVE-2022-27568,HIGH,Heap-based buffer overflow vulnerability in parser_iloc function in libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attacker.
+CVE-2022-27569,HIGH,Heap-based buffer overflow vulnerability in parser_infe function in libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attacker.
+CVE-2022-27570,HIGH,Heap-based buffer overflow vulnerability in parser_single_iref function in libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attacker.
+CVE-2022-27571,HIGH,Heap-based buffer overflow vulnerability in sheifd_get_info_image function in libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attacker.
+CVE-2022-27572,HIGH,Heap-based buffer overflow vulnerability in parser_ipma function of libsimba library prior to SMR Apr-2022 Release 1 allows code execution by remote attackers.
+CVE-2022-27573,MEDIUM,Improper input validation vulnerability in parser_infe and sheifd_find_itemIndexin fuctions of libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by privileged attackers.
+CVE-2022-27574,HIGH,Improper input validation vulnerability in parser_iloc and sheifd_find_itemIndexin fuctions of libsimba library prior to SMR Apr-2022 Release 1 allows out of bounds write by privileged attacker.
+CVE-2022-27575,MEDIUM,Information exposure vulnerability in One UI Home prior to SMR April-2022 Release 1 allows to access currently launched foreground app information without permission.
+CVE-2022-27576,MEDIUM,Information exposure vulnerability in Samsung DeX Home prior to SMR April-2022 Release 1 allows to access currently launched foreground app information without permission
+CVE-2022-27577,MEDIUM,"The vulnerability in the MSC800 in all versions before 4.15 allows for an attacker to predict the TCP initial sequence number. When the TCP sequence is predictable, an attacker can send packets that are forged to appear to come from a trusted computer. These forged packets could compromise services on the MSC800. SICK has released a new firmware version of the SICK MSC800 and recommends updating to the newest version."
+CVE-2022-27578,MEDIUM,An attacker can perform a privilege escalation through the SICK OEE if the application is installed in a directory where non authenticated or low privilege users can modify its content.
+CVE-2022-27607,MEDIUM,"Bento4 1.6.0-639 has a heap-based buffer over-read in the AP4_HvccAtom class, a different issue than CVE-2018-14531."
+CVE-2022-27608,LOW,Forcepoint One Endpoint prior to version 22.01 installed on Microsoft Windows is vulnerable to registry key tampering by users with Administrator privileges. This could result in a user disabling anti-tampering mechanisms which would then allow the user to disable Forcepoint One Endpoint and the protection offered by it.
+CVE-2022-27609,LOW,Forcepoint One Endpoint prior to version 22.01 installed on Microsoft Windows does not provide sufficient anti-tampering protection of services by users with Administrator privileges. This could result in a user disabling Forcepoint One Endpoint and the protection offered by it.
+CVE-2022-27629,MEDIUM,"Cross-site request forgery (CSRF) vulnerability in 'MicroPayments - Paid Author Subscriptions, Content, Downloads, Membership' versions prior to 1.9.6 allows a remote unauthenticated attacker to hijack the authentication of an administrator and perform unintended operation via unspecified vectors."
+CVE-2022-27649,MEDIUM,"A flaw was found in Podman, where containers were started incorrectly with non-empty default permissions. A vulnerability was found in Moby (Docker Engine), where containers were started incorrectly with non-empty inheritable Linux process capabilities. This flaw allows an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs."
+CVE-2022-27650,MEDIUM,A flaw was found in crun where containers were incorrectly started with non-empty default permissions. A vulnerability was found in Moby (Docker Engine) where containers were started incorrectly with non-empty inheritable Linux process capabilities. This flaw allows an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs.
+CVE-2022-27651,MEDIUM,"A flaw was found in buildah where containers were incorrectly started with non-empty default permissions. A bug was found in Moby (Docker Engine) where containers were incorrectly started with non-empty inheritable Linux process capabilities, enabling an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs. This has the potential to impact confidentiality and integrity."
+CVE-2022-27652,MEDIUM,"A flaw was found in cri-o, where containers were incorrectly started with non-empty default permissions. A vulnerability was found in Moby (Docker Engine) where containers started incorrectly with non-empty inheritable Linux process capabilities. This flaw allows an attacker with access to programs with inheritable file capabilities to elevate those capabilities to the permitted set when execve(2) runs."
+CVE-2022-27654,MEDIUM,"When a user opens a manipulated Photoshop Document (.psd, 2d.x3d) received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9.0, the application crashes and becomes temporarily unavailable to the user until restart of the application."
+CVE-2022-27655,MEDIUM,"When a user opens a manipulated Universal 3D (.u3d, 3difr.x3d) received from untrusted sources in SAP 3D Visual Enterprise Viewer - version 9.0, the application crashes and becomes temporarily unavailable to the user until restart of the application."
+CVE-2022-27657,MEDIUM,"A highly privileged remote attacker, can gain unauthorized access to display contents of restricted directories by exploiting insufficient validation of path information in SAP Focused Run (Simple Diagnostics Agent 1.0) - version 1.0."
+CVE-2022-27658,MEDIUM,"Under certain conditions, SAP Innovation management - version 2.0, allows an attacker to access information which could lead to information gathering for further exploits and attacks."
+CVE-2022-27666,MEDIUM,A heap buffer overflow flaw was found in IPsec ESP transformation code in net/ipv4/esp4.c and net/ipv6/esp6.c. This flaw allows a local attacker with a normal user privilege to overwrite kernel heap objects and may cause a local privilege escalation threat.
+CVE-2022-27667,MEDIUM,"Under certain conditions, SAP BusinessObjects Business Intelligence platform, Client Management Console (CMC) - version 430, allows an attacker to access information which would otherwise be restricted, leading to Information Disclosure."
+CVE-2022-27669,MEDIUM,"An unauthenticated user can use functions of XML Data Archiving Service of SAP NetWeaver Application Server for Java - version 7.50, to which access should be restricted. This may result in an escalation of privileges."
+CVE-2022-27670,MEDIUM,"SAP SQL Anywhere - version 17.0, allows an authenticated attacker to prevent legitimate users from accessing a SQL Anywhere database server by crashing the server with some queries that use indirect identifiers."
+CVE-2022-27671,MEDIUM,A CSRF token visible in the URL may possibly lead to information disclosure vulnerability.
+CVE-2022-27772,MEDIUM,** UNSUPPORTED WHEN ASSIGNED ** spring-boot versions prior to version v2.2.11.RELEASE was vulnerable to temporary directory hijacking. This vulnerability impacted the org.springframework.boot.web.server.AbstractConfigurableWebServerFactory.createTempDir method. NOTE: This vulnerability only affects products and/or versions that are no longer supported by the maintainer.
+CVE-2022-27811,HIGH,GNOME OCRFeeder before 0.8.4 allows OS command injection via shell metacharacters in a PDF or image filename.
+CVE-2022-27814,LOW,SWHKD 1.1.5 allows arbitrary file-existence tests via the -c option.
+CVE-2022-27815,MEDIUM,SWHKD 1.1.5 unsafely uses the /tmp/swhkd.pid pathname. There can be an information leak or denial of service.
+CVE-2022-27816,LOW,SWHKD 1.1.5 unsafely uses the /tmp/swhks.pid pathname. There can be data loss or a denial of service.
+CVE-2022-27817,LOW,"SWHKD 1.1.5 consumes the keyboard events of unintended users. This could potentially cause an information leak, but is usually a denial of functionality."
+CVE-2022-27818,MEDIUM,SWHKD 1.1.5 unsafely uses the /tmp/swhkd.sock pathname. There can be an information leak or denial of service.
+CVE-2022-27819,MEDIUM,SWHKD 1.1.5 allows unsafe parsing via the -c option. An information leak might occur but there is a simple denial of service (memory exhaustion) upon an attempt to parse a large or infinite file (such as a block or character device).
+CVE-2022-27820,MEDIUM,OWASP Zed Attack Proxy (ZAP) through w2022-03-21 does not verify the TLS certificate chain of an HTTPS server.
+CVE-2022-27821,MEDIUM,Improper boundary check in Quram Agif library prior to SMR Apr-2022 Release 1 allows attackers to cause denial of service via crafted image file.
+CVE-2022-27822,LOW,Information exposure vulnerability in ril property setting prior to SMR April-2022 Release 1 allows access to EF_RUIMID value without permission.
+CVE-2022-27823,MEDIUM,Improper size check in sapefd_parse_meta_HEADER_old function of libsapeextractor library prior to SMR Apr-2022 Release 1 allows out of bounds read via a crafted media file.
+CVE-2022-27824,MEDIUM,Improper size check of in sapefd_parse_meta_DESCRIPTION function of libsapeextractor library prior to SMR Apr-2022 Release 1 allows out of bounds read via a crafted media file
+CVE-2022-27825,MEDIUM,Improper size check in sapefd_parse_meta_HEADER function of libsapeextractor library prior to SMR Apr-2022 Release 1 allows out of bounds read via a crafted media file.
+CVE-2022-27826,HIGH,Improper validation vulnerability in SemSuspendDialogInfo prior to SMR Apr-2022 Release 1 allows attackers to launch certain activities.
+CVE-2022-27827,HIGH,Improper validation vulnerability in MediaMonitorDimension prior to SMR Apr-2022 Release 1 allows attackers to launch certain activities.
+CVE-2022-27828,HIGH,Improper validation vulnerability in MediaMonitorEvent prior to SMR Apr-2022 Release 1 allows attackers to launch certain activities.
+CVE-2022-27829,HIGH,Improper validation vulnerability in VerifyCredentialResponse prior to SMR Apr-2022 Release 1 allows attackers to launch certain activities.
+CVE-2022-27830,HIGH,Improper validation vulnerability in SemBlurInfo prior to SMR Apr-2022 Release 1 allows attackers to launch certain activities.
+CVE-2022-27831,LOW,Improper boundary check in sflvd_rdbuf_bits of libsflvextractor prior to SMR Apr-2022 Release 1 allows attackers to read out of bounds memory.
+CVE-2022-27832,LOW,Improper boundary check in media.extractor library prior to SMR Apr-2022 Release 1 allows attackers to cause denial of service via a crafted media file.
+CVE-2022-27833,MEDIUM,Improper input validation in DSP driver prior to SMR Apr-2022 Release 1 allows out-of-bounds write by integer overflow.
+CVE-2022-27834,MEDIUM,Use after free vulnerability in dsp_context_unload_graph function of DSP driver prior to SMR Apr-2022 Release 1 allows attackers to perform malicious actions.
+CVE-2022-27835,HIGH,Improper boundary check in UWB firmware prior to SMR Apr-2022 Release 1 allows arbitrary memory write.
+CVE-2022-27836,HIGH,Improper access control and path traversal vulnerability in Storage Manager and Storage Manager Service prior to SMR Apr-2022 Release 1 allow local attackers to access arbitrary system files without a proper permission. The patch adds proper validation logic to prevent arbitrary files access.
+CVE-2022-27837,HIGH,A vulnerability using PendingIntent in Accessibility prior to version 12.5.3.2 in Android R(11.0) and 13.0.1.1 in Android S(12.0) allows attacker to access the file with system privilege.
+CVE-2022-27838,HIGH,Improper access control vulnerability in FactoryCamera prior to version 2.1.96 allows attacker to access the file with system privilege.
+CVE-2022-27839,MEDIUM,Improper authentication vulnerability in SecretMode in Samsung Internet prior to version 16.2.1 allows attackers to access bookmark tab without proper credentials.
+CVE-2022-27840,LOW,Improper access control vulnerability in SamsungRecovery prior to version 8.1.43.0 allows local attckers to delete arbitrary files as SamsungRecovery permission.
+CVE-2022-27841,LOW,Improper exception handling in Samsung Pass prior to version 3.7.07.5 allows physical attacker to view the screen that is previously running without authentication
+CVE-2022-27842,MEDIUM,DLL hijacking vulnerability in Smart Switch PC prior to version 4.2.22022_4 allows attacker to execute abitrary code.
+CVE-2022-27843,MEDIUM,DLL hijacking vulnerability in Kies prior to version 2.6.4.22014_2 allows attacker to execute abitrary code.
+CVE-2022-27844,MEDIUM,"Arbitrary File Read vulnerability in WPvivid Team Migration, Backup, Staging – WPvivid (WordPress plugin) versions <= 0.9.70"
+CVE-2022-27845,LOW,Authenticated (admin or higher user role) Stored Cross-Site Scripting (XSS) in PlausibleHQ Plausible Analytics (WordPress plugin) <= 1.2.2
+CVE-2022-27846,MEDIUM,Cross-Site Request Forgery (CSRF) vulnerability in Yooslider Yoo Slider <= 2.0.0 on WordPress allows attackers to create or modify slider.
+CVE-2022-27847,MEDIUM,Cross-Site Request Forgery (CSRF) vulnerability in Yooslider Yoo Slider <= 2.0.0 on WordPress allows attackers to import templates.
+CVE-2022-27848,LOW,Authenticated (admin+ user) Stored Cross-Site Scripting (XSS) in Modern Events Calendar Lite (WordPress plugin) <= 6.5.1
+CVE-2022-27849,MEDIUM,Sensitive Information Disclosure (sac-export.csv) in Simple Ajax Chat (WordPress plugin) <= 20220115
+CVE-2022-27850,MEDIUM,Cross-Site Request Forgery (CSRF) in Simple Ajax Chat (WordPress plugin) <= 20220115 allows an attacker to clear the chat log or delete a chat message.
+CVE-2022-27851,MEDIUM,Cross-Site Request Forgery (CSRF) in Use Any Font (WordPress plugin) <= 6.1.7 allows an attacker to deactivate the API key.
+CVE-2022-27852,MEDIUM,Multiple Unauthenticated Stored Cross-Site Scripting (XSS) vulnerabilities in KB Support (WordPress plugin) <= 1.5.5
+CVE-2022-27853,LOW,Authenticated (author or higher role) Stored Cross-Site Scripting (XSS) in Contest Gallery (WordPress plugin) <= 13.1.0.9
+CVE-2022-27854,LOW,Stored Cross-Site Scripting (XSS) vulnerability in Alexander Ustimenko's Psychological tests & quizzes plugin <= 0.21.19 on WordPress possible for users with contributor or higher role via &wpt_test_page_submit_button_caption parameter.
+CVE-2022-27860,Unknown,Cross-Site Request Forgery (CSRF) leading to Cross-Site Scripting (XSS) in Shea Bunge's Footer Text plugin <= 2.0.3 on WordPress.
+CVE-2022-27862,HIGH,Arbitrary File Upload leading to RCE in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to upload and execute dangerous file types (e.g. PHP shell) via the signature upload on the booking form.
+CVE-2022-27863,MEDIUM,Sensitive Information Exposure in E4J s.r.l. VikBooking Hotel Booking Engine & PMS plugin <= 1.5.3 on WordPress allows attackers to get the booking data by guessing / brute-forcing easy predictable booking IDs via search POST requests.
+CVE-2022-27881,MEDIUM,engine.c in slaacd in OpenBSD 6.9 and 7.0 before 2022-02-21 has a buffer overflow triggerable by an IPv6 router advertisement with more than seven nameservers. NOTE: privilege separation and pledge can prevent exploitation.
+CVE-2022-27882,MEDIUM,slaacd in OpenBSD 6.9 and 7.0 before 2022-03-22 has an integer signedness error and resultant heap-based buffer overflow triggerable by a crafted IPv6 router advertisement. NOTE: privilege separation and pledge can prevent exploitation.
+CVE-2022-27883,HIGH,A link following vulnerability in Trend Micro Antivirus for Mac 11.5 could allow an attacker to create a specially-crafted file as a symlink that can lead to privilege escalation. Please note that an attacker must at least have low-level privileges on the system to attempt to exploit this vulnerability.
+CVE-2022-27884,MEDIUM,Maccms v10 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in /admin.php/admin/plog/index.html via the wd parameter.
+CVE-2022-27885,MEDIUM,Maccms v10 was discovered to contain multiple reflected cross-site scripting (XSS) vulnerabilities in /admin.php/admin/website/data.html via the select and input parameters.
+CVE-2022-27886,MEDIUM,Maccms v10 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in /admin.php/admin/ulog/index.html via the wd parameter.
+CVE-2022-27887,MEDIUM,Maccms v10 was discovered to contain a reflected cross-site scripting (XSS) vulnerability in /admin.php/admin/vod/data.html via the repeat parameter.
+CVE-2022-27888,Unknown,Foundry Issues service versions 2.244.0 to 2.249.0 was found to be logging in a manner that captured sensitive information (session tokens). This issue was fixed in 2.249.1.
+CVE-2022-27902,Unknown,"** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2022-1215. Reason: This issue was MERGED into CVE-2022-1215 in accordance with CVE content decisions, because it is the same type of vulnerability and affects the same versions. Notes: All CVE users should reference CVE-2022-1215 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage."
+CVE-2022-27903,Unknown,An OS Command Injection vulnerability in the configuration parser of Eve-NG Professional through 4.0.1-65 and Eve-NG Community through 2.0.3-112 allows a remote authenticated attacker to execute commands as root by editing virtualization command parameters of imported UNL files.
+CVE-2022-27905,Unknown,"In ControlUp Real-Time Agent before 8.6, an unquoted path can result in privilege escalation. An attacker would require write permissions to the root level of the OS drive (C:\) to exploit this."
+CVE-2022-27906,MEDIUM,"Mendelson OFTP2 before 1.1 b43 is affected by directory traversal. To access the vulnerable code path, the attacker has to know one of the configured Odette IDs of the OFTP2 server. An attacker can upload files to the server outside of the intended upload directory."
+CVE-2022-27907,MEDIUM,Sonatype Nexus Repository Manager 3.x before 3.38.0 allows SSRF.
+CVE-2022-27908,MEDIUM,Zoho ManageEngine OpManager before 125588 (and before 125603) is vulnerable to authenticated SQL Injection in the Inventory Reports module.
+CVE-2022-27919,HIGH,Gradle Enterprise before 2022.1 allows remote code execution if the installation process did not specify an initial configuration file. The configuration allows certain anonymous access to administration and an API.
+CVE-2022-27920,MEDIUM,libkiwix 10.0.0 and 10.0.1 allows XSS in the built-in webserver functionality via the search suggestions URL parameter. This is fixed in 10.1.0.
+CVE-2022-27924,MEDIUM,"Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 allows an unauthenticated attacker to inject arbitrary memcache commands into a targeted instance. These memcache commands becomes unescaped, causing an overwrite of arbitrary cached entries."
+CVE-2022-27925,MEDIUM,"Zimbra Collaboration (aka ZCS) 8.8.15 and 9.0 has mboximport functionality that receives a ZIP archive and extracts files from it. An authenticated user with administrator rights has the ability to upload arbitrary files to the system, leading to directory traversal."
+CVE-2022-27926,MEDIUM,A reflected cross-site scripting (XSS) vulnerability in the /public/launchNewWindow.jsp component of Zimbra Collaboration (aka ZCS) 9.0 allows unauthenticated attackers to execute arbitrary web script or HTML via request parameters.
+CVE-2022-27927,HIGH,A SQL injection vulnerability exists in Microfinance Management System 1.0 when MySQL is being used as the application database. An attacker can issue SQL commands to the MySQL database through the vulnerable course_code and/or customer_number parameter.
+CVE-2022-27938,MEDIUM,"stb_image.h (aka the stb image loader) 2.19, as used in libsixel and other products, has a reachable assertion in stbi__create_png_image_raw."
+CVE-2022-27939,MEDIUM,tcprewrite in Tcpreplay 4.4.1 has a reachable assertion in get_layer4_v6 in common/get.c.
+CVE-2022-27940,MEDIUM,tcprewrite in Tcpreplay 4.4.1 has a heap-based buffer over-read in get_ipv6_next in common/get.c.
+CVE-2022-27941,MEDIUM,tcprewrite in Tcpreplay 4.4.1 has a heap-based buffer over-read in get_l2len_protocol in common/get.c.
+CVE-2022-27942,MEDIUM,tcpprep in Tcpreplay 4.4.1 has a heap-based buffer over-read in parse_mpls in common/get.c.
+CVE-2022-27943,MEDIUM,"libiberty/rust-demangle.c in GNU GCC 11.2 allows stack consumption in demangle_const, as demonstrated by nm-new."
+CVE-2022-27945,HIGH,NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the sysNewPasswd and sysConfirmPasswd parameters to password.cgi.
+CVE-2022-27946,HIGH,NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the sysNewPasswd and sysConfirmPasswd parameters to admin_account.cgi.
+CVE-2022-27947,HIGH,"NETGEAR R8500 1.0.2.158 devices allow remote authenticated users to execute arbitrary commands (such as telnetd) via shell metacharacters in the ipv6_fix.cgi ipv6_wan_ipaddr, ipv6_lan_ipaddr, ipv6_wan_length, or ipv6_lan_length parameter."
+CVE-2022-27948,LOW,** DISPUTED ** Certain Tesla vehicles through 2022-03-26 allow attackers to open the charging port via a 315 MHz RF signal containing a fixed sequence of approximately one hundred symbols. NOTE: the vendor's perspective is that the behavior is as intended.
+CVE-2022-27950,LOW,"In drivers/hid/hid-elo.c in the Linux kernel before 5.16.11, a memory leak exists for a certain hid_parse error condition."
+CVE-2022-27952,HIGH,An arbitrary file upload vulnerability in the file upload module of PayloadCMS v0.15.0 allows attackers to execute arbitrary code via a crafted SVG file.
+CVE-2022-27958,MEDIUM,Insecure permissions configured in the userid parameter at /user/getuserprofile of FEBS-Security v1.0 allows attackers to access and arbitrarily modify users' personal information.
+CVE-2022-27960,MEDIUM,Insecure permissions configured in the user_id parameter at SysUserController.java of OFCMS v1.1.4 allows attackers to access and arbitrarily modify users' personal information.
+CVE-2022-27961,LOW,A cross-site scripting (XSS) vulnerability at /ofcms/company-c-47 in OFCMS v1.1.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected into the Comment text box.
+CVE-2022-27962,Unknown,Bluecms 1.6 has a SQL injection vulnerability at cooike.
+CVE-2022-27963,MEDIUM,Xftp 7.0.0088p and below contains a binary hijack vulnerability which allows attackers to execute arbitrary code via a crafted .exe file.
+CVE-2022-27964,MEDIUM,Xmanager v7.0.0096 and below contains a binary hijack vulnerability which allows attackers to execute arbitrary code via a crafted .exe file.
+CVE-2022-27965,MEDIUM,Xlpd v7.0.0094 and below contains a binary hijack vulnerability which allows attackers to execute arbitrary code via a crafted .exe file.
+CVE-2022-27966,MEDIUM,Xshell v7.0.0099 and below contains a binary hijack vulnerability which allows attackers to execute arbitrary code via a crafted .exe file.
+CVE-2022-27982,Unknown,RG-NBR-E Enterprise Gateway RG-NBR2100G-E was discovered to contain a remote code execution (RCE) vulnerability via the fileName parameter at /guest_auth/cfg/upLoadCfg.php.
+CVE-2022-27983,Unknown,RG-NBR-E Enterprise Gateway RG-NBR2100G-E was discovered to contain an arbitrary file read vulnerability via the url parameter in check.php.
+CVE-2022-27984,Unknown,CuppaCMS v1.0 was discovered to contain a SQL injection vulnerability via the menu_filter parameter at /administrator/templates/default/html/windows/right.php.
+CVE-2022-27985,Unknown,CuppaCMS v1.0 was discovered to contain a SQL injection vulnerability via /administrator/alerts/alertLightbox.php.
+CVE-2022-27991,MEDIUM,Online Banking System in PHP v1 was discovered to contain multiple SQL injection vulnerabilities at /staff_login.php via the Staff ID and Staff Password parameters.
+CVE-2022-27992,MEDIUM,Zoo Management System v1.0 was discovered to contain a SQL injection vulnerability at /public_html/animals via the class_id parameter.
+CVE-2022-28000,MEDIUM,Car Rental System v1.0 was discovered to contain a SQL injection vulnerability at /Car_Rental/booking.php via the id parameter.
+CVE-2022-28001,HIGH,Movie Seat Reservation v1 was discovered to contain a SQL injection vulnerability at /index.php?page=reserve via the id parameter.
+CVE-2022-28002,MEDIUM,Movie Seat Reservation v1 was discovered to contain an unauthenticated file disclosure vulnerability via /index.php?page=home.
+CVE-2022-28006,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\employee_delete.php.
+CVE-2022-28007,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\cashadvance_delete.php.
+CVE-2022-28008,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\attendance_delete.php.
+CVE-2022-28009,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\attendance_delete.php.
+CVE-2022-28010,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\overtime_delete.php.
+CVE-2022-28011,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\schedule_delete.php.
+CVE-2022-28012,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\position_delete.php.
+CVE-2022-28013,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\schedule_employee_edit.php.
+CVE-2022-28014,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\attendance_edit.php.
+CVE-2022-28015,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\cashadvance_edit.php.
+CVE-2022-28016,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\deduction_edit.php.
+CVE-2022-28017,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\overtime_edit.php.
+CVE-2022-28018,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\schedule_edit.php.
+CVE-2022-28019,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\employee_edit.php.
+CVE-2022-28020,MEDIUM,Attendance and Payroll System v1.0 was discovered to contain a SQL injection vulnerability via the component \admin\position_edit.php.
+CVE-2022-28021,HIGH,Purchase Order Management System v1.0 was discovered to contain a remote code execution (RCE) vulnerability via /purchase_order/admin/?page=user.
+CVE-2022-28022,HIGH,Purchase Order Management System v1.0 was discovered to contain a SQL injection vulnerability via /purchase_order/classes/Master.php?f=delete_item.
+CVE-2022-28023,HIGH,Purchase Order Management System v1.0 was discovered to contain a SQL injection vulnerability via /purchase_order/classes/Master.php?f=delete_supplier.
+CVE-2022-28024,HIGH,Student Grading System v1.0 was discovered to contain a SQL injection vulnerability via /student-grading-system/rms.php?page=grade.
+CVE-2022-28025,HIGH,Student Grading System v1.0 was discovered to contain a SQL injection vulnerability via /student-grading-system/rms.php?page=school_year.
+CVE-2022-28026,HIGH,Student Grading System v1.0 was discovered to contain a SQL injection vulnerability via /student-grading-system/rms.php?page=student_p&id=.
+CVE-2022-28028,HIGH,Simple Real Estate Portal System v1.0 was discovered to contain a SQL injection vulnerability via /reps/classes/Master.php?f=delete_amenity.
+CVE-2022-28029,HIGH,Simple Real Estate Portal System v1.0 was discovered to contain a SQL injection vulnerability via /reps/classes/Master.php?f=delete_type.
+CVE-2022-28030,HIGH,Simple Real Estate Portal System v1.0 was discovered to contain a SQL injection vulnerability via /reps/classes/Master.php?f=delete_estate.
+CVE-2022-28032,HIGH,AtomCMS 2.0 is vulnerable to SQL Injection via Atom.CMS_admin_ajax_pages.php
+CVE-2022-28033,HIGH,Atom.CMS 2.0 is vulnerable to SQL Injection via Atom.CMS_admin_uploads.php
+CVE-2022-28034,HIGH,AtomCMS 2.0 is vulnerabie to SQL Injection via Atom.CMS_admin_ajax_list-sort.php
+CVE-2022-28035,HIGH,Atom.CMS 2.0 is vulnerable to SQL Injection via Atom.CMS_admin_ajax_blur-save.php
+CVE-2022-28036,HIGH,AtomCMS 2.0 is vulnerable to SQL Injection via Atom.CMS_admin_ajax_navigation.php
+CVE-2022-28041,MEDIUM,stb_image.h v2.27 was discovered to contain an integer overflow via the function stbi__jpeg_decode_block_prog_dc. This vulnerability allows attackers to cause a Denial of Service (DoS) via unspecified vectors.
+CVE-2022-28042,MEDIUM,stb_image.h v2.27 was discovered to contain an heap-based use-after-free via the function stbi__jpeg_huff_decode.
+CVE-2022-28044,HIGH,Irzip v0.640 was discovered to contain a heap memory corruption via the component lrzip.c:initialise_control.
+CVE-2022-28048,MEDIUM,STB v2.27 was discovered to contain an integer shift of invalid size in the component stbi__jpeg_decode_block_prog_ac.
+CVE-2022-28049,MEDIUM,NGINX NJS 0.7.2 was discovered to contain a NULL pointer dereference via the component njs_vmcode_array at /src/njs_vmcode.c.
+CVE-2022-28052,MEDIUM,"Directory Traversal vulnerability in file cn/roothub/store/FileSystemStorageService in function store in Roothub 2.6.0 allows remote attackers with low privlege to arbitrarily upload files via /common/upload API, which could lead to remote arbitrary code execution."
+CVE-2022-28053,Unknown,Typemill v1.5.3 was discovered to contain an arbitrary file upload vulnerability via the upload function. This vulnerability allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-28054,Unknown,Improper sanitization of trigger action scripts in VanDyke Software VShell for Windows v4.6.2 allows attackers to execute arbitrary code via a crafted value.
+CVE-2022-28055,Unknown,Fusionpbx v4.4 and below contains a command injection vulnerability via the download email logs function.
+CVE-2022-28056,Unknown,ShopXO v2.2.5 and below was discovered to contain a system re-install vulnerability via the Add function in app/install/controller/Index.php.
+CVE-2022-28058,MEDIUM,Verydows v2.0 was discovered to contain an arbitrary file deletion vulnerability via \backend\file_controller.php.
+CVE-2022-28059,MEDIUM,Verydows v2.0 was discovered to contain an arbitrary file deletion vulnerability via \backend\database_controller.php.
+CVE-2022-28060,Unknown,"SQL Injection vulnerability in Victor CMS v1.0, via the user_name parameter to /includes/login.php."
+CVE-2022-28062,MEDIUM,Car Rental System v1.0 contains an arbitrary file upload vulnerability via the Add Car component which allows attackers to upload a webshell and execute arbitrary code.
+CVE-2022-28063,MEDIUM,Simple Bakery Shop Management System v1.0 contains a file disclosure via /bsms/?page=products.
+CVE-2022-28066,Unknown,Libarchive v3.6.0 was discovered to contain a read memory access vulnerability via the function lzma_decode.
+CVE-2022-28067,Unknown,An incorrect access control issue in Sandboxie Classic v5.55.13 allows attackers to cause a Denial of Service (DoS) in the Sandbox via a crafted executable.
+CVE-2022-28074,LOW,Halo-1.5.0 was discovered to contain a stored cross-site scripting (XSS) vulnerability via \admin\index.html#/system/tools.
+CVE-2022-28076,Unknown,Seacms v11.6 was discovered to contain a remote command execution (RCE) vulnerability via the Mail Server Settings.
+CVE-2022-28081,Unknown,A reflected cross-site scripting (XSS) vulnerability in the component Query.php of arPHP v3.6.0 allows attackers to execute arbitrary web scripts.
+CVE-2022-28082,Unknown,Tenda AX12 v22.03.01.21_CN was discovered to contain a stack overflow via the list parameter at /goform/SetNetControlList.
+CVE-2022-28085,Unknown,A flaw was found in htmldoc commit 31f7804. A heap buffer overflow in the function pdf_write_names in ps-pdf.cxx may lead to arbitrary code execution and Denial of Service (DoS).
+CVE-2022-28090,Unknown,Jspxcms v10.2.0 allows attackers to execute a Server-Side Request Forgery (SSRF) via /cmscp/ext/collect/fetch_url.do?url=.
+CVE-2022-28093,Unknown,SCBS Online Sports Venue Reservation System v1.0 was discovered to contain a local file inclusion vulnerability which allow attackers to execute arbitrary code via a crafted PHP file.
+CVE-2022-28094,Unknown,SCBS Online Sports Venue Reservation System v1.0 was discovered to contain a cross-site scripting (XSS) vulnerability via the fid parameter at booking.php.
+CVE-2022-28096,Unknown,Skycaiji v2.4 was discovered to contain a remote code execution (RCE) vulnerability via /SkycaijiApp/admin/controller/Develop.php.
+CVE-2022-28099,Unknown,Poultry Farm Management System v1.0 was discovered to contain a SQL injection vulnerability via the Item parameter at /farm/store.php.
+CVE-2022-28101,Unknown,"Turtlapp Turtle Note v0.7.2.6 does not filter the <meta> tag during markdown parsing, allowing attackers to execute HTML injection."
+CVE-2022-28102,Unknown,A cross-site scripting (XSS) vulnerability in PHP MySQL Admin Panel Generator v1 allows attackers to execute arbitrary web scripts or HTML via a crafted payload injected at /edit-db.php.
+CVE-2022-28108,HIGH,"Selenium Server (Grid) before 4 allows CSRF because it permits non-JSON content types such as application/x-www-form-urlencoded, multipart/form-data, and text/plain."
+CVE-2022-28109,MEDIUM,Selenium Selenium Grid (formerly Selenium Standalone Server) Fixed in 4.0.0-alpha-7 is affected by: DNS rebinding. The impact is: execute arbitrary code (remote). The component is: WebDriver endpoint of Selenium Grid / Selenium Standalone Server. The attack vector is: Triggered by browsing to to a malicious remote web server. The WebDriver endpoint of Selenium Server (Grid) is vulnerable to DNS rebinding. This can be used to execute arbitrary code on the machine.
+CVE-2022-28111,Unknown,MyBatis PageHelper v1.x.x-v5.x.x was discovered to contain a time-blind SQL injection vulnerability via the orderBy parameter.
+CVE-2022-28113,HIGH,An issue in upload.csp of FANTEC GmbH MWiD25-DS Firmware v2.000.030 allows attackers to write files and reset the user passwords without having a valid session cookie.
+CVE-2022-28114,Unknown,DSCMS v3.0 was discovered to contain an arbitrary file deletion vulnerability via /controller/Adv.php.
+CVE-2022-28115,HIGH,Online Sports Complex Booking v1.0 was discovered to contain a SQL injection vulnerability via the id parameter.
+CVE-2022-28116,HIGH,Online Banking System v1.0 was discovered to contain a SQL injection vulnerability via the id parameter.
+CVE-2022-28117,Unknown,A Server-Side Request Forgery (SSRF) in feed_parser class of Navigate CMS v2.9.4 allows remote attackers to force the application to make arbitrary requests via injection of arbitrary URLs into the feed parameter.
+CVE-2022-28118,Unknown,SiteServer CMS v7.x allows attackers to execute arbitrary code via a crafted plug-in.
+CVE-2022-28128,MEDIUM,Untrusted search path vulnerability in AttacheCase ver.3.6.1.0 and earlier allows an attacker to gain privileges and execute arbitrary code via a Trojan horse DLL in an unspecified directory.

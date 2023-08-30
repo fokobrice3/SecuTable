@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-4339,Red Hat,2007-03-14,Mark J Cox,"Vulnerable.  This issue affects OpenSSL and OpenSSL compatibility packages in Red Hat Enterprise Linux 2.1, 3, and 4.  Updates, along with our advisory are available at the URL below.
+http://rhn.redhat.com/errata/RHSA-2006-0661.html
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch."
+CVE-2006-4343,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4433,Red Hat,2008-10-30,Tomas Hoger,We do not consider this to be a PHP flaw.  The problem is caused by the insufficient input validation performed by Zend platform.
+CVE-2006-4434,Red Hat,2006-08-30,Mark J Cox,This flaw causes a crash but does not result in a denial of service against Sendmail and is therefore not a security issue.
+CVE-2006-4447,Red Hat,2006-09-12,Mark J Cox,"Not Vulnerable. This issue does not exist in Red Hat Enterprise Linux 2.1 or 3.  This issue not exploitable in Red Hat Enterprise Linux 4.  A detailed analysis of this issue can be found in the Red Hat Bug Tracking System:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=195555"
+CVE-2006-4481,Red Hat,2006-09-20,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2006-4513,Red Hat,2007-02-09,Mark J Cox,Not vulnerable.  This issue did not affect versions of wvWare library included in koffice packages as shipped with Red Hat Enterprise Linux 2.1
+CVE-2006-4514,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4572,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4600,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=205826
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-5625,Red Hat,2009-03-31,Tomas Hoger,We do not consider this to be a security issue. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2008-5658,Red Hat,2009-04-15,Tomas Hoger,"This issue did not affect PHP versions as shipped in Red Hat Enterprise Linux 2.1, 3, 4, and 5, and Red Hat Application Stack v1. PHP version in Red Hat Application Stack v2 was fixed via: https://rhn.redhat.com/errata/RHSA-2009-0350.html"
+CVE-2008-5698,Red Hat,2009-01-19,Joshua Bressers,Red Hat does not consider a crash of a client application such as Konqueror to be a security issue.
+CVE-2008-5701,Red Hat,2009-05-14,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG. Red Hat does not provide support for the Linux kernel on the MIPS architecture."
+CVE-2008-5712,Red Hat,2009-01-19,Joshua Bressers,Red Hat does not consider a crash of a client application such as Konqueror to be a security issue.
+CVE-2008-5713,Red Hat,2009-02-11,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.  It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2009-0264.html"
+CVE-2008-5714,Red Hat,2009-02-26,Joshua Bressers,Not vulnerable. This issue did not affect the versions of Xen as shipped with Red Hat Enterprise Linux 5.
+CVE-2008-5715,Red Hat,2009-01-19,Joshua Bressers,Red Hat does not consider a crash of a client application such as Firefox to be a security issue.
+CVE-2008-5716,Red Hat,2009-01-07,Tomas Hoger,Not vulnerable. This issue did not affect the versions of Xen as shipped with Red Hat Enterprise Linux 5.  Security update released to address CVE-2008-4405 - https://rhn.redhat.com/errata/RHSA-2009-0003.html - contained correct patch which did not introduce this problem and resolved the original issue.
+CVE-2008-5822,Red Hat,2009-01-19,Joshua Bressers,Red Hat does not consider a crash of a client application such as Firefox to be a security issue.
+CVE-2008-5824,Red Hat,2009-02-11,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=479966
+
+The Red Hat Security Response Team has rated this issue as having low
+security impact, a future update may address this flaw. More
+information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2008-5844,Red Hat,2009-01-23,Tomas Hoger,"Not vulnerable.  This issue did not affect the versions of the php package, as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5, and with
+Red Hat Application Stack v1 and v2.  Only PHP version 5.2.7 was affected by this flaw."
+CVE-2008-5907,Red Hat,2009-02-11,Joshua Bressers,"Red Hat does not consider this bug to be a security issue. For a more detailed explanation, please see the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-5907"
+CVE-2008-6107,Red Hat,2009-02-12,Mark J Cox,"Not vulnerable. Red Hat Enterprise Linux 2.1, 3, 4, and 5 do not ship for the SPARC architecture."

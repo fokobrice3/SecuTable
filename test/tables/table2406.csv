@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2009-3229,Red Hat,2009-09-24,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of PostgreSQL as shipped with Red Hat Enterprise Linux 3, 4, or 5.
+
+In PostgreSQL versions prior to 8.2, only database administrator was able to LOAD additional plugins and use it to cause server crash.  However, this does not bypass trust boundary, so its not a security flaw for older PostgreSQL versions.  Additionally, no plugins are shipped in Red Hat PostgreSQL packages by default.
+
+This issue was addressed in Red Hat Application Stack v2 via https://rhn.redhat.com/errata/RHSA-2009-1461.html ."
+CVE-2009-3231,Red Hat,2009-09-24,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of PostgreSQL as shipped with Red Hat Enterprise Linux 3, 4, or 5, as they do not support LDAP authentication, which was introduced upstream in version 8.2.
+
+This issue was addressed in Red Hat Application Stack v2 via https://rhn.redhat.com/errata/RHSA-2009-1461.html ."
+CVE-2009-3234,Red Hat,2009-09-21,Mark J Cox,"Not vulnerable. This issue only affected kernels version v2.6.31-rc1 and later. Therefore this issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2009-3241,Red Hat,2009-09-30,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3242,Red Hat,2009-09-24,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3243,Red Hat,2009-09-24,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3245,Red Hat,2010-03-25,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-3245
+
+This issue was fixed in openssl packages in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2010-0162.html
+
+This issue was fixed in openssl096b packages in Red Hat Enterprise Linux 3 and 4 via: https://rhn.redhat.com/errata/RHSA-2010-0173.html
+
+The Red Hat Security Response Team has rated this issue as having low security impact on openssl packages in Red Hat Enterprise Linux 3 and 4, a future update may address this flaw."
+CVE-2009-3280,Red Hat,2009-09-22,Tomas Hoger,"Not vulnerable. This vulnerability was introduced into the Linux kernel in version 2.6.30-rc1 via upstream commit 2a519311, and therefore does not affect users of Red Hat Enterprise Linux 3, 4, 5, and Red Hat Enterprise MRG."
+CVE-2009-3286,Red Hat,2009-11-04,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG.

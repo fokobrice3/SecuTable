@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2017-18465,LOW,cPanel before 62.0.17 does not have a sufficient list of reserved usernames (SEC-227).
+CVE-2017-18466,MEDIUM,cPanel before 62.0.17 does not properly recognize domain ownership during addition of parked domains to a mail configuration (SEC-228).
+CVE-2017-18467,MEDIUM,cPanel before 62.0.17 allows access to restricted resources because of a URL filtering error (SEC-229).
+CVE-2017-18468,MEDIUM,cPanel before 62.0.17 allows demo accounts to execute code via the Htaccess::setphppreference API (SEC-232).
+CVE-2017-18469,MEDIUM,cPanel before 62.0.17 allows demo accounts to execute code via an NVData_fetchinc API call (SEC-233).
+CVE-2017-1847,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18470,MEDIUM,cPanel before 62.0.4 has a fixed password for the Munin MySQL test account (SEC-196).
+CVE-2017-18471,LOW,cPanel before 62.0.4 allows self XSS on the paper_lantern password-change screen (SEC-197).
+CVE-2017-18472,MEDIUM,cPanel before 62.0.4 allows reflected XSS in reset-password interfaces (SEC-198).
+CVE-2017-18473,LOW,cPanel before 62.0.4 allows self XSS on the webmail Password and Security page (SEC-199).
+CVE-2017-18474,MEDIUM,cPanel before 62.0.4 allows arbitrary file-read operations via Exim valiases (SEC-201).
+CVE-2017-18475,MEDIUM,"In cPanel before 62.0.4, Exim piped filters ran in the context of an incorrect user account when delivering to a system user (SEC-204)."
+CVE-2017-18476,MEDIUM,Leech Protect in cPanel before 62.0.4 does not protect certain directories (SEC-205).
+CVE-2017-18477,MEDIUM,"In cPanel before 62.0.4, Exim transports could execute in the context of the nobody account (SEC-206)."
+CVE-2017-18478,MEDIUM,In cPanel before 62.0.4 incorrect ACL checks could occur in xml-api for Rearrange Account actions (SEC-207).
+CVE-2017-18479,MEDIUM,"In cPanel before 62.0.4, WHM SSL certificate generation uses an unreserved e-mail address (SEC-209)."
+CVE-2017-1848,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18480,MEDIUM,cPanel before 62.0.4 does not enforce account ownership for has_mycnf_for_cpuser WHM API calls (SEC-210).
+CVE-2017-18481,LOW,cPanel before 62.0.4 allows stored XSS in the WHM Account Suspension List interface (SEC-211).
+CVE-2017-18482,MEDIUM,cPanel before 62.0.4 allows resellers to use the WHM enqueue_transfer_item API for queueing non-rearrange modules (SEC-213).
+CVE-2017-18483,MEDIUM,ANNKE SP1 HD wireless camera 3.4.1.1604071109 devices allow XSS via a crafted SSID.
+CVE-2017-18484,MEDIUM,Cognitoys Dino devices allow XSS via the SSID.
+CVE-2017-18485,MEDIUM,Cognitoys Dino devices allow profiles_add.html CSRF.
+CVE-2017-18486,MEDIUM,"Jitbit Helpdesk before 9.0.3 allows remote attackers to escalate privileges because of mishandling of the User/AutoLogin userHash parameter. By inspecting the token value provided in a password reset link, a user can leverage a weak PRNG to recover the shared secret used by the server for remote authentication. The shared secret can be used to escalate privileges by forging new tokens for any user. These tokens can be used to automatically log in as the affected user."
+CVE-2017-18487,MEDIUM,The adsense-plugin (aka Google AdSense) plugin before 1.44 for WordPress has multiple XSS issues.
+CVE-2017-18488,MEDIUM,The Backup Guard plugin before 1.1.47 for WordPress has multiple XSS issues.
+CVE-2017-18489,MEDIUM,The contact-form-7-sms-addon plugin before 2.4.0 for WordPress has XSS.
+CVE-2017-1849,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18490,MEDIUM,The contact-form-multi plugin before 1.2.1 for WordPress has multiple XSS issues.
+CVE-2017-18491,MEDIUM,The contact-form-plugin plugin before 4.0.6 for WordPress has multiple XSS issues.
+CVE-2017-18492,MEDIUM,The contact-form-to-db plugin before 1.5.7 for WordPress has multiple XSS issues.
+CVE-2017-18493,MEDIUM,The custom-admin-page plugin before 0.1.2 for WordPress has multiple XSS issues.
+CVE-2017-18494,MEDIUM,The custom-search-plugin plugin before 1.36 for WordPress has multiple XSS issues.
+CVE-2017-18495,MEDIUM,The gravity-forms-sms-notifications plugin before 2.4.0 for WordPress has XSS.
+CVE-2017-18496,MEDIUM,The htaccess plugin before 1.7.6 for WordPress has multiple XSS issues.
+CVE-2017-18497,MEDIUM,The liveforms plugin before 3.4.0 for WordPress has XSS.
+CVE-2017-18498,MEDIUM,The simple-job-board plugin before 2.4.4 for WordPress has reflected XSS via keyword search.
+CVE-2017-18499,MEDIUM,The simple-membership plugin before 3.5.7 for WordPress has XSS.
+CVE-2017-1850,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18500,MEDIUM,The social-buttons-pack plugin before 1.1.1 for WordPress has multiple XSS issues.
+CVE-2017-18501,MEDIUM,The social-login-bws plugin before 0.2 for WordPress has multiple XSS issues.
+CVE-2017-18502,MEDIUM,The subscriber plugin before 1.3.5 for WordPress has multiple XSS issues.
+CVE-2017-18503,MEDIUM,The twitter-cards-meta plugin before 2.5.0 for WordPress has XSS.
+CVE-2017-18504,MEDIUM,The twitter-cards-meta plugin before 2.5.0 for WordPress has CSRF.
+CVE-2017-18505,MEDIUM,The twitter-plugin plugin before 2.55 for WordPress has XSS.
+CVE-2017-18506,MEDIUM,The woocommerce-pdf-invoices-packing-slips plugin before 2.0.13 for WordPress has XSS via the tab or section variable on settings screens.
+CVE-2017-18507,MEDIUM,The wp-live-chat-support plugin before 7.1.05 for WordPress has XSS.
+CVE-2017-18508,MEDIUM,The wp-live-chat-support plugin before 7.1.03 for WordPress has XSS.
+CVE-2017-18509,HIGH,"An issue was discovered in net/ipv6/ip6mr.c in the Linux kernel before 4.11. By setting a specific socket option, an attacker can control a pointer in kernel land and cause an inet_csk_listen_stop general protection fault, or potentially execute arbitrary code under certain circumstances. The issue can be triggered as root (e.g., inside a default LXC container or with the CAP_NET_ADMIN capability) or after namespace unsharing. This occurs because sk_type and protocol are not checked in the appropriate part of the ip6_mroute_* functions. NOTE: this affects Linux distributions that use 4.9.x longterm kernels before 4.9.187."
+CVE-2017-1851,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18510,MEDIUM,"The custom-sidebars plugin before 3.1.0 for WordPress has CSRF related to set location, import actions, and export actions."
+CVE-2017-18511,MEDIUM,The custom-sidebars plugin before 3.0.8.1 for WordPress has CSRF.
+CVE-2017-18512,MEDIUM,The newsletter-by-supsystic plugin before 1.1.8 for WordPress has CSRF.
+CVE-2017-18513,MEDIUM,The responsive-menu plugin before 3.1.4 for WordPress has no CSRF protection mechanism for the admin interface.
+CVE-2017-18514,HIGH,The simple-login-log plugin before 1.1.2 for WordPress has SQL injection.
+CVE-2017-18515,HIGH,The wp-statistics plugin before 12.0.8 for WordPress has SQL injection.
+CVE-2017-18516,MEDIUM,The bws-linkedin plugin before 1.0.5 for WordPress has multiple XSS issues.
+CVE-2017-18517,MEDIUM,The bws-pinterest plugin before 1.0.5 for WordPress has multiple XSS issues.
+CVE-2017-18518,MEDIUM,The bws-smtp plugin before 1.1.0 for WordPress has multiple XSS issues.
+CVE-2017-18519,MEDIUM,The customer-area plugin before 7.4.3 for WordPress has XSS via admin pages.
+CVE-2017-1852,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18520,MEDIUM,The democracy-poll plugin before 5.4 for WordPress has XSS via update_l10n in admin/class.DemAdminInit.php.
+CVE-2017-18521,MEDIUM,The democracy-poll plugin before 5.4 for WordPress has CSRF via wp-admin/options-general.php?page=democracy-poll&subpage=l10n.
+CVE-2017-18522,MEDIUM,The eelv-newsletter plugin before 4.6.1 for WordPress has XSS in the address book.
+CVE-2017-18523,MEDIUM,The eelv-newsletter plugin before 4.6.1 for WordPress has CSRF in the address book.
+CVE-2017-18524,MEDIUM,The football-pool plugin before 2.6.5 for WordPress has multiple XSS issues.
+CVE-2017-18525,MEDIUM,The megamenu plugin before 2.4 for WordPress has XSS.
+CVE-2017-18526,MEDIUM,The moreads-se plugin before 1.4.7 for WordPress has XSS.
+CVE-2017-18527,MEDIUM,The pagination plugin before 1.0.7 for WordPress has multiple XSS issues.
+CVE-2017-18528,MEDIUM,The pdf-print plugin before 1.9.4 for WordPress has multiple XSS issues.
+CVE-2017-18529,MEDIUM,The promobar plugin before 1.1.1 for WordPress has multiple XSS issues.
+CVE-2017-1853,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18530,MEDIUM,The rating-bws plugin before 0.2 for WordPress has multiple XSS issues.
+CVE-2017-18531,MEDIUM,"The raygun4wp plugin before 1.8.3 for WordPress has XSS in the settings, a different issue than CVE-2017-9288."
+CVE-2017-18532,MEDIUM,The realty plugin before 1.1.0 for WordPress has multiple XSS issues.
+CVE-2017-18533,MEDIUM,The rimons-twitter-widget plugin before 1.3 for WordPress has XSS.
+CVE-2017-18534,MEDIUM,The share-on-diaspora plugin before 0.7.2 for WordPress has reflected XSS in share URL parameters.
+CVE-2017-18535,MEDIUM,The smokesignal plugin before 1.2.7 for WordPress has XSS.
+CVE-2017-18536,MEDIUM,The stop-user-enumeration plugin before 1.3.8 for WordPress has XSS.
+CVE-2017-18537,MEDIUM,The visitors-online plugin before 1.0.0 for WordPress has multiple XSS issues.
+CVE-2017-18538,MEDIUM,The weblibrarian plugin before 3.4.8.5 for WordPress has XSS via front-end short codes.
+CVE-2017-18539,MEDIUM,The weblibrarian plugin before 3.4.8.6 for WordPress has XSS via front-end short codes.
+CVE-2017-1854,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18540,MEDIUM,The weblibrarian plugin before 3.4.8.7 for WordPress has XSS via front-end short codes.
+CVE-2017-18541,MEDIUM,The xo-security plugin before 1.5.3 for WordPress has XSS.
+CVE-2017-18542,MEDIUM,The zendesk-help-center plugin before 1.0.5 for WordPress has multiple XSS issues.
+CVE-2017-18543,HIGH,The invite-anyone plugin before 1.3.16 for WordPress has incorrect access control for email-based invitations.
+CVE-2017-18544,MEDIUM,The invite-anyone plugin before 1.3.16 for WordPress has admin-panel CSRF.
+CVE-2017-18545,MEDIUM,The invite-anyone plugin before 1.3.16 for WordPress has incorrect escaping of untrusted Dashboard and front-end input.
+CVE-2017-18546,MEDIUM,The jayj-quicktag plugin before 1.3.2 for WordPress has CSRF.
+CVE-2017-18547,MEDIUM,The nelio-ab-testing plugin before 4.6.4 for WordPress has CSRF in experiment forms.
+CVE-2017-18548,HIGH,The note-press plugin before 0.1.2 for WordPress has SQL injection.
+CVE-2017-18549,LOW,An issue was discovered in drivers/scsi/aacraid/commctrl.c in the Linux kernel before 4.13. There is potential exposure of kernel stack memory because aac_send_raw_srb does not initialize the reply structure.
+CVE-2017-1855,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18550,LOW,An issue was discovered in drivers/scsi/aacraid/commctrl.c in the Linux kernel before 4.13. There is potential exposure of kernel stack memory because aac_get_hba_info does not initialize the hbainfo structure.
+CVE-2017-18551,MEDIUM,An issue was discovered in drivers/i2c/i2c-core-smbus.c in the Linux kernel before 4.14.15. There is an out of bounds write in the function i2c_smbus_xfer_emulated.
+CVE-2017-18552,MEDIUM,An issue was discovered in net/rds/af_rds.c in the Linux kernel before 4.11. There is an out of bounds write and read in the function rds_recv_track_latency.
+CVE-2017-18553,MEDIUM,The ad-buttons plugin before 2.3.2 for WordPress has XSS.
+CVE-2017-18554,MEDIUM,The analytics-tracker plugin before 1.1.1 for WordPress has XSS via a search event.
+CVE-2017-18555,MEDIUM,The booking-sms plugin before 1.1.0 for WordPress has XSS.
+CVE-2017-18556,MEDIUM,The bws-google-analytics plugin before 1.7.1 for WordPress has multiple XSS issues.
+CVE-2017-18557,MEDIUM,The bws-google-maps plugin before 1.3.6 for WordPress has multiple XSS issues.
+CVE-2017-18558,MEDIUM,The bws-testimonials plugin before 0.1.9 for WordPress has multiple XSS issues.
+CVE-2017-18559,MEDIUM,The cforms2 plugin before 14.13.3 for WordPress has multiple XSS issues.
+CVE-2017-1856,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18560,MEDIUM,The content-audit plugin before 1.9.2 for WordPress has XSS.
+CVE-2017-18561,MEDIUM,The embed-comment-images plugin before 0.6 for WordPress has XSS.
+CVE-2017-18562,MEDIUM,The error-log-viewer plugin before 1.0.6 for WordPress has multiple XSS issues.
+CVE-2017-18563,MEDIUM,The rsvp plugin before 2.3.8 for WordPress has persistent XSS via the note field on the attendee-list screen.
+CVE-2017-18564,MEDIUM,The sender plugin before 1.2.1 for WordPress has multiple XSS issues.
+CVE-2017-18565,MEDIUM,The updater plugin before 1.35 for WordPress has multiple XSS issues.
+CVE-2017-18566,MEDIUM,The user-role plugin before 1.5.6 for WordPress has multiple XSS issues.
+CVE-2017-18567,MEDIUM,The wp-all-import plugin before 3.4.6 for WordPress has XSS.
+CVE-2017-18568,MEDIUM,The my-wp-translate plugin before 1.0.4 for WordPress has XSS.
+CVE-2017-18569,MEDIUM,The my-wp-translate plugin before 1.0.4 for WordPress has CSRF.
+CVE-2017-1857,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18570,HIGH,The cforms2 plugin before 14.13 for WordPress has SQL injection in the tracking DB GUI via Delete Entries or Download Entries.
+CVE-2017-18571,HIGH,"The search-everything plugin before 8.1.7 for WordPress has SQL injection related to WordPress 4.7.x, a different vulnerability than CVE-2014-2316."
+CVE-2017-18572,MEDIUM,The gnucommerce plugin before 1.4.2 for WordPress has XSS.
+CVE-2017-18573,HIGH,The simple-login-log plugin before 1.1.2 for WordPress has SQL injection.
+CVE-2017-18574,MEDIUM,The ninja-forms plugin before 3.0.31 for WordPress has insufficient HTML escaping in the builder.
+CVE-2017-18575,MEDIUM,The newstatpress plugin before 1.2.5 for WordPress has multiple stored XSS issues.
+CVE-2017-18576,MEDIUM,The event-notifier plugin before 1.2.1 for WordPress has XSS via the loading animation.
+CVE-2017-18577,MEDIUM,The mailchimp-for-wp plugin before 4.1.8 for WordPress has XSS via the return value of add_query_arg.
+CVE-2017-18578,MEDIUM,The crafty-social-buttons plugin before 1.5.8 for WordPress has XSS.
+CVE-2017-18579,MEDIUM,The corner-ad plugin before 1.0.8 for WordPress has XSS.
+CVE-2017-1858,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18580,HIGH,"The shortcodes-ultimate plugin before 5.0.1 for WordPress has remote code execution via a filter in a meta, post, or user shortcode."
+CVE-2017-18581,MEDIUM,The time-sheets plugin before 1.5.0 for WordPress has XSS via the old timesheet list.
+CVE-2017-18582,MEDIUM,The time-sheets plugin before 1.5.2 for WordPress has multiple XSS issues.
+CVE-2017-18583,HIGH,The post-pay-counter plugin before 2.731 for WordPress has PHP Object Injection.
+CVE-2017-18584,MEDIUM,The post-pay-counter plugin before 2.731 for WordPress has no permissions check for an update-settinga action.
+CVE-2017-18585,MEDIUM,The posts-in-page plugin before 1.3.0 for WordPress has ic_add_posts template='../ directory traversal.
+CVE-2017-18586,MEDIUM,The insert-pages plugin before 3.2.4 for WordPress has directory traversal via custom template paths.
+CVE-2017-18587,MEDIUM,An issue was discovered in the hyper crate before 0.9.18 for Rust. It mishandles newlines in headers.
+CVE-2017-18588,MEDIUM,An issue was discovered in the security-framework crate before 0.1.12 for Rust. Hostname verification for certificates does not occur if ClientBuilder uses custom root certificates.
+CVE-2017-18589,MEDIUM,An issue was discovered in the cookie crate before 0.7.6 for Rust. Large integers in the Max-Age of a cookie cause a panic.
+CVE-2017-1859,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18590,MEDIUM,The timesheet plugin before 0.1.5 for WordPress has multiple XSS issues.
+CVE-2017-18591,MEDIUM,The gd-rating-system plugin before 2.1 for WordPress has XSS in log.php.
+CVE-2017-18592,MEDIUM,The woocommerce-catalog-enquiry plugin before 3.1.0 for WordPress has an incorrect wp_upload directory for file uploads.
+CVE-2017-18593,MEDIUM,The updraftplus plugin before 1.13.5 for WordPress has XSS in rare cases where an attacker controls a string logged to a log file.
+CVE-2017-18594,MEDIUM,"nse_libssh2.cc in Nmap 7.70 is subject to a denial of service condition due to a double free when an SSH connection fails, as demonstrated by a leading \n character to ssh-brute.nse or ssh-auth-methods.nse."
+CVE-2017-18595,HIGH,An issue was discovered in the Linux kernel before 4.14.11. A double free may be caused by the function allocate_trace_buffer in the file kernel/trace/trace.c.
+CVE-2017-18596,MEDIUM,The elementor plugin before 1.8.0 for WordPress has incorrect access control for internal functions.
+CVE-2017-18597,MEDIUM,The jtrt-responsive-tables plugin before 4.1.2 for WordPress has SQL Injection via the admin/class-jtrt-responsive-tables-admin.php tableId parameter.
+CVE-2017-18598,MEDIUM,The Qards plugin through 2017-10-11 for WordPress has XSS via a remote document specified in the url parameter to html2canvasproxy.php.
+CVE-2017-18599,MEDIUM,The Pinfinity theme before 2.0 for WordPress has XSS via the s parameter.
+CVE-2017-1860,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18600,LOW,"The formcraft3 plugin before 3.4 for WordPress has stored XSS via the ""New Form > Heading > Heading Text"" field."
+CVE-2017-18601,LOW,The examapp plugin 1.0 for WordPress has XSS via exam input text fields.
+CVE-2017-18602,MEDIUM,The examapp plugin 1.0 for WordPress has SQL injection via the wp-admin/admin.php?page=examapp_UserResult id parameter.
+CVE-2017-18603,MEDIUM,The postman-smtp plugin through 2017-10-04 for WordPress has XSS via the wp-admin/tools.php?page=postman_email_log page parameter.
+CVE-2017-18604,MEDIUM,The sitebuilder-dynamic-components plugin through 1.0 for WordPress has PHP object injection via an AJAX request.
+CVE-2017-18605,HIGH,The gravitate-qa-tracker plugin through 1.2.1 for WordPress has PHP Object Injection.
+CVE-2017-18606,MEDIUM,The avada theme before 5.1.5 for WordPress has stored XSS.
+CVE-2017-18607,MEDIUM,The avada theme before 5.1.5 for WordPress has CSRF.
+CVE-2017-18608,MEDIUM,The spotim-comments plugin before 4.0.4 for WordPress has multiple XSS issues.
+CVE-2017-18609,MEDIUM,The magic-fields plugin before 1.7.2 for WordPress has XSS via the custom-write-panel-id parameter.
+CVE-2017-1861,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18610,MEDIUM,The magic-fields plugin before 1.7.2 for WordPress has XSS via the RCCWP_CreateCustomFieldPage.php custom-group-id parameter.
+CVE-2017-18611,MEDIUM,The magic-fields plugin before 1.7.2 for WordPress has XSS via the RCCWP_CreateCustomFieldPage.php custom-field-css parameter.
+CVE-2017-18612,MEDIUM,The wp-whois-domain plugin 1.0.0 for WordPress has XSS via the pages/func-whois.php domain parameter.
+CVE-2017-18613,MEDIUM,The trust-form plugin 2.0 for WordPress has XSS via the wp-admin/admin.php?page=trust-form-edit page parameter.
+CVE-2017-18614,HIGH,The kama-clic-counter plugin 3.4.9 for WordPress has SQL injection via the admin.php order parameter.
+CVE-2017-18615,MEDIUM,The kama-clic-counter plugin before 3.5.0 for WordPress has XSS.
+CVE-2017-1862,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-1863,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18634,HIGH,The newspaper theme before 6.7.2 for WordPress has script injection via td_ads[header] to admin-ajax.php.
+CVE-2017-18635,MEDIUM,"An XSS vulnerability was discovered in noVNC before 0.6.2 in which the remote VNC server could inject arbitrary HTML into the noVNC web page via the messages propagated to the status field, such as the VNC server name."
+CVE-2017-18636,MEDIUM,CDG through 2017-01-01 allows downloadDocument.jsp?command=download&pathAndName= directory traversal.
+CVE-2017-18638,MEDIUM,"send_email in graphite-web/webapp/graphite/composer/views.py in Graphite through 1.1.5 is vulnerable to SSRF. The vulnerable SSRF endpoint can be used by an attacker to have the Graphite web server request any resource. The response to this SSRF request is encoded into an image file and then sent to an e-mail address that can be supplied by the attacker. Thus, an attacker can exfiltrate any information."
+CVE-2017-18639,MEDIUM,"Progress Sitefinity CMS before 10.1 allows XSS via /Pages Parameter : Page Title, /Content/News Parameter : News Title, /Content/List Parameter : List Title, /Content/Documents/LibraryDocuments/incident-request-attachments Parameter : Document Title, /Content/Images/LibraryImages/newsimages Parameter : Image Title, /Content/links Parameter : Link Title, /Content/links Parameter : Link Title, or /Content/Videos/LibraryVideos/default-video-library Parameter : Video Title."
+CVE-2017-1864,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18640,MEDIUM,"The Alias feature in SnakeYAML 1.18 allows entity expansion during a load operation, a related issue to CVE-2003-1564."
+CVE-2017-18641,HIGH,"In LXC 2.0, many template scripts download code over cleartext HTTP, and omit a digital-signature check, before running it to bootstrap containers."
+CVE-2017-18642,LOW,"Syska Smart Bulb devices through 2017-08-06 receive RGB parameters over cleartext Bluetooth Low Energy (BLE), leading to sniffing, reverse engineering, and replay attacks."
+CVE-2017-18643,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.x) and N(7.x) software. There is information disclosure of the kbase_context address of a GPU memory node. The Samsung ID is SVE-2017-8907 (December 2017).
+CVE-2017-18644,HIGH,"An issue was discovered on Samsung mobile devices with L(5.1), M(6.x), and N(7.x) software. There is a muic_set_reg_sel heap-based buffer overflow during the reading of MUIC register values. The Samsung ID is SVE-2017-10011 (December 2017)."
+CVE-2017-18645,HIGH,An issue was discovered on Samsung mobile devices with M(6.x) and N(7.x) (Qualcomm chipsets) software. There is a panel_lpm sysfs stack-based buffer overflow. The Samsung ID is SVE-2017-9414 (December 2017).
+CVE-2017-18646,LOW,An issue was discovered on Samsung mobile devices with M(6.x) and N(7.x) software. An attacker can bypass the password requirement for tablet user switching by folding the magnetic cover. The Samsung ID is SVE-2017-10602 (December 2017).
+CVE-2017-18647,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6,x) and N(7.0) software. The TA Scrypto v1.0 implementation in Secure Driver has a race condition with a resultant buffer overflow. The Samsung IDs are SVE-2017-8973, SVE-2017-8974, and SVE-2017-8975 (November 2017)."
+CVE-2017-18648,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4.x), L(5.x), M(6.x), and N(7.x) software. Arbitrary file read/write operations can occur in the locked state via a crafted MTP command. The Samsung ID is SVE-2017-10086 (November 2017)."
+CVE-2017-18649,MEDIUM,"An issue was discovered on Samsung mobile devices with N(7.x) software. An attacker can boot a device with root privileges because the bootloader for the Qualcomm MSM8998 chipset lacks an integrity check of the system image, aka the ""SamFAIL"" issue. The Samsung ID is SVE-2017-10465 (November 2017)."
+CVE-2017-1865,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18650,MEDIUM,An issue was discovered on Samsung mobile devices with N(7.x) software. There is a WifiStateMachine IllegalArgumentException and reboot if a malformed wpa_supplicant.conf is read. The Samsung ID is SVE-2017-9828 (October 2017).
+CVE-2017-18651,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.x) and N(7.x) software. There is an Integer Overflow in process_M_SetTokenTUIPasswd during handling of a trusted application, leading to memory corruption. The Samsung IDs are SVE-2017-9008 and SVE-2017-9009 (October 2017)."
+CVE-2017-18652,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. SVoice allows arbitrary code execution by changing dynamic libraries. The Samsung ID is SVE-2017-9299 (September 2017).
+CVE-2017-18653,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.x) software. The Email application allows attackers to send emails on behalf of any user via a broadcasted intent. The Samsung ID is SVE-2017-9357 (September 2017)."
+CVE-2017-18654,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0, 7.1) software. An unauthenticated attacker can register a new security certificate. The Samsung ID is SVE-2017-9659 (September 2017)."
+CVE-2017-18655,HIGH,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. There is a stack-based buffer overflow with resultant memory corruption in a trustlet. The Samsung IDs are SVE-2017-8889, SVE-2017-8891, and SVE-2017-8892 (August 2017)."
+CVE-2017-18656,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. There is a buffer over-read in a trustlet. The Samsung ID is SVE-2017-8890 (August 2017).
+CVE-2017-18657,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. There is an arbitrary write in a trustlet. The Samsung ID is SVE-2017-8893 (August 2017).
+CVE-2017-18658,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) software. The multiwindow_facade API allows attackers to cause a NullPointerException and system halt via an attempted screen touch of a non-existing display. The Samsung ID is SVE-2017-9383 (August 2017).
+CVE-2017-18659,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.x) software. Attackers can crash system processes via a broadcast to AdaptiveDisplayColorService. The Samsung ID is SVE-2017-8290 (July 2017)."
+CVE-2017-1866,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18660,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. There is a buffer overflow in tlc_server. The Samsung ID is SVE-2017-8888 (July 2017).
+CVE-2017-18661,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. There is a buffer overflow in process_cipher_tdea. The Samsung ID is SVE-2017-8973 (July 2017).
+CVE-2017-18662,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. Data outside of the rkp log buffer boundary is read, causing an information leak. The Samsung ID is SVE-2017-9109 (July 2017)."
+CVE-2017-18663,MEDIUM,"An issue was discovered on Samsung mobile devices with N(7.x) software. Because of missing Intent exception handling, system_server can have a NullPointerException with a crash of a system process. The Samsung IDs are SVE-2017-9122, SVE-2017-9123, SVE-2017-9124, and SVE-2017-9126 (July 2017)."
+CVE-2017-18664,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. There is a NULL pointer exception in PersonManager, causing memory corruption. The Samsung ID is SVE-2017-8286 (June 2017)."
+CVE-2017-18665,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) software. There is a NULL pointer exception in WifiService via adb-cmd, causing memory corruption. The Samsung ID is SVE-2017-8287 (June 2017)."
+CVE-2017-18666,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.x) software. Applications can send arbitrary premium SMS messages. The Samsung ID is SVE-2017-8701 (June 2017)."
+CVE-2017-18667,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.x) software. Attackers can prevent users from learning that SMS storage space has been exhausted. The Samsung ID is SVE-2017-8702 (June 2017)."
+CVE-2017-18668,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) software. Attackers can prevent users from making outbound calls and sending outbound text messages. The Samsung ID is SVE-2017-8706 (June 2017).
+CVE-2017-18669,MEDIUM,An issue was discovered on Samsung mobile devices with N(7.x) software. Persona has an unprotected API that allows launch of any activity with system privileges. The Samsung ID is SVE-2017-9000 (June 2017).
+CVE-2017-1867,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18670,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. android.intent.action.SIOP_LEVEL_CHANGED allows a serializable intent reboot. The Samsung ID is SVE-2017-8363 (May 2017)."
+CVE-2017-18671,MEDIUM,"An issue was discovered on Samsung mobile devices with L(5.0/5.1), M(6.0), and N(7.x) software. Intents related to Wi-Fi have incorrect exception handling, leading to a crash of system processes. The Samsung ID is SVE-2017-8389 (May 2017)."
+CVE-2017-18672,MEDIUM,"An issue was discovered on Samsung mobile devices with L(5.0/5.1), M(6.0), and N(7.x) software. Because of incorrect exception handling for Intents, a local attacker can force a reboot within framework.jar. The Samsung ID is SVE-2017-8390 (May 2017)."
+CVE-2017-18673,LOW,"An issue was discovered on Samsung mobile devices with N(7.x) software. An attacker can disable the Location service on a locked device, making it impossible for the rightful owner to find a stolen device. The Samsung ID is SVE-2017-8524 (May 2017)."
+CVE-2017-18674,HIGH,An issue was discovered on Samsung mobile devices with N(7.0) software. The time service (aka Timaservice) allows a kernel panic. The Samsung ID is SVE-2017-8593 (May 2017).
+CVE-2017-18675,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) (Exynos7420 or Exynox8890 chipsets) software. The Camera application can leak uninitialized memory via ion. The Samsung ID is SVE-2016-6989 (April 2017).
+CVE-2017-18676,MEDIUM,An issue was discovered on Samsung mobile devices with N(7.0) (Qualcomm chipsets) software. There is an RKP kernel protection bypass (in which unwanted memory mappings may occur) because of a lack of MSR trapping. The Samsung ID is SVE-2016-7901 (April 2017).
+CVE-2017-18677,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.x) software. Because of an unprotected Intent, an attacker can reset the configuration of certain applications. The Samsung ID is SVE-2016-7142 (April 2017)."
+CVE-2017-18678,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.x) software. An attacker can crash system processes via a Serializable object because of missing exception handling. The Samsung IDs are SVE-2017-8109, SVE-2017-8110, SVE-2017-8115, SVE-2017-8118, and SVE-2017-8119 (April 2017)."
+CVE-2017-18679,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) software. SLocation can cause a system crash via a call to an API that is not implemented. The Samsung ID is SVE-2017-8285 (April 2017).
+CVE-2017-1868,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18680,LOW,"An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) (tablets) software. The lockscreen interface allows Add User actions, leading to an unintended ability to access user data in external storage. The Samsung ID is SVE-2016-7797 (March 2017)."
+CVE-2017-18681,HIGH,An issue was discovered on Samsung Galaxy S5 mobile devices with software through 2016-12-20 (Qualcomm AP chipsets). There are multiple buffer overflows in the bootloader. The Samsung ID is SVE-2016-7930 (March 2017).
+CVE-2017-18682,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.0) software. Because of incorrect exception handling and an unprotected intent, AudioService can cause a system crash, The Samsung IDs are SVE-2017-8114, SVE-2017-8116, and SVE-2017-8117 (March 2017)."
+CVE-2017-18683,HIGH,An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. SVoice allows Hare Hunting during application installation. The Samsung ID is SVE-2016-6942 (February 2017).
+CVE-2017-18684,HIGH,An issue was discovered on Samsung mobile devices with L(5.0/5.1) and M(6.0) software. SVoice allows provider seizure via an application that uses a custom provider. The Samsung ID is SVE-2016-6942 (February 2017).
+CVE-2017-18685,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), and M(6.0) software. The InputMethod application can cause a system crash via a malformed serializable object in an Intent. The Samsung ID is SVE-2016-7123 (February 2017)."
+CVE-2017-18686,MEDIUM,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0) software. Contact information can leak to a log file because of the broadcasting of an unprotected intent. The Samsung ID is SVE-2016-7180 (February 2017).
+CVE-2017-18687,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.0) software. An attacker can obtain the full pathnames of sdcard files by reading the system protected log upon reception of a certain intent. The Samsung ID is SVE-2016-7183 (January 2017)."
+CVE-2017-18688,MEDIUM,"An issue was discovered on Samsung mobile devices with L(5.1), M(6.0), and N(7.0) software. There is an information disclosure (of memory locations outside a buffer) via /dev/dsm_ctrl_dev. The Samsung ID is SVE-2016-7340 (January 2017)."
+CVE-2017-18689,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0) (Exynos5433, Exynos7420, or Exynos7870 chipsets) software. An attacker can bypass a ko (aka Kernel Module) signature by modifying the count of kernel modules. The Samsung ID is SVE-2016-7466 (January 2017)."
+CVE-2017-1869,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18690,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.0) (Exynos54xx, Exynos7420, Exynos8890, or Exynos8895 chipsets) software. There is a buffer overflow in the sensor hub. The Samsung ID is SVE-2016-7484 (January 2017)."
+CVE-2017-18691,HIGH,An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0) (Exynos8890 chipsets) software. There are multiple Buffer Overflows in TSP sysfs cmd_store. The Samsung ID is SVE-2016-7500 (January 2017).
+CVE-2017-18692,MEDIUM,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0) (MSM8939, MSM8996, MSM8998, Exynos7580, Exynos8890, or Exynos8895 chipsets) software. There is a race condition, with a resultant buffer overflow, in the sec_ts touchscreen sysfs interface. The Samsung ID is SVE-2016-7501 (January 2017)."
+CVE-2017-18693,HIGH,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.0) software. There is a buffer overflow in the fps sysfs entry. The Samsung ID is SVE-2016-7510 (January 2017)."
+CVE-2017-18694,MEDIUM,An issue was discovered on Samsung mobile devices with software through 2016-10-25 (Exynos5 chipsets). Attackers can read kernel addresses in the log because an incorrect format specifier is used. The Samsung ID is SVE-2016-7551 (January 2017).
+CVE-2017-18695,LOW,"An issue was discovered on Samsung mobile devices with KK(4.4), L(5.0/5.1), M(6.0), and N(7.0) software. Attackers (who control a certain subdomain) can discover a user's credentials, during an email account login, via an EAS autodiscover packet. The Samsung ID is SVE-2016-7654 (January 2017)."
+CVE-2017-18696,HIGH,"An issue was discovered on Samsung mobile devices with M(6.0) and N(7.0) (Exynos7420, Exynos8890, or MSM8996 chipsets) software. RKP allows memory corruption. The Samsung ID is SVE-2016-7897 (January 2017)."
+CVE-2017-18697,MEDIUM,Certain NETGEAR devices are affected by a stack-based buffer overflow by an authenticated user. This affects R7800 before 1.0.2.40 and R9000 before 1.0.2.52.
+CVE-2017-18698,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an authenticated user. This affects R6100 before 1.0.1.20, R7800 before 1.0.2.40, and R9000 before 1.0.2.52."
+CVE-2017-18699,MEDIUM,Certain NETGEAR devices are affected by a stack-based buffer overflow by an authenticated user. This affects R7800 before 1.0.2.40 and R9000 before 1.0.2.52.
+CVE-2017-1870,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18700,MEDIUM,"Certain NETGEAR devices are affected by stored XSS. This affects D6400 before 1.0.0.60, D7000 before 1.0.1.50, D8500 before 1.0.3.29, EX6200 before 1.0.3.84, EX7000 before 1.0.0.60, R6250 before 1.0.4.16, R6300v2 before 1.0.4.18, R6400 before 1.01.32, R6400v2 before 1.0.2.44, R6700 before 1.0.1.36, R6900 before 1.0.1.34, R6900P before 1.3.0.8, R7000 before 1.0.9.14, R7000P before 1.3.0.8, R7100LG before 1.0.0.34, R7300DST before 1.0.0.56, R7900 before 1.0.1.26, R8000 before 1.0.4.4, R8300 before 1.0.2.106, R8500 before 1.0.2.106, R9000 before 1.0.2.52, WNDR3400v3 before 1.0.1.16, WNR3500Lv2 before 1.2.0.46, and WNDR3700v5 before 1.1.0.48."
+CVE-2017-18701,MEDIUM,Certain NETGEAR devices are affected by reflected XSS. This affects R6700 before 1.0.1.36 and R6900 before 1.0.1.34.
+CVE-2017-18702,MEDIUM,NETGEAR R6220 devices before 1.1.0.60 are affected by incorrect configuration of security settings.
+CVE-2017-18703,MEDIUM,"Certain NETGEAR devices are affected by CSRF. This affects D1500 before 1.0.0.25, D500 before 1.0.0.25, D6100 before 1.0.0.55, D7000 before 1.0.1.50, D7800 before 1.0.1.28, EX6100v2 before 1.0.1.60, EX6150v2 before 1.0.1.60, JNR1010v2 before 1.1.0.46, JR6150 before 1.0.1.16, JWNR2010v5 before 1.1.0.46, PR2000 before 1.0.0.18, R6020 before 1.0.0.26, R6050 before 1.0.1.16, R6080 before 1.0.0.26, R6100 before 1.0.1.20, R6220 before 1.1.0.60, R7500 before 1.0.0.118, R7500v2 before 1.0.3.20, R7800 before 1.0.2.40, R9000 before 1.0.2.52, WN3000RPv3 before 1.0.2.50, WN3100RPv2 before 1.0.0.40, WNDR3700v5 before 1.1.0.48, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, WNR1000v4 before 1.1.0.46, WNR2000v5 before 1.0.0.62, WNR2020 before 1.1.0.46, and WNR2050 before 1.1.0.46."
+CVE-2017-18704,LOW,"Certain NETGEAR devices are affected by an attacker's ability to read arbitrary files. This affects D6220 before 1.0.0.32, D6400 before 1.0.0.60, D8500 before 1.0.3.29, R6250 before 1.0.4.16, R6300v2 before 1.0.4.18, R6400 before 1.01.32, R6400v2 before 1.0.2.44, R6700 before 1.0.1.36, R6900 before 1.0.1.34, R7000 before 1.0.9.14, R7000P before 1.3.0.8, R6900P before 1.3.0.8, R7100LG before 1.0.0.34, R7300DST before 1.0.0.56, R7900 before 1.0.1.26, R8000 before 1.0.4.4, R8500 before 1.0.2.106, R8300 before 1.0.2.106, and WNDR3400v3 before 1.0.1.16."
+CVE-2017-18705,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects D7800 before 1.0.1.28, R6100 before 1.0.1.20, R7500 before 1.0.0.118, R7500v2 before 1.0.3.20, R7800 before 1.0.2.40, R9000 before 1.0.2.52, WNDR3700v4 before 1.0.2.88, WNDR4300 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, and WNR2000v5 before 1.0.0.62."
+CVE-2017-18706,LOW,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects R6100 before 1.0.1.20, R7500 before 1.0.0.118, WNDR3700v4 before 1.0.2.88, WNDR4300 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, and WNR2000v5 before 1.0.0.62."
+CVE-2017-18707,MEDIUM,Certain NETGEAR devices are affected by a buffer overflow by an authenticated user. This affects R8300 before 1.0.2.106 and R8500 before 1.0.2.106.
+CVE-2017-18708,MEDIUM,Certain NETGEAR devices are affected by CSRF. This affects R8300 before 1.0.2.94 and R8500 before 1.0.2.94.
+CVE-2017-18709,MEDIUM,Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects R8300 before 1.0.2.94 and R8500 before 1.0.2.94.
+CVE-2017-1871,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18710,LOW,Certain NETGEAR devices are affected by disclosure of sensitive information. This affects R8300 before 1.0.2.106 and R8500 before 1.0.2.106.
+CVE-2017-18711,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects D7800 before 1.0.1.28, R6400 before 1.01.32, R6400v2 before 1.0.2.44, R6700 before 1.0.1.36, R6900 before 1.0.1.34, R6900P before 1.3.0.8, R7000 before 1.0.9.14, R7000P before 1.3.0.8, R7500v2 before 1.0.3.20, R7800 before 1.0.2.40, R9000 before 1.0.2.52, WNDR4300v2 before 1.0.0.48, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18712,LOW,"Certain NETGEAR devices are affected by an attacker's ability to read arbitrary files. This affects D7800 before 1.0.1.28, R6100 before 1.0.1.20, R7500 before 1.0.0.118, R7500v2 before 1.0.3.20, R7800 before 1.0.2.40, R9000 before 1.0.2.52, WNDR4300v2 before 1.0.0.48, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18713,LOW,"Certain NETGEAR devices are affected by an attacker's ability to read arbitrary files. This affects D7800 before 1.0.1.28, R6700 before 1.0.1.36, R6900 before 1.0.1.34, R7500v2 before 1.0.3.20, R7800 before 1.0.2.40, R9000 before 1.0.2.52, WNDR4300v2 before 1.0.0.48, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18714,LOW,NETGEAR WNDR4500v3 devices before 1.0.0.48 are affected by denial of service.
+CVE-2017-18715,MEDIUM,"Certain NETGEAR devices are affected by reflected XSS. This affects EX3700 before 1.0.0.66, EX3800 before 1.0.0.66, EX6100 before 1.0.2.20, EX6120 before 1.0.0.34, EX6150 before 1.0.0.36, EX6200 before 1.0.3.84, and EX7000 before 1.0.0.60."
+CVE-2017-18716,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18717,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18718,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18719,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6020 before 1.1.00.26, R6080 before 1.1.00.26; R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-1872,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18720,MEDIUM,"Certain NETGEAR devices are affected by authentication bypass. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18721,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18722,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18723,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18724,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18725,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24. R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18726,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects R6020 before 1.0.0.30, R6080 before 1.0.0.30, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18727,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18728,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18729,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6020 before 1.0.0.30, R6080 before 1.0.0.30, R6120 before 1.0.0.36, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-1873,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18730,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6020 before 1.0.0.30, R6080 before 1.0.0.30, R6120 before 1.0.0.36, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18731,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects R6100 before 1.0.1.16, R7500 before 1.0.0.112, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, and WNR2000v5 before 1.0.0.58."
+CVE-2017-18732,MEDIUM,"Certain NETGEAR devices are affected by authentication bypass. This affects R6300v2 before 1.0.4.8, PLW1000v2 before 1.0.0.14, and PLW1010v2 before 1.0.0.14."
+CVE-2017-18733,MEDIUM,"Certain NETGEAR devices are affected by authentication bypass. This affects D6220 before 1.0.0.28, D6400 before 1.0.0.60, D8500 before 1.0.3.29, R6250 before 1.0.4.8, R6400 before 1.0.1.22, R6400v2 before 1.0.2.32, R7100LG before 1.0.0.32, R7300DST before 1.0.0.52, R8300 before 1.0.2.94, and R8500 before 1.0.2.100."
+CVE-2017-18734,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects JNR1010v2 before 1.1.0.44, JR6150 before 1.0.1.10, JWNR2010v5 before 1.1.0.44, PR2000 before 1.0.0.18, R6050 before 1.0.1.10, R6220 before 1.1.0.50, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, R6900v2 before 1.2.0.4, WNDR3700v5 before 1.1.0.48, WNR1000v4 before 1.1.0.44, WNR2020 before 1.1.0.44, and WNR2050 before 1.1.0.44."
+CVE-2017-18735,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects JR6150 before 1.0.1.10, PR2000 before 1.0.0.18, R6050 before 1.0.1.10, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, and R6900v2 before 1.2.0.4."
+CVE-2017-18736,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects JR6150 before 1.0.1.10, R6050 before 1.0.1.10, R6220 before 1.1.0.50, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, R6900v2 before 1.2.0.4, and WNDR3700v5 before 1.1.0.48."
+CVE-2017-18737,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects JNR1010v2 before 1.1.0.44, JR6150 before 1.0.1.10, JWNR2010v5 before 1.1.0.44, PR2000 before 1.0.0.18, R6050 before 1.0.1.10, R6220 before 1.1.0.50, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, R6900v2 before 1.2.0.4, WNDR3700v5 before 1.1.0.48, WNR1000v4 before 1.1.0.44, WNR2020 before 1.1.0.44, and WNR2050 before 1.1.0.44."
+CVE-2017-18738,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects EX6150v2 before 1.0.1.54, R6400 before 1.0.1.24, R6400v2 before 1.0.2.32, R6700 before 1.0.1.22, R6900 before 1.0.1.22, R7000 before 1.0.9.10, R7000P before 1.2.0.22, R6900P before 1.2.0.22, R7100LG before 1.0.0.32, R7300DST before 1.0.0.54, R7900 before 1.0.1.18, R8000 before 1.0.3.48, R8300 before 1.0.2.106, R8500 before 1.0.2.106, R6100 before 1.0.1.16, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, and WNR2000v5 before 1.0.0.58."
+CVE-2017-18739,MEDIUM,"Certain NETGEAR devices are affected by a buffer overflow by an unauthenticated attacker. This affects R6220 before V1.1.0.50, R7800 before V1.0.2.36, WNDR3400v3 before 1.0.1.14, and WNDR3700v5 before V1.1.0.48."
+CVE-2017-1874,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18740,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects D3600 before 1.0.0.61, D6000 before 1.0.0.61, D6100 before 1.0.0.55, D7800 before 1.0.1.28, R6100 before 1.0.1.16, R7500 before 1.0.0.112, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, R9000 before 1.0.2.40, WNDR3700v4 before 1.0.2.88, WNDR4300 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, and WNR2000v5 before 1.0.0.58."
+CVE-2017-18741,LOW,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects R6250 before 1.0.4.8, R6300v2 before 1.0.4.8, R6700 before 1.0.1.20, R7000 before 1.0.7.10, R7000P before 1.0.0.58, R6900P before 1.0.0.58, R7100LG before 1.0.0.32, R7900 before 1.0.1.14, R8000 before 1.0.3.22, and R8500 before 1.0.2.94."
+CVE-2017-18742,MEDIUM,"Certain NETGEAR devices are affected by CSRF. This affects JR6150 before 1.0.1.10, R6050 before 1.0.1.10, R6250 before 1.0.4.12, R6300v2 before 1.0.4.8, R6700 before 1.0.1.16, R6900 before 1.0.1.16, R7300DST before 1.0.0.54, R7900 before 1.0.1.12, R8000 before 1.0.3.32, and R8500 before 1.0.2.74."
+CVE-2017-18743,MEDIUM,"Certain NETGEAR devices are affected by authentication bypass. This affects R6300v2 before 1.0.4.8, R6400 before 1.0.1.20, R6700 before 1.0.1.20, R6900 before 1.0.1.20, R7000 before 1.0.7.10, R7100LG before V1.0.0.32, R7300DST before 1.0.0.52, R7900 before 1.0.1.16, R8000 before 1.0.3.36, R8300 before 1.0.2.94, R8500 before 1.0.2.94, WNDR3400v3 before 1.0.1.12, and WNR3500Lv2 before 1.2.0.40."
+CVE-2017-18744,MEDIUM,"Certain NETGEAR devices are affected by a buffer overflow by an unauthenticated attacker. This affects R6250 before 1.0.4.12, R6300v2 before 1.0.4.12, R6700 before 1.0.1.22, R6900 before 1.0.1.22, R7000 before 1.0.9.4, R7900 before 1.0.1.12, R8000 before 1.0.3.24, and R8500 before 1.0.2.74."
+CVE-2017-18745,MEDIUM,"Certain NETGEAR devices are affected by stored XSS. This affects R6400 before 1.0.1.14, R6700 before 1.0.1.22, R6900 before 1.0.1.22, R7000 before 1.0.9.4, R7100LG before 1.0.0.32, R7300DST before 1.0.0.56, R7900 before 1.0.1.12, R8000 before 1.0.3.24, and R8500 before 1.0.2.74."
+CVE-2017-18746,LOW,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects EX3700 before 1.0.0.64, EX3800 before 1.0.0.64, EX6000 before 1.0.0.24, EX6130 before 1.0.0.16, EX6400 before 1.0.1.60, EX7000 before 1.0.0.50, EX7300 before 1.0.1.60, and WN2500RPv2 before 1.0.1.46."
+CVE-2017-18747,LOW,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects EX3700 before 1.0.0.64, EX3800 before 1.0.0.64, EX6000 before 1.0.0.24, EX6130 before 1.0.0.16, EX6400 before 1.0.1.60, EX7000 before 1.0.0.50, EX7300 before 1.0.1.60, and WN2500RPv2 before 1.0.1.46."
+CVE-2017-18748,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects EX6200v2 before 1.0.1.44, R6100 before 1.0.1.12, R7500 before 1.0.0.108, R7500v2 before 1.0.3.10, R7800 before 1.0.2.28, R9000 before 1.0.2.30, WNDR4300v2 before 1.0.0.48, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18749,MEDIUM,"Certain NETGEAR devices are affected by CSRF. This affects JNR1010v2 before 1.1.0.44, JR6150 before 1.0.1.10, JWNR2010v5 before 1.1.0.44, R6050 before 1.0.1.10, R6100 before 1.0.1.16, R6220 before 1.1.0.50, R7500 before 1.0.0.112, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, R9000 before 1.0.2.40, WNDR3700v4 before 1.0.2.88, WNDR3700v5 before 1.1.0.48, WNDR4300 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, WNR1000v4 before 1.1.0.44, WNR2000v5 before 1.0.0.58, WNR2020 before 1.1.0.44, and WNR2050 before 1.1.0.44."
+CVE-2017-1875,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18750,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D6200 before 1.1.00.24, R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18751,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an unauthenticated attacker. This affects D7800 before 1.0.1.28, R6100 before 1.0.1.16, R7500 before 1.0.0.112, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, R9000 before 1.0.2.52, WNDR3700v4 before 1.0.2.88, WNDR4300 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18752,LOW,"Certain NETGEAR devices are affected by an attacker's ability to read arbitrary files. This affects EX3700 before 1.0.0.64, EX3800 before 1.0.0.64, EX6120 before 1.0.0.32, EX6130 before 1.0.0.16, R6300v2 before 1.0.4.12, R6700 before 1.0.1.26, R6900 before 1.0.1.22, R7000 before 1.0.9.6, R7300DST before 1.0.0.52, R7900 before 1.0.1.12, R8000 before 1.0.3.24, and R8500 before 1.0.2.94."
+CVE-2017-18753,Unknown,"** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2019-20734, CVE-2017-18864. Reason: this candidate was intended for one issue, but the description and references inadvertently combined multiple issues. Notes: All CVE users should consult CVE-2019-20734 and CVE-2017-18864 to determine which ID is appropriate. All references and descriptions in this candidate have been removed to prevent accidental usage."
+CVE-2017-18754,MEDIUM,"Certain NETGEAR devices are affected by command injection by an authenticated user. This affects WNDR3700v4 before 1.0.2.88, WNDR4300v1 before 1.0.2.90, and WNR2000v5 before 1.0.0.58."
+CVE-2017-18755,MEDIUM,"Certain NETGEAR devices are affected by CSRF. This affects R6300v2 before 1.0.4.8, R6400v2 before 1.0.2.32, R6700 before 1.0.1.22, R6900 before 1.0.1.22, R7000P before 1.0.0.86, R6900P before 1.0.0.56, R7300 before 1.0.0.54, R8300 before 1.0.2.106, R8500 before 1.0.2.106, DGN2200v4 before 1.0.0.86, DGND2200Bv4 before 1.0.0.86, R6050 before 1.0.0.86, JR6150 before 1.0.1.10, R6220 before 1.1.0.50, and WNDR3700v5 before V1.1.0.48."
+CVE-2017-18756,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects D6220 before 1.0.0.32, D6400 before 1.0.0.66, D8500 before 1.0.3.35, DGN2200Bv4 before 1.0.0.94, DGN2200v4 before 1.0.0.94, R6250 before 1.0.4.14, R6300v2 before 1.0.4.18, R6400 before 1.01.32, R6400v2 before 1.0.2.44, R6700 before 1.0.1.36, R6900 before 1.0.1.30, R6900P before 1.3.0.8, R7000 before 1.0.9.14, R7000P before 1.3.0.8, R7100LG before 1.0.0.34, R7900 before 1.0.2.4, R8000 before 1.0.4.2, WN2500RPv2 before 1.0.1.50, WNDR3400v3 before 1.0.1.14, and WNDR4000 before 1.0.2.10."
+CVE-2017-18757,MEDIUM,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects D7800 before 1.0.1.30, R6100 before 1.0.1.16, R7500 before 1.0.0.116, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, R9000 before 1.0.2.40, WNDR4300v2 before 1.0.0.48, WNDR4300v1 before 1.0.2.90, and WNDR4500v3 before 1.0.0.48."
+CVE-2017-18758,MEDIUM,"Certain NETGEAR devices are affected by a stack-based buffer overflow by an authenticated user. This affects R6700v2 before 1.1.0.42, R6800 before 1.1.0.42, and R6900v2 before 1.1.0.42."
+CVE-2017-18759,MEDIUM,Certain NETGEAR devices are affected by a stack-based buffer overflow by an authenticated user. This affects R8300 before 1.0.2.104 and R8500 before 1.0.2.104.
+CVE-2017-1876,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: none.  Reason: This candidate was in a CNA pool that was not assigned to any issues during 2017.  Notes: none.
+CVE-2017-18760,Unknown,"** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2019-20732, CVE-2017-18865. Reason: this candidate was intended for one issue, but the description and references inadvertently combined multiple issues. Notes: All CVE users should consult CVE-2019-20732 and CVE-2017-18865 to determine which ID is appropriate. All references and descriptions in this candidate have been removed to prevent accidental usage."
+CVE-2017-18761,MEDIUM,NETGEAR R8000 devices before 1.0.4.2 are affected by a stack-based buffer overflow by an authenticated user.
+CVE-2017-18762,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects D3600 before 1.0.0.68, D6000 before 1.0.0.68, D6100 before 1.0.0.57, R6100 before 1.0.1.16, R6900P before 1.2.0.22, R7000 before 1.0.9.10, R7000P before 1.2.0.22, R7100LG before 1.0.0.40, WNDR3700v4 before 1.0.2.88, WNDR4300v1 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, and WNR2000v5 before 1.0.0.58."
+CVE-2017-18763,LOW,"Certain NETGEAR devices are affected by incorrect configuration of security settings. This affects JNR1010v2 before 1.1.0.42, JR6150 before 1.0.1.10, JWNR2010v5 before 1.1.0.42, PR2000 before 1.0.0.18, R6050 before 1.0.1.10, R6120 before 1.0.0.30, R6220 before 1.1.0.50, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, R6900v2 before 1.2.0.4, WNDR3700v5 before 1.1.0.48, WNR1000v4 before 1.1.0.42, WNR2020 before 1.1.0.42, and WNR2050 before 1.1.0.42."
+CVE-2017-18764,MEDIUM,"Certain NETGEAR devices are affected by command injection by an unauthenticated attacker. This affects D6100 before 1.0.0.55, D7000 before 1.0.1.50, D7800 before 1.0.1.28, JNR1010v2 before 1.1.0.44, JR6150 before 1.0.1.10, JWNR2010v5 before 1.1.0.44, PR2000 before 1.0.0.18, R6050 before 1.0.1.10, R6100 before 1.0.1.14, R6120 before 1.0.0.30, R6220 before 1.1.0.50, R6700v2 before 1.2.0.4, R6800 before 1.2.0.4, R6900v2 before 1.2.0.4, R7500 before 1.0.0.110, R7500v2 before 1.0.3.20, R7800 before 1.0.2.36, R9000 before 1.0.2.52, WN3000RPv3 before 1.0.2.50, WNDR3700v4 before 1.0.2.88, WNDR3700v5 before 1.1.0.48, WNDR4300v1 before 1.0.2.90, WNDR4300v2 before 1.0.0.48, WNDR4500v3 before 1.0.0.48, WNR1000v4 before 1.1.0.44, WNR2000v5 before 1.0.0.58, WNR2020 before 1.1.0.44, and WNR2050 before 1.1.0.44."
+CVE-2017-18765,LOW,"Certain NETGEAR devices are affected by denial of service. This affects R6300v2 before 1.0.4.8, R6400 before 1.0.1.22, R6400v2 before 1.0.2.32, R6700 before 1.0.1.20, R6900 before 1.0.1.20, WNR3500Lv2 before 1.2.0.44, and WNR2000v2 before 1.2.0.8."
+CVE-2017-18766,LOW,Certain NETGEAR devices are affected by an attacker's ability to read arbitrary files. This affects DST6501 before 1.1.0.6 and WNR2000v2 before 1.2.0.8.
+CVE-2017-18767,MEDIUM,"Certain NETGEAR devices are affected by command injection by an authenticated user. This affects D7800 before 1.0.1.34, D8500 before 1.0.3.39, R6400 before 1.0.1.14, R6400v2 before 1.0.2.32, R6700 before 1.0.1.22, R6900 before 1.0.1.22, R7000 before 1.0.9.4, R7100LG before 1.0.0.32, R7300 before 1.0.0.56, R7800 before 1.0.2.36, R7900 before 1.0.2.10, R8000 before 1.0.3.24, R8300 before 1.0.2.74, and R8500 before 1.0.2.74."

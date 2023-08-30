@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future openldap update may address this flaw in Red Hat Enterprise Linux 3."
+CVE-2009-3829,Red Hat,2010-04-20,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2010-0360.html"
+CVE-2009-3888,Red Hat,2009-11-19,Joshua Bressers,"Not vulnerable. The Linux kernels as shipped with Red Hat Enterprise Linux 3, 4, 5, and Red Hat Enterprise MRG did not have MMU disabled, and therefore are not affected by this issue."
+CVE-2009-3889,Red Hat,2010-02-04,Joshua Bressers,"This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise Linux 3, as it does not implement the sysfs file system (&quot;/sys/&quot;), through which dbg_lvl file is exposed by the megaraid_sas driver.
+
+Issue was addressed in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG via https://rhn.redhat.com/errata/RHSA-2010-0076.html , https://rhn.redhat.com/errata/RHSA-2010-0046.html and https://rhn.redhat.com/errata/RHSA-2009-1635.html respectively."
+CVE-2009-3895,Red Hat,2009-11-23,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of libexif as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2009-3938,Red Hat,2009-11-23,Tomas Hoger,Not vulnerable. This issue did not affect the versions of poppler as shipped with Red Hat Enterprise Linux 5.
+CVE-2009-3939,Red Hat,2010-02-04,Joshua Bressers,"This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise Linux 3, as it does not implement the sysfs file system (&quot;/sys/&quot;), through which poll_mode_io file is exposed by the megaraid_sas driver.
+
+Issue was addressed in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG via https://rhn.redhat.com/errata/RHSA-2010-0076.html , https://rhn.redhat.com/errata/RHSA-2010-0046.html and https://rhn.redhat.com/errata/RHSA-2009-1635.html respectively."
+CVE-2009-4004,Red Hat,2009-11-20,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG as KVM (Kernel-based Virtual Machine) is only supported in Red Hat Enterprise Linux 5.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue because it does not include the change that introduced this buffer overflow vulnerability."
+CVE-2009-4005,Red Hat,2010-02-04,Tomas Hoger,"The Linux kernel as shipped with Red Hat Enterprise Linux 3, 5, and Red Hat Enterprise MRG did not include support for the HiSax ISDN driver for Colognechip HFC-S USB chip, and therefore were not affected by this issue.
+
+Issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2010-0076.html"
+CVE-2009-4018,Red Hat,2009-11-30,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php
+CVE-2009-4020,Red Hat,2010-02-04,Mark J Cox,"This issue did not affect the version of the Linux kernel as shipped with Red Hat Enterprise MRG as the affected driver is not enabled in this kernel.
+
+It was addressed in Red Hat Enterprise Linux 4 and 5 via https://rhn.redhat.com/errata/RHSA-2010-0076.html and https://rhn.redhat.com/errata/RHSA-2010-0046.html respectively.

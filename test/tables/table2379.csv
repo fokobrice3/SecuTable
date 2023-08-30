@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-2934,Red Hat,2008-07-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of firefox as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2008-2937,Red Hat,2008-08-19,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=456347
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-2939,Red Hat,2008-11-12,Mark J Cox,"These issue was addressed in all affected httpd versions as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0967.html
+
+This issue is tracked via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-2939
+
+The Red Hat Security Response Team has rated this issue as having low security impact, future updates may address this flaw in other affected products (such as Red Hat Application Stack)."
+CVE-2008-2950,Red Hat,2008-07-08,Mark J Cox,"Not vulnerable. This issue did not affect the versions of poppler as shipped with Red Hat Enterprise Linux 5, or other PDF parsing applications derived from the xpdf code as shipped in Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3064,Red Hat,2008-07-31,Joshua Bressers,According to RealNetworks this flaw does not affect the Linux version of RealPlayer.
+CVE-2008-3066,Red Hat,2008-07-31,Joshua Bressers,According to RealNetworks this issue does not affect the Linux version of RealPlayer.
+CVE-2008-3067,Red Hat,2008-07-08,Mark J Cox,"Not vulnerable. This issue did not affect the versions of sudo as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3076,Red Hat,2009-02-25,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Vim packages, as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5.
+
+Note: This CVE is mentioned in the text of RHSA-2008:0580 (https://rhn.redhat.com/errata/RHSA-2008-0580.html), as it was originally used to track multiple issues.  Issues that affected Vim packages in Red Hat Enterprise Linux 5 were later assigned separate CVE identifier - CVE-2008-6235.  Neither of issues currently covered by CVE-2008-3076 (insufficient shell escaping in mz and mc commands) affected Vim packages shipped with Red Hat Enterprise Linux 5."
+CVE-2008-3077,Red Hat,2008-07-09,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3134,Red Hat,2010-05-14,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-3134"
+CVE-2008-3137,Red Hat,2008-10-17,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-3138,Red Hat,2008-10-17,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-3139,Red Hat,2008-07-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat

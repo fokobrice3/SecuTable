@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+The affected code is present in Red Hat Enterprise Linux 5, however lppasswd is not shipped setuid so is not vulnerable to this issue. If a user were to enable the setuid bit on lppasswd, the impact would only be a crash of lppasswd due to use of FORTIFY_SOURCE protections. Therefore, there are no plans to correct this issue in Red Hat Enterprise Linux 5."
+CVE-2010-0397,Red Hat,2010-03-22,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-0397
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2010-0410,Red Hat,2010-03-12,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0410.
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4, as they do not include support for kernel connectors. Future updates in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw."
+CVE-2010-0415,Red Hat,2010-03-18,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0415.
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4, as they do not include support for sys_move_pages. It was only introduced in kernel version 2.
+6.18 onwards. This was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-9419.html. Future updates in Red Hat Enterprise MRG may address this flaw."
+CVE-2010-0423,Red Hat,2010-02-25,Tomas Hoger,"The Red Hat Security Response Team has rated this issue as having low security impact.
+
+For Red Hat Enterprise Linux 4 and 5, this issue was addressed via https://rhn.redhat.com/errata/RHSA-2010-0115.html
+
+We currently have no plans to fix this flaw in Red Hat Enterprise Linux 3 as the issue only causes Pidgin client to become unresponsive or crash."
+CVE-2010-0424,Red Hat,2010-02-26,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-0424

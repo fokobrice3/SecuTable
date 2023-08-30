@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2010-0277,Red Hat,2010-02-22,Tomas Hoger,"This issue was addressed for Red Hat Enterprise Linux 4 and 5 via https://rhn.redhat.com/errata/RHSA-2010-0115.html
+
+We currently have no plans to fix this flaw in Red Hat Enterprise Linux 3 as the MSN protocol support in the provided version of Pidgin (1.5.1) is out-dated and no longer supported by MSN servers. There are no plans to backport MSN protocol changes for that version of Pidgin."
+CVE-2010-0283,Red Hat,2010-02-22,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of MIT Kerberos 5 as shipped with Red Hat Enterprise Linux 3, 4 or 5. Those versions do not contain the vulnerable code that was introduced in krb5 1.7."
+CVE-2010-0299,Red Hat,2010-03-12,Vincent Danen,"Not vulnerable. The Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG did not include support for Devtmpfs, and therefore are not affected by this issue."
+CVE-2010-0307,Red Hat,2010-03-17,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0307.
+
+This issue has been rated as having moderate security impact.
+
+This issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2010-0146.html. Future updates in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw.
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important or critical impact are addressed.
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2010-0308,Red Hat,2010-03-31,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2010-0308
+
+This issue was addressed in the squid packages as shipped with Red Hat Enterprise Linux 5 via:
+https://rhn.redhat.com/errata/RHSA-2010-0221.html
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future squid update may address this flaw in Red Hat Enterprise Linux 3 and 4."
+CVE-2010-0393,Red Hat,2010-03-09,Tomas Hoger,"This issue did not affected Red Hat Enterprise Linux 3 and 4 due to the lack of localization in lppasswd as provided in those releases.

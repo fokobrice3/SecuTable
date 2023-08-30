@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+https://bugzilla.redhat.com/CVE-2009-4308
+
+The Linux kernel packages as shipped with Red Hat Enterprise Linux 3, 4 and Red Hat Enterprise MRG do not include support for EXT4, and therefore are not affected by this issue. This issue was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0147.html."
+CVE-2009-4410,Red Hat,2009-12-31,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG. Shipped kernels do not include upstream commit 59efec7b that introduced the problem."
+CVE-2009-4411,Red Hat,2010-01-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of acl as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-4418,Red Hat,2010-01-04,Tomas Hoger,"Red Hat does not consider this to be a security flaw. For further details, see https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-4418"
+CVE-2009-4484,Red Hat,2010-01-26,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mysql as shipped with Red Hat Enterprise Linux 3, 4, or 5. The packages use OpenSSL and not yaSSL."
+CVE-2009-4492,Red Hat,2010-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-4492
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2009-4565,Red Hat,2010-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-4565
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2009-4629,Red Hat,2010-02-01,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Thunderbird as shipped with Red Hat Enterprise Linux 4 and 5, and Seamonkey as shipped with Red Hat Enterprise Linux 3 and 4."
+CVE-2009-4630,Red Hat,2010-02-01,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Firefox, Thunderbird, or Seamonkey as shipped with Red Hat Enterprise Linux 3, 4,
+or 5."
+CVE-2009-4641,Red Hat,2010-03-17,Vincent Danen,Not vulnerable. This issue did not affect the versions of gnome-screensaver as shipped with Red Hat Enterprise Linux 5.
+CVE-2009-4835,Red Hat,2010-05-06,Joshua Bressers,"Red Hat does not consider this issue to be a security flaw.
+
+The libsndfile library is not used outside of client applications, where crashes are not considered to be security flaws."
+CVE-2010-0136,Red Hat,2010-03-05,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of openoffice.org as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2010-0205,Red Hat,2010-07-14,Tomas Hoger,"This issue has been addressed in Red Hat Enterprise Linux 3, 4, and 5 via https://rhn.redhat.com/errata/RHSA-2010-0534.html."

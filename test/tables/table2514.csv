@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Furthermore, &quot;open_basedir&quot; bypass issues are not treated as security sensitive as described at https://bugzilla.redhat.com/show_bug.cgi?id=169857#c1 and
+http://www.php.net/security-note.php"
+CVE-2008-0163,Red Hat,2008-02-14,Mark J Cox,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-0166,Red Hat,2008-05-13,Mark J Cox,"Not vulnerable.  This flaw was caused by a third-party vendor patch to the OpenSSL
+library.  This patch has never been used by Red Hat, and this issue therefore does not affect any Fedora, Red Hat, or upstream supplied OpenSSL packages."
+CVE-2008-0171,Red Hat,2008-05-12,Mark J Cox,"This issue did not affect the version of boost as shipped with Red Hat Enterprise Linux 4.
+
+For Red Hat Enterprise Linux 5, Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-0171
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2008-0172,Red Hat,2008-05-12,Mark J Cox,"This issue did not affect the version of boost as shipped with Red Hat Enterprise Linux 4.
+
+For Red Hat Enterprise Linux 5, Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-0172
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2008-0226,Red Hat,2008-01-11,Mark J Cox,"Not vulnerable. This issue did not affect versions of MySQL as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5, Red Hat Application Stack v1, and v2, as they are not built with yaSSL support."
+CVE-2008-0227,Red Hat,2008-01-11,Mark J Cox,"Not vulnerable. This issue did not affect versions of MySQL as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5, Red Hat Application Stack v1, and v2, as they are not built with yaSSL support."
+CVE-2008-0352,Red Hat,2008-01-21,Mark J Cox,"Not vulnerable. These issues did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-0414,Red Hat,2008-02-12,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-0414
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future updates will address this flaw.

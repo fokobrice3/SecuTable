@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-5236,Red Hat,2007-10-08,Mark J Cox,Not vulnerable. These issues do not affect Linux versions of Sun JDK or JRE.
+CVE-2007-5237,Red Hat,2007-10-08,Mark J Cox,Not vulnerable. These issues did not affect the versions of Sun JDK as shipped with Red Hat Enterprise Linux Extras 4 or 5.
+CVE-2007-5266,Red Hat,2007-10-16,Mark J Cox,"Not vulnerable. This issue did not affect the versions of libpng and libpng10 as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5267,Red Hat,2007-10-16,Mark J Cox,"Not vulnerable. This issue did not affect the versions of libpng and libpng10 as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5268,Red Hat,2007-10-16,Mark J Cox,"Not vulnerable. This issue did not affect the versions of libpng and libpng10 as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5320,Pegasus Imaging Corp.,2007-11-08,,Pegasus Imaging acknowledges these issues as affecting our controls in the same way that they affect any ActiveX control that allows files to be saved to absolute directory paths.  We’re working on reducing the vulnerabilities of these issues and will publish additional information when available at www.pegasusimaging.com/faq.htm.  In the meantime we recommend that users follow the Microsoft guidelines for reducing the vulnerability by increasing their browser security settings for ActiveX controls.
+CVE-2007-5333,Red Hat,2008-04-24,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-5333
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-5360,Red Hat,2008-01-09,Mark J Cox,"Not vulnerable. This issue did not affect versions of tog-pegasus as shipped with Red Hat Enterprise Linux 4, or 5.  For more details see
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2007-5360"
+CVE-2007-5377,Red Hat,2007-10-17,Mark J Cox,"Not vulnerable.  Red Hat Enterprise Linux 2.1, 3, and 4 did not include the Tramp extension with Emacs.  The version of Tramp included with Emacs in Red Hat Enterprise Linux 5 was not vulnerable to this issue."
+CVE-2007-5378,Red Hat,2007-10-16,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-5378
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-5424,Red Hat,2007-10-16,Mark J Cox,"Red Hat does not consider this to be a security issue. The function behaves as documented. Furthermore, the function shouldn’t be considered a security feature, for reasons described at https://bugzilla.redhat.com/show_bug.cgi?id=332451#c3 and http://www.php.net/security-note.php"
+CVE-2007-5471,Red Hat,2007-10-23,Mark J Cox,"Not vulnerable. The versions of bind as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5 do not support GSS-TSIG and are not linked with libgssapi library."
+CVE-2007-5501,Red Hat,2007-11-20,Mark J Cox,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5502,Red Hat,2007-12-03,Mark J Cox,"Not vulnerable. This vulnerability only affected the OpenSSL FIPS Object Module which is not enabled or used by OpenSSL in Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5601,Red Hat,2007-10-23,Mark J Cox,Not vulnerable. This issue did not affect versions of RealPlayer as shipped with Red Hat Enterprise Linux 3 and 4 Extras or with Red Hat Enterprise Linux 5 Supplementary.
+CVE-2007-5653,Red Hat,2007-10-24,Mark J Cox,Not vulnerable. These issues did not affect PHP on Linux.

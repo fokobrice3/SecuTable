@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+Note that both the DTLS specification and OpenSSLs implementation is still in development and unlikely to be used in production environments.  There is no component shipped in Red Hat Enterprise Linux 5 using OpenSSLs DTLS implementation, except for OpenSSLs testing command line client - openssl."
+CVE-2009-1378,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect versions of openssl as shipped in Red Hat Enterprise Linux 3 and 4.
+
+This issue was addressed for Red Hat Enterprise Linux 5 
+by http://rhn.redhat.com/errata/RHSA-2009-1335.html
+
+Note that both the DTLS specification and OpenSSLs implementation is still in development and unlikely to be used in production environments.  There is no component shipped in Red Hat Enterprise Linux 5 using OpenSSLs DTLS implementation, except for OpenSSLs testing command line client - openssl."
+CVE-2009-1379,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect versions of openssl as shipped in Red Hat Enterprise Linux 3 and 4.
+
+This issue was addressed for Red Hat Enterprise Linux 5 
+by http://rhn.redhat.com/errata/RHSA-2009-1335.html
+
+Note that both the DTLS specification and OpenSSLs implementation is still in development and unlikely to be used in production environments.  There is no component shipped in Red Hat Enterprise Linux 5 using OpenSSLs DTLS implementation, except for OpenSSLs testing command line client - openssl."
+CVE-2009-1381,Red Hat,2009-05-26,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of squirrelmail as shipped with Red Hat Enterprise Linux 3, 4, or 5.
+
+Updates for squirrelmail released via RHSA-2009:1066 (https://rhn.redhat.com/errata/RHSA-2009-1066.html) fixed original flaw CVE-2009-1579 without introducing CVE-2009-1381."
+CVE-2009-1384,Red Hat,2010-03-31,Tomas Hoger,"This issue did not affect the versions of the pam_krb5 packages, as shipped with Red Hat Enterprise Linux 3 and 4.
+
+The issue was addressed in the pam_krb5 packages as shipped with Red Hat Enterprise Linux 5 via:
+https://rhn.redhat.com/errata/RHSA-2010-0258.html"
+CVE-2009-1388,Red Hat,2009-08-05,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG.

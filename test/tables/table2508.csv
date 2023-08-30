@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-5708,Red Hat,2007-11-01,Mark J Cox,"Not vulnerable. This issue did not affect the versions of OpenLDAP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5729,Red Hat,2007-11-02,Mark J Cox,Not vulnerable. This issue did not affect Xen as shipped with Red Hat Enterprise Linux 5.
+CVE-2007-5730,Red Hat,2007-11-02,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-5729
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-5741,Red Hat,2007-11-08,Mark J Cox,Not vulnerable. This issue did not affect versions of plone included in conga/luci packages as shipped with Red Hat Enterprise Linux 5 or Red Hat Cluster Suite for Red Hat Enterprise Linux 4.
+CVE-2007-5769,Red Hat,2007-12-07,Mark J Cox,"Red Hat does not consider a user assisted client crash such as this to be a
+security flaw."
+CVE-2007-5795,Red Hat,2007-11-09,Mark J Cox,"Not vulnerable. This issue did not affect versions of Emacs as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5797,Red Hat,2007-11-06,Mark J Cox,"Not vulnerable. This issue did not affect versions of geronimo-specs packages as shipped Red Hat Enterprise Linux 5, Red Hat Application Stack, Red Hat Application Server, Red Hat Directory Server and Red Hat Certificate System, as the geronimo-specs package only contains the specification of the Apache Geronimo Server’s services and interfaces and not the vulnerable J2EE server classes."
+CVE-2007-5848,Red Hat,2008-01-02,Joshua Bressers,"Not vulnerable.
+
+After a detailed analysis of this flaw, it has been determined that it is not exploitable on Red Hat Enterprise Linux 3, 4, or 5.  For more information please see:
+https://bugzilla.redhat.com/show_bug.cgi?id=415141"
+CVE-2007-5849,Red Hat,2008-01-02,Joshua Bressers,"Not vulnerable.
+
+This flaw does not affect the version of CUPS shipped in Red Hat Enterprise Linux 3 or 4.
+
+After a detailed analysis of this flaw, it has been determined it does not pose a security threat on Red Hat Enterprise Linux 5.  For more details regarding this analysis, please see:
+https://bugzilla.redhat.com/show_bug.cgi?id=415131"
+CVE-2007-5894,Red Hat,2007-12-14,Mark J Cox,"This issue is not a vulnerability, for more information see http://marc.info/?m=119743235325151"
+CVE-2007-5896,Red Hat,2007-11-19,Joshua Bressers,Red Hat does not consider this flaw a security issue. This flaw is not exploitable and can only cause a client to stop responding or crash.

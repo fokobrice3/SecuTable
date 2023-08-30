@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+and Red Hat Enterprise Linux 3 update 8:
+http://rhn.redhat.com/errata/RHBA-2006-0287.html
+
+This issue does not affect Red Hat Enterprise Linux 2.1"
+CVE-2006-4124,Red Hat,2006-08-16,Mark J Cox,"LessTif is shipped with Red Hat Enterprise Linux 2.1 but not 3 or 4.  On Enterprise Linux 2.1 we build LessTif with debugging disabled, so the DEBUG_FILE environment variable is ignored and this issue cannot be exploited."
+CVE-2006-4144,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-4146,Red Hat,2009-06-01,Mark J Cox,"Updates to address this issue are available for Red Hat Enterprise Linux 3 and 4:
+https://rhn.redhat.com/cve/CVE-2006-4146.html
+
+Red Hat Enterprise Linux 5 was not vulnerable to this issue as it contained a backported patch."
+CVE-2006-4181,Red Hat,2006-12-04,Joshua Bressers,"Not Vulnerable.  Red Hat does not ship GNU Radius in Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2006-4191,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2006-4206,ASPPlayground.NET,2006-12-20,Samuel Chou,"The issue has been fixed in the latest round of patch released on Oct 15, 2006."
+CVE-2006-4226,Red Hat,2006-09-19,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=203426
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/
+
+This issue does not affect Red Hat Enterprise Linux 2.1 or 3"
+CVE-2006-4227,Red Hat,2008-07-25,Mark J Cox,"This issue did not affect the versions of MySQL as shipped with Red Hat Enterprise Linux 2.1, 3, or 4.

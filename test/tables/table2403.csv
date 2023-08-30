@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The flaw was introduced in kernel version 2.6.17-rc1. The Linux kernel as shipped with Red Hat Enterprise Linux 3, and 4 are not affected by this issue.
+
+It was addressed in Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1540.html
+
+A future kernel update for Red Hat Enterprise Linux 5 will address this flaw."
+CVE-2009-2855,Red Hat,2010-03-31,Tomas Hoger,"This issue did not affect the versions of the squid packages, as shipped with Red Hat Enterprise Linux 3 and 4.
+
+The issue was addressed in the squid packages as shipped with Red Hat Enterprise Linux 5 via:
+https://rhn.redhat.com/errata/RHSA-2010-0221.html"
+CVE-2009-2901,Red Hat,2010-03-02,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2901
+
+This issue did not affect Tomcat versions running on Linux or Solaris systems.
+
+This issue is fixed in the tomcat5 and tomcat6 packages released with JBoss Enterprise Web Server 1.0.1 for Windows."
+CVE-2009-2902,Red Hat,2010-03-02,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-2902
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/
+
+This issue has been addressed in JBoss Enterprise Web Server 1.0.1: https://rhn.redhat.com/errata/RHSA-2010-0119.html"
+CVE-2009-2903,Red Hat,2009-09-17,Tomas Hoger,"Red Hat is aware of this issue. Please see http://kbase.redhat.com/faq/docs/DOC-19077
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 4 and 5, as the affected driver is not enabled in these kernels. The affected driver is available in Red Hat Enterprise MRG. It is also available in Red Hat Enterprise Linux 3, but only if the kernel-unsupported package is installed. Future kernel updates in Red Hat Enterprise Linux 3 and Red Hat Enterprise MRG will address this issue."

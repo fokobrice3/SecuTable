@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2005-3258,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable. These issues do not affect the versions of Squid as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-3319,Red Hat,2008-02-12,Joshua Bressers,We do not class this as a security issue as it only allows local users who have the privileges to create .htaccess files the ability to cause a denial of service. Untrusted users should never be given the ability to create .htaccess files.
+CVE-2005-3352,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.2.2, 2.0.58, and 1.3.35: http://httpd.apache.org/security/vulnerabilities_22.html
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2005-3357,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.2.2 and 2.0.58 http://httpd.apache.org/security/vulnerabilities_22.html
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-3391,Red Hat,2006-08-30,Mark J Cox,"We do not consider these to be security issues:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1"
+CVE-2005-3392,Red Hat,2006-08-30,Mark J Cox,"We do not consider these to be security issues:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1"
+CVE-2005-3544,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2005-3582,Red Hat,2006-08-16,Mark J Cox,Not vulnerable.  This issue is caused by the way ImageMagick was packaged by Gentoo and does not affect Red Hat Enterprise Linux packages.
+CVE-2005-3624,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-3625,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-3626,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-3627,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-3628,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-3688,XMB,2021-04-23,Robert Chapin,"This CVE is considered invalid because it duplicates CVE-2005-0885, ""XMB versions 1.9.8 and later were checked and are not vulnerable."" Upgrades are available at https://www.xmbforum2.com/"
+CVE-2005-3689,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 SP2 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2005-3964,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-4158,Red Hat,2008-01-24,Mark J Cox,"We do not consider this to be a security issue.

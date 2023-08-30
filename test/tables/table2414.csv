@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Red Hat Security Response Team has rated this issue as having low security impact, theres no plan to address this flaw in automake packages in Red Hat Enterprise Linux 3 and 4."
+CVE-2009-4034,Red Hat,2010-01-07,Mark Cox,"This issue is only security-relevant in PostgreSQL versions 8.4 and later as previous versions did not compare the connection host name with the certificate CommonName at all. Client certificate authentication was introduced in version 8.4. Red Hat Enterprise Linux 5 and earlier provided PostgreSQL versions 8.1.x and earlier, and are thus not affected by this issue."
+CVE-2009-4131,Red Hat,2009-12-14,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 and Red Hat Enterprise MRG. Those versions do not include the upstream patch that introduced this vulnerability."
+CVE-2009-4135,Red Hat,2010-02-26,Joshua Bressers,"This issue does not affect users using coreutils binary RPMs, or rebuilding source RPMs. Therefore, we do not plan to release updates addressing this flaw on Red Hat Enterprise Linux 3, 4 and 5.
+
+For additional details, refer to the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-4135"
+CVE-2009-4136,Red Hat,2010-05-20,Mark Cox,"This issue was addressed in Red Hat Enterprise Linux 3 via https://rhn.redhat.com/errata/RHSA-2010-0427.html
+
+This issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2010-0428.html
+
+This issue was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0429.html and https://rhn.redhat.com/errata/RHSA-2010-0430.html"
+CVE-2009-4138,Red Hat,2010-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2009-4138
+
+The Linux kernel packages as shipped with Red Hat Enterprise Linux 3 and 4 have a different (and older) implementation of the driver for OHCI 1394 controllers, which is not affected by this issue.
+
+It was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0046.html
+
+A future kernel update for Red Hat Enterprise MRG will address this flaw."
+CVE-2009-4141,Red Hat,2010-01-21,Tomas Hoger,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4 and Red Hat Enterprise MRG. Shipped kernels do not include upstream commit 233e70f4 that introduced the problem.
+
+It was addressed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2010-0046.html"
+CVE-2009-4143,Red Hat,2009-12-23,Tomas Hoger,We do not consider safe_mode / open_basedir restriction bypass issues being security sensitive. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1 and http://www.php.net/security-note.php

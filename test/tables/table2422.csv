@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2004-0112,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-0113,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.49:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2004-0174,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.49, and 1.3.31:
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2004-0174,Red Hat,2006-08-30,Mark J Cox,Not vulnerable.  This issue did not affect Linux.
+CVE-2004-0175,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2004-0230,Red Hat,2006-08-16,Mark J Cox,"The DHS advisory is a good source of background information about the
+issue: http://www.us-cert.gov/cas/techalerts/TA04-111A.html
+
+It is important to note that the issue described is a known function of TCP. In order to perform a connection reset an attacker would need to know the source and destination ip address and ports as well as being able to guess the sequence number within the window. These requirements seriously reduce the ability to trigger a connection reset on normal TCP connections. The DHS advisory explains that BGP routing is a specific case where being able to trigger a reset is easier than expected as the end points can be easily determined and
+large window sizes are used. BGP routing is also signficantly affected by having it’s connections terminated. The major BGP peers have recently switched to requiring md5 signatures which mitigates against this attack.
+
+The following article from Linux Weekly News also puts the flaw into context and shows why it does not pose a significant threat:
+http://lwn.net/Articles/81560/
+
+Red Hat does not have any plans for action regarding this issue."
+CVE-2004-0322,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 SP2 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2004-0323,XMB,2008-12-11,,XMB versions 1.9.8 SP2 and later were checked and are not vulnerable.
+CVE-2004-0488,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.0.50:
+http://httpd.apache.org/security/vulnerabilities_20.html"

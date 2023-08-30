@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+- AirMagnet Solution: AirMagnet will release a patch to ensure that the console validates the correctly assigned certificate from the server. Customers can limit the risk of this vulnerability by following standard network security practices to ensure that unauthorized personnel do not gain physical access to the protected network.
+
+- Fix Availability: Patch currently available on MyAirMagnet. Customers should upgrade to the latest version available on MyAirMagnet. Customers running a version of AirMagnet older than 6.1 must upgrade to version 6.1 before upgrading to the current release. Customers can contact AirMagnet Support to obtain the 6.1 release."
+CVE-2006-5749,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-5751,Red Hat,2006-12-12,Joshua Bressers,"This flaw does not affect the Linux kernel shipped with Red Hat Enterprise Linux 2.1 or 3.
+
+This flaw affects the Linux kernel shipped with Red Hat Enterprise Linux 4.  We are tracking this flaw via bug 216452:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=216452"
+CVE-2006-5752,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.2.6, 2.0.61, and 1.3.39: http://httpd.apache.org/security/vulnerabilities_22.html
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2006-5753,Red Hat,2007-10-18,Mark J Cox,"Red Hat Enterprise Linux 2.1 is not vulnerable to this issue as it only affects x86_64 architectures.
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch at release."
+CVE-2006-5757,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-5767,Drake CMS,2006-12-20,Daniele C.,"The Drake Team has published an apposite news about the vulnerability: http://sourceforge.net/forum/forum.php?forum_id=636860.
+
+It is important to specify that this is an alpha product because it is intended for testers and we already disclaim its usage in production websites through an install notice; we will conduct deep security tests during the beta stage of our development chain.
+
+We discontinue the download of each alpha release when a new one is available, so the up-to-date release available at http://sourceforge.net/projects/drakecms is already fixed for the vulnerability."
+CVE-2006-5779,Red Hat,2007-03-14,Joshua Bressers,Not Vulnerable.  The OpenLDAP versions shipped with Red Hat Enterprise Linux 4 and earlier do not contain the vulnerable code in question.  Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.

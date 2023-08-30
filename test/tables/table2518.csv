@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-1071,Red Hat,2008-10-17,Mark J Cox,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-1072,Red Hat,2008-10-17,Mark J Cox,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2008-0890.html"
+CVE-2008-1078,Red Hat,2008-03-04,Joshua Bressers,"The risks associated with fixing this bug are greater than the low severity security risk.We therefore currently have no plans to fix this flaw in Red HatEnterprise Linux.
+
+For more information please see the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=435420"
+CVE-2008-1142,Red Hat,2008-04-14,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1142
+
+This issue does not affect Red Hat Enterprise Linux 3, 4, or 5.
+
+The Red Hat Security Response Team has rated this issue as having low security impact.  Due to the minimal security consequences of this issue, we do not intend to fix this in Red Hat Enterprise Linux 2.1.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-1145,Red Hat,2008-12-04,Mark J Cox,This issue was addressed in affected versions of Ruby as shipped in Red Hat Enterprise Linux 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2008-0897.html
+CVE-2008-1198,Red Hat,2008-03-07,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1198
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2008-1199,Red Hat,2008-05-21,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1199
+
+This issue does not affect the default configuration of Dovecot as shipped in Red Hat Enterprise Linux.
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update may address this flaw. 

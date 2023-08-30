@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2007-5007,Red Hat,2008-01-09,Mark J Cox,Not vulnerable. This issue did not affect version of balsa as shipped with Red Hat Enterprise Linux 2.1.
+CVE-2007-5020,Red Hat,2007-10-08,Mark J Cox,"According to Abobe this issue affects only the Windows platform and therefore does not affect Adobe Acrobat Reader as distributed with Red Hat Enterprise Linux Extras.  
+http://www.adobe.com/support/security/advisories/apsa07-04.html"
+CVE-2007-5045,Red Hat,2007-10-04,Mark J Cox,Not vulnerable. These issues did not affect the versions of Firefox as shipped with Red Hat Enterprise Linux.
+CVE-2007-5079,Red Hat,2010-08-26,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=181302
+
+An update has been released which resolves this issue:
+http://rhn.redhat.com/errata/RHSA-2010-0657.html"
+CVE-2007-5080,Red Hat,2007-11-01,Mark J Cox,"Not vulnerable. This issue did not affect the versions of RealPlayer as shipped with Red Hat Enterprise Linux 3 Extras, 4 Extras, or 5 Supplementary."
+CVE-2007-5081,Red Hat,2007-11-01,Mark J Cox,"This issue was fixed in RealPlayer for Red Hat Enterprise Linux 3 Extras, 4 Extras, 5 Supplementary by RHSA-2007:0841 on 17th August 2007:
+http://rhn.redhat.com/errata/RHSA-2007-0841.html)on
+
+(Our original advisory did not mention this issue was fixed as the details of the issue were not made public by RealNetworks until 25th October 2007)"
+CVE-2007-5087,Red Hat,2007-09-28,Mark J Cox,"Not vulnerable. These issues did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-5137,Red Hat,2007-10-09,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-5137
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-5191,Red Hat,2009-06-01,Mark J Cox,"Updates are available to address this issue:
+https://rhn.redhat.com/errata/RHSA-2007-0969.html"

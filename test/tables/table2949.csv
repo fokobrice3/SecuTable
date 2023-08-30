@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2020-20467,MEDIUM,"White Shark System (WSS) 1.3.2 is vulnerable to sensitive information disclosure via default_task_add.php, remote attackers can exploit the vulnerability to create a task."
+CVE-2020-20468,MEDIUM,White Shark System (WSS) 1.3.2 is vulnerable to CSRF. Attackers can use the user_edit_password.php file to modify the user password.
+CVE-2020-20469,MEDIUM,"White Shark System (WSS) 1.3.2 has a SQL injection vulnerability. The vulnerability stems from the log_edit.php files failing to filter the csa_to_user parameter, remote attackers can exploit the vulnerability to obtain database sensitive information."
+CVE-2020-20470,MEDIUM,White Shark System (WSS) 1.3.2 has web site physical path leakage vulnerability.
+CVE-2020-20471,HIGH,"White Shark System (WSS) 1.3.2 has an unauthorized access vulnerability in default_user_edit.php, remote attackers can exploit this vulnerability to escalate to admin privileges."
+CVE-2020-20472,MEDIUM,White Shark System (WSS) 1.3.2 has a sensitive information disclosure vulnerability. The if_get_addbook.php file does not have an authentication operation. Remote attackers can obtain username information for all users of the current site.
+CVE-2020-20473,MEDIUM,"White Shark System (WSS) 1.3.2 has a SQL injection vulnerability. The vulnerability stems from the control_task.php, control_project.php, default_user.php files failing to filter the sort parameter. Remote attackers can exploit the vulnerability to obtain database sensitive information."
+CVE-2020-20474,MEDIUM,White Shark System (WSS) 1.3.2 has a SQL injection vulnerability. The vulnerability stems from the default_task_edituser.php files failing to filter the csa_to_user parameter. Remote attackers can exploit the vulnerability to obtain database sensitive information.
+CVE-2020-2048,LOW,An information exposure through log file vulnerability exists where the password for the configured system proxy server for a PAN-OS appliance may be displayed in cleartext when using the CLI in Palo Alto Networks PAN-OS software. This issue impacts: PAN-OS 8.1 versions earlier than PAN-OS 8.1.17; PAN-OS 9.0 versions earlier than PAN-OS 9.0.11; PAN-OS 9.1 versions earlier than PAN-OS 9.1.2.
+CVE-2020-20486,MEDIUM,IEC104 v1.0 contains a stack-buffer overflow in the parameter Iec10x_Sta_Addr.
+CVE-2020-2049,HIGH,A local privilege escalation vulnerability exists in Palo Alto Networks Cortex XDR Agent on the Windows platform that allows an authenticated local Windows user to execute programs with SYSTEM privileges. This requires the user to have the privilege to create files in the Windows root directory. This issue impacts: All versions of Cortex XDR Agent 7.1 with content update 149 and earlier versions; All versions of Cortex XDR Agent 7.2 with content update 149 and earlier versions.
+CVE-2020-20490,MEDIUM,A heap buffer-overflow in the client_example1.c component of libiec_iccp_mod v1.5 leads to a denial of service (DOS).
+CVE-2020-20495,MEDIUM,bludit v3.13.0 contains an arbitrary file deletion vulnerability in the backup plugin via the `deleteBackup' parameter.
+CVE-2020-2050,MEDIUM,"An authentication bypass vulnerability exists in the GlobalProtect SSL VPN component of Palo Alto Networks PAN-OS software that allows an attacker to bypass all client certificate checks with an invalid certificate. A remote attacker can successfully authenticate as any user and gain access to restricted VPN network resources when the gateway or portal is configured to rely entirely on certificate-based authentication. Impacted features that use SSL VPN with client certificate verification are: GlobalProtect Gateway, GlobalProtect Portal, GlobalProtect Clientless VPN In configurations where client certificate verification is used in conjunction with other authentication methods, the protections added by the certificate check are ignored as a result of this issue. This issue impacts: PAN-OS 8.1 versions earlier than PAN-OS 8.1.17; PAN-OS 9.0 versions earlier than PAN-OS 9.0.11; PAN-OS 9.1 versions earlier than PAN-OS 9.1.5; PAN-OS 10.0 versions earlier than PAN-OS 10.0.1."
+CVE-2020-20508,MEDIUM,"Shopkit v2.7 contains a reflective cross-site scripting (XSS) vulnerability in the /account/register component, which allows attackers to hijack user credentials via a crafted payload in the E-Mail text field."
+CVE-2020-20514,MEDIUM,A Cross-Site Request Forgery (CSRF) in Maccms v10 via admin.php/admin/admin/del/ids/<id>.html allows authenticated attackers to delete all users.
+CVE-2020-20545,LOW,"Cross-Site Scripting (XSS) vulnerability in Zhiyuan G6 Government Collaboration System V6.1SP1, via the 'method' parameter to 'seeyon/hrSalary.do'."
+CVE-2020-20582,MEDIUM,A server side request forgery (SSRF) vulnerability in /ApiAdminDomainSettings.php of MipCMS 5.0.1 allows attackers to access sensitive information.
+CVE-2020-20583,MEDIUM,A SQL injection vulnerability in /question.php of LJCMS Version v4.3.R60321 allows attackers to obtain sensitive database information.
+CVE-2020-20584,MEDIUM,A cross site scripting vulnerability in baigo CMS v4.0-beta-1 allows attackers to execute arbitrary web scripts or HTML via the form parameter post to /public/console/profile/info-submit/.
+CVE-2020-20585,MEDIUM,A blind SQL injection in /admin/?n=logs&c=index&a=dode of Metinfo 7.0 beta allows attackers to access sensitive database information.
+CVE-2020-20586,LOW,"A cross site request forgery (CSRF) vulnerability in the /xyhai.php?s=/Auth/editUser URI of XYHCMS V3.6 allows attackers to edit any information of the administrator such as the name, e-mail, and password."
+CVE-2020-20593,MEDIUM,A cross-site request forgery (CSRF) in Rockoa v1.9.8 allows an authenticated attacker to arbitrarily add an administrator account.
+CVE-2020-20595,MEDIUM,A cross-site request forgery (CSRF) in OPMS v1.3 and below allows attackers to arbitrarily add a user account via /user/add.
+CVE-2020-20597,MEDIUM,A cross-site scripting (XSS) vulnerability in the potrtalItemName parameter in \web\PortalController.java of lemon V1.10.0 allows attackers to execute arbitrary web scripts or HTML.
+CVE-2020-20598,MEDIUM,A cross-site scripting (XSS) vulnerability in the Editing component of lemon V1.10.0 allows attackers to execute arbitrary web scripts or HTML.
+CVE-2020-20600,LOW,MetInfo 7.0 beta contains a stored cross-site scripting (XSS) vulnerability in the $name parameter of admin/?n=column&c=index&a=doAddColumn.
+CVE-2020-20601,HIGH,An issue in ThinkCMF X2.2.2 and below allows attackers to execute arbitrary code via a crafted packet.
+CVE-2020-20605,MEDIUM,Blog CMS v1.0 contains a cross-site scripting (XSS) vulnerability in the /controller/CommentAdminController.java component.
+CVE-2020-20625,MEDIUM,Sliced Invoices plugin for WordPress 3.8.2 and earlier allows unauthenticated information disclosure and authenticated SQL injection via core/class-sliced.php.
+CVE-2020-20626,LOW,lara-google-analytics.php in Lara Google Analytics plugin through 2.0.4 for WordPress allows authenticated stored XSS.
+CVE-2020-20627,MEDIUM,The includes/gateways/stripe/includes/admin/admin-actions.php in GiveWP plugin through 2.5.9 for WordPress allows unauthenticated settings change.
+CVE-2020-20628,MEDIUM,controller/controller-comments.php in WP GDPR plugin through 2.1.1 has unauthenticated stored XSS.
+CVE-2020-20633,LOW,"ajax_policy_generator in admin/modules/cli-policy-generator/classes/class-policy-generator-ajax.php in GDPR Cookie Consent (cookie-law-info) 1.8.2 and below plugin for WordPress, allows authenticated stored XSS and privilege escalation."
+CVE-2020-20634,MEDIUM,Elementor 2.9.5 and below WordPress plugin allows authenticated users to activate its safe mode feature. This can be exploited to disable all security plugins on the blog.
+CVE-2020-20640,MEDIUM,"Cross Site Scripting (XSS) vulnerability in ECShop 4.0 due to security filtering issues, in the user.php file, we can use the html entity encoding to bypass the security policy of the safety.php file, triggering the xss vulnerability."
+CVE-2020-20642,MEDIUM,Cross Site Request Forgery (CSRF) vulnerability exists in EyouCMS 1.3.6 that can add an htm page to execute the js code via login.php?m=admin&c=Filemanager&a=newfile&lang=cn.
+CVE-2020-20645,LOW,Cross Site Scripting (XSS) vulnerability exists in EyouCMS1.3.6 in the basic_information area.
+CVE-2020-20657,MEDIUM,"Buffer overflow vulnerability in fcovatti libiec_iccp_mod v1.5, allows attackers to cause a denial of service via an unexpected packet while trying to connect."
+CVE-2020-20658,MEDIUM,"Buffer overflow vulnerability in fcovatti libiec_iccp_mod v1.5, allows attackers to cause a denail of service when trying to calloc an unexpectiedly large space."
+CVE-2020-20662,MEDIUM,libiec_iccp_mod v1.5 contains a heap-buffer-overflow in the component mms_client_example1.c.
+CVE-2020-20663,MEDIUM,libiec_iccp_mod v1.5 contains a heap-buffer-overflow in the component mms_client_connection.c.
+CVE-2020-20664,MEDIUM,libiec_iccp_mod v1.5 contains a segmentation violation in the component server_example1.c.
+CVE-2020-20665,MEDIUM,rudp v0.6 was discovered to contain a memory leak in the component main.c.
+CVE-2020-20670,MEDIUM,An arbitrary file upload vulnerability in /admin/media/upload of ZKEACMS V3.2.0 allows attackers to execute arbitrary code via a crafted HTML file.
+CVE-2020-20671,MEDIUM,A cross-site request forgery (CSRF) in KiteCMS V1.1 allows attackers to arbitrarily add an administrator account.
+CVE-2020-20672,MEDIUM,An arbitrary file upload vulnerability in /admin/upload/uploadfile of KiteCMS V1.1 allows attackers to getshell via a crafted PHP file.
+CVE-2020-20675,HIGH,Nuishop v2.3 contains a SQL injection vulnerability in /goods/getGoodsListByConditions/.
+CVE-2020-20691,MEDIUM,An issue in Monstra CMS v3.0.4 allows attackers to execute arbitrary web scripts or HTML via bypassing the file extension filter and uploading crafted HTML files.
+CVE-2020-20692,MEDIUM,GilaCMS v1.11.4 was discovered to contain a SQL injection vulnerability via the $_GET parameter in /src/core/controllers/cm.php.
+CVE-2020-20693,MEDIUM,A Cross-Site Request Forgery (CSRF) in GilaCMS v1.11.4 allows authenticated attackers to arbitrarily add administrator accounts.
+CVE-2020-20695,LOW,A stored cross-site scripting (XSS) vulnerability in GilaCMS v1.11.4 allows attackers to execute arbitrary web scripts or HTML via a crafted SVG file.
+CVE-2020-20696,LOW,A cross-site scripting (XSS) vulnerability in /admin/content/post of GilaCMS v1.11.4 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the Tags field.
+CVE-2020-20698,MEDIUM,A remote code execution (RCE) vulnerability in /1.com.php of S-CMS PHP v3.0 allows attackers to getshell via modification of a PHP file.
+CVE-2020-20699,LOW,A cross site scripting (XSS) vulnerability in S-CMS PHP v3.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Copyright text box under Basic Settings.
+CVE-2020-20700,LOW,A stored cross site scripting (XSS) vulnerability in /app/form_add/of S-CMS PHP v3.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload entered into the Title Entry text box.
+CVE-2020-20701,LOW,A stored cross site scripting (XSS) vulnerability in /app/config/of S-CMS PHP v3.0 allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
+CVE-2020-20739,MEDIUM,im_vips2dz in /libvips/libvips/deprecated/im_vips2dz.c in libvips before 8.8.2 has an uninitialized variable which may cause the leakage of remote server path or stack address.
+CVE-2020-20740,MEDIUM,PDFResurrect before 0.20 lack of header validation checks causes heap-buffer-overflow in pdf_get_version().
+CVE-2020-20741,HIGH,"Incorrect Access Control in Beckhoff Automation GmbH & Co. KG CX9020 with firmware version CX9020_CB3011_WEC7_HPS_v602_TC31_B4016.6 allows remote attackers to bypass authentication via the ""CE Remote Display Tool"" as it does not close the incoming connection on the Windows CE side if the credentials are incorrect."
+CVE-2020-20746,MEDIUM,A stack-based buffer overflow in the httpd server on Tenda AC9 V15.03.06.60_EN allows remote attackers to execute arbitrary code or cause a denial of service (DoS) via a crafted POST request to /goform/SetStaticRouteCfg.
+CVE-2020-2075,MEDIUM,"Platform mechanism AutoIP allows remote attackers to reboot the device via a crafted packet in SICK AG solutions Bulkscan LMS111, Bulkscan LMS511, CLV62x – CLV65x, ICR890-3, LMS10x, LMS11x, LMS15x, LMS12x, LMS13x, LMS14x, LMS5xx, LMS53x, MSC800, RFH."
+CVE-2020-2076,HIGH,"SICK Package Analytics software up to and including version V04.0.0 are vulnerable to an authentication bypass by directly interfacing with the REST API. An attacker can send unauthorized requests, bypass current authentication controls presented by the application and could potentially write files without authentication."
+CVE-2020-2077,MEDIUM,SICK Package Analytics software up to and including version V04.0.0 are vulnerable due to incorrect default permissions settings. An unauthorized attacker could read sensitive data from the system by querying for known files using the REST API directly.
+CVE-2020-2078,MEDIUM,"Passwords are stored in plain text within the configuration of SICK Package Analytics software up to and including V04.1.1. An authorized attacker could access these stored plaintext credentials and gain access to the ftp service. Storing a password in plaintext allows attackers to easily gain access to systems, potentially compromising personal information or other sensitive information."
+CVE-2020-20781,LOW,"A stored cross-site scripting (XSS) vulnerability in /ucms/index.php?do=list_edit of UCMS 1.4.7 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the title, key words, description or content text fields."
+CVE-2020-2079,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-20796,HIGH,"FlameCMS 3.3.5 contains a SQL injection vulnerability in /master/article.php via the ""Id"" parameter."
+CVE-2020-20797,HIGH,FlameCMS 3.3.5 contains a time-based blind SQL injection vulnerability in /account/register.php.
+CVE-2020-20799,LOW,JeeCMS 1.0.1 contains a stored cross-site scripting (XSS) vulnerability which allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the commentText parameter.
+CVE-2020-2080,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-20800,HIGH,An issue was discovered in MetInfo v7.0.0 beta. There is SQL Injection via the install/index.php?action=adminsetup&cndata=yes&endata=yes&showdata=yes URI.
+CVE-2020-2081,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2082,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2083,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2084,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2085,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2086,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2087,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2088,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-2089,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2020. Notes: none.
+CVE-2020-20891,MEDIUM,"Buffer Overflow vulnerability in function config_input in libavfilter/vf_gblur.c in Ffmpeg 4.2.1, allows attackers to cause a Denial of Service or other unspecified impacts."
+CVE-2020-20892,MEDIUM,"An issue was discovered in function filter_frame in libavfilter/vf_lenscorrection.c in Ffmpeg 4.2.1, allows attackers to cause a Denial of Service or other unspecified impacts due to a division by zero."
+CVE-2020-20893,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22030. Reason: This candidate is a duplicate of CVE-2020-22030. Notes: All CVE users should reference CVE-2020-22030 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20894,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22025. Reason: This candidate is a duplicate of CVE-2020-22025. Notes: All CVE users should reference CVE-2020-22025 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20895,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22028. Reason: This candidate is a duplicate of CVE-2020-22028. Notes: All CVE users should reference CVE-2020-22028 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20896,MEDIUM,"An issue was discovered in function latm_write_packet in libavformat/latmenc.c in Ffmpeg 4.2.1, allows attackers to cause a Denial of Service or other unspecified impacts due to a Null pointer dereference."
+CVE-2020-20897,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22035. Reason: This candidate is a duplicate of CVE-2020-22035. Notes: All CVE users should reference CVE-2020-22035 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20898,MEDIUM,"Integer Overflow vulnerability in function filter16_prewitt in libavfilter/vf_convolution.c in Ffmpeg 4.2.1, allows attackers to cause a Denial of Service or other unspecified impacts."
+CVE-2020-20899,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22036. Reason: This candidate is a duplicate of CVE-2020-22036. Notes: All CVE users should reference CVE-2020-22036 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-2090,MEDIUM,A cross-site request forgery vulnerability in Jenkins Amazon EC2 Plugin 1.47 and earlier allows attackers to connect to an attacker-specified URL within the AWS region using attacker-specified credentials IDs obtained through another method.
+CVE-2020-20900,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22032. Reason: This candidate is a duplicate of CVE-2020-22032. Notes: All CVE users should reference CVE-2020-22032 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20901,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2020-22022. Reason: This candidate is a duplicate of CVE-2020-22022. Notes: All CVE users should reference CVE-2020-22022 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-20902,MEDIUM,"A CWE-125: Out-of-bounds read vulnerability exists in long_term_filter function in g729postfilter.c in FFmpeg 4.2.1 during computation of the denominator of pseudo-normalized correlation R'(0), that could result in disclosure of information."
+CVE-2020-20907,MEDIUM,MetInfo 7.0 beta is affected by a file modification vulnerability. Attackers can delete and modify ini files in app/system/language/admin/language_general.class.php and app/system/include/function/file.func.php.
+CVE-2020-20908,LOW,Akaunting v1.3.17 was discovered to contain a stored cross-site scripting (XSS) vulnerability which allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the Company Name input field.
+CVE-2020-2091,MEDIUM,A missing permission check in Jenkins Amazon EC2 Plugin 1.47 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL within the AWS region using attacker-specified credentials IDs obtained through another method.
+CVE-2020-2092,MEDIUM,"Jenkins Robot Framework Plugin 2.0.0 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks, allowing users with Job/Configure to have Jenkins parse crafted XML documents."
+CVE-2020-2093,MEDIUM,A cross-site request forgery vulnerability in Jenkins Health Advisor by CloudBees Plugin 3.0 and earlier allows attackers to send an email with fixed content to an attacker-specified recipient.
+CVE-2020-2094,MEDIUM,A missing permission check in Jenkins Health Advisor by CloudBees Plugin 3.0 and earlier allows attackers with Overall/Read permission to send a fixed email to an attacker-specific recipient.
+CVE-2020-20943,MEDIUM,A Cross-Site Request Forgery (CSRF) in /member/post.php?job=postnew&step=post of Qibosoft v7 allows attackers to force victim users into arbitrarily publishing new articles via a crafted URL.
+CVE-2020-20944,MEDIUM,An issue in /admin/index.php?lfj=mysql&action=del of Qibosoft v7 allows attackers to arbitrarily delete files.
+CVE-2020-20945,MEDIUM,A Cross-Site Request Forgery (CSRF) in /admin/index.php?lfj=member&action=editmember of Qibosoft v7 allows attackers to arbitrarily add administrator accounts.
+CVE-2020-20946,LOW,Qibosoft v7 contains a stored cross-site scripting (XSS) vulnerability in the component /admin/index.php?lfj=friendlink&action=add.
+CVE-2020-20948,MEDIUM,"An arbitrary file download vulnerability in jeecg v3.8 allows attackers to access sensitive files via modification of the ""localPath"" variable."
+CVE-2020-20949,MEDIUM,"Bleichenbacher's attack on PKCS #1 v1.5 padding for RSA in STM32 cryptographic firmware library software expansion for STM32Cube (UM1924). The vulnerability can allow one to use Bleichenbacher's oracle attack to decrypt an encrypted ciphertext by making successive queries to the server using the vulnerable library, resulting in remote information disclosure."
+CVE-2020-2095,MEDIUM,"Jenkins Redgate SQL Change Automation Plugin 2.0.4 and earlier stored an API key unencrypted in job config.xml files on the Jenkins master where they could be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-20950,MEDIUM,"Bleichenbacher's attack on PKCS #1 v1.5 padding for RSA in Microchip Libraries for Applications 2018-11-26 All up to 2018-11-26. The vulnerability can allow one to use Bleichenbacher's oracle attack to decrypt an encrypted ciphertext by making successive queries to the server using the vulnerable library, resulting in remote information disclosure."
+CVE-2020-20951,HIGH,"In Pluck-4.7.10-dev2 admin background, a remote command execution vulnerability exists when uploading files."
+CVE-2020-2096,MEDIUM,"Jenkins Gitlab Hook Plugin 1.4.2 and earlier does not escape project names in the build_now endpoint, resulting in a reflected XSS vulnerability."
+CVE-2020-2097,MEDIUM,"Jenkins Sounds Plugin 0.5 and earlier does not perform permission checks in URLs performing form validation, allowing attackers with Overall/Read access to execute arbitrary OS commands as the OS user account running Jenkins."
+CVE-2020-20975,HIGH,"In \lib\admin\action\dataaction.class.php in Gxlcms v1.1, SQL Injection exists via the $filename parameter."
+CVE-2020-20977,LOW,A stored cross site scripting (XSS) vulnerability in index.php/legend/6.html of UK CMS v1.1.10 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the Comments section.
+CVE-2020-20979,HIGH,An arbitrary file upload vulnerability in the move_uploaded_file() function of LJCMS v4.3 allows attackers to execute arbitrary code.
+CVE-2020-2098,HIGH,A cross-site request forgery vulnerability in Jenkins Sounds Plugin 0.5 and earlier allows attacker to execute arbitrary OS commands as the OS user account running Jenkins.
+CVE-2020-20981,MEDIUM,A SQL injection in the /admin/?n=logs&c=index&a=dolist component of Metinfo 7.0 allows attackers to access sensitive database information.
+CVE-2020-20982,MEDIUM,"Cross Site Scripting (XSS) vulnerability in shadoweb wdja v1.5.1, allows attackers to execute arbitrary code and gain escalated privileges, via the backurl parameter to /php/passport/index.php."
+CVE-2020-20988,LOW,"A cross site scripting (XSS) vulnerability in the /domains/cost-by-owner.php component of Domainmod 4.13 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the ""or Expiring Between"" parameter."
+CVE-2020-20989,MEDIUM,A cross-site request forgery (CSRF) in /admin/maintenance/ of Domainmod 4.13 allows attackers to arbitrarily delete logs.
+CVE-2020-2099,HIGH,"Jenkins 2.213 and earlier, LTS 2.204.1 and earlier improperly reuses encryption key parameters in the Inbound TCP Agent Protocol/3, allowing unauthorized attackers with knowledge of agent names to obtain the connection secrets for those agents, which can be used to connect to Jenkins, impersonating those agents."
+CVE-2020-20990,LOW,A cross site scripting (XSS) vulnerability in the /segments/edit.php component of Domainmod 4.13 allows attackers to execute arbitrary web scripts or HTML via the Segment Name parameter.
+CVE-2020-2100,MEDIUM,"Jenkins 2.218 and earlier, LTS 2.204.1 and earlier was vulnerable to a UDP amplification reflection denial of service attack on port 33848."
+CVE-2020-21003,LOW,Pbootcms v2.0.3 is vulnerable to Cross Site Scripting (XSS) via admin.php.
+CVE-2020-21005,MEDIUM,"WellCMS 2.0 beta3 is vulnerable to File Upload. A user can log in to the CMS background and upload a picture. Because the upload file type is controllable, the user can modify the upload file type to get webshell."
+CVE-2020-21009,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: This candidate was withdrawn by its CNA. Further investigation showed that it was not a security issue. Notes: none.
+CVE-2020-2101,LOW,"Jenkins 2.218 and earlier, LTS 2.204.1 and earlier did not use a constant-time comparison function for validating connection secrets, which could potentially allow an attacker to use a timing attack to obtain this secret."
+CVE-2020-21012,HIGH,"Sourcecodester Hotel and Lodge Management System 2.0 is vulnerable to unauthenticated SQL injection and can allow remote attackers to execute arbitrary SQL commands via the email parameter to the edit page for Customer, Room, Currency, Room Booking Details, or Tax Details."
+CVE-2020-21013,MEDIUM,emlog v6.0.0 contains a SQL injection via /admin/comment.php.
+CVE-2020-21014,MEDIUM,emlog v6.0.0 contains an arbitrary file deletion vulnerability in admin/plugin.php.
+CVE-2020-2102,LOW,"Jenkins 2.218 and earlier, LTS 2.204.1 and earlier used a non-constant time comparison function when validating an HMAC."
+CVE-2020-2103,MEDIUM,"Jenkins 2.218 and earlier, LTS 2.204.1 and earlier exposed session identifiers on a user's detail object in the whoAmI diagnostic page."
+CVE-2020-2104,MEDIUM,"Jenkins 2.218 and earlier, LTS 2.204.1 and earlier allowed users with Overall/Read access to view a JVM memory usage chart."
+CVE-2020-21041,MEDIUM,"Buffer Overflow vulnerability exists in FFmpeg 4.1 via apng_do_inverse_blend in libavcodec/pngenc.c, which could let a remote malicious user cause a Denial of Service"
+CVE-2020-21048,MEDIUM,An issue in the dither.c component of libsixel prior to v1.8.4 allows attackers to cause a denial of service (DOS) via a crafted PNG file.
+CVE-2020-21049,MEDIUM,An invalid read in the stb_image.h component of libsixel prior to v1.8.5 allows attackers to cause a denial of service (DOS) via a crafted PSD file.
+CVE-2020-2105,MEDIUM,"REST API endpoints in Jenkins 2.218 and earlier, LTS 2.204.1 and earlier were vulnerable to clickjacking attacks."
+CVE-2020-21050,MEDIUM,Libsixel prior to v1.8.3 contains a stack buffer overflow in the function gif_process_raster at fromgif.c.
+CVE-2020-21053,MEDIUM,"Cross Site Scriptiong (XSS) vulnerability exists in FusionPBX 4.5.7 allows remote malicious users to inject arbitrary web script or HTML via an unsanitized ""query_string"" variable in app\devices\device_imports.php."
+CVE-2020-21054,MEDIUM,"Cross Site Scripting (XSS) vulnerability in FusionPBX 4.5.7 allows remote malicious users to inject arbitrary web script or HTML via an unsanitized ""f"" variable in app\vars\vars_textarea.php."
+CVE-2020-21055,MEDIUM,"A Directory Traversal vulnerability exists in FusionPBX 4.5.7 allows malicoius users to rename any file of the system.via the (1) folder, (2) filename, and (3) newfilename variables in app\edit\filerename.php."
+CVE-2020-21056,MEDIUM,"Directory Traversal vulnerability exists in FusionPBX 4.5.7, which allows a remote malicious user to create folders via the folder variale to app\edit\foldernew.php."
+CVE-2020-21057,MEDIUM,"Directory Traversal vulnerability in FusionPBX 4.5.7, which allows a remote malicious user to delete folders on the system via the folder variable to app/edit/folderdelete.php."
+CVE-2020-2106,LOW,"Jenkins Code Coverage API Plugin 1.1.2 and earlier does not escape the filename of the coverage report used in its view, resulting in a stored XSS vulnerability exploitable by users able to change job configurations."
+CVE-2020-21064,Unknown,** REJECT ** DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: CVE-2019-15048. Reason: This candidate is a reservation duplicate of CVE-2019-15048. Notes: All CVE users should reference CVE-2019-15048 instead of this candidate. All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2020-21066,MEDIUM,"An issue was discovered in Bento4 v1.5.1.0. There is a heap-buffer-overflow in AP4_Dec3Atom::AP4_Dec3Atom at Ap4Dec3Atom.cpp, leading to a denial of service (program crash), as demonstrated by mp42aac."
+CVE-2020-2107,MEDIUM,"Jenkins Fortify Plugin 19.1.29 and earlier stores proxy server passwords unencrypted in job config.xml files on the Jenkins master where they can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-2108,MEDIUM,Jenkins WebSphere Deployer Plugin 1.6.1 and earlier does not configure the XML parser to prevent XXE attacks which can be exploited by a user with Job/Configure permissions.
+CVE-2020-21081,MEDIUM,A cross-site request forgery (CSRF) in Maccms 8.0 causes administrators to add and modify articles without their knowledge via clicking on a crafted URL.
+CVE-2020-21082,MEDIUM,A cross-site scripting (XSS) vulnerability in the background administrator article management module of Maccms 8.0 allows attackers to steal administrator and user cookies via crafted payloads in the text fields for Chinese and English names.
+CVE-2020-21087,MEDIUM,"Cross Site Scripting (XSS) in X2Engine X2CRM v6.9 and older allows remote attackers to execute arbitrary code by injecting arbitrary web script or HTML via the ""New Name"" field of the ""Rename a Module"" tool."
+CVE-2020-21088,LOW,"Cross Site Scripting (XSS) in X2engine X2CRM v7.1 and older allows remote attackers to obtain sensitive information by injecting arbitrary web script or HTML via the ""First Name"" and ""Last Name"" fields in ""/index.php/contacts/create page"""
+CVE-2020-2109,MEDIUM,Sandbox protection in Jenkins Pipeline: Groovy Plugin 2.78 and earlier can be circumvented through default parameter expressions in CPS-transformed methods.
+CVE-2020-2110,MEDIUM,Sandbox protection in Jenkins Script Security Plugin 1.69 and earlier could be circumvented during the script compilation phase by applying AST transforming annotations to imports or by using them inside of other annotations.
+CVE-2020-21101,LOW,"Cross Site Scriptiong vulnerabilityin Screenly screenly-ose all versions, including v1.8.2 (2019-09-25-Screenly-OSE-lite.img), in the 'Add Asset' page via manipulation of a 'URL' field, which could let a remote malicious user execute arbitrary code."
+CVE-2020-2111,LOW,"Jenkins Subversion Plugin 2.13.0 and earlier does not escape the error message for the Project Repository Base URL field form validation, resulting in a stored cross-site scripting vulnerability."
+CVE-2020-2112,LOW,"Jenkins Git Parameter Plugin 0.9.11 and earlier does not escape the parameter name shown on the UI, resulting in a stored cross-site scripting vulnerability exploitable by users with Job/Configure permission."
+CVE-2020-21121,HIGH,Pligg CMS 2.0.2 contains a time-based SQL injection vulnerability via the $recordIDValue parameter in the admin_update_module_widgets.php file.
+CVE-2020-21122,MEDIUM,UReport v2.2.9 contains a Server-Side Request Forgery (SSRF) in the designer page which allows attackers to detect intranet device ports.
+CVE-2020-21124,HIGH,UReport 2.2.9 allows attackers to execute arbitrary code due to a lack of access control to the designer page.
+CVE-2020-21125,HIGH,An arbitrary file creation vulnerability in UReport 2.2.9 allows attackers to execute arbitrary code.
+CVE-2020-21126,MEDIUM,MetInfo 7.0.0 contains a Cross-Site Request Forgery (CSRF) via admin/?n=admin&c=index&a=doSaveInfo.
+CVE-2020-21127,HIGH,MetInfo 7.0.0 contains a SQL injection vulnerability via admin/?n=logs&c=index&a=dodel.
+CVE-2020-2113,LOW,"Jenkins Git Parameter Plugin 0.9.11 and earlier does not escape the default value shown on the UI, resulting in a stored cross-site scripting vulnerability exploitable by users with Job/Configure permission."
+CVE-2020-21130,MEDIUM,Cross Site Scripting (XSS) vulnerability in HisiPHP 2.0.8 via the group name in addgroup.html.
+CVE-2020-21131,MEDIUM,SQL Injection vulnerability in MetInfo 7.0.0beta via admin/?n=language&c=language_web&a=doAddLanguage.
+CVE-2020-21132,HIGH,SQL Injection vulnerability in Metinfo 7.0.0beta in index.php.
+CVE-2020-21133,HIGH,SQL Injection vulnerability in Metinfo 7.0.0 beta in member/getpassword.php?lang=cn&a=dovalid.
+CVE-2020-21139,MEDIUM,EC Cloud E-Commerce System v1.3 was discovered to contain a Cross-Site Request Forgery (CSRF) which allows attackers to arbitrarily add admin accounts via /admin.html?do=user&act=add.
+CVE-2020-2114,MEDIUM,"Jenkins S3 publisher Plugin 0.11.4 and earlier transmits configured credentials in plain text as part of the global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21141,MEDIUM,iCMS v7.0.15 was discovered to contain a Cross-Site Request Forgery (CSRF) via /admincp.php?app=members&do=add.
+CVE-2020-21142,MEDIUM,Cross Site Scripting (XSS) vulnerabilty in IPFire 2.23 via the IPfire web UI in the mail.cgi.
+CVE-2020-21146,MEDIUM,"Feehi CMS 2.0.8 is affected by a cross-site scripting (XSS) vulnerability. When the user name is inserted as JavaScript code, browsing the post will trigger the XSS."
+CVE-2020-21147,LOW,"RockOA V1.9.8 is affected by a cross-site scripting (XSS) vulnerability which allows remote attackers to send malicious code to the administrator and execute JavaScript code, because webmain/flow/input/mode_emailmAction.php does not perform strict filtering."
+CVE-2020-2115,MEDIUM,Jenkins NUnit Plugin 0.25 and earlier does not configure the XML parser to prevent XML external entity (XXE) attacks.
+CVE-2020-2116,MEDIUM,"A cross-site request forgery vulnerability in Jenkins Pipeline GitHub Notify Step Plugin 1.0.4 and earlier allows attackers to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+CVE-2020-2117,MEDIUM,"A missing permission check in Jenkins Pipeline GitHub Notify Step Plugin 1.0.4 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified URL using attacker-specified credentials IDs obtained through another method, capturing credentials stored in Jenkins."
+CVE-2020-21176,HIGH,SQL injection vulnerability in the model.increment and model.decrement function in ThinkJS 3.2.10 allows remote attackers to execute arbitrary SQL commands via the step parameter.
+CVE-2020-21179,HIGH,Sql injection vulnerability in koa2-blog 1.0.0 allows remote attackers to Injecting a malicious SQL statement via the name parameter to the signin page.
+CVE-2020-2118,MEDIUM,A missing permission check in Jenkins Pipeline GitHub Notify Step Plugin 1.0.4 and earlier in form-related methods allowed users with Overall/Read access to enumerate credentials ID of credentials stored in Jenkins.
+CVE-2020-21180,HIGH,Sql injection vulnerability in koa2-blog 1.0.0 allows remote attackers to Injecting a malicious SQL statement via the name parameter to the signup page.
+CVE-2020-2119,MEDIUM,"Jenkins Azure AD Plugin 1.1.2 and earlier transmits configured credentials in plain text as part of the global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-2120,MEDIUM,Jenkins FitNesse Plugin 1.30 and earlier does not configure the XML parser to prevent XML external entity (XXE) attacks.
+CVE-2020-2121,MEDIUM,"Jenkins Google Kubernetes Engine Plugin 0.8.0 and earlier does not configure its YAML parser to prevent the instantiation of arbitrary types, resulting in a remote code execution vulnerability."
+CVE-2020-2122,LOW,"Jenkins Brakeman Plugin 0.12 and earlier did not escape values received from parsed JSON files when rendering them, resulting in a stored cross-site scripting vulnerability exploitable by users able to control the Brakeman post-build step input data."
+CVE-2020-21224,HIGH,A Remote Code Execution vulnerability has been found in Inspur ClusterEngine V4.0. A remote attacker can send a malicious login packet to the control server
+CVE-2020-21228,MEDIUM,"JIZHICMS 1.5.1 contains a cross-site scripting (XSS) vulnerability in the component /user/release.html, which allows attackers to arbitrarily add an administrator cookie."
+CVE-2020-2123,MEDIUM,"Jenkins RadarGun Plugin 1.7 and earlier does not configure its YAML parser to prevent the instantiation of arbitrary types, resulting in a remote code execution vulnerability."
+CVE-2020-21236,MEDIUM,A vulnerability in /damicms-master/admin.php?s=/Article/doedit of DamiCMS v6.0 allows attackers to compromise and impersonate user accounts via obtaining a user's session cookie.
+CVE-2020-21237,MEDIUM,An issue in the user login box of LJCMS v1.11 allows attackers to hijack user accounts via brute force attacks.
+CVE-2020-21238,MEDIUM,An issue in the user login box of CSCMS v4.0 allows attackers to hijack user accounts via brute force attacks.
+CVE-2020-2124,MEDIUM,"Jenkins Dynamic Extended Choice Parameter Plugin 1.0.1 and earlier stores a password unencrypted in job config.xml files on the Jenkins master where it can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-21244,MEDIUM,An issue was discovered in FrontAccounting 2.4.7. There is a Directory Traversal vulnerability that can empty folder via admin/inst_lang.php.
+CVE-2020-2125,MEDIUM,Jenkins Debian Package Builder Plugin 1.6.11 and earlier stores a GPG passphrase unencrypted in its global configuration file on the Jenkins master where it can be viewed by users with access to the master file system.
+CVE-2020-21250,HIGH,CSZ CMS v1.2.4 was discovered to contain an arbitrary file upload vulnerability in the component /core/MY_Security.php.
+CVE-2020-2126,MEDIUM,Jenkins DigitalOcean Plugin 1.1 and earlier stores a token unencrypted in the global config.xml file on the Jenkins master where it can be viewed by users with access to the master file system.
+CVE-2020-21266,MEDIUM,Broadleaf Commerce 5.1.14-GA is affected by cross-site scripting (XSS) due to a slow HTTP post vulnerability.
+CVE-2020-2127,MEDIUM,Jenkins BMC Release Package and Deployment Plugin 1.1 and earlier stores credentials unencrypted in its global configuration file on the Jenkins master where they can be viewed by users with access to the master file system.
+CVE-2020-2128,MEDIUM,"Jenkins ECX Copy Data Management Plugin 1.9 and earlier stores a password unencrypted in job config.xml files on the Jenkins master where it can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-2129,MEDIUM,Jenkins Eagle Tester Plugin 1.0.9 and earlier stores a password unencrypted in its global configuration file on the Jenkins master where it can be viewed by users with access to the master file system.
+CVE-2020-2130,MEDIUM,Jenkins Harvest SCM Plugin 0.5.1 and earlier stores a password unencrypted in its global configuration file on the Jenkins master where it can be viewed by users with access to the master file system.
+CVE-2020-2131,MEDIUM,"Jenkins Harvest SCM Plugin 0.5.1 and earlier stores passwords unencrypted in job config.xml files on the Jenkins master where they can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-21316,MEDIUM,"A Cross-site scripting (XSS) vulnerability exists in the comment section in ZrLog 2.1.3, which allows remote attackers to inject arbitrary web script and stolen administrator cookies via the nickname parameter and gain access to the admin panel."
+CVE-2020-2132,MEDIUM,"Jenkins Parasoft Environment Manager Plugin 2.14 and earlier stores a password unencrypted in job config.xml files on the Jenkins master where it can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-21321,MEDIUM,"emlog v6.0 contains a Cross-Site Request Forgery (CSRF) via /admin/link.php?action=addlink, which allows attackers to arbitrarily add articles."
+CVE-2020-21322,HIGH,An arbitrary file upload vulnerability in Feehi CMS v2.0.8 and below allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2020-2133,MEDIUM,"Jenkins Applatix Plugin 1.1 and earlier stores a password unencrypted in job config.xml files on the Jenkins master where it can be viewed by users with Extended Read permission, or access to the master file system."
+CVE-2020-21333,LOW,Cross Site Scripting (XSS) vulnerability in PublicCMS 4.0 to get an admin cookie when the Administrator reviews submit case.
+CVE-2020-2134,MEDIUM,Sandbox protection in Jenkins Script Security Plugin 1.70 and earlier could be circumvented through crafted constructor calls and crafted constructor bodies.
+CVE-2020-21342,MEDIUM,Insecure permissions issue in zzcms 201910 via the reset any user password in /one/getpassword.php.
+CVE-2020-21345,MEDIUM,"Cross Site Scripting (XSS) vulnerability in Halo 1.1.3 via post publish components in the manage panel, which lets a remote malicious user execute arbitrary code."
+CVE-2020-2135,MEDIUM,Sandbox protection in Jenkins Script Security Plugin 1.70 and earlier could be circumvented through crafted method calls on objects that implement GroovyInterceptable.
+CVE-2020-21353,LOW,A stored cross site scripting (XSS) vulnerability in /admin/snippets.php of GetSimple CMS 3.4.0a allows attackers to execute arbitrary web scripts or HTML via crafted payload in the Edit Snippets module.
+CVE-2020-21356,MEDIUM,"An information disclosure vulnerability in upload.php of PopojiCMS 1.2 leads to physical path disclosure of the host when 'name = ""file"" is deleted during file uploads."
+CVE-2020-21357,MEDIUM,A stored cross site scripting (XSS) vulnerability in /admin.php?mod=user&act=addnew of PopojiCMS 1.2 allows attackers to execute arbitrary web scripts or HTML via a crafted payload in the E-Mail field.
+CVE-2020-21358,MEDIUM,A cross site request forgery (CSRF) in Wage-CMS 1.5.x-dev allows attackers to arbitrarily add users.
+CVE-2020-21359,HIGH,An arbitrary file upload vulnerability in the Template Upload function of Maccms10 allows attackers bypass the suffix whitelist verification to execute arbitrary code via adding a character to the end of the uploaded file's name.
+CVE-2020-2136,LOW,"Jenkins Git Plugin 4.2.0 and earlier does not escape the error message for the repository URL for Microsoft TFS field form validation, resulting in a stored cross-site scripting vulnerability."
+CVE-2020-21362,LOW,A cross site scripting (XSS) vulnerability in the background search function of Maccms10 allows attackers to execute arbitrary web scripts or HTML via the 'wd' parameter.
+CVE-2020-21363,MEDIUM,An arbitrary file deletion vulnerability exists within Maccms10.
+CVE-2020-2137,LOW,"Jenkins Timestamper Plugin 1.11.1 and earlier does not sanitize HTML formatting of its output, resulting in a stored XSS vulnerability exploitable by attackers with Overall/Administer permission."
+CVE-2020-21377,HIGH,SQL injection vulnerability in yunyecms V2.0.1 via the selcart parameter.
+CVE-2020-21378,HIGH,SQL injection vulnerability in SeaCMS 10.1 (2020.02.08) via the id parameter in an edit action to admin_members_group.php.
+CVE-2020-2138,MEDIUM,Jenkins Cobertura Plugin 1.15 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks.
+CVE-2020-21386,MEDIUM,A Cross-Site Request Forgery (CSRF) in the component admin.php/admin/type/info.html of Maccms 10 allows attackers to gain administrator privileges.
+CVE-2020-21387,MEDIUM,A cross-site scripting (XSS) vulnerability in the parameter type_en of Maccms 10 allows attackers to obtain the administrator cookie and escalate privileges via a crafted payload.
+CVE-2020-2139,HIGH,An arbitrary file write vulnerability in Jenkins Cobertura Plugin 1.15 and earlier allows attackers able to control the coverage report file contents to overwrite any file on the Jenkins master file system.
+CVE-2020-21394,MEDIUM,"SQL Injection vulnerability in Zhong Bang Technology Co., Ltd CRMEB mall system V2.60 and V3.1 via the tablename parameter in SystemDatabackup.php."
+CVE-2020-2140,MEDIUM,"Jenkins Audit Trail Plugin 3.2 and earlier does not escape the error message for the URL Patterns field form validation, resulting in a reflected cross-site scripting vulnerability."
+CVE-2020-2141,MEDIUM,A cross-site request forgery vulnerability in Jenkins P4 Plugin 1.10.10 and earlier allows attackers to trigger builds or add a labels in Perforce.
+CVE-2020-2142,MEDIUM,A missing permission check in Jenkins P4 Plugin 1.10.10 and earlier allows attackers with Overall/Read permission to trigger builds.
+CVE-2020-2143,MEDIUM,"Jenkins Logstash Plugin 2.3.1 and earlier transmits configured credentials in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21431,MEDIUM,HongCMS v3.0 contains an arbitrary file read and write vulnerability in the component /admin/index.php/template/edit.
+CVE-2020-21434,LOW,Maccms 10 contains a cross-site scripting (XSS) vulnerability in the Editing function under the Member module. This vulnerability is exploited via a crafted payload in the nickname text field.
+CVE-2020-2144,MEDIUM,Jenkins Rundeck Plugin 3.6.6 and earlier does not configure its XML parser to prevent XML external entity (XXE) attacks.
+CVE-2020-2145,LOW,Jenkins Zephyr Enterprise Test Management Plugin 1.9.1 and earlier stores its Zephyr password in plain text on the Jenkins master file system.
+CVE-2020-21452,HIGH,An issue was discovered in uniview ISC2500-S. This is an upload vulnerability where an attacker can upload malicious code via /Interface/DevManage/EC.php?cmd=upload
+CVE-2020-2146,MEDIUM,"Jenkins Mac Plugin 1.1.0 and earlier does not validate SSH host keys when connecting agents created by the plugin, enabling man-in-the-middle attacks."
+CVE-2020-21468,MEDIUM,"** DISPUTED ** A segmentation fault in the redis-server component of Redis 5.0.7 leads to a denial of service (DOS). NOTE: the vendor cannot reproduce this issue in a released version, such as 5.0.7."
+CVE-2020-2147,MEDIUM,A cross-site request forgery vulnerability in Jenkins Mac Plugin 1.1.0 and earlier allows attackers to connect to an attacker-specified SSH server using attacker-specified credentials.
+CVE-2020-2148,MEDIUM,A missing permission check in Jenkins Mac Plugin 1.1.0 and earlier allows attackers with Overall/Read permission to connect to an attacker-specified SSH server using attacker-specified credentials.
+CVE-2020-21480,MEDIUM,An arbitrary file write vulnerability in RGCMS v1.06 allows attackers to execute arbitrary code via a crafted PHP file.
+CVE-2020-21481,MEDIUM,An arbitrary file upload vulnerability in RGCMS v1.06 allows attackers to execute arbitrary code via a crafted .txt file which is later changed to a PHP file.
+CVE-2020-21482,LOW,A cross-site scripting (XSS) vulnerability in RGCMS v1.06 allows attackers to obtain the administrator's cookie via a crafted payload in the Name field under the Message Board module
+CVE-2020-21483,MEDIUM,An arbitrary file upload vulnerability in Jizhicms v1.5 allows attackers to execute arbitrary code via a crafted .jpg file which is later changed to a PHP file.
+CVE-2020-2149,MEDIUM,"Jenkins Repository Connector Plugin 1.2.6 and earlier transmits configured credentials in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21493,MEDIUM,An issue in the component route\user.php of Xiuno BBS v4.0.4 allows attackers to enumerate usernames.
+CVE-2020-21494,MEDIUM,A cross-site scripting (XSS) vulnerability in the component install\install.sql of Xiuno BBS 4.0.4 allows attackers to execute arbitrary web scripts or HTML via changing the doctype value to 0.
+CVE-2020-21495,MEDIUM,A cross-site scripting (XSS) vulnerability in the component /admin/?setting-base.htm of Xiuno BBS 4.0.4 allows attackers to execute arbitrary web scripts or HTML via the sitename parameter.
+CVE-2020-21496,MEDIUM,A cross-site scripting (XSS) vulnerability in the component /admin/?setting-base.htm of Xiuno BBS 4.0.4 allows attackers to execute arbitrary web scripts or HTML via the sitebrief parameter.
+CVE-2020-2150,MEDIUM,"Jenkins Sonar Quality Gates Plugin 1.3.1 and earlier transmits configured credentials in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21503,MEDIUM,"waimai Super Cms 20150505 has a logic flaw allowing attackers to modify a price, before form submission, by observing data in a packet capture. By setting the index.php?m=gift&a=addsave credit parameter to -1, the product is sold for free."
+CVE-2020-21504,MEDIUM,waimai Super Cms 20150505 contains a cross-site scripting (XSS) vulnerability in the component /admin.php?&m=Public&a=login.
+CVE-2020-21505,MEDIUM,waimai Super Cms 20150505 contains a cross-site scripting (XSS) vulnerability in the component /admin.php/Link/addsave.
+CVE-2020-21506,MEDIUM,waimai Super Cms 20150505 contains a cross-site scripting (XSS) vulnerability in the component /admin.php?m=Config&a=add.
+CVE-2020-2151,MEDIUM,"Jenkins Quality Gates Plugin 2.5 and earlier transmits configured credentials in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21517,MEDIUM,Cross Site Scripting (XSS) vulnerability in MetInfo 7.0.0 via the gourl parameter in login.php.
+CVE-2020-2152,MEDIUM,"Jenkins Subversion Release Manager Plugin 1.2 and earlier does not escape the error message for the Repository URL field form validation, resulting in a reflected cross-site scripting vulnerability."
+CVE-2020-21522,HIGH,"An issue was discovered in halo V1.1.3. A Zip Slip Directory Traversal Vulnerability in the backend,the attacker can overwrite some files, such as ftl files, .bashrc files in the user directory, and finally get the permissions of the operating system."
+CVE-2020-21523,HIGH,"A Server-Side Freemarker template injection vulnerability in halo CMS v1.1.3 In the Edit Theme File function. The ftl file can be edited. This is the Freemarker template file. This file can cause arbitrary code execution when it is rendered in the background. exp: <#assign test=""freemarker.template.utility.Execute""?new()> ${test(""touch /tmp/freemarkerPwned"")}"
+CVE-2020-21524,MEDIUM,"There is a XML external entity (XXE) vulnerability in halo v1.1.3, The function of importing other blogs in the background(/api/admin/migrations/wordpress) needs to parse the xml file, but it is not used for security defense, This vulnerability can detect the intranet, read files, enable ddos attacks, etc. exp:https://github.com/halo-dev/halo/issues/423"
+CVE-2020-21525,MEDIUM,"Halo V1.1.3 is affected by: Arbitrary File reading. In an interface that reads files in halo v1.1.3, a directory traversal check is performed on the input path parameter, but the startsWith function can be used to bypass it."
+CVE-2020-21526,HIGH,"An Arbitrary file writing vulnerability in halo v1.1.3. In an interface to write files in the background, a directory traversal check is performed on the input path parameter, but the startsWith function can be used to bypass it."
+CVE-2020-21527,HIGH,"There is an Arbitrary file deletion vulnerability in halo v1.1.3. A backup function in the background allows a user, when deleting their backup files, to delete any files on the system through directory traversal."
+CVE-2020-21529,MEDIUM,fig2dev 3.2.7b contains a stack buffer overflow in the bezier_spline function in genepic.c.
+CVE-2020-2153,MEDIUM,"Jenkins Backlog Plugin 2.4 and earlier transmits configured credentials in plain text as part of job configuration forms, potentially resulting in their exposure."
+CVE-2020-21530,MEDIUM,fig2dev 3.2.7b contains a segmentation fault in the read_objects function in read.c.
+CVE-2020-21531,MEDIUM,fig2dev 3.2.7b contains a global buffer overflow in the conv_pattern_index function in gencgm.c.
+CVE-2020-21532,MEDIUM,fig2dev 3.2.7b contains a global buffer overflow in the setfigfont function in genepic.c.
+CVE-2020-21533,MEDIUM,fig2dev 3.2.7b contains a stack buffer overflow in the read_textobject function in read.c.
+CVE-2020-21534,MEDIUM,fig2dev 3.2.7b contains a global buffer overflow in the get_line function in read.c.
+CVE-2020-21535,MEDIUM,fig2dev 3.2.7b contains a segmentation fault in the gencgm_start function in gencgm.c.
+CVE-2020-2154,LOW,Jenkins Zephyr for JIRA Test Management Plugin 1.5 and earlier stores its credentials in plain text in a global configuration file on the Jenkins master file system.
+CVE-2020-21547,MEDIUM,Libsixel 1.8.2 contains a heap-based buffer overflow in the dither_func_fs function in tosixel.c.
+CVE-2020-21548,MEDIUM,Libsixel 1.8.3 contains a heap-based buffer overflow in the sixel_encode_highcolor function in tosixel.c.
+CVE-2020-2155,MEDIUM,"Jenkins OpenShift Deployer Plugin 1.2.0 and earlier transmits configured credentials in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21554,MEDIUM,"A File Deletion vulnerability exists in TinyShop 3.1.1 in the back_list parameter in controllers\admin.php, which could let a malicious user delete any file such as install.lock to reinstall cms."
+CVE-2020-2156,MEDIUM,"Jenkins DeployHub Plugin 8.0.14 and earlier transmits configured credentials in plain text as part of job configuration forms, potentially resulting in their exposure."
+CVE-2020-21564,MEDIUM,An issue was discovered in Pluck CMS 4.7.10-dev2 and 4.7.11. There is a file upload vulnerability that can cause a remote command execution via admin.php?action=files.
+CVE-2020-2157,MEDIUM,"Jenkins Skytap Cloud CI Plugin 2.07 and earlier transmits configured credentials in plain text as part of job configuration forms, potentially resulting in their exposure."
+CVE-2020-21572,MEDIUM,"Buffer overflow vulnerability in function src_parser_trans_stage_1_2_3 trgil gilcc before commit 803969389ca9c06237075a7f8eeb1a19e6651759, allows attackers to cause a denial of service."
+CVE-2020-21573,MEDIUM,"An issue was discoverered in in abhijitnathwani image-processing v0.1.0, allows local attackers to cause a denial of service via a crafted image file."
+CVE-2020-21574,MEDIUM,"Buffer overflow vulnerability in YotsuyaNight c-http v0.1.0, allows attackers to cause a denial of service via a long url request which is passed to the delimitedread function."
+CVE-2020-2158,MEDIUM,"Jenkins Literate Plugin 1.0 and earlier does not configure its YAML parser to prevent the instantiation of arbitrary types, resulting in a remote code execution vulnerability."
+CVE-2020-21585,HIGH,Vulnerability in emlog v6.0.0 allows user to upload webshells via zip plugin module.
+CVE-2020-21588,LOW,Buffer overflow in Core FTP LE v2.2 allows local attackers to cause a denial or service (crash) via a long string in the Setup->Users->Username editbox.
+CVE-2020-2159,HIGH,Jenkins CryptoMove Plugin 0.1.33 and earlier allows attackers with Job/Configure access to execute arbitrary OS commands on the Jenkins master as the OS user account running Jenkins.
+CVE-2020-21590,MEDIUM,Directory traversal in coreframe/app/template/admin/index.php in WUZHI CMS 4.1.0 allows attackers to list files in arbitrary directories via the dir parameter.
+CVE-2020-21594,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the put_epel_hv_fallback function, which can be exploited via a crafted a file."
+CVE-2020-21595,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the mc_luma function, which can be exploited via a crafted a file."
+CVE-2020-21596,MEDIUM,"libde265 v1.0.4 contains a global buffer overflow in the decode_CABAC_bit function, which can be exploited via a crafted a file."
+CVE-2020-21597,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the mc_chroma function, which can be exploited via a crafted a file."
+CVE-2020-21598,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the ff_hevc_put_unweighted_pred_8_sse function, which can be exploited via a crafted a file."
+CVE-2020-21599,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the de265_image::available_zscan function, which can be exploited via a crafted a file."
+CVE-2020-2160,MEDIUM,"Jenkins 2.227 and earlier, LTS 2.204.5 and earlier uses different representations of request URL paths, which allows attackers to craft URLs that allow bypassing CSRF protection of any target URL."
+CVE-2020-21600,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the put_weighted_pred_avg_16_fallback function, which can be exploited via a crafted a file."
+CVE-2020-21601,MEDIUM,"libde265 v1.0.4 contains a stack buffer overflow in the put_qpel_fallback function, which can be exploited via a crafted a file."
+CVE-2020-21602,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the put_weighted_bipred_16_fallback function, which can be exploited via a crafted a file."
+CVE-2020-21603,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow in the put_qpel_0_0_fallback_16 function, which can be exploited via a crafted a file."
+CVE-2020-21604,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow fault in the _mm_loadl_epi64 function, which can be exploited via a crafted a file."
+CVE-2020-21605,MEDIUM,"libde265 v1.0.4 contains a segmentation fault in the apply_sao_internal function, which can be exploited via a crafted a file."
+CVE-2020-21606,MEDIUM,"libde265 v1.0.4 contains a heap buffer overflow fault in the put_epel_16_fallback function, which can be exploited via a crafted a file."
+CVE-2020-2161,LOW,"Jenkins 2.227 and earlier, LTS 2.204.5 and earlier does not properly escape node labels that are shown in the form validation for label expressions on job configuration pages, resulting in a stored XSS vulnerability exploitable by users able to define node labels."
+CVE-2020-2162,LOW,"Jenkins 2.227 and earlier, LTS 2.204.5 and earlier does not set Content-Security-Policy headers for files uploaded as file parameters to a build, resulting in a stored XSS vulnerability."
+CVE-2020-21627,MEDIUM,"Ruijie RG-UAC commit 9071227 was discovered to contain a vulnerability in the component /current_action.php?action=reboot, which allows attackers to cause a denial of service (DoS) via unspecified vectors."
+CVE-2020-2163,LOW,"Jenkins 2.227 and earlier, LTS 2.204.5 and earlier improperly processes HTML content of list view column headers, resulting in a stored XSS vulnerability exploitable by users able to control column headers."
+CVE-2020-21639,MEDIUM,Ruijie RG-UAC 6000-E50 commit 9071227 was discovered to contain a cross-site scripting (XSS) vulnerability via the rule_name parameter. This vulnerability allows attackers to execute arbitrary web scripts or HTML via a crafted payload.
+CVE-2020-2164,MEDIUM,Jenkins Artifactory Plugin 3.5.0 and earlier stores its Artifactory server password unencrypted in its global configuration file on the Jenkins master where it can be viewed by users with access to the master file system.
+CVE-2020-21648,MEDIUM,WDJA CMS v1.5.2 contains an arbitrary file deletion vulnerability in the component admin/cache/manage.php.
+CVE-2020-21649,MEDIUM,"Myucms v2.2.1 contains a server-side request forgery (SSRF) in the component \controller\index.php, which can be exploited via the sql() method."
+CVE-2020-2165,MEDIUM,"Jenkins Artifactory Plugin 3.6.0 and earlier transmits configured passwords in plain text as part of its global Jenkins configuration form, potentially resulting in their exposure."
+CVE-2020-21650,MEDIUM,"Myucms v2.2.1 contains a remote code execution (RCE) vulnerability in the component \controller\Config.php, which can be exploited via the add() method."
+CVE-2020-21651,HIGH,"Myucms v2.2.1 contains a remote code execution (RCE) vulnerability in the component \controller\point.php, which can be exploited via the add() method."
+CVE-2020-21652,HIGH,"Myucms v2.2.1 contains a remote code execution (RCE) vulnerability in the component \controller\Config.php, which can be exploited via the addqq() method."
+CVE-2020-21653,MEDIUM,"Myucms v2.2.1 contains a server-side request forgery (SSRF) in the component \controller\index.php, which can be exploited via the sj() method."

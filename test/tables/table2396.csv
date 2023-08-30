@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+It was addressed in Red Hat Enterprise 5 via: https://rhn.redhat.com/errata/RHSA-2009-1193.html"
+CVE-2009-1390,Red Hat,2009-06-17,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mutt as shipped with Red Hat Enterprise Linux 3, 4, or 5.  Only mutt version 1.5.19 was affected by this flaw."
+CVE-2009-1415,Red Hat,2009-09-21,Tomas Hoger,Not vulnerable. This issue did not affect versions of gnutls shipped in Red Hat Enterprise Linux 4 and 5 as it only affected gnutls 2.6.x versions.
+CVE-2009-1416,Red Hat,2009-09-21,Tomas Hoger,Not vulnerable. This issue did not affect versions of gnutls shipped in Red Hat Enterprise Linux 4 and 5 as it only affected gnutls 2.6.x versions.
+CVE-2009-1417,Red Hat,2009-08-11,Tomas Hoger,"The Red Hat Security Response Team has rated this issue as having low security impact. The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 4, or 5.
+
+For further details, see: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-1417"
+CVE-2009-1438,Red Hat,2009-04-28,Tomas Hoger,"The impact of this flaw is limited to application crash, not allowing code execution.  Red Hat does not consider a user-assisted crash of a client application such as media players using GStreamer framework to be a security issue.
+
+For further details, see: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-1438"
+CVE-2009-1490,Red Hat,2009-05-07,Mark J Cox,"Based on our analysis this issue does not have a security consequence and does not lead to a buffer overflow or denial of service.  For more details of our technical evaluation see
+https://bugzilla.redhat.com/show_bug.cgi?id=499252#c18"
+CVE-2009-1513,Red Hat,2009-05-12,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of libmodplug embedded in gstreamer-plugins as shipped with Red Hat Enterprise Linux 3 and 4, as they do not include support for the PAT file type."
+CVE-2009-1527,Red Hat,2009-05-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5, or Red Hat Enterprise MRG."
+CVE-2009-1572,Red Hat,2009-05-18,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of zebra as shipped with Red Hat Enterprise Linux 2.1, and the versions of quagga as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-1630,Red Hat,2009-09-10,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, and 3.
+
+It was addressed in Red Hat Enterprise Linux 4, 5, and Red Hat Enterprise MRG via https://rhn.redhat.com/errata/RHSA-2009-1132.html , https://rhn.redhat.com/errata/RHSA-2009-1106.html , and https://rhn.redhat.com/errata/RHSA-2009-1157.html ."
+CVE-2009-1631,Red Hat,2009-12-07,Mark J Cox,"Red Hat does not consider this to be a security issue. By default, user home directories are created with mode 0700 permissions, which would not expose the ~/.evolution/ directory regardless of its own permissions.
+
+If a user intentionally relaxes permissions on their home directory, they should be auditing all files and directories in order to not expose unwanted files to other local users."

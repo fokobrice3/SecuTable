@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+https://rhn.redhat.com/errata/CVE-2009-0692.html
+
+This issue did not affect the dhcp packages as shipped with Red Hat Enterprise Linux 5 due to the use of FORTIFY_SOURCE protection mechanism that changes the exploitability of the issue into a controlled application termination."
+CVE-2009-0745,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG. 
+
+This issue was addressed in Red Hat Enterprise Linux 5 by
+https://rhn.redhat.com/errata/RHSA-2009-1243.html"
+CVE-2009-0746,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG. 
+
+This issue was addressed in Red Hat Enterprise Linux 5 by
+https://rhn.redhat.com/errata/RHSA-2009-1243.html"
+CVE-2009-0747,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG. 
+
+This issue was addressed in Red Hat Enterprise Linux 5 by
+https://rhn.redhat.com/errata/RHSA-2009-1243.html"
+CVE-2009-0748,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.
+
+This issue was addressed in Red Hat Enterprise Linux 5 by
+https://rhn.redhat.com/errata/RHSA-2009-1243.html"
+CVE-2009-0755,Red Hat,2009-07-15,Tomas Hoger,"Not vulnerable.  This issue did not affect the versions of poppler, xpdf, gpdf and kdegraphics as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-0756,Red Hat,2009-07-15,Tomas Hoger,"This issue is a duplicate of CVE-2009-0166, which was addressed in affected products via following updates: https://rhn.redhat.com/errata/CVE-2009-0166.html"

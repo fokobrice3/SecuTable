@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-3294,Red Hat,2007-09-28,Mark J Cox,"Not vulnerable. PHP is not complied with the tidy library as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5, or Red Hat Application Stack v1 or v2."
+CVE-2007-3303,Apache,2008-07-02,Mark J Cox,"In the security model used by Apache httpd, the less-privileged child processes completely handle the servicing of new connections. Any local user who is able to run arbitrary code in those children is therefore able to prevent new requests from being serviced, by design.  Such
+users will also be able to &quot;simulate&quot; server load and force the parent to create children up to the configured limits, by design.
+
+A server with untrusted local users must be configured to use a solution like &quot;suexec&quot; if its required to allow the users to execute CGI (etc) scripts."
+CVE-2007-3303,Red Hat,2007-06-26,Mark J Cox,"Not a vulnerability.  In the security model used by Apache httpd, the less-privileged child processes (running as the &quot;apache&quot; user) completely handle the servicing of new connections. Any local user who is able to run arbitrary code in those children is therefore able to prevent new requests from being serviced, by design.  Such users will also be able to &quot;simulate&quot; server load and force the parent to create children up to the configured limits, by design."
+CVE-2007-3304,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 2.2.6, 2.0.61, and 1.3.39:
+http://httpd.apache.org/security/vulnerabilities_22.html
+http://httpd.apache.org/security/vulnerabilities_20.html
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-2007-3372,Red Hat,2009-01-08,Mark J Cox,Not vulnerable. This issue did not affect the versions of avahi as shipped with Red Hat Enterprise Linux 5.
+CVE-2007-3375,Red Hat,2007-07-10,Mark J Cox,"Not vulnerable, Red Hat do not ship the Lhaca file archiver.  Note that an identical flaw was found affecting the lha file archiver in 2004, CVE-2004-0234.  This issue was corrected by security update RHSA-2004:178 for Red Hat Enterprise Linux 2.1 and 3.  Red Hat
+Enterprise Linux 4 was not vulnerable as it contained a backported patch to correct this issue from release.
+http://rhn.redhat.com/errata/RHSA-2004-178.html"
+CVE-2007-3378,Red Hat,2007-07-05,Joshua Bressers,"We do not consider this to be security issues.  For more details see:
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-3380,Red Hat,2007-10-18,Mark J Cox,This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1 or 3.
+CVE-2007-3472,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-3472
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-3473,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2007-3473

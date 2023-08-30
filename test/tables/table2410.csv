@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update will address this flaw."
+CVE-2009-3725,Red Hat,2009-11-09,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG, as they do not include the upstream change introducing this flaw."
+CVE-2009-3726,Red Hat,2009-12-17,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-3726.
+
+The Linux kernel as shipped with Red Hat Enterprise Linux 3 did not have support for NFSv4, and therefore is not affected by this issue.
+
+It was addressed in Red Hat Enterprise Linux 5, and Red Hat Enterprise MRG via https://rhn.redhat.com/errata/RHSA-2009-1670.html and https://rhn.redhat.com/errata/RHSA-2009-1635.html respectively.
+
+A future kernel update in Red Hat Enterprise Linux 4 will address this issue."
+CVE-2009-3765,Red Hat,2009-10-26,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mutt as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3766,Red Hat,2009-11-26,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-3766
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update may address this flaw."
+CVE-2009-3767,OpenLDAP,2009-10-30,,"OpenLDAP reported this issue and published a patch for it on 2009-07-30. The patch was included in OpenLDAP 2.4.18 which was released on 2009-09-06. The current release of OpenLDAP is available from the following location:
+
+http://www.openldap.org/software/download/"
+CVE-2009-3767,Red Hat,2010-07-20,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-3767
+
+This issue was addressed in the openldap packages as shipped with Red Hat Enterprise Linux 5 and 4 via: https://rhn.redhat.com/errata/RHSA-2010-0198.html and https://rhn.redhat.com/errata/RHSA-2010-0543.html respectively.

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-2096,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-2475,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=164927
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:
+http://www.redhat.com/security/updates/classification/
+
+Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+
+The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 2.1 which is in maintenance mode."
+CVE-2005-2491,Apache,2008-07-02,Mark J Cox,"Fixed in Apache 2.0.55:
+http://httpd.apache.org/security/vulnerabilities_20.html"
+CVE-2005-2541,Red Hat,2006-08-30,Mark J Cox,This is the documented and expected behaviour of tar.
+CVE-2005-2547,Red Hat,2006-08-30,Mark J Cox,Not vulnerable. These issues did not affect the version of BlueZ as shipped with Red Hat Enterprise Linux 4.
+CVE-2005-2574,XMB,2020-09-09,Robert Chapin,As noted in https://docs.xmbforum2.com/index.php?title=Security_Issue_History XMB version 1.9.10 or later must be installed to prevent attacks described by this CVE. All earlier versions of XMB are vulnerable until upgraded. Upgrades are available at https://www.xmbforum2.com/
+CVE-2005-2575,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2005-2642,Red Hat,2006-08-30,Mark J Cox,Not vulnerable.  This issue did not affect the Linux versions of Mutt.
+CVE-2005-2666,Red Hat,2006-09-20,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=162681
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here:

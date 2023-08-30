@@ -1,0 +1,106 @@
+CWE-ID,Name
+203,Observable Discrepancy
+226,Sensitive Information in Resource Not Removed Before Reuse
+276,Incorrect Default Permissions
+319,Cleartext Transmission of Sensitive Information
+325,Missing Cryptographic Step
+440,Expected Behavior Violation
+441,Unintended Proxy or Intermediary ('Confused Deputy')
+1053,Missing Documentation for Design
+1059,Insufficient Technical Documentation
+1189,Improper Isolation of Shared Resources on System-on-a-Chip (SoC)
+1190,DMA Device Enabled Too Early in Boot Phase
+1191,On-Chip Debug and Test Interface With Improper Access Control
+1192,System-on-Chip (SoC) Using Components without Unique, Immutable Identifiers
+1193,Power-On of Untrusted Execution Core Before Enabling Fabric Access Control
+1209,Failure to Disable Reserved Bits
+1220,Insufficient Granularity of Access Control
+1221,Incorrect Register Defaults or Module Parameters
+1222,Insufficient Granularity of Address Regions Protected by Register Locks
+1223,Race Condition for Write-Once Attributes
+1224,Improper Restriction of Write-Once Bit Fields
+1231,Improper Prevention of Lock Bit Modification
+1232,Improper Lock Behavior After Power State Transition
+1233,Security-Sensitive Hardware Controls with Missing Lock Bit Protection
+1234,Hardware Internal or Debug Modes Allow Override of Locks
+1239,Improper Zeroization of Hardware Register
+1240,Use of a Cryptographic Primitive with a Risky Implementation
+1241,Use of Predictable Algorithm in Random Number Generator
+1242,Inclusion of Undocumented Features or Chicken Bits
+1243,Sensitive Non-Volatile Information Not Protected During Debug
+1244,Internal Asset Exposed to Unsafe Debug Access Level or State
+1245,Improper Finite State Machines (FSMs) in Hardware Logic
+1246,Improper Write Handling in Limited-write Non-Volatile Memories
+1247,Improper Protection Against Voltage and Clock Glitches
+1248,Semiconductor Defects in Hardware Logic with Security-Sensitive Implications
+1250,Improper Preservation of Consistency Between Independent Representations of Shared State
+1251,Mirrored Regions with Different Values
+1252,CPU Hardware Not Configured to Support Exclusivity of Write and Execute Operations
+1253,Incorrect Selection of Fuse Values
+1254,Incorrect Comparison Logic Granularity
+1255,Comparison Logic is Vulnerable to Power Side-Channel Attacks
+1256,Improper Restriction of Software Interfaces to Hardware Features
+1257,Improper Access Control Applied to Mirrored or Aliased Memory Regions
+1258,Exposure of Sensitive System Information Due to Uncleared Debug Information
+1259,Improper Restriction of Security Token Assignment
+1260,Improper Handling of Overlap Between Protected Memory Ranges
+1261,Improper Handling of Single Event Upsets
+1262,Improper Access Control for Register Interface
+1263,Improper Physical Access Control
+1264,Hardware Logic with Insecure De-Synchronization between Control and Data Channels
+1266,Improper Scrubbing of Sensitive Data from Decommissioned Device
+1267,Policy Uses Obsolete Encoding
+1268,Policy Privileges are not Assigned Consistently Between Control and Data Agents
+1269,Product Released in Non-Release Configuration
+1270,Generation of Incorrect Security Tokens
+1271,Uninitialized Value on Reset for Registers Holding Security Settings
+1272,Sensitive Information Uncleared Before Debug/Power State Transition
+1273,Device Unlock Credential Sharing
+1274,Improper Access Control for Volatile Memory Containing Boot Code
+1276,Hardware Child Block Incorrectly Connected to Parent System
+1277,Firmware Not Updateable
+1278,Missing Protection Against Hardware Reverse Engineering Using Integrated Circuit (IC) Imaging Techniques
+1279,Cryptographic Operations are run Before Supporting Units are Ready
+1280,Access Control Check Implemented After Asset is Accessed
+1281,Sequence of Processor Instructions Leads to Unexpected Behavior
+1282,Assumed-Immutable Data is Stored in Writable Memory
+1283,Mutable Attestation or Measurement Reporting Data
+1290,Incorrect Decoding of Security Identifiers 
+1291,Public Key Re-Use for Signing both Debug and Production Code
+1292,Incorrect Conversion of Security Identifiers
+1294,Insecure Security Identifier Mechanism
+1295,Debug Messages Revealing Unnecessary Information
+1296,Incorrect Chaining or Granularity of Debug Components
+1297,Unprotected Confidential Information on Device is Accessible by OSAT Vendors
+1298,Hardware Logic Contains Race Conditions
+1299,Missing Protection Mechanism for Alternate Hardware Interface
+1300,Improper Protection of Physical Side Channels
+1301,Insufficient or Incomplete Data Removal within Hardware Component
+1302,Missing Security Identifier
+1303,Non-Transparent Sharing of Microarchitectural Resources
+1304,Improperly Preserved Integrity of Hardware Configuration State During a Power Save/Restore Operation
+1310,Missing Ability to Patch ROM Code
+1311,Improper Translation of Security Attributes by Fabric Bridge
+1312,Missing Protection for Mirrored Regions in On-Chip Fabric Firewall
+1313,Hardware Allows Activation of Test or Debug Logic at Runtime
+1314,Missing Write Protection for Parametric Data Values
+1315,Improper Setting of Bus Controlling Capability in Fabric End-point
+1316,Fabric-Address Map Allows Programming of Unwarranted Overlaps of Protected and Unprotected Ranges
+1317,Improper Access Control in Fabric Bridge
+1318,Missing Support for Security Features in On-chip Fabrics or Buses
+1319,Improper Protection against Electromagnetic Fault Injection (EM-FI)
+1320,Improper Protection for Outbound Error Messages and Alert Signals
+1323,Improper Management of Sensitive Trace Data
+1326,Missing Immutable Root of Trust in Hardware
+1328,Security Version Number Mutable to Older Versions
+1329,Reliance on Component That is Not Updateable
+1330,Remanent Data Readable after Memory Erase
+1331,Improper Isolation of Shared Resources in Network On Chip (NoC)
+1332,Improper Handling of Faults that Lead to Instruction Skips
+1334,Unauthorized Error Injection Can Degrade Hardware Redundancy
+1338,Improper Protections Against Hardware Overheating
+1342,Information Exposure through Microarchitectural State after Transient Execution
+1351,Improper Handling of Hardware Behavior in Exceptionally Cold Environments
+1357,Reliance on Insufficiently Trustworthy Component
+1384,Improper Handling of Physical or Environmental Conditions
+,

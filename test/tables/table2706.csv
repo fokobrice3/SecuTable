@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-2015-9262,HIGH,_XcursorThemeInherits in library.c in libXcursor before 1.1.15 allows remote attackers to cause denial of service or potentially code execution via a one-byte heap overflow.
+CVE-2015-9263,HIGH,"An issue was discovered in post2file.php in Up.Time Monitoring Station 7.5.0 (build 16) and 7.4.0 (build 13). It allows an attacker to upload an arbitrary file, such as a .php file that can execute arbitrary OS commands."
+CVE-2015-9264,HIGH,Lansweeper 4.x through 6.x before 6.0.0.48 allows attackers to execute arbitrary code on the administrator's workstation via a crafted Windows service.
+CVE-2015-9265,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-2018-14622.  Reason: This candidate is a reservation duplicate of CVE-2018-14622.  Notes: All CVE users should reference CVE-2018-14622 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-2015-9266,HIGH,"The web management interface of Ubiquiti airMAX, airFiber, airGateway and EdgeSwitch XP (formerly TOUGHSwitch) allows an unauthenticated attacker to upload and write arbitrary files using directory traversal techniques. An attacker can exploit this vulnerability to gain root privileges. This vulnerability is fixed in the following product versions (fixes released in July 2015, all prior versions are affected): airMAX AC 7.1.3; airMAX M (and airRouter) 5.6.2 XM/XW/TI, 5.5.11 XM/TI, and 5.5.10u2 XW; airGateway 1.1.5; airFiber AF24/AF24HD 2.2.1, AF5x 3.0.2.1, and AF5 2.2.1; airOS 4 XS2/XS5 4.0.4; and EdgeSwitch XP (formerly TOUGHSwitch) 1.3.2."
+CVE-2015-9267,LOW,Nullsoft Scriptable Install System (NSIS) before 2.49 uses temporary folder locations that allow unprivileged local users to overwrite files. This allows a local attack in which either a plugin or the uninstaller can be replaced by a Trojan horse program.
+CVE-2015-9268,HIGH,"Nullsoft Scriptable Install System (NSIS) before 2.49 has unsafe implicit linking against Version.dll. In other words, there is no protection mechanism in which a wrapper function resolves the dependency at an appropriate time during runtime."
+CVE-2015-9269,MEDIUM,The export/content.php exportarticle feature in the wordpress-mobile-pack plugin before 2.1.3 2015-06-03 for WordPress allows remote attackers to obtain sensitive information because the content of a privately published post is sent in JSON format.
+CVE-2015-9270,MEDIUM,XSS exists in the the-holiday-calendar plugin before 1.11.3 for WordPress via the thc-month parameter.
+CVE-2015-9271,HIGH,"The VideoWhisper videowhisper-video-conference-integration plugin 4.91.8 for WordPress allows remote attackers to execute arbitrary code because vc/vw_upload.php considers a file safe when ""html"" are the last four characters, as demonstrated by a .phtml file containing PHP code, a different vulnerability than CVE-2014-1905."
+CVE-2015-9272,HIGH,"The videowhisper-video-presentation plugin 3.31.17 for WordPress allows remote attackers to execute arbitrary code because vp/vw_upload.php considers a file safe when ""html"" are the last four characters, as demonstrated by a .phtml file containing PHP code."
+CVE-2015-9273,MEDIUM,"The wp-slimstat (aka Slimstat Analytics) plugin before 4.1.6.1 for WordPress has XSS via an HTTP Referer header, or via a field associated with JavaScript-based Referer tracking."
+CVE-2015-9274,MEDIUM,"HarfBuzz before 1.0.4 allows remote attackers to cause a denial of service (invalid read of two bytes and application crash) because of GPOS and GSUB table mishandling, related to hb-ot-layout-gpos-table.hh, hb-ot-layout-gsub-table.hh, and hb-ot-layout-gsubgpos-private.hh."
+CVE-2015-9275,MEDIUM,ARC 5.21q allows directory traversal via a full pathname in an archive file.
+CVE-2015-9276,MEDIUM,"SmarterTools SmarterMail before 13.3.5535 was vulnerable to stored XSS by bypassing the anti-XSS mechanisms. It was possible to run JavaScript code when a victim user opens or replies to the attacker's email, which contained a malicious payload. Therefore, users' passwords could be reset by using an XSS attack, as the password reset page did not need the current password."
+CVE-2015-9277,HIGH,"MailEnable before 8.60 allows Directory Traversal for reading the messages of other users, uploading files, and deleting files because ""/../"" and ""/.. /"" are mishandled."
+CVE-2015-9278,MEDIUM,MailEnable before 8.60 allows Privilege Escalation because admin accounts could be created as a consequence of %0A mishandling in AUTH.TAB after a password-change request.
+CVE-2015-9279,MEDIUM,"MailEnable before 8.60 allows Stored XSS via malformed use of ""<img/src"" with no "">"" character in the body of an e-mail message."
+CVE-2015-9280,MEDIUM,MailEnable before 8.60 allows XXE via an XML document in the request.aspx Options parameter.
+CVE-2015-9281,MEDIUM,Logon Manager in SAS Web Infrastructure Platform before 9.4M3 allows reflected XSS on the Timeout page.
+CVE-2015-9282,MEDIUM,"The Pie Chart Panel plugin through 2019-01-02 for Grafana is vulnerable to XSS via legend data or tooltip data. When a chart is included in a Grafana dashboard, this vulnerability could allow an attacker to gain remote unauthenticated access to the dashboard."
+CVE-2015-9284,MEDIUM,"The request phase of the OmniAuth Ruby gem (1.9.1 and earlier) is vulnerable to Cross-Site Request Forgery when used as part of the Ruby on Rails framework, allowing accounts to be connected without user intent, user interaction, or feedback to the user. This permits a secondary account to be able to sign into the web application as the primary account."
+CVE-2015-9285,MEDIUM,esoTalk 1.0.0g4 has XSS via the PATH_INFO to the conversations/ URI.
+CVE-2015-9286,MEDIUM,Controllers.outgoing in controllers/index.js in NodeBB before 0.7.3 has outgoing XSS.
+CVE-2015-9287,MEDIUM,"Directory Traversal was discovered in University of Cambridge mod_ucam_webauth before 2.0.2. The key identification field (""kid"") of the IdP's HTTP response message (""WLS-Response"") can be manipulated by an attacker. The ""kid"" field is not signed like the rest of the message, and manipulation is therefore trivial. The ""kid"" field should only ever represent an integer. However, it is possible to provide any string value. An attacker could use this to their advantage to force the application agent to load the RSA public key required for message integrity checking from an unintended location."
+CVE-2015-9288,MEDIUM,The Unity Web Player plugin before 4.6.6f2 and 5.x before 5.0.3f2 allows attackers to read messages or access online services via a victim's credentials
+CVE-2015-9289,MEDIUM,"In the Linux kernel before 4.1.4, a buffer overflow occurs when checking userspace params in drivers/media/dvb-frontends/cx24116.c. The maximum size for a DiSEqC command is 6, according to the userspace API. However, the code allows larger values such as 23."
+CVE-2015-9290,HIGH,"In FreeType before 2.6.1, a buffer over-read occurs in type1/t1parse.c on function T1_Get_Private_Dict where there is no check that the new values of cur and limit are sensible before going to Again."
+CVE-2015-9291,MEDIUM,cPanel before 11.52.0.13 does not prevent arbitrary file-read operations via get_information_for_applications (CPANEL-1221).
+CVE-2015-9292,MEDIUM,6kbbs 7.1 and 8.0 allows CSRF via portalchannel_ajax.php (id or code parameter) or admin.php (fileids parameter).
+CVE-2015-9293,MEDIUM,The all-in-one-wp-security-and-firewall plugin before 3.9.8 for WordPress has XSS in the unlock request feature.
+CVE-2015-9294,MEDIUM,The all-in-one-wp-security-and-firewall plugin before 3.9.5 for WordPress has XSS in add_query_arg and remove_query_arg function instances.
+CVE-2015-9295,MEDIUM,The contact-form-plugin plugin before 3.96 for WordPress has XSS.
+CVE-2015-9296,MEDIUM,The download-monitor plugin before 1.7.1 for WordPress has XSS related to add_query_arg.
+CVE-2015-9297,MEDIUM,The events-manager plugin before 5.6 for WordPress has XSS.
+CVE-2015-9298,HIGH,The events-manager plugin before 5.6 for WordPress has code injection.
+CVE-2015-9299,MEDIUM,The events-manager plugin before 5.5.7.1 for WordPress has DOM XSS.
+CVE-2015-9300,MEDIUM,The events-manager plugin before 5.5.7 for WordPress has multiple XSS issues.
+CVE-2015-9301,HIGH,The liveforms plugin before 3.2.0 for WordPress has SQL injection.
+CVE-2015-9302,MEDIUM,The simple-fields plugin before 1.4.11 for WordPress has XSS.
+CVE-2015-9303,MEDIUM,The simple-share-buttons-adder plugin before 6.0.0 for WordPress has XSS.
+CVE-2015-9304,MEDIUM,The ultimate-member plugin before 1.3.18 for WordPress has XSS via text input.
+CVE-2015-9305,MEDIUM,The wp-google-map-plugin plugin before 2.3.7 for WordPress has XSS related to the add_query_arg() and remove_query_arg() functions.
+CVE-2015-9306,MEDIUM,The wp-ultimate-csv-importer plugin before 3.8.1 for WordPress has XSS.
+CVE-2015-9307,MEDIUM,The wp-google-map-plugin plugin before 2.3.10 for WordPress has CSRF in the add/edit location feature.
+CVE-2015-9308,MEDIUM,The wp-google-map-plugin plugin before 2.3.10 for WordPress has CSRF in the add/edit map feature.
+CVE-2015-9309,MEDIUM,The wp-google-map-plugin plugin before 2.3.10 for WordPress has CSRF in the add/edit category feature.
+CVE-2015-9310,HIGH,The all-in-one-wp-security-and-firewall plugin before 3.9.1 for WordPress has multiple SQL injection issues.
+CVE-2015-9311,MEDIUM,The newstatpress plugin before 1.0.6 for WordPress has reflected XSS.
+CVE-2015-9312,MEDIUM,The newstatpress plugin before 1.0.5 for WordPress has XSS related to an IMG element.
+CVE-2015-9313,HIGH,The newstatpress plugin before 1.0.5 for WordPress has SQL injection related to an IMG element.
+CVE-2015-9314,MEDIUM,The newstatpress plugin before 1.0.4 for WordPress has XSS related to the Referer header.
+CVE-2015-9315,HIGH,The newstatpress plugin before 1.0.1 for WordPress has SQL injection.
+CVE-2015-9316,HIGH,The wp-fastest-cache plugin before 0.8.4.9 for WordPress has SQL injection in wp-admin/admin-ajax.php?action=wpfc_wppolls_ajax_request via the poll_id parameter.
+CVE-2015-9317,MEDIUM,The awesome-support plugin before 3.1.7 for WordPress has XSS via custom information messages.
+CVE-2015-9318,MEDIUM,The awesome-support plugin before 3.1.7 for WordPress has a security issue in which shortcodes are allowed in replies.
+CVE-2015-9319,MEDIUM,The gregs-high-performance-seo plugin before 1.6.2 for WordPress has XSS in the context of an old browser.
+CVE-2015-9320,MEDIUM,The option-tree plugin before 2.5.4 for WordPress has XSS related to add_query_arg.
+CVE-2015-9321,MEDIUM,The shortcode-factory plugin before 1.1.1 for WordPress has XSS via add_query_arg.
+CVE-2015-9322,MEDIUM,The erident-custom-login-and-dashboard plugin before 3.5 for WordPress has CSRF.
+CVE-2015-9323,HIGH,The 404-to-301 plugin before 2.0.3 for WordPress has SQL injection.
+CVE-2015-9324,HIGH,The easy-digital-downloads plugin before 2.3.3 for WordPress has SQL injection.
+CVE-2015-9325,HIGH,The visitors-online plugin before 0.4 for WordPress has SQL injection.
+CVE-2015-9326,HIGH,The wp-business-intelligence-lite plugin before 1.6.3 for WordPress has SQL injection.
+CVE-2015-9327,MEDIUM,The flickr-justified-gallery plugin before 3.4.0 for WordPress has XSS.
+CVE-2015-9328,MEDIUM,The profile-builder plugin before 2.2.5 for WordPress has XSS.
+CVE-2015-9329,MEDIUM,The wp-all-import plugin before 3.2.5 for WordPress has reflected XSS.
+CVE-2015-9330,HIGH,The wp-all-import plugin before 3.2.5 for WordPress has blind SQL injection.
+CVE-2015-9331,MEDIUM,The wp-all-import plugin before 3.2.4 for WordPress has no prevention of unauthenticated requests to adminInit.
+CVE-2015-9332,MEDIUM,The uninstall plugin before 1.2 for WordPress has CSRF to delete all tables via the wp-admin/admin-ajax.php?action=uninstall URI.
+CVE-2015-9333,HIGH,The cforms2 plugin before 14.6.10 for WordPress has SQL injection.
+CVE-2015-9334,HIGH,The email-newsletter plugin through 20.15 for WordPress has SQL injection.
+CVE-2015-9335,HIGH,The limit-attempts plugin before 1.1.1 for WordPress has SQL injection during IP address handling.
+CVE-2015-9336,MEDIUM,The clean-login plugin before 1.5.1 for WordPress has reflected XSS.
+CVE-2015-9337,MEDIUM,The profile-builder plugin before 2.1.4 for WordPress has no access control for activating or deactivating addons via AJAX.
+CVE-2015-9338,MEDIUM,The wp-file-upload plugin before 2.5.0 for WordPress has insufficient restrictions on upload of .php files.
+CVE-2015-9339,MEDIUM,The wp-file-upload plugin before 2.7.1 for WordPress has insufficient restrictions on upload of .js files.
+CVE-2015-9340,MEDIUM,"The wp-file-upload plugin before 3.0.0 for WordPress has insufficient restrictions on upload of php, js, pht, php3, php4, php5, phtml, htm, html, and htaccess files."
+CVE-2015-9341,MEDIUM,The wp-file-upload plugin before 3.4.1 for WordPress has insufficient restrictions on upload of .php.js files.
+CVE-2015-9342,MEDIUM,The wp-rollback plugin before 1.2.3 for WordPress has XSS.
+CVE-2015-9343,MEDIUM,The wp-rollback plugin before 1.2.3 for WordPress has CSRF.
+CVE-2015-9344,HIGH,The link-log plugin before 2.1 for WordPress has SQL injection.
+CVE-2015-9345,MEDIUM,The link-log plugin before 2.0 for WordPress has HTTP Response Splitting.
+CVE-2015-9346,MEDIUM,The cp-polls plugin before 1.0.5 for WordPress has XSS.
+CVE-2015-9347,MEDIUM,The wp-plotly plugin before 1.0.3 for WordPress has XSS by authors.
+CVE-2015-9348,MEDIUM,The sell-downloads plugin before 1.0.8 for WordPress has insufficient restrictions on brute-force guessing of purchase IDs.
+CVE-2015-9349,MEDIUM,"The ckeditor-for-wordpress plugin before 4.5.3.1 for WordPress has reflected XSS in the ""built-in (old)"" file browser."
+CVE-2015-9350,MEDIUM,The feed-them-social plugin before 1.7.0 for WordPress has reflected XSS in the Facebook Feeds load more button.
+CVE-2015-9351,HIGH,The feed-them-social plugin before 1.7.0 for WordPress has possible shortcode execution in the Facebook Feeds load more button.
+CVE-2015-9352,HIGH,The wp-polls plugin before 2.72 for WordPress has SQL injection.
+CVE-2015-9353,MEDIUM,"The gigpress plugin before 2.3.11 for WordPress has SQL injection in the admin area, a different vulnerability than CVE-2015-4066."
+CVE-2015-9354,LOW,The gigpress plugin before 2.3.11 for WordPress has XSS.
+CVE-2015-9355,MEDIUM,The two-factor-authentication plugin before 1.1.10 for WordPress has XSS in the admin area.
+CVE-2015-9356,MEDIUM,"The wp-vipergb plugin before 1.3.16 for WordPress has XSS via add_query_arg() and remove_query_arg(), a different issue than CVE-2014-9460."
+CVE-2015-9357,MEDIUM,The akismet plugin before 3.1.5 for WordPress has XSS.
+CVE-2015-9358,MEDIUM,The feedwordpress plugin before 2015.0514 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9359,MEDIUM,The Jetpack plugin before 3.4.3 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9360,MEDIUM,The updraftplus plugin before 1.9.64 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9361,MEDIUM,The Related Posts plugin before 1.8.2 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9362,MEDIUM,The Post Connector plugin before 1.0.4 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9363,MEDIUM,iThemes Exchange before 1.12.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9364,MEDIUM,2Checkout Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9365,MEDIUM,Authorize.net Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9366,MEDIUM,Custom URL Tracking Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9367,MEDIUM,Easy Canadian Sales Taxes Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9368,MEDIUM,Easy EU Value Added (VAT) Taxes Add-on for iThemes Exchange before 1.2.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9369,MEDIUM,Easy US Sales Taxes Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9370,MEDIUM,Invoices Add-on for iThemes Exchange before 1.4.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9371,MEDIUM,Manual Purchases Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9372,MEDIUM,Membership Add-on for iThemes Exchange before 1.3.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9373,MEDIUM,PayPal Pro Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9374,MEDIUM,Stripe Add-on for iThemes Exchange before 1.2.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9375,MEDIUM,Table Rate Shipping Add-on for iThemes Exchange before 1.1.0 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9376,MEDIUM,iThemes Mobile before 1.2.8 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9377,MEDIUM,iThemes Builder Theme Depot before 5.0.30 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9378,MEDIUM,iThemes Builder Theme Market before 5.1.27 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9379,MEDIUM,iThemes Builder Style Manager before 0.7.7 for WordPress has XSS via add_query_arg() and remove_query_arg().
+CVE-2015-9380,MEDIUM,The photo-gallery plugin before 1.2.42 for WordPress has CSRF.
+CVE-2015-9381,MEDIUM,FreeType before 2.6.1 has a heap-based buffer over-read in T1_Get_Private_Dict in type1/t1parse.c.
+CVE-2015-9382,MEDIUM,FreeType before 2.6.1 has a buffer over-read in skip_comment in psaux/psobjs.c because ps_parser_skip_PS_token is mishandled in an FT_New_Memory_Face operation.
+CVE-2015-9383,MEDIUM,FreeType before 2.6.2 has a heap-based buffer over-read in tt_cmap14_validate in sfnt/ttcmap.c.
+CVE-2015-9384,MEDIUM,The relevant plugin before 1.0.8 for WordPress has XSS.
+CVE-2015-9385,MEDIUM,The quotes-and-tips plugin before 1.20 for WordPress has XSS.
+CVE-2015-9386,MEDIUM,The mtouch-quiz plugin before 3.1.3 for WordPress has XSS via the quiz parameter during a Quiz Manage operation.
+CVE-2015-9387,MEDIUM,The mtouch-quiz plugin before 3.1.3 for WordPress has wp-admin/options-general.php CSRF.
+CVE-2015-9388,MEDIUM,The mtouch-quiz plugin before 3.1.3 for WordPress has wp-admin/edit.php CSRF with resultant XSS.
+CVE-2015-9389,LOW,The mtouch-quiz plugin before 3.1.3 for WordPress has XSS via a quiz name.
+CVE-2015-9390,MEDIUM,The admin-management-xtended plugin before 2.4.0.1 for WordPress has privilege escalation because wp_ajax functions are mishandled.
+CVE-2015-9391,MEDIUM,The yawpp plugin through 1.2.2 for WordPress has XSS via the field1 parameter.
+CVE-2015-9392,LOW,The users-ultra plugin before 1.5.63 for WordPress has XSS via the p_name parameter.
+CVE-2015-9393,LOW,The users-ultra plugin before 1.5.63 for WordPress has XSS via the p_desc parameter.
+CVE-2015-9394,MEDIUM,The users-ultra plugin before 1.5.63 for WordPress has CSRF via action=package_add_new to wp-admin/admin-ajax.php.
+CVE-2015-9395,MEDIUM,The users-ultra plugin before 1.5.64 for WordPress has SQL Injection via an ajax action.
+CVE-2015-9396,MEDIUM,The auto-thickbox-plus plugin through 1.9 for WordPress has wp-content/plugins/auto-thickbox-plus/download.min.php?file= XSS.
+CVE-2015-9397,LOW,The gocodes plugin through 1.3.5 for WordPress has wp-admin/tools.php deletegc XSS.
+CVE-2015-9398,MEDIUM,The gocodes plugin through 1.3.5 for WordPress has wp-admin/tools.php gcid SQL injection.
+CVE-2015-9399,MEDIUM,The wp-stats-dashboard plugin through 2.9.4 for WordPress has admin/graph_trend.php type SQL injection.
+CVE-2015-9400,MEDIUM,The wordpress-meta-robots plugin through 2.1 for WordPress has wp-admin/post-new.php text SQL injection.
+CVE-2015-9401,LOW,The websimon-tables plugin through 1.3.4 for WordPress has wp-admin/tools.php edit_style id XSS.
+CVE-2015-9402,MEDIUM,The users-ultra plugin before 1.5.59 for WordPress has uultra-form-cvs-form-conf arbitrary file upload.
+CVE-2015-9403,MEDIUM,The neuvoo-jobroll plugin 2.0 for WordPress has neuvoo_location XSS.
+CVE-2015-9404,MEDIUM,The neuvoo-jobroll plugin 2.0 for WordPress has neuvoo_keywords XSS.
+CVE-2015-9405,MEDIUM,The wp-piwik plugin before 1.0.5 for WordPress has XSS.
+CVE-2015-9406,MEDIUM,Directory traversal vulnerability in the mTheme-Unus theme before 2.3 for WordPress allows an attacker to read arbitrary files via a .. (dot dot) in the files parameter to css/css.php.
+CVE-2015-9407,MEDIUM,The xpinner-lite plugin through 2.2 for WordPress has xpinner-lite.php XSS.
+CVE-2015-9408,MEDIUM,The xpinner-lite plugin through 2.2 for WordPress has wp-admin/options-general.php CSRF with resultant XSS.
+CVE-2015-9409,MEDIUM,The alo-easymail plugin before 2.6.01 for WordPress has CSRF with resultant XSS in pages/alo-easymail-admin-options.php.
+CVE-2015-9410,LOW,The Blubrry PowerPress Podcasting plugin 6.0.4 for WordPress has XSS via the tab parameter.
+CVE-2015-9411,MEDIUM,The Postmatic plugin before 1.4.6 for WordPress has XSS.
+CVE-2015-9412,MEDIUM,The Royal-Slider plugin before 3.2.7 for WordPress has XSS via the rstype parameter.
+CVE-2015-9413,MEDIUM,The eshop plugin through 6.3.13 for WordPress has CSRF with resultant XSS via the wp-admin/admin.php?page=eshop-downloads.php title parameter.
+CVE-2015-9414,MEDIUM,The wp-symposium plugin through 15.8.1 for WordPress has XSS via the wp-content/plugins/wp-symposium/get_album_item.php?size parameter.
+CVE-2015-9415,MEDIUM,The bj-lazy-load plugin before 1.0 for WordPress has Remote File Inclusion.
+CVE-2015-9416,MEDIUM,The sitepress-multilingual-cms (WPML) plugin 2.9.3 to 3.2.6 for WordPress has XSS via the Accept-Language HTTP header.
+CVE-2015-9417,MEDIUM,The testimonial-slider plugin through 1.2.1 for WordPress has CSRF with resultant XSS.
+CVE-2015-9418,MEDIUM,The Watu Pro plugin before 4.9.0.8 for WordPress has CSRF that allows an attacker to delete quizzes.
+CVE-2015-9419,MEDIUM,The captain-slider plugin 1.0.6 for WordPress has XSS via a Title or Caption section.
+CVE-2015-9420,MEDIUM,The soundcloud-is-gold plugin before 2.3.2 for WordPress has XSS via the wp-admin/admin-ajax.php?action=get_soundcloud_player id parameter.
+CVE-2015-9421,MEDIUM,The olevmedia-shortcodes plugin before 1.1.9 for WordPress has CSRF with resultant XSS via the wp-admin/admin-ajax.php?action=omsc_popup id parameter.
+CVE-2015-9422,MEDIUM,"The PlugNedit Adaptive Editor plugin before 6.2.0 for WordPress has CSRF with resultant XSS via wp-admin/admin-ajax.php?action=simple_fields_field_type_post_dialog_load plugnedit_width, pnemedcount, PlugneditBGColor, PlugneditEditorMargin, or plugneditcontent parameters."
+CVE-2015-9423,LOW,"The PlugNedit Adaptive Editor plugin before 6.2.0 for WordPress has XSS via wp-admin/admin-ajax.php?action=simple_fields_field_type_post_dialog_load PlugneditBGColor, PlugneditEditorMargin, plugnedit_width, pnemedcount, or plugneditcontent parameters."
+CVE-2015-9424,MEDIUM,The multicons plugin before 3.0 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=multicons%2Fmulticons.php global_url or admin_url parameter.
+CVE-2015-9425,MEDIUM,The social-locker plugin before 4.2.5 for WordPress has CSRF with resultant XSS via the wp-admin/edit.php?post_type=opanda-item&page=license-manager-sociallocker-next licensekey parameter.
+CVE-2015-9426,LOW,The manual-image-crop plugin before 1.11 for WordPress has CSRF with resultant XSS via the wp-admin/admin-ajax.php?action=mic_editor_window postId parameter.
+CVE-2015-9427,MEDIUM,The googmonify plugin through 0.5.1 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=googmonify.php PID or AID parameter.
+CVE-2015-9428,MEDIUM,"The wplegalpages plugin before 1.1 for WordPress has CSRF with resultant XSS via wp-admin/admin.php?page=legal-pages lp-domain-name, lp-business-name, lp-phone, lp-street, lp-city-state, lp-country, lp-email, lp-address, or lp-niche parameters."
+CVE-2015-9429,MEDIUM,The yith-maintenance-mode plugin before 1.2.0 for WordPress has CSRF with resultant XSS via the wp-admin/themes.php?page=yith-maintenance-mode panel_page parameter.
+CVE-2015-9430,MEDIUM,The crazy-bone plugin before 0.6.0 for WordPress has XSS via the User-Agent HTTP header.
+CVE-2015-9431,MEDIUM,The qtranslate-x plugin before 3.4.4 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=qtranslate-x json_config_files or json_custom_i18n_config parameter.
+CVE-2015-9432,MEDIUM,The alpine-photo-tile-for-instagram plugin before 1.2.7.6 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=alpine-photo-tile-for-instagram-settings tab parameter.
+CVE-2015-9433,MEDIUM,"The wp-social-bookmarking-light plugin before 1.7.10 for WordPress has CSRF with resultant XSS via configuration parameters for Tumblr, Twitter, Facebook, etc. in wp-admin/options-general.php?page=wp-social-bookmarking-light%2Fmodules%2Fadmin.php."
+CVE-2015-9434,MEDIUM,The kiwi-logo-carousel plugin before 1.7.2 for WordPress has CSRF with resultant XSS via the wp-admin/edit.php?post_type=kwlogos&page=kwlogos_settings tab or tab_flags_order parameter.
+CVE-2015-9435,HIGH,The oauth2-provider plugin before 3.1.5 for WordPress has incorrect generation of random numbers.
+CVE-2015-9436,LOW,The dynamic-widgets plugin before 1.5.11 for WordPress has XSS via the wp-admin/admin-ajax.php?action=term_tree prefix or widget_id parameter.
+CVE-2015-9437,MEDIUM,The dynamic-widgets plugin before 1.5.11 for WordPress has CSRF with resultant XSS via the wp-admin/themes.php?page=dynwid-config page_limit parameter.
+CVE-2015-9438,LOW,"The display-widgets plugin before 2.04 for WordPress has XSS via the wp-admin/admin-ajax.php?action=dw_show_widget id_base, widget_number, or instance parameter."
+CVE-2015-9439,LOW,The addthis plugin before 5.0.13 for WordPress has CSRF with resultant XSS via the wp-admin/options-general.php?page=addthis_social_widget pubid parameter.
+CVE-2015-9440,MEDIUM,The monetize plugin through 1.03 for WordPress has CSRF with resultant XSS via wp-admin/admin.php?page=monetize-zones-new.
+CVE-2015-9441,MEDIUM,The bookmarkify plugin 2.9.2 for WordPress has CSRF with resultant XSS via wp-admin/options-general.php?page=bookmarkify.php.
+CVE-2015-9442,MEDIUM,The avenirsoft-directdownload plugin 1.0 for WordPress has CSRF with resultant XSS via wp-admin/admin.php?page=avenir_plugin.
+CVE-2015-9443,MEDIUM,The accurate-form-data-real-time-form-validation plugin 1.2 for WordPress has CSRF with resultant XSS via wp-admin/options-general.php?page=Accu_Data_WP.
+CVE-2015-9444,MEDIUM,The altos-connect plugin 1.3.0 for WordPress has XSS via the wp-content/plugins/altos-connect/jquery-validate/demo/demo/captcha/index.php/ PATH_SELF.
+CVE-2015-9445,MEDIUM,The unite-gallery-lite plugin before 1.5 for WordPress has CSRF and SQL injection via wp-admin/admin-ajax.php in a unitegallery_ajax_action operation.
+CVE-2015-9446,MEDIUM,The unite-gallery-lite plugin before 1.5 for WordPress has SQL injection via data[galleryID] to wp-admin/admin-ajax.php.
+CVE-2015-9447,MEDIUM,The unite-gallery-lite plugin before 1.5 for WordPress has CSRF and SQL injection via wp-admin/admin.php galleryid or id parameters.
+CVE-2015-9448,MEDIUM,The sendpress plugin before 1.2 for WordPress has SQL Injection via the wp-admin/admin.php?page=sp-queue listid parameter.
+CVE-2015-9449,MEDIUM,The microblog-poster plugin before 1.6.2 for WordPress has SQL Injection via the wp-admin/options-general.php?page=microblogposter.php account_id parameter.
+CVE-2015-9450,HIGH,The plugmatter-optin-feature-box-lite plugin before 2.0.14 for WordPress has SQL injection via the wp-admin/admin-ajax.php?action=pmfb_cc pmfb_tid parameter.
+CVE-2015-9451,HIGH,The plugmatter-optin-feature-box-lite plugin before 2.0.14 for WordPress has SQL injection via the wp-admin/admin-ajax.php?action=pmfb_mailchimp pmfb_tid parameter.
+CVE-2015-9452,HIGH,The nex-forms-express-wp-form-builder plugin before 4.6.1 for WordPress has SQL injection via the wp-admin/admin.php?page=nex-forms-main nex_forms_Id parameter.
+CVE-2015-9453,MEDIUM,The broken-link-manager plugin before 0.6.0 for WordPress has XSS via the HTTP Referer or User-Agent header to a URL that does not exist.
+CVE-2015-9454,MEDIUM,The smooth-slider plugin before 2.7 for WordPress has SQL Injection via the wp-admin/admin.php?page=smooth-slider-admin current_slider_id parameter.
+CVE-2015-9455,HIGH,The buddypress-activity-plus plugin before 1.6.2 for WordPress has CSRF with resultant directory traversal via the wp-admin/admin-ajax.php bpfb_photos[] parameter in a bpfb_remove_temp_images action.
+CVE-2015-9456,MEDIUM,"The orbisius-child-theme-creator plugin before 1.2.8 for WordPress has incorrect access control for file modification via the wp-admin/admin-ajax.php?action=orbisius_ctc_theme_editor_ajax&sub_cmd=save_file theme_1, theme_1_file, or theme_1_file_contents parameter."
+CVE-2015-9457,MEDIUM,The pretty-link plugin before 1.6.8 for WordPress has PrliLinksController::list_links SQL injection via the group parameter.
+CVE-2015-9458,MEDIUM,The searchterms-tagging-2 plugin through 1.535 for WordPress has SQL injection via the pk_stt2_db_get_popular_terms count parameter exploitable via CSRF.
+CVE-2015-9459,MEDIUM,The searchterms-tagging-2 plugin through 1.535 for WordPress has XSS via the wp-admin/options-general.php count parameter.
+CVE-2015-9460,MEDIUM,The booking-system plugin before 2.1 for WordPress has DOPBSPBackEndTranslation::display SQL injection via the language parameter.
+CVE-2015-9461,MEDIUM,The awesome-filterable-portfolio plugin before 1.9 for WordPress has afp_get_new_portfolio_item_page SQL injection via the item_id parameter.
+CVE-2015-9462,MEDIUM,The awesome-filterable-portfolio plugin before 1.9 for WordPress has afp_get_new_category_page SQL injection via the cat_id parameter.
+CVE-2015-9463,MEDIUM,The s3bubble-amazon-s3-audio-streaming plugin 2.0 for WordPress has directory traversal via the adverts/assets/plugins/ultimate/content/downloader.php path parameter.
+CVE-2015-9464,MEDIUM,The s3bubble-amazon-s3-html-5-video-with-adverts plugin 0.7 for WordPress has directory traversal via the adverts/assets/plugins/ultimate/content/downloader.php path parameter.
+CVE-2015-9465,MEDIUM,The yet-another-stars-rating plugin before 0.9.1 for WordPress has yasr_get_multi_set_values_and_field SQL injection via the set_id parameter.
+CVE-2015-9466,HIGH,"The wti-like-post plugin before 1.4.3 for WordPress has WtiLikePostProcessVote SQL injection via the HTTP_CLIENT_IP, HTTP_X_FORWARDED_FOR, HTTP_X_FORWARDED, HTTP_FORWARDED_FOR, or HTTP_FORWARDED variable."
+CVE-2015-9467,HIGH,The broken-link-manager plugin before 0.5.0 for WordPress has wpslDelURL or wpslEditURL SQL injection via the url parameter.
+CVE-2015-9468,MEDIUM,The broken-link-manager plugin 0.4.5 for WordPress has XSS via the page parameter in a delURL action.
+CVE-2015-9469,LOW,The content-grabber plugin 1.0 for WordPress has XSS via obj_field_name or obj_field_id.
+CVE-2015-9470,MEDIUM,The history-collection plugin through 1.1.1 for WordPress has directory traversal via the download.php var parameter.
+CVE-2015-9471,HIGH,The dzs-zoomsounds plugin through 2.0 for WordPress has admin/upload.php arbitrary file upload.
+CVE-2015-9472,MEDIUM,The incoming-links plugin before 0.9.10b for WordPress has referrers.php XSS via the Referer HTTP header.
+CVE-2015-9473,MEDIUM,The estrutura-basica theme through 2015-09-13 for WordPress has directory traversal via the scripts/download.php arquivo parameter.
+CVE-2015-9474,MEDIUM,The Simpolio theme 1.3.2 for WordPress has insufficient restrictions on option updates.
+CVE-2015-9475,MEDIUM,The Pont theme 1.5 for WordPress has insufficient restrictions on option updates.
+CVE-2015-9476,MEDIUM,The Teardrop theme 1.8.1 for WordPress has insufficient restrictions on option updates.
+CVE-2015-9477,MEDIUM,The Vernissage theme 1.2.8 for WordPress has insufficient restrictions on option updates.
+CVE-2015-9478,MEDIUM,prettyPhoto before 3.1.6 has js/jquery.prettyPhoto.js XSS.
+CVE-2015-9479,HIGH,The ACF-Frontend-Display plugin through 2015-07-03 for WordPress has arbitrary file upload via an action=upload request to js/blueimp-jQuery-File-Upload-d45deb1/server/php/index.php.
+CVE-2015-9480,MEDIUM,The RobotCPA plugin 5 for WordPress has directory traversal via the f.php l parameter.
+CVE-2015-9481,MEDIUM,"The ThemeMakers Diplomat | Political theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9482,MEDIUM,"The ThemeMakers Car Dealer / Auto Dealer Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9483,MEDIUM,"The ThemeMakers Invento Responsive Gallery/Architecture Template component through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9484,MEDIUM,"The ThemeMakers Accio One Page Parallax Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9485,MEDIUM,"The ThemeMakers Accio Responsive Parallax One Page Site Template component through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9486,MEDIUM,"The ThemeMakers Axioma Premium Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9487,MEDIUM,"The ThemeMakers Almera Responsive Portfolio theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9488,MEDIUM,"The ThemeMakers Almera Responsive Portfolio Site Template component through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9489,MEDIUM,"The ThemeMakers Goodnex Premium Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9490,MEDIUM,"The ThemeMakers GamesTheme Premium theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9491,MEDIUM,"The ThemeMakers Blessing Premium Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9492,MEDIUM,"The ThemeMakers SmartIT Premium Responsive theme through 2015-05-15 for WordPress allows remote attackers to obtain sensitive information (such as user_login, user_pass, and user_email values) via a direct request for the wp-content/uploads/tmm_db_migrate/wp_users.dat URI."
+CVE-2015-9493,MEDIUM,The my-wish-list plugin before 1.4.2 for WordPress has multiple XSS issues.
+CVE-2015-9494,MEDIUM,The indieweb-post-kinds plugin before 1.3.1.1 for WordPress has XSS via the genericons/example.html anchor identifier.
+CVE-2015-9495,MEDIUM,The syndication-links plugin before 1.0.3 for WordPress has XSS via the genericons/example.html anchor identifier.
+CVE-2015-9496,MEDIUM,The freshmail-newsletter plugin before 1.6 for WordPress has shortcode.php SQL Injection via the 'FM_form id=' substring.
+CVE-2015-9497,MEDIUM,The ad-inserter plugin before 1.5.3 for WordPress has CSRF with resultant XSS via wp-admin/options-general.php?page=ad-inserter.php.
+CVE-2015-9498,MEDIUM,The wps-hide-login plugin before 1.1 for WordPress has CSRF that affects saving an option value.
+CVE-2015-9499,HIGH,The Showbiz Pro plugin through 1.7.1 for WordPress has PHP code execution by uploading a .php file within a ZIP archive.
+CVE-2015-9500,MEDIUM,The Exquisite Ultimate Newspaper theme 1.3.3 for WordPress has XSS via the anchor identifier to assets/js/jquery.foundation.plugins.js.
+CVE-2015-9501,MEDIUM,The Artificial Intelligence theme before 1.2.4 for WordPress has XSS because Genericons HTML files are unnecessarily placed under the web root.
+CVE-2015-9502,MEDIUM,The Auberge theme before 1.4.5 for WordPress has XSS via the genericons/example.html anchor identifier.
+CVE-2015-9503,MEDIUM,The Modern theme before 1.4.2 for WordPress has XSS via the genericons/example.html anchor identifier.
+CVE-2015-9504,MEDIUM,The weeklynews theme before 2.2.9 for WordPress has XSS via the s parameter.
+CVE-2015-9505,MEDIUM,"The Easy Digital Downloads (EDD) core component 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7 for WordPress has XSS because add_query_arg is misused."
+CVE-2015-9506,MEDIUM,"The Easy Digital Downloads (EDD) Amazon S3 extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9507,MEDIUM,"The Easy Digital Downloads (EDD) Attach Accounts to Orders extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9508,MEDIUM,"The Easy Digital Downloads (EDD) Commissions extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9509,MEDIUM,"The Easy Digital Downloads (EDD) Content Restriction extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9510,MEDIUM,"The Easy Digital Downloads (EDD) Cross-sell Upsell extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9511,MEDIUM,"The Easy Digital Downloads (EDD) Conditional Success Redirects extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9512,MEDIUM,"The Easy Digital Downloads (EDD) CSV Manager extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9513,MEDIUM,"The Easy Digital Downloads (EDD) Favorites extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9514,MEDIUM,"The Easy Digital Downloads (EDD) Free Downloads extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9515,MEDIUM,"The Easy Digital Downloads (EDD) htaccess Editor extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9516,MEDIUM,"The Easy Digital Downloads (EDD) Invoices extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9517,MEDIUM,"The Easy Digital Downloads (EDD) Manual Purchases extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9518,MEDIUM,"The Easy Digital Downloads (EDD) PDF Invoices extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9519,MEDIUM,"The Easy Digital Downloads (EDD) PDF Stamper extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9520,MEDIUM,"The Easy Digital Downloads (EDD) Per Product Emails extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9521,MEDIUM,"The Easy Digital Downloads (EDD) Pushover Notifications extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9522,MEDIUM,"The Easy Digital Downloads (EDD) QR Code extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9523,MEDIUM,"The Easy Digital Downloads (EDD) Recommended Products extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9524,MEDIUM,"The Easy Digital Downloads (EDD) Recount Earnings extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9525,MEDIUM,"The Easy Digital Downloads (EDD) Recurring Payments extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9526,MEDIUM,"The Easy Digital Downloads (EDD) Reviews extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9527,MEDIUM,"The Easy Digital Downloads (EDD) Simple Shipping extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9528,MEDIUM,"The Easy Digital Downloads (EDD) Software Licensing extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9529,MEDIUM,"The Easy Digital Downloads (EDD) Stripe extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9530,MEDIUM,"The Easy Digital Downloads (EDD) Upload File extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9531,MEDIUM,"The Easy Digital Downloads (EDD) Wish Lists extension for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9532,MEDIUM,"The Easy Digital Downloads (EDD) Digital Store theme for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9533,MEDIUM,"The Easy Digital Downloads (EDD) Lattice theme for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9534,MEDIUM,"The Easy Digital Downloads (EDD) Quota theme for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9535,MEDIUM,"The Easy Digital Downloads (EDD) Shoppette theme for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9536,MEDIUM,"The Easy Digital Downloads (EDD) Twenty-Twelve theme for WordPress, as used with EDD 1.8.x before 1.8.7, 1.9.x before 1.9.10, 2.0.x before 2.0.5, 2.1.x before 2.1.11, 2.2.x before 2.2.9, and 2.3.x before 2.3.7, has XSS because add_query_arg is misused."
+CVE-2015-9537,LOW,"The NextGEN Gallery plugin before 2.1.10 for WordPress has multiple XSS issues involving thumbnail_width, thumbnail_height, thumbwidth, thumbheight, wmXpos, and wmYpos, and template."
+CVE-2015-9538,MEDIUM,The NextGEN Gallery plugin before 2.1.15 for WordPress allows ../ Directory Traversal in path selection.
+CVE-2015-9539,MEDIUM,The Fast Secure Contact Form plugin before 4.0.38 for WordPress allows fs_contact_form1[welcome] XSS.
+CVE-2015-9540,MEDIUM,"Chamilo LMS through 1.9.10.2 allows a link_goto.php?link_url= open redirect, a related issue to CVE-2015-5503."
+CVE-2015-9541,MEDIUM,"Qt through 5.14 allows an exponential XML entity expansion attack via a crafted SVG document that is mishandled in QXmlStreamReader, a related issue to CVE-2003-1564."
+CVE-2015-9542,MEDIUM,"add_password in pam_radius_auth.c in pam_radius 1.4.0 does not correctly check the length of the input password, and is vulnerable to a stack-based buffer overflow during memcpy(). An attacker could send a crafted password to an application (loading the pam_radius library) and crash it. Arbitrary code execution might be possible, depending on the application, C library, compiler, and other factors."
+CVE-2015-9543,LOW,"An issue was discovered in OpenStack Nova before 18.2.4, 19.x before 19.1.0, and 20.x before 20.1.0. It can leak consoleauth tokens into log files. An attacker with read access to the service's logs may obtain tokens used for console access. All Nova setups using novncproxy are affected. This is related to NovaProxyRequestHandlerBase.new_websocket_client in console/websocketproxy.py."
+CVE-2015-9544,MEDIUM,An issue was discovered in xdLocalStorage through 2.0.5. The receiveMessage() function in xdLocalStoragePostMessageApi.js does not implement any validation of the origin of web messages. Remote attackers who can entice a user to load a malicious site can exploit this issue to impact the confidentiality and integrity of data in the local storage of the vulnerable site via malicious web messages.
+CVE-2015-9545,MEDIUM,An issue was discovered in xdLocalStorage through 2.0.5. The receiveMessage() function in xdLocalStorage.js does not implement any validation of the origin of web messages. Remote attackers who can entice a user to load a malicious site can exploit this issue to impact the confidentiality and integrity of data in the local storage of the vulnerable site via malicious web messages.
+CVE-2015-9546,MEDIUM,"An issue was discovered on Samsung mobile devices with KK(4.4) and later software through 2015-06-16. In some cases, HTTP is used for an Inputmethod, rather than HTTPS. A man-in-the-middle attacker can modify the client-server data stream to insert directory traversal sequences into an extracted file path. The Samsung ID is SVE-2015-4363 (November 2015)."
+CVE-2015-9547,HIGH,"An issue was discovered on Samsung mobile devices with JBP(4.3) and KK(4.4.2) software. Because the READ_LOGS permission is mishandled, sensitive information is disclosed in a world-readable copy of the log file if the error message is ""Unhandled exception in Dalvik VM,"" ""Application not responding ANR event,"" or ""Crash on an application's native code."" The Samsung ID is SVE-2015-2885 (October 2015)."
+CVE-2015-9548,MEDIUM,An issue was discovered in Mattermost Server before 1.2.0. It allows attackers to cause a denial of service (memory consumption) via a small compressed file that has a large size when uncompressed.
+CVE-2015-9549,MEDIUM,A reflected Cross-site Scripting (XSS) vulnerability exists in OcPortal 9.0.20 via the OCF_EMOTICON_CELL.tpl FIELD_NAME field to data/emoticons.php.
+CVE-2015-9550,MEDIUM,"An issue was discovered on TOTOLINK A850R-V1 through 1.0.1-B20150707.1612 and F1-V2 through 1.1-B20150708.1646 devices. By sending a specific hel,xasf packet to the WAN interface, it is possible to open the web management interface on the WAN interface."
+CVE-2015-9551,HIGH,An issue was discovered on TOTOLINK A850R-V1 through 1.0.1-B20150707.1612 and F1-V2 through 1.1-B20150708.1646 devices. There is Remote Code Execution in the management interface via the formSysCmd sysCmd parameter.
+CVE-2016-0001,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2016. Notes: none.
+CVE-2016-0002,HIGH,"The Microsoft (1) VBScript 5.7 and 5.8 and (2) JScript 5.7 and 5.8 engines, as used in Internet Explorer 8 through 11 and other products, allow remote attackers to execute arbitrary code via a crafted web site, aka ""Scripting Engine Memory Corruption Vulnerability."""
+CVE-2016-0003,HIGH,"Microsoft Edge allows remote attackers to execute arbitrary code via unspecified vectors, aka ""Microsoft Edge Memory Corruption Vulnerability."""
+CVE-2016-0004,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2016. Notes: none.
+CVE-2016-0005,MEDIUM,"Microsoft Internet Explorer 9 through 11 allows remote attackers to bypass the Same Origin Policy via unspecified vectors, aka ""Internet Explorer Elevation of Privilege Vulnerability."""
+CVE-2016-0006,MEDIUM,"The sandbox implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandles reparse points, which allows local users to gain privileges via a crafted application, aka ""Windows Mount Point Elevation of Privilege Vulnerability,"" a different vulnerability than CVE-2016-0007."
+CVE-2016-0007,MEDIUM,"The sandbox implementation in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandles reparse points, which allows local users to gain privileges via a crafted application, aka ""Windows Mount Point Elevation of Privilege Vulnerability,"" a different vulnerability than CVE-2016-0006."
+CVE-2016-0008,MEDIUM,"The graphics device interface in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows RT Gold and 8.1 allows remote attackers to bypass the ASLR protection mechanism via unspecified vectors, aka ""Windows GDI32.dll ASLR Bypass Vulnerability."""
+CVE-2016-0009,HIGH,"Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, and Windows 10 Gold and 1511 allow remote attackers to execute arbitrary code via unspecified vectors, aka ""Win32k Remote Code Execution Vulnerability."""
+CVE-2016-0010,HIGH,"Microsoft Office 2007 SP3, Office 2010 SP2, Office 2013 SP1, Office 2013 RT SP1, Office 2016, Excel for Mac 2011, PowerPoint for Mac 2011, Word for Mac 2011, Excel 2016 for Mac, PowerPoint 2016 for Mac, Word 2016 for Mac, and Word Viewer allow remote attackers to execute arbitrary code via a crafted Office document, aka ""Microsoft Office Memory Corruption Vulnerability."""
+CVE-2016-0011,LOW,"Microsoft SharePoint Server 2013 SP1 and SharePoint Foundation 2013 SP1 allow remote authenticated users to bypass intended Access Control Policy restrictions and conduct cross-site scripting (XSS) attacks by modifying a webpart, aka ""Microsoft SharePoint Security Feature Bypass,"" a different vulnerability than CVE-2015-6117."
+CVE-2016-0012,MEDIUM,"Microsoft Office 2007 SP3, Excel 2007 SP3, PowerPoint 2007 SP3, Visio 2007 SP3, Word 2007 SP3, Office 2010 SP2, Excel 2010 SP2, PowerPoint 2010 SP2, Visio 2010 SP2, Word 2010 SP2, Office 2013 SP1, Excel 2013 SP1, PowerPoint 2013 SP1, Visio 2013 SP1, Word 2013 SP1, Excel 2013 RT SP1, PowerPoint 2013 RT SP1, Word 2013 RT SP1, Office 2016, Excel 2016, PowerPoint 2016, Visio 2016, Word 2016, and Visual Basic 6.0 Runtime allow remote attackers to bypass the ASLR protection mechanism via unspecified vectors, aka ""Microsoft Office ASLR Bypass."""
+CVE-2016-0013,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2016. Notes: none.
+CVE-2016-0014,HIGH,"Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle DLL loading, which allows local users to gain privileges via a crafted application, aka ""DLL Loading Elevation of Privilege Vulnerability."""
+CVE-2016-0015,HIGH,"DirectShow in Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, and Windows 10 Gold and 1511 allows remote attackers to execute arbitrary code via a crafted file, aka ""DirectShow Heap Corruption Remote Code Execution Vulnerability."""
+CVE-2016-0016,HIGH,"Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 Gold and R2, Windows RT Gold and 8.1, and Windows 10 Gold and 1511 mishandle DLL loading, which allows local users to gain privileges via a crafted application, aka ""DLL Loading Remote Code Execution Vulnerability."""
+CVE-2016-0017,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2016. Notes: none.
+CVE-2016-0018,MEDIUM,"Microsoft Windows 7 SP1, Windows 8, Windows 8.1, Windows Server 2012 R2, and Windows 10 Gold and 1511 mishandle DLL loading, which allows local users to gain privileges via a crafted application, aka ""DLL Loading Remote Code Execution Vulnerability."""
+CVE-2016-0019,HIGH,"The Remote Desktop Protocol (RDP) service implementation in Microsoft Windows 10 Gold and 1511 allows remote attackers to bypass intended access restrictions and establish sessions for blank-password accounts via a modified RDP client, aka ""Windows Remote Desktop Protocol Security Bypass Vulnerability."""
+CVE-2016-0020,HIGH,"Microsoft Windows Vista SP2, Windows Server 2008 SP2 and R2 SP1, and Windows 7 SP1 mishandle DLL loading, which allows local users to gain privileges via a crafted application, aka ""MAPI DLL Loading Elevation of Privilege Vulnerability."""
+CVE-2016-0021,HIGH,"Microsoft InfoPath 2007 SP3, 2010 SP2, and 2013 SP1 allows remote attackers to execute arbitrary code via a crafted Office document, aka ""Microsoft Office Memory Corruption Vulnerability."""
+CVE-2016-0022,HIGH,"Microsoft Word 2007 SP3, Office 2010 SP2, Word 2010 SP2, Word 2013 SP1, Word 2013 RT SP1, Word 2016, Word for Mac 2011, Word 2016 for Mac, Office Compatibility Pack SP3, Word Viewer, Word Automation Services on SharePoint Server 2013 SP1, Office Web Apps Server 2013 SP1, and SharePoint Server 2013 SP1 allow remote attackers to execute arbitrary code via a crafted Office document, aka ""Microsoft Office Memory Corruption Vulnerability,"" a different vulnerability than CVE-2016-0052."
+CVE-2016-0023,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER. ConsultIDs: none. Reason: The CNA or individual who requested this candidate did not associate it with any vulnerability during 2016. Notes: none.
+CVE-2016-0024,HIGH,"The Chakra JavaScript engine in Microsoft Edge allows remote attackers to execute arbitrary code via unspecified vectors, aka ""Scripting Engine Memory Corruption Vulnerability."""
+CVE-2016-0025,HIGH,"Microsoft Word 2007 SP3, Office 2010 SP2, Word 2010 SP2, Word 2013 SP1, Word 2013 RT SP1, Office 2016, Word 2016, Word for Mac 2011, Word 2016 for Mac, Office Compatibility Pack SP3, Word Automation Services on SharePoint Server 2010 SP2, Word Automation Services on SharePoint Server 2013 SP1, Office Web Apps 2010 SP2, Office Web Apps Server 2013 SP1, and Office Online Server allow remote attackers to execute arbitrary code via a crafted Office document, aka ""Microsoft Office Memory Corruption Vulnerability."""

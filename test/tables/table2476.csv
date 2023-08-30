@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+The Red Hat Security Response Team has rated this issue as having low security
+impact, a future update may address this flaw.  More information regarding
+issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-2007-0650,Red Hat,2007-02-13,Mark J Cox,"Red Hat does not consider this issue to be a security vulnerability.  The user would have to voluntarily interact with the attack mechanism to exploit the flaw, and the result would be the ability to run code as themselves."
+CVE-2007-0653,Red Hat,2008-04-04,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=228013
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-0654,Red Hat,2008-04-04,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=228013
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-0770,Red Hat,2007-02-14,Mark J Cox,Not vulnerable.  Red Hat did not ship the incomplete patch for CVE-2006-5456 and is therefore not affected by this issue.
+CVE-2007-0822,Red Hat,2007-02-09,Mark J Cox,Red Hat does not consider this issue to be a security vulnerability.  On Red Hat Enterprise Linux  processes that change their effective UID do not dump core by default when they receive a fatal signal.  Therefore the NULL pointer dereference does not lead to an information leak.
+CVE-2007-0823,Red Hat,2007-02-09,Mark J Cox,Red Hat does not consider this issue to be a security vulnerability. It is correct and expected behavior for xterm not to zero-fill its scrollback buffer upon reception of terminal clear excape sequence.
+CVE-2007-0879,SmidgeonSoft,2007-02-19,Russell Osterlund,"Unusually large strings would crash the display.  The bug has been fixed in the following releases:
+PEBrowse Professional - v8.2.3
+PEBrowse Professional Interactive - v8.2.4
+PEBrowse Crash-Dump Analyzer - v2.6.8"
+CVE-2007-0905,Red Hat,2008-04-02,Mark J Cox,"We do not consider these to be security issues. For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2007-0911,Red Hat,2007-02-16,Mark J Cox,"Not vulnerable.  This flaw is a regression of the fix for CVE-2007-0906 affecting PHP version 5.2.1 only which results in any use of str_replace() causing a crash regardless of user input.  These issues did not affect the versions of PHP as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."

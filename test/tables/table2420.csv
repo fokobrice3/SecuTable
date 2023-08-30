@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3 and 4, as they do not include support for priority-inheriting futex. Future updates in Red Hat Enterprise Linux 5 and Red Hat Enterprise MRG may address this flaw."
+CVE-2010-0623,Red Hat,2010-03-12,Vincent Danen,"Not vulnerable. This security issue did not affect the Linux kernels as shipped with Red Hat Enterprise Linux 3, 4, 5, and Red Hat Enterprise MRG, as they do not include the upstream change that introduced this flaw."
+CVE-2010-0628,Red Hat,2010-03-26,Vincent Danen,"Not vulnerable. This flaw does not affect MIT krb5 as provided in Red Hat Enterprise Linux 3, 4, and 5."
+CVE-2010-0639,Red Hat,2010-02-16,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of squid as shipped with Red Hat Enterprise Linux 3, 4, or 5. Those versions are not compiled with the support for HTCP protocol."
+CVE-2010-0727,Red Hat,2010-04-06,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0727.
+
+This issue did not affect the version of Linux kernel as shipped with Red Hat Enterprise MRG, as it did not include support for the GFS and GFS2 file systems.
+
+For the GFS issue, it was addressed in Red Hat Enterprise Linux 3 in the gfs package, 4 in the GFS-kernel package, and 5 in the gfs-kmod package, via https://rhn.redhat.com/errata/RHSA-2010-9493.html, https://rhn.redhat.com/errata/RHSA-2010-9494.html, https://rhn.redhat.com/errata/RHSA-2010-0291.html respectively.
+
+For the GFS2 issue, it was addressed in Red Hat Enterprise Linux 5 in the kernel package via https://rhn.redhat.com/errata/RHSA-2010-0178.html."
+CVE-2010-0728,Red Hat,2010-03-12,Vincent Danen,"Not vulnerable.
+
+This issue did not affect the versions of the samba package, as shipped with Red Hat Enterprise Linux 3, 4, or 5.
+
+This issue did not affect the version of the samba3x package, as shipped with Red Hat Enterprise Linux 5."
+CVE-2010-0729,Red Hat,2010-03-17,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0729.
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 5 or Red Hat Enterprise MRG, as they do not include the internal change introducing this flaw. A future update in Red Hat Enterprise Linux 4 may address this flaw."

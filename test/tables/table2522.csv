@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-1720,Red Hat,2008-04-15,Joshua Bressers,"Not vulnerable. This issue did not affect versions of rsync as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1721,Red Hat,2008-04-15,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=442005
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw.  More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2008-1802,Red Hat,2008-06-24,Mark J Cox,"Not vulnerable. This issue did not affect the versions of rdesktop as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-1891,Red Hat,2009-06-10,Joshua Bressers,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1891
+
+The risks associated with fixing this flaw outweigh the benefits of the fix. Red Hat does not plan to fix this flaw in Red Hat Enterprise Linux."
+CVE-2008-1926,Red Hat,2009-05-18,Mark J Cox,"Red Hat is aware of this issue affecting Red Hat Enterprise Linux 5 and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2008-1926
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. 
+
+This issue has been addressed in Red Hat Enterprise Linux 4 with the following update:
+https://rhn.redhat.com/errata/RHSA-2009-0981.html"
+CVE-2008-2005,Wonderware,2008-05-20,,"Wonderware, a business unit of Invensys, is a pioneer in the secure use of Microsoft Windows software for industrial applications and a leader in the field of Industrial Automation security. Wonderware is also committed to active collaboration and involvement with customers and industry standards authorities to provide secure applications, security best practices, deployment guidelines, tools and prescriptive guidance for maintaining a secure automation environment. 
+
+Recently, a vulnerability was discovered in SuiteLink Version 2.0 which could potentially expose an unsecured automation network to a denial of service attempt. While there is no indication whatsoever of the existence of an exploit for this issue, Wonderware published a Technical Alert describing the issue and released a Patch in April to resolve the problem. 
+
+The vulnerability is closed in SuiteLink Version 2.0 Patch 01 and Wonderware is urging Customers to install the patch as soon as possible. More details can be found in Tech Alert 106 posted on the Wonderware Technical Support website.  Customers who have not yet signed up for access to the Wonderware Technical Support website can register here free of charge to read the Tech Alert and receive the patch. 
+
+For customers on an active support program, Wonderware has also created the Wonderware Security Central Home Page to help our customers with security issues. Here we have posted “Securing Industrial Control Systems”, a security guidance manual describing recommended security protocols for automation enterprises and installations in a Microsoft environment. Customers, System Integrators, and IT professionals who build and maintain automation networks are advised to read and understand the manual, and to apply the design recommendations to their automation environment to mitigate security risks properly for all forms of security threats.  

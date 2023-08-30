@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2007-4133,Red Hat,2007-10-18,Mark J Cox,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2007-4138,Red Hat,2007-09-18,Mark J Cox,"Not vulnerable. These issues did not affect the versions of Samba as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-4211,Red Hat,2008-05-21,Mark J Cox,"These issues did not affect the dovecot versions as shipped with Red Hat Enterprise Linux 2.1, 3, or 4.  An update to Red Hat Enterprise Linux 5 was released to correct this issue:
+https://rhn.redhat.com/errata/RHSA-2008-0297.html"
+CVE-2007-4224,Red Hat,2007-09-05,Mark J Cox,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=251708
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw."
+CVE-2007-4225,Red Hat,2007-08-09,Joshua Bressers,"Not vulnerable.  Not vulnerable. These issues did not affect the versions of konqueror as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2007-4229,Mandriva,2007-09-18,Vincent Danen,Mandriva does not consider crashes of client applications such as Konqueror to be a security issue.
+CVE-2007-4229,Red Hat,2007-08-09,Joshua Bressers,Red Hat does not consider a crash of a client application such as Konqueror to be a security flaw.
+CVE-2007-4239,C-SAM,2007-08-09,Viral Shah,"The version on which this vulnerability has been detected is a pre-release (non-commercial) version of the OneWallet platform. The current version of the product does not have the vulnerability in question (namely, XSS TYPE 1).  C-SAM takes utmost care in ensuring the security of its products and will proactively release patches from time to time to address such issues."
+CVE-2007-4250,Advanced Search Bar,2007-08-09,Support,The isChecked vulnerability with the Advanced Searchbar has been patched/repaired in the newest version 3.33 http://www.advancedsearchbar.com/asbsetup.exe
+CVE-2007-4251,Mandriva,2007-09-18,Vincent Danen,This issue crashes OpenOffice.org only if a user opens a malicious document. Mandriva does not consider this a security issue.
+CVE-2007-4251,Red Hat,2007-08-14,Mark J Cox,Red Hat does not consider this flaw a security issue. This flaw will only crash OpenOffice.org if a victim opens a malicious document.
+CVE-2007-4255,Red Hat,2007-08-09,Joshua Bressers,"Not vulnerable.  PHP packages as shipped with Red Hat Enterprise Linux versions 2.1, 3, 4, and 5 are not compiled with msql library and are not vulnerable to this issue."
+CVE-2007-4351,Red Hat,2007-11-09,Mark J Cox,"Vulnerable.  This issue affected the CUPS packages in Red Hat Enterprise Linux 5.
+
+This issue also affected the versions of CUPS packages in Red Hat Enterprise Linux 3 and 4, but exploitation would only lead to a possible denial of service.  Updates are available from
+
+https://rhn.redhat.com/cve/CVE-2007-4351.html"
+CVE-2007-4465,Apache,2007-09-14,Mark J Cox,"The Apache security team believe that this issue is due to web browsers that are violating RFC2616.  

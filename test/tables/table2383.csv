@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-3896,Red Hat,2009-01-29,Joshua Bressers,"Red Hat does not consider this to be a security issue.  Since these operations can only be executed by root, no trust boundary is crossed as a result of this behaviour."
+CVE-2008-3911,Red Hat,2008-09-05,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2008-3915,Red Hat,2009-01-15,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5.
+
+It was addressed in Red Hat Enterprise MRG for RHEL-5 via: https://rhn.redhat.com/errata/RHSA-2008-0857.html"
+CVE-2008-3949,Red Hat,2017-08-07,Joshua Bressers,"Not vulnerable. This issue did not affect the versions of the emacs package, as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-3963,Red Hat,2009-09-02,Tomas Hoger,"This issue did not affect MySQL as supplied with Red Hat Enterprise Linux 3 or 4.
+
+This issue was addressed for Red Hat Enterprise Linux 5 and Red Hat Application Stack v2
+https://rhn.redhat.com/cve/CVE-2008-3963.html"
+CVE-2008-3964,Red Hat,2017-08-07,Joshua Bressers,"Not vulnerable. These issues did not affect the versions of libpng as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-4098,Red Hat,2010-02-17,Tomas Hoger,"This issue was addressed in Red Hat Enterprise Linux 4 via https://rhn.redhat.com/errata/RHSA-2010-0110.html and in Red Hat Application Stack v2 via https://rhn.redhat.com/errata/RHSA-2009-1067.html .
+
+In Red Hat Enterprise Linux 5, issue CVE-2008-2079 was fixed without introducing CVE-2008-4098 in https://rhn.redhat.com/errata/RHSA-2009-1289.html ."
+CVE-2008-4107,Red Hat,2017-08-07,Joshua Bressers,"The risks associated with fixing this bug are greater than the security risk. We therefore currently have no plans to fix this flaw in Red HatEnterprise Linux 2.1, 3, 4, or 5.
+
+For more information please see our bug for this issue:
+https://bugzilla.redhat.com/show_bug.cgi?id=462772"
+CVE-2008-4108,Red Hat,2009-03-13,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of python as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-4109,Red Hat,2017-08-07,Joshua Bressers,"Not vulnerable.  The patch used to fix CVE-2006-5051 in Red Hat Enterprise Linux 2.1, 3, 4, and 5 was complete and does not suffer from this problem."
+CVE-2008-4113,Red Hat,2009-01-15,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and 5.

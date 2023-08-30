@@ -1,0 +1,26 @@
+CWE-ID,Name
+20,Improper Input Validation
+22,Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal')
+77,Improper Neutralization of Special Elements used in a Command ('Command Injection')
+78,Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection')
+79,Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting')
+89,Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection')
+119,Improper Restriction of Operations within the Bounds of a Memory Buffer
+125,Out-of-bounds Read
+190,Integer Overflow or Wraparound
+200,Exposure of Sensitive Information to an Unauthorized Actor
+276,Incorrect Default Permissions
+287,Improper Authentication
+306,Missing Authentication for Critical Function
+352,Cross-Site Request Forgery (CSRF)
+416,Use After Free
+434,Unrestricted Upload of File with Dangerous Type
+476,NULL Pointer Dereference
+502,Deserialization of Untrusted Data
+522,Insufficiently Protected Credentials
+611,Improper Restriction of XML External Entity Reference
+732,Incorrect Permission Assignment for Critical Resource
+787,Out-of-bounds Write
+798,Use of Hard-coded Credentials
+862,Missing Authorization
+918,Server-Side Request Forgery (SSRF)

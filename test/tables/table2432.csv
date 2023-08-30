@@ -1,0 +1,8 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Additionally, SW version 5.10 includes a built-in configurable firewall, allowing fine-grained restrictions of remote access, and number of other security improvements. Universal Robots (UR) recommends always using the latest UR software, as security improvements will be rolled out continuously.
+
+CB2 and CB3 cobots are designed to be operating in factory networks where security relies on boundary protection (firewalls) and trusted clients on the network. They must only be connected to trusted networks and operated by authorized personnel."
+CVE-2020-12133,Furukawa Electric,2020-05-22,Sergio Roberto Scarpin,"The vulnerability CVE-2020-12133 has been fixed at version 2.8.5.4 released May,18th 2020.
+Customers are advised to update to the latest version, or contact your integrator’s Technical Support if needed."
+CVE-2020-13656,Morgan Stanley,2020-11-09,opensource@morganstanley.com,"The issue outlined in the CVE has been addressed in the latest release of Hobbes as of September 29, 2020. More information on the usage of Hobbes is detailed in the README.md of the project at https://github.com/Morgan-Stanley/hobbes"
+CVE-2021-41874,Portainer,2022-03-28,Yi Chen,"Portainer has received no detail of this CVE report. There is also no response after multiple attempts of contacting the original source, CNVD."

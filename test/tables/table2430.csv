@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+Download link : http://avsd.nprotect.net/avs40/setup/nProtectSetup_AVS40.exe"
+CVE-2018-8754,libevt,2018-07-11,Joachim Metz,For a project specific advisory see: https://github.com/libyal/libevt/issues/5.
+CVE-2018-11723,libpff,2018-08-10,Joachim Metz,For more information please visit https://github.com/libyal/libpff/issues/66.
+CVE-2018-11727,libfsntfs,2018-08-09,Juachim Metz,See https://github.com/libyal/libfsntfs/issues/8 for more information.
+CVE-2018-11728,libfsntfs,2018-08-09,Joachim Metz,See https://github.com/libyal/libfsntfs/issues/8 for more information.
+CVE-2018-11729,libfsntfs,2018-08-09,Joachim Metz,See https://github.com/libyal/libfsntfs/issues/8 for more information.
+CVE-2018-11730,libfsntfs,2018-08-09,Joachim Metz,See https://github.com/libyal/libfsntfs/issues/8 for more information.
+CVE-2018-11731,libfsntfs,2018-08-09,Joachim Metz,See https://github.com/libyal/libfsntfs/issues/8 for more information.
+CVE-2018-12096,liblnk,2018-08-10,Joachim Metz,For more information please visit https://github.com/libyal/liblnk/issues/33.
+CVE-2018-12097,liblnk,2018-08-10,Joachim Metz,For more information please visit https://github.com/libyal/liblnk/issues/33.
+CVE-2018-12098,liblnk,2018-08-10,Joachim Metz,For more information please visit https://github.com/libyal/liblnk/issues/33.
+CVE-2018-10633,Universal Robots,2022-04-12,Grzegorz Zieba,"Starting with software version 5.10 (e-series), it is possible to set system administrator credentials. Universal Robots recommends that all users change the default password and securely document the password.
+
+CB2 and CB3 cobots are designed to be operating in factory networks where security relies on boundary protection (firewalls) and trusted clients on the network. They must only be connected to trusted networks and operated by authorized personnel."
+CVE-2018-10635,Universal Robots,2022-04-12,Grzegorz Zieba,"Software version 5.10 brings improvements to usability and configurability of Secure Shell Protocol (SSH), such that tunneling can be used to secure primary, secondary, RT, RTDE, DashBoard server and other interfaces. Universal Robots recommends that all users use SSH tunneling to access these interfaces in applications requiring authentication and encryption.
+
+Additionally, SW version 5.10 includes a built-in configurable firewall, allowing fine-grained restrictions of remote access, and number of other security improvements. Universal Robots (UR) recommends always using the latest UR software, as security improvements will be rolled out continuously.
+
+CB2 and CB3 cobots are designed to be operating in factory networks where security relies on boundary protection (firewalls) and trusted clients on the network. They must only be connected to trusted networks and operated by authorized personnel."
+CVE-2018-14443,libredwg,2018-08-13,Reini Urban,This issue has been resolved in the latest release of libredwg-0.6. See https://savannah.gnu.org/forum/forum.php?forum_id=9211.
+CVE-2018-14471,libredwg,2018-08-13,Reini Urban,This issue has been resolved in the latest release of libredwg-0.6. See https://savannah.gnu.org/forum/forum.php?forum_id=9211.
+CVE-2018-14524,libredwg,2018-08-13,Reini Urban,This issue has been resolved in the latest release of libredwg-0.6. See https://savannah.gnu.org/forum/forum.php?forum_id=9211.

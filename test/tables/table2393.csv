@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/ ."
+CVE-2009-1185,Red Hat,2009-04-20,Tomas Hoger,"This issue has been fixed in Red Hat Enterprise Linux 5 via https://rhn.redhat.com/errata/RHSA-2009-0427.html .  udev packages as shipped in Red Hat Enterprise Linux 4 were not affected by this flaw, as they do not use netlink sockets for communication.  udev is not shipped in Red Hat Enterprise Linux 2.1 and 3."
+CVE-2009-1186,Red Hat,2009-04-17,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of udev as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2009-1214,Red Hat,2009-04-02,Tomas Hoger,"Red Hat does not consider this to be a security issue.  Affected file is supposed to be used to exchange information between local system users, therefore open permissions are intentional."
+CVE-2009-1215,Red Hat,2009-04-02,Tomas Hoger,"Red Hat does not consider this to be a security issue.  The checks implemented by screen to protect against race condition attacks on /tmp/screen-exchange file provide sufficient protection for this rarely-used buffer exchange feature.  For more details, see https://bugzilla.redhat.com/show_bug.cgi?id=492104"
+CVE-2009-1227,Check Point,2009-04-07,,"Check Point Security Alert Team has analyzed this report. We’ve tried to reproduce the attack on all VPN-1 versions from NG FP2 and above with and without HFAs. 
+The issue was not reproduced. We have conducted a thorough analysis of the relevant code and verified that we are secure against this attack.
+We consider this attack to pose no risk to Check Point customers.
+ 
+Check Point Security Alert Team"
+CVE-2009-1232,Red Hat,2009-04-27,Mark J Cox,"https://bugzilla.mozilla.org/show_bug.cgi?id=485941
+
+Red Hat does not consider a user-assisted crash of a client application such as Firefox to be a security issue."
+CVE-2009-1242,Red Hat,2009-04-07,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2009-1243,Red Hat,2009-04-07,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2009-1265,Red Hat,2009-06-17,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 4, 5, or Red Hat Enterprise MRG, as the affected driver is not enabled in these kernels.
+
+The affected driver is available in Red Hat Enterprise Linux 3, but only if the kernel-unsupported package is installed.
+
+This issue has been rated as having moderate security impact as it does not lead to a denial of service or privilege escalation. As Red Hat Enterprise Linux 3 is now in Production 3 of its maintenance life-cycle, http://www.redhat.com/security/updates/errata, and the affected driver can only be enabled when using the unsupported kernel-unsupported package, a fix for this issue is not currently planned to be included in the future updates."
+CVE-2009-1267,Red Hat,2009-04-17,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2009-1271,Red Hat,2009-04-15,Tomas Hoger,"This issue did not affect PHP versions as shipped in Red Hat Enterprise Linux 2.1, 3, 4, and 5, and Red Hat Application Stack v1. PHP version in Red Hat Application Stack v2 was fixed via: https://rhn.redhat.com/errata/RHSA-2009-0350.html"

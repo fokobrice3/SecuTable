@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2014-9247,Zenoss,2016-03-21,Zenoss,"Addressed in versions 5.1.1, 4.2.5.SP650, and 4.2.4.SP854"
+CVE-2014-9248,Zenoss,2016-03-21,Zenoss,Addressed in 5.1.1
+CVE-2014-9249,Zenoss,2016-03-21,Zenoss,Addressed in 5.0.
+CVE-2014-9250,Zenoss,2016-03-21,Zenoss,Addressed in versions 5.0 and 4.2.5.SP80
+CVE-2014-9251,Zenoss,2016-03-21,Zenoss,Addressed in 5.1.1
+CVE-2014-9252,Zenoss,2016-03-21,Zenoss,Addressed in 5.1.1
+CVE-2014-9385,Zenoss,2016-03-21,Zenoss,Addressed in 5.0.
+CVE-2014-9386,Zenoss,2016-03-21,Zenoss,"Addressed in versions 5.0, 4.2.5.SP273, and 4.2.4.SP854"
+CVE-2011-3385,lepton-cms,2011-10-05,lepton-cms,"1. CVE-2011-3385 does misinterpret the original advisory JVNDB-2011-000067 2. As stated in the original advisory, Lepton is NOT vulnerable to this XSS."
+CVE-2014-5360,LANDESK,2016-04-07,LANDESK,"The vulnerability described in CVE-2014-5360 was fixed in Landesk Management Suit (LDMS) version: 9.5 SP3, 9.6 SP1, 10.0. LDMS Customers are encouraged to upgrade to the listed versions or newer"
+CVE-2014-5361,LANDESK,2016-04-07,LANDESK,"The vulnerability described in CVE-2014-5361 was fixed in Landesk Management Suit (LDMS) version: 9.5 SP3, 9.6 SP1, 10.0.
+LDMS Customers are encouraged to upgrade to the listed versions or newer"
+CVE-2015-1545,openldap.org,2015-02-25,openldap.org,"Note that the deref overlay is not enabled by default, so this vulnerability only affects sites that have explicitly configured their servers to load and enable the overlay. Since this overlay has never been documented, there are no sites outside of the OpenLDAP developer community with a legitimate reason to enable this module."
+CVE-2016-1000216,Ruckus Wireless,2017-06-28,Hemant Bhatnagar,"Update on vulnerabilities in Web GUI Interface on Ruckus Unmanaged-APs - CVE-2016-1000213, CVE-2016-1000214, CVE-2016-1000215, CVE-2016-1000216. <br /> https://www.ruckuswireless.com/security <br /> http://b910a83a1a1fa9c20d93-2435f2f08e773abe005b52170fce6d94.r84.cf2.rackcdn.com/security/faq-security-advisory-id-062117.txt"
+CVE-2016-1000213,Ruckus Wireless,2017-06-28,Hemant Bhatnagar,"Update on vulnerabilities in Web GUI Interface on Ruckus Unmanaged-APs - CVE-2016-1000213, CVE-2016-1000214, CVE-2016-1000215, CVE-2016-1000216. 
+<br /> https://www.ruckuswireless.com/security 
+<br /> http://b910a83a1a1fa9c20d93-2435f2f08e773abe005b52170fce6d94.r84.cf2.rackcdn.com/security/faq-security-advisory-id-062117.txt"
+CVE-2016-1000214,Ruckus Wireless,2017-06-28,Hemant Bhatnagar,"Update on vulnerabilities in Web GUI Interface on Ruckus Unmanaged-APs - CVE-2016-1000213, CVE-2016-1000214, CVE-2016-1000215, CVE-2016-1000216. <br /> https://www.ruckuswireless.com/security <br /> http://b910a83a1a1fa9c20d93-2435f2f08e773abe005b52170fce6d94.r84.cf2.rackcdn.com/security/faq-security-advisory-id-062117.txt"
+CVE-2016-1000215,Ruckus Wireless,2017-06-28,Hemant Bhatnagar,"Update on vulnerabilities in Web GUI Interface on Ruckus Unmanaged-APs - CVE-2016-1000213, CVE-2016-1000214, CVE-2016-1000215, CVE-2016-1000216. <br /> https://www.ruckuswireless.com/security <br /> http://b910a83a1a1fa9c20d93-2435f2f08e773abe005b52170fce6d94.r84.cf2.rackcdn.com/security/faq-security-advisory-id-062117.txt"
+CVE-2016-10108,Western Digital,2017-01-09,Western Digital,"This was resolved via My Cloud product firmware update 2.11.157 for the My Cloud EX2, EX4, and Mirror (Gen 1) models, and My Cloud product firmware update 2.21.126 for all other affected My Cloud models (My Cloud, PR 4100, PR2100, DL4100, DL2100, EX4100, EX2100, EX2 Ultra models).  The firmware updates were made available December 20, 2016.  The product firmware updates are available through the Update Firmware option on the My Cloud device itself or from the specific My Cloud product model’s support page at: http://support.wdc.com/downloads.aspx?g=904&lang=en#downloads ."
+CVE-2016-10395,Flexera Software,2017-08-16,Flexera Software,"The vulnerability has been analyzed by us as to be exploitable through a locally authenticated user solely in this context. Thus, we assigned the following CVSS metrics and scores for the vulnerability with the CVE identifier CVE-2016-10395: <br /> CVSS version 2: AV:L/AC:L/Au:S/C:C/I:C/A:C/E:POC/RL:OF/RC:C <br /> CVSS version 3: AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C"
+CVE-2017-16789,Integration Matters,2018-01-18,Hendrik Siegeln,"The reported vulnerability was fixed in version 3.2.0 Hotfix 3 of the affected product. The new version was made available on June-28-2017 to all customers.<br />

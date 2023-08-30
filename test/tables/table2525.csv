@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-2371,Red Hat,2008-07-08,Mark J Cox,"Not vulnerable. This issue did not affect the versions of PCRE as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-2377,Red Hat,2008-08-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of gnutls as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2008-2382,Red Hat,2009-01-05,Mark J Cox,Not vulnerable. This issue did not affect the version of the Xen package as shipped with Red Hat Enterprise Linux 5.
+CVE-2008-2420,Red Hat,2008-05-26,Mark J Cox,"Not vulnerable. OCSP protocol support was only implemented in upstream stunnel version 4.16.  Therefore OCSP protocol is not available in the versions of stunnel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-2476,Red Hat,2017-09-28,Joshua Bressers,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2008-2665,Red Hat,2008-06-26,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2008-2666,Red Hat,2008-06-26,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2008-2711,Red Hat,2009-09-09,Mark J Cox,"This issue was addressed in fetchmail packages as shipped in Red Hat Enterprise Linux 3, 4, and 5 via:
+
+https://rhn.redhat.com/errata/RHSA-2009-1427.html"
+CVE-2008-2719,Red Hat,2008-07-04,Mark J Cox,"Not vulnerable. These issues did not affect the versions of NASM as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-2750,Red Hat,2008-06-23,Mark J Cox,"Not vulnerable. This issue did not affect versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2008-2795,UltraEdit,2012-03-06,UltraEdit,This issue was resolved and patched on 6/10/2008.
+CVE-2008-2827,Red Hat,2008-06-24,Mark J Cox,"Not vulnerable. This issue did not affect the versions of perl as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5, Red Hat Application Stack 1, or Solaris versions of Red Hat Directory Server 7.1 and 8, Certificate System 7.x."
+CVE-2008-2829,Red Hat,2008-07-24,Mark J Cox,"Not vulnerable. This issue did not affect the versions of PHP as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5.  For more details see:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-2829"
+CVE-2008-2841,Red Hat,2008-07-07,Mark J Cox,Not vulnerable. This issue did not affect the versions of XChat as shipped with Red Hat Enterprise Linux.
+CVE-2008-2931,Red Hat,2009-01-15,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, and Red Hat Enterprise MRG.
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2008-0885.html"

@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2004-2760,Red Hat,2008-08-11,Joshua Bressers,The risks associated with fixing this bug are greater than the low severity security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 2.1 which is in maintenance mode.
+CVE-2004-2761,Red Hat,2009-01-07,Mark J Cox,Please see http://kbase.redhat.com/faq/docs/DOC-15379
+CVE-2005-0085,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable. These issues did not affect the versions of htdig as shipped with Red Hat Enterprise Linux 2.1, 3, or 4.
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=144263"
+CVE-2005-0109,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0256,Red Hat,2006-10-23,Mark J Cox,"Not vulnerable.  Red Hat Enterprise Linux 2.1 shipped with wu-ftpd, however we were unable to reproduce this issue.  Additionally, a code analysis showed that attempts to exploit this issue would be caught in the versions we shipped.
+http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=149720"
+CVE-2005-0373,Red Hat,2006-08-30,Mark J Cox,"Not vulnerable. This issue did not affect the versions of Cyrus SASL as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2005-0468,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0469,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0488,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0602,Red Hat,2006-08-30,Mark J Cox,We do not consider this a security vulnerability; this is the expected behaviour.
+CVE-2005-0605,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0758,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0885,XMB,2021-04-23,Robert Chapin,XMB versions 1.9.8 and later were checked and are not vulnerable. Upgrades are available at https://www.xmbforum2.com/
+CVE-2005-0953,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-0988,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1038,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1111,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1119,Red Hat,2006-08-30,Mark J Cox,"We do not consider this a security issue, the bug can only manifest if the software is invoked on a sudoers file that is contained in a world writable directory."
+CVE-2005-1194,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2005-1228,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.

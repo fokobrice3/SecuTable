@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+This issue was addressed for Red hat Enterprise Linux 5 by https://rhn.redhat.com/errata/RHSA-2009-1289.html and Red Hat Enterprise Linux 4 by https://rhn.redhat.com/errata/RHSA-2010-0110.html .
+
+The Red Hat Security Response Team has rated this issue as having low security impact, future MySQL package updates may address this flaw for Red Hat Enterprise Linux 3 and Red Hat Application Stack 2."
+CVE-2009-2473,Red Hat,2009-09-22,Tomas Hoger,"Updated neon packages for Red Hat Enterprise Linux 4 and 5 were released via:
+https://rhn.redhat.com/errata/RHSA-2009-1452.html
+
+Embedded copy of the neon library is included in the versions of gnome-vfs2 packages as shipped with Red Hat Enteprise Linux 4 and Red Hat Enteprise Linux 5.  The Red Hat Security Response Team has rated this issue as having low security impact on gnome-vfs2, future updates may address this flaw."
+CVE-2009-2537,Red Hat,2009-08-07,Tomas Hoger,Red Hat does not consider a user-assisted crash of a client application such as Konqueror to be a security issue.
+CVE-2009-2559,Red Hat,2009-08-12,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2560,Red Hat,2010-04-20,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2010-0360.html
+
+Vectors (1) Bluetooth L2CAP and (3) MIOP did not affect the versions of the Wireshark package, as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2561,Red Hat,2009-08-12,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2562,Red Hat,2010-04-20,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2010-0360.html"
+CVE-2009-2563,Red Hat,2010-04-20,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2010-0360.html"
+CVE-2009-2584,Red Hat,2009-07-27,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2009-2621,Red Hat,2009-08-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of squid as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2622,Red Hat,2009-08-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of squid as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2624,Red Hat,2010-02-02,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of gzip as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-2626,Red Hat,2009-12-02,Tomas Hoger,"Red Hat does not consider this flaw to be a security issue. The bug can only be triggered by the PHP script author, which does not cross trust boundary."
+CVE-2009-2687,Red Hat,2010-01-14,Tomas Hoger,"This issue was addressed in php packages shipped in Red Hat Enterprise Linux 3, 4 and 5 via: https://rhn.redhat.com/errata/RHSA-2010-0040.html"
+CVE-2009-2688,Red Hat,2009-08-06,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-2688

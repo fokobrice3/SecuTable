@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-3621
+
+This issue has been rated as having moderate security impact.
+
+It was addressed in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1671.html , https://rhn.redhat.com/errata/RHSA-2009-1670.html and https://rhn.redhat.com/errata/RHSA-2009-1540.html respectively.
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important or critical impact are addressed.
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2009-3623,Red Hat,2009-11-02,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5, or Red Hat Enterprise MRG. Those versions do not include the upstream patch that introduced this vulnerability."
+CVE-2009-3624,Red Hat,2009-11-02,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5, or Red Hat Enterprise MRG. Those versions do not include the upstream patch that introduced this vulnerability."
+CVE-2009-3626,Red Hat,2009-10-30,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of perl as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3627,Red Hat,2009-11-19,Mark J Cox,"This issue does not affect Red Hat Enterprise Linux 3, 4, or 5.
+
+This flaw can only lead to a denial of service if perl-HTML-Parser is used in conjunction with perl 5.10.1. If perl-HTML-Parser is used with earlier versions of perl, this flaw does not lead to a denial of service."
+CVE-2009-3638,Red Hat,2009-10-30,Tomas Hoger,Not vulnerable. This issue did not affect the versions of KVM as shipped with Red Hat Enterprise Linux 5. KVM is only supported on AMD64/x86_64 architecture on Red Hat Enterprise Linux 5.
+CVE-2009-3640,Red Hat,2009-10-30,Tomas Hoger,Not vulnerable. This issue did not affect the versions of KVM as shipped with Red Hat Enterprise Linux 5 as it does not contain the patch that introduced this vulnerability (upstream commit f0a3602c).
+CVE-2009-3720,Red Hat,2010-03-05,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-3720
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact in Python, a future update may address this flaw. If a system has PyXML installed, Python will use PyXML for expat-related functions and is then not vulnerable to the issue."
+CVE-2009-3722,Red Hat,2010-02-11,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-3722

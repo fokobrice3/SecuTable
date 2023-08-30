@@ -1,0 +1,315 @@
+CVE-ID,CVSS Risk Score,Summary.
+CVE-1999-0001,MEDIUM,ip_input.c in BSD-derived TCP/IP implementations allows remote attackers to cause a denial of service (crash or hang) via crafted packets.
+CVE-1999-0002,HIGH,"Buffer overflow in NFS mountd gives root access to remote attackers, mostly in Linux systems."
+CVE-1999-0003,HIGH,Execute commands as root via buffer overflow in Tooltalk database server (rpc.ttdbserverd).
+CVE-1999-0004,MEDIUM,"MIME buffer overflow in email clients, e.g. Solaris mailtool and Outlook."
+CVE-1999-0005,HIGH,Arbitrary command execution via IMAP buffer overflow in authenticate command.
+CVE-1999-0006,HIGH,Buffer overflow in POP servers based on BSD/Qualcomm's qpopper allows remote attackers to gain root access using a long PASS command.
+CVE-1999-0007,MEDIUM,Information from SSL-encrypted sessions via PKCS #1.
+CVE-1999-0008,HIGH,"Buffer overflow in NIS+, in Sun's rpc.nisd program."
+CVE-1999-0009,HIGH,Inverse query buffer overflow in BIND 4.9 and BIND 8 Releases.
+CVE-1999-0010,MEDIUM,Denial of Service vulnerability in BIND 8 Releases via maliciously formatted DNS messages.
+CVE-1999-0011,HIGH,Denial of Service vulnerabilities in BIND 4.9 and BIND 8 Releases via CNAME record and zone transfer.
+CVE-1999-0012,MEDIUM,Some web servers under Microsoft Windows allow remote attackers to bypass access restrictions for files with long file names.
+CVE-1999-0013,HIGH,"Stolen credentials from SSH clients via ssh-agent program, allowing other local users to access remote accounts belonging to the ssh-agent user."
+CVE-1999-0014,HIGH,Unauthorized privileged access or denial of service via dtappgather program in CDE.
+CVE-1999-0015,MEDIUM,Teardrop IP denial of service.
+CVE-1999-0016,MEDIUM,Land IP denial of service.
+CVE-1999-0017,HIGH,"FTP servers can allow an attacker to connect to arbitrary ports on machines other than the FTP client, aka FTP bounce."
+CVE-1999-0018,HIGH,Buffer overflow in statd allows root privileges.
+CVE-1999-0019,MEDIUM,"Delete or create a file via rpc.statd, due to invalid information."
+CVE-1999-0020,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0032.  Reason: This candidate is a duplicate of CVE-1999-0032.  Notes: All CVE users should reference CVE-1999-0032 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-1999-0021,HIGH,Arbitrary command execution via buffer overflow in Count.cgi (wwwcount) cgi-bin program.
+CVE-1999-0022,HIGH,"Local user gains root privileges via buffer overflow in rdist, via expstr() function."
+CVE-1999-0023,HIGH,"Local user gains root privileges via buffer overflow in rdist, via lookup() function."
+CVE-1999-0024,MEDIUM,"DNS cache poisoning via BIND, by predictable query IDs."
+CVE-1999-0025,HIGH,root privileges via buffer overflow in df command on SGI IRIX systems.
+CVE-1999-0026,MEDIUM,root privileges via buffer overflow in pset command on SGI IRIX systems.
+CVE-1999-0027,HIGH,root privileges via buffer overflow in eject command on SGI IRIX systems.
+CVE-1999-0028,HIGH,root privileges via buffer overflow in login/scheme command on SGI IRIX systems.
+CVE-1999-0029,HIGH,root privileges via buffer overflow in ordist command on SGI IRIX systems.
+CVE-1999-0030,HIGH,root privileges via buffer overflow in xlock command on SGI IRIX systems.
+CVE-1999-0031,LOW,"JavaScript in Internet Explorer 3.x and 4.x, and Netscape 2.x, 3.x and 4.x, allows remote attackers to monitor a user's web activities, aka the Bell Labs vulnerability."
+CVE-1999-0032,HIGH,"Buffer overflow in lpr, as used in BSD-based systems including Linux, allows local users to execute arbitrary code as root via a long -C (classification) command line option."
+CVE-1999-0033,HIGH,Command execution in Sun systems via buffer overflow in the at program.
+CVE-1999-0034,HIGH,"Buffer overflow in suidperl (sperl), Perl 4.x and 5.x."
+CVE-1999-0035,MEDIUM,"Race condition in signal handling routine in ftpd, allowing read/write arbitrary files."
+CVE-1999-0036,HIGH,IRIX login program with a nonzero LOCKOUT parameter allows creation or damage to files.
+CVE-1999-0037,HIGH,"Arbitrary command execution via metamail package using message headers, when user processes attacker's message using metamail."
+CVE-1999-0038,HIGH,Buffer overflow in xlock program allows local users to execute commands as root.
+CVE-1999-0039,HIGH,webdist CGI program (webdist.cgi) in SGI IRIX allows remote attackers to execute arbitrary commands via shell metacharacters in the distloc parameter.
+CVE-1999-0040,HIGH,Buffer overflow in Xt library of X Windowing System allows local users to execute commands with root privileges.
+CVE-1999-0041,HIGH,Buffer overflow in NLS (Natural Language Service).
+CVE-1999-0042,HIGH,Buffer overflow in University of Washington's implementation of IMAP and POP servers.
+CVE-1999-0043,HIGH,"Command execution via shell metachars in INN daemon (innd) 1.5 using ""newgroup"" and ""rmgroup"" control messages, and others."
+CVE-1999-0044,HIGH,fsdump command in IRIX allows local users to obtain root access by modifying sensitive files.
+CVE-1999-0045,HIGH,List of arbitrary files on Web host via nph-test-cgi script.
+CVE-1999-0046,HIGH,Buffer overflow of rlogin program using TERM environmental variable.
+CVE-1999-0047,HIGH,MIME conversion buffer overflow in sendmail versions 8.8.3 and 8.8.4.
+CVE-1999-0048,HIGH,"Talkd, when given corrupt DNS information, can be used to execute arbitrary commands with root privileges."
+CVE-1999-0049,HIGH,Csetup under IRIX allows arbitrary file creation or overwriting.
+CVE-1999-0050,HIGH,Buffer overflow in HP-UX newgrp program.
+CVE-1999-0051,HIGH,"Arbitrary file creation and program execution using FLEXlm LicenseManager, from versions 4.0 to 5.0, in IRIX."
+CVE-1999-0052,MEDIUM,IP fragmentation denial of service in FreeBSD allows a remote attacker to cause a crash.
+CVE-1999-0053,MEDIUM,TCP RST denial of service in FreeBSD.
+CVE-1999-0054,MEDIUM,Sun's ftpd daemon can be subjected to a denial of service.
+CVE-1999-0055,HIGH,Buffer overflows in Sun libnsl allow root access.
+CVE-1999-0056,HIGH,Buffer overflow in Sun's ping program can give root access to local users.
+CVE-1999-0057,HIGH,Vacation program allows command execution by remote users through a sendmail command.
+CVE-1999-0058,HIGH,"Buffer overflow in PHP cgi program, php.cgi allows shell access."
+CVE-1999-0059,HIGH,IRIX fam service allows an attacker to obtain a list of all files on the server.
+CVE-1999-0060,MEDIUM,"Attackers can cause a denial of service in Ascend MAX and Pipeline routers with a malformed packet to the discard port, which is used by the Java Configurator tool."
+CVE-1999-0061,MEDIUM,"File creation and deletion, and remote execution, in the BSD line printer daemon (lpd)."
+CVE-1999-0062,HIGH,The chpass command in OpenBSD allows a local user to gain root access through file descriptor leakage.
+CVE-1999-0063,MEDIUM,Cisco IOS 12.0 and other versions can be crashed by malicious UDP packets to the syslog port.
+CVE-1999-0064,HIGH,Buffer overflow in AIX lquerylv program gives root access to local users.
+CVE-1999-0065,HIGH,Multiple buffer overflows in how dtmail handles attachments allows a remote attacker to execute commands.
+CVE-1999-0066,HIGH,AnyForm CGI remote execution.
+CVE-1999-0067,HIGH,phf CGI program allows remote command execution through shell metacharacters.
+CVE-1999-0068,HIGH,CGI PHP mylog script allows an attacker to read any file on the target server.
+CVE-1999-0069,HIGH,Solaris ufsrestore buffer overflow.
+CVE-1999-0070,MEDIUM,test-cgi program allows an attacker to list files on the server.
+CVE-1999-0071,HIGH,Apache httpd cookie buffer overflow for versions 1.1.1 and earlier.
+CVE-1999-0072,HIGH,Buffer overflow in AIX xdat gives root access to local users.
+CVE-1999-0073,HIGH,"Telnet allows a remote client to specify environment variables including LD_LIBRARY_PATH, allowing an attacker to bypass the normal system libraries and gain root access."
+CVE-1999-0074,MEDIUM,"Listening TCP ports are sequentially allocated, allowing spoofing attacks."
+CVE-1999-0075,MEDIUM,PASV core dump in wu-ftpd daemon when attacker uses a QUOTE PASV command after specifying a username and password.
+CVE-1999-0076,MEDIUM,Buffer overflow in wu-ftp from PASV command causes a core dump.
+CVE-1999-0077,MEDIUM,Predictable TCP sequence numbers allow spoofing.
+CVE-1999-0078,LOW,"pcnfsd (aka rpc.pcnfsd) allows local users to change file permissions, or execute arbitrary commands through arguments in the RPC call."
+CVE-1999-0079,MEDIUM,"Remote attackers can cause a denial of service in FTP by issuing multiple PASV commands, causing the server to run out of available ports."
+CVE-1999-0080,HIGH,"Certain configurations of wu-ftp FTP server 2.4 use a _PATH_EXECPATH setting to a directory with dangerous commands, such as /bin, which allows remote authenticated users to gain root access via the ""site exec"" command."
+CVE-1999-0081,MEDIUM,wu-ftp allows files to be overwritten via the rnfr command.
+CVE-1999-0082,HIGH,CWD ~root command in ftpd allows root access.
+CVE-1999-0083,MEDIUM,getcwd() file descriptor leak in FTP.
+CVE-1999-0084,HIGH,Certain NFS servers allow users to use mknod to gain privileges by creating a writable kmem device and setting the UID to 0.
+CVE-1999-0085,HIGH,Buffer overflow in rwhod on AIX and other operating systems allows remote attackers to execute arbitrary code via a UDP packet with a long hostname.
+CVE-1999-0086,MEDIUM,AIX routed allows remote users to modify sensitive files.
+CVE-1999-0087,MEDIUM,Denial of service in AIX telnet can freeze a system and prevent users from accessing the server.
+CVE-1999-0088,HIGH,IRIX and AIX automountd services (autofsd) allow remote users to execute root commands.
+CVE-1999-0089,HIGH,Buffer overflow in AIX libDtSvc library can allow local users to gain root access.
+CVE-1999-0090,HIGH,Buffer overflow in AIX rcp command allows local users to obtain root access.
+CVE-1999-0091,HIGH,Buffer overflow in AIX writesrv command allows local users to obtain root access.
+CVE-1999-0092,HIGH,Various vulnerabilities in the AIX portmir command allows local users to obtain root access.
+CVE-1999-0093,HIGH,AIX nslookup command allows local users to obtain root access by not dropping privileges correctly.
+CVE-1999-0094,MEDIUM,AIX piodmgrsu command allows local users to gain additional group privileges.
+CVE-1999-0095,HIGH,"The debug command in Sendmail is enabled, allowing attackers to execute commands as root."
+CVE-1999-0096,MEDIUM,Sendmail decode alias can be used to overwrite sensitive files.
+CVE-1999-0097,HIGH,The AIX FTP client can be forced to execute commands from a malicious server through shell metacharacters (e.g. a pipe character).
+CVE-1999-0098,HIGH,Buffer overflow in SMTP HELO command in Sendmail allows a remote attacker to hide activities.
+CVE-1999-0099,HIGH,Buffer overflow in syslog utility allows local or remote attackers to gain root privileges.
+CVE-1999-0100,HIGH,"Remote access in AIX innd 1.5.1, using control messages."
+CVE-1999-0101,HIGH,"Buffer overflow in AIX and Solaris ""gethostbyname"" library call allows root access through corrupt DNS host names."
+CVE-1999-0102,HIGH,Buffer overflow in SLmail 3.x allows attackers to execute commands using a large FROM line.
+CVE-1999-0103,MEDIUM,"Echo and chargen, or other combinations of UDP services, can be used in tandem to flood the server, a.k.a. UDP bomb or UDP packet storm."
+CVE-1999-0104,MEDIUM,"A later variation on the Teardrop IP denial of service attack, a.k.a. Teardrop-2."
+CVE-1999-0105,LOW,finger allows recursive searches by using a long string of @ symbols.
+CVE-1999-0106,LOW,Finger redirection allows finger bombs.
+CVE-1999-0107,MEDIUM,Buffer overflow in Apache 1.2.5 and earlier allows a remote attacker to cause a denial of service with a large number of GET requests containing a large number of / characters.
+CVE-1999-0108,HIGH,The printers program in IRIX has a buffer overflow that gives root access to local users.
+CVE-1999-0109,HIGH,Buffer overflow in ffbconfig in Solaris 2.5.1.
+CVE-1999-0110,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0315.  Reason: This candidate's original description had a typo that delayed it from being detected as a duplicate of CVE-1999-0315.  Notes: All CVE users should reference CVE-1999-0315 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-1999-0111,MEDIUM,RIP v1 is susceptible to spoofing.
+CVE-1999-0112,HIGH,Buffer overflow in AIX dtterm program for the CDE.
+CVE-1999-0113,HIGH,Some implementations of rlogin allow root access if given a -froot parameter.
+CVE-1999-0114,MEDIUM,"Local users can execute commands as other users, and read other users' files, through the filter command in the Elm elm-2.4 mail package using a symlink attack."
+CVE-1999-0115,HIGH,AIX bugfiler program allows local users to gain root access.
+CVE-1999-0116,MEDIUM,"Denial of service when an attacker sends many SYN packets to create multiple connections without ever sending an ACK to complete the connection, aka SYN flood."
+CVE-1999-0117,HIGH,AIX passwd allows local users to gain root access.
+CVE-1999-0118,HIGH,AIX infod allows local users to gain root access through an X display.
+CVE-1999-0119,HIGH,Windows NT 4.0 beta allows users to read and delete shares.
+CVE-1999-0120,HIGH,Sun/Solaris utmp file allows local users to gain root access if it is writable by users other than root.
+CVE-1999-0121,HIGH,Buffer overflow in dtaction command gives root access.
+CVE-1999-0122,HIGH,Buffer overflow in AIX lchangelv gives root access.
+CVE-1999-0123,LOW,Race condition in Linux mailx command allows local users to read user files.
+CVE-1999-0124,HIGH,Vulnerabilities in UMN gopher and gopher+ versions 1.12 and 2.0x allow an intruder to read any files that can be accessed by the gopher daemon.
+CVE-1999-0125,MEDIUM,Buffer overflow in SGI IRIX mailx program.
+CVE-1999-0126,HIGH,SGI IRIX buffer overflow in xterm and Xaw allows root access.
+CVE-1999-0127,HIGH,swinstall and swmodify commands in SD-UX package in HP-UX systems allow local users to create or overwrite arbitrary files to gain root access.
+CVE-1999-0128,MEDIUM,"Oversized ICMP ping packets can result in a denial of service, aka Ping o' Death."
+CVE-1999-0129,MEDIUM,Sendmail allows local users to write to a file and gain group permissions via a .forward or :include: file.
+CVE-1999-0130,HIGH,Local users can start Sendmail in daemon mode and gain root privileges.
+CVE-1999-0131,HIGH,Buffer overflow and denial of service in Sendmail 8.7.5 and earlier through GECOS field gives root access to local users.
+CVE-1999-0132,LOW,"Expreserve, as used in vi and ex, allows local users to overwrite arbitrary files and gain root access."
+CVE-1999-0133,LOW,fm_fls license server for Adobe Framemaker allows local users to overwrite arbitrary files and gain root access.
+CVE-1999-0134,HIGH,vold in Solaris 2.x allows local users to gain root access.
+CVE-1999-0135,HIGH,admintool in Solaris allows a local user to write to arbitrary files and gain root access.
+CVE-1999-0136,HIGH,Kodak Color Management System (KCMS) on Solaris allows a local user to write to arbitrary files and gain root access.
+CVE-1999-0137,HIGH,The dip program on many Linux systems allows local users to gain root access via a buffer overflow.
+CVE-1999-0138,HIGH,"The suidperl and sperl program do not give up root privileges when changing UIDs back to the original users, allowing root access."
+CVE-1999-0139,HIGH,Buffer overflow in Solaris x86 mkcookie allows local users to obtain root access.
+CVE-1999-0140,MEDIUM,Denial of service in RAS/PPTP on NT systems.
+CVE-1999-0141,LOW,Java Bytecode Verifier allows malicious applets to execute arbitrary commands as the user of the applet.
+CVE-1999-0142,HIGH,The Java Applet Security Manager implementation in Netscape Navigator 2.0 and Java Developer's Kit 1.0 allows an applet to connect to arbitrary hosts.
+CVE-1999-0143,MEDIUM,Kerberos 4 key servers allow a user to masquerade as another by breaking and generating session keys.
+CVE-1999-0144,LOW,Denial of service in Qmail by specifying a large number of recipients with the RCPT command.
+CVE-1999-0145,HIGH,"Sendmail WIZ command enabled, allowing root access."
+CVE-1999-0146,HIGH,"The campas CGI program provided with some NCSA web servers allows an attacker to execute arbitrary commands via encoded carriage return characters in the query string, as demonstrated by reading the password file."
+CVE-1999-0147,HIGH,The aglimpse CGI program of the Glimpse package allows remote execution of arbitrary commands.
+CVE-1999-0148,HIGH,The handler CGI program in IRIX allows arbitrary command execution.
+CVE-1999-0149,HIGH,The wrap CGI program in IRIX allows remote attackers to view arbitrary directory listings via a .. (dot dot) attack.
+CVE-1999-0150,HIGH,The Perl fingerd program allows arbitrary command execution from remote users.
+CVE-1999-0151,HIGH,"The SATAN session key may be disclosed if the user points the web browser to other sites, possibly allowing root access."
+CVE-1999-0152,HIGH,The DG/UX finger daemon allows remote command execution through shell metacharacters.
+CVE-1999-0153,MEDIUM,"Windows 95/NT out of band (OOB) data denial of service through NETBIOS port, aka WinNuke."
+CVE-1999-0154,MEDIUM,IIS 2.0 and 3.0 allows remote attackers to read the source code for ASP pages by appending a . (dot) to the end of the URL.
+CVE-1999-0155,HIGH,The ghostscript command with the -dSAFER option allows remote attackers to execute commands.
+CVE-1999-0156,MEDIUM,wu-ftpd FTP daemon allows any user and password combination.
+CVE-1999-0157,MEDIUM,Cisco PIX firewall and CBAC IP fragmentation attack results in a denial of service.
+CVE-1999-0158,MEDIUM,Cisco PIX firewall manager (PFM) on Windows NT allows attackers to connect to port 8080 on the PFM server and retrieve any file whose name and location is known.
+CVE-1999-0159,MEDIUM,"Attackers can crash a Cisco IOS router or device, provided they can get to an interactive prompt (such as a login).  This applies to some IOS 9.x, 10.x, and 11.x releases."
+CVE-1999-0160,HIGH,Some classic Cisco IOS devices have a vulnerability in the PPP CHAP authentication to establish unauthorized PPP connections.
+CVE-1999-0161,HIGH,"In Cisco IOS 10.3, with the tacacs-ds or tacacs keyword, an extended IP access control list could bypass filtering."
+CVE-1999-0162,MEDIUM,"The ""established"" keyword in some Cisco IOS software allowed an attacker to bypass filtering."
+CVE-1999-0163,HIGH,"In older versions of Sendmail, an attacker could use a pipe character to execute root commands."
+CVE-1999-0164,MEDIUM,A race condition in the Solaris ps command allows an attacker to overwrite critical files.
+CVE-1999-0165,HIGH,NFS cache poisoning.
+CVE-1999-0166,MEDIUM,"NFS allows users to use a ""cd .."" command to access other directories besides the exported file system."
+CVE-1999-0167,MEDIUM,"In SunOS, NFS file handles could be guessed, giving unauthorized access to the exported file system."
+CVE-1999-0168,HIGH,"The portmapper may act as a proxy and redirect service requests from an attacker, making the request appear to come from the local host, possibly bypassing authentication that would otherwise have taken place.  For example, NFS file systems could be mounted through the portmapper despite export restrictions."
+CVE-1999-0169,HIGH,NFS allows attackers to read and write any file on the system by specifying a false UID.
+CVE-1999-0170,HIGH,"Remote attackers can mount an NFS file system in Ultrix or OSF, even if it is denied on the access list."
+CVE-1999-0171,LOW,Denial of service in syslog by sending it a large number of superfluous messages.
+CVE-1999-0172,HIGH,FormMail CGI program allows remote execution of commands.
+CVE-1999-0173,MEDIUM,FormMail CGI program can be used by web servers other than the host server that the program resides on.
+CVE-1999-0174,MEDIUM,The view-source CGI program allows remote attackers to read arbitrary files via a .. (dot dot) attack.
+CVE-1999-0175,MEDIUM,The convert.bas program in the Novell web server allows a remote attackers to read any file on the system that is internally accessible by the web server.
+CVE-1999-0176,HIGH,The Webgais program allows a remote user to execute arbitrary commands.
+CVE-1999-0177,HIGH,The uploader program in the WebSite web server allows a remote attacker to execute arbitrary programs.
+CVE-1999-0178,HIGH,Buffer overflow in the win-c-sample program (win-c-sample.exe) in the WebSite web server 1.1e allows remote attackers to execute arbitrary code via a long query string.
+CVE-1999-0179,MEDIUM,"Windows NT crashes or locks up when a Samba client executes a ""cd .."" command on a file share."
+CVE-1999-0180,HIGH,in.rshd allows users to login with a NULL username and execute commands.
+CVE-1999-0181,MEDIUM,"The wall daemon can be used for denial of service, social engineering attacks, or to execute remote commands."
+CVE-1999-0182,HIGH,Samba has a buffer overflow which allows a remote attacker to obtain root access by specifying a long password.
+CVE-1999-0183,MEDIUM,Linux implementations of TFTP would allow access to files outside the restricted directory.
+CVE-1999-0184,MEDIUM,"When compiled with the -DALLOW_UPDATES option, bind allows dynamic updates to the DNS server, allowing for malicious modification of DNS records."
+CVE-1999-0185,HIGH,"In SunOS or Solaris, a remote user could connect from an FTP server's data port to an rlogin server on a host that trusts the FTP server, allowing remote command execution."
+CVE-1999-0186,HIGH,"In Solaris, an SNMP subagent has a default community string that allows remote attackers to execute arbitrary commands as root, or modify system parameters."
+CVE-1999-0187,Unknown,** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-0022.  Reason: This candidate is a duplicate of CVE-1999-0022.  Notes: All CVE users should reference CVE-1999-0022 instead of this candidate.  All references and descriptions in this candidate have been removed to prevent accidental usage.
+CVE-1999-0188,HIGH,The passwd command in Solaris can be subjected to a denial of service.
+CVE-1999-0189,HIGH,"Solaris rpcbind listens on a high numbered UDP port, which may not be filtered since the standard port number is 111."
+CVE-1999-0190,HIGH,Solaris rpcbind can be exploited to overwrite arbitrary files and gain root access.
+CVE-1999-0191,MEDIUM,IIS newdsn.exe CGI script allows remote users to overwrite files.
+CVE-1999-0192,HIGH,Buffer overflow in telnet daemon tgetent routing allows remote attackers to gain root access via the TERMCAP environmental variable.
+CVE-1999-0193,MEDIUM,"Denial of service in Ascend and 3com routers, which can be rebooted by sending a zero length TCP option."
+CVE-1999-0194,MEDIUM,Denial of service in in.comsat allows attackers to generate messages.
+CVE-1999-0195,MEDIUM,Denial of service in RPC portmapper allows attackers to register or unregister RPC services or spoof RPC services using a spoofed source IP address such as 127.0.0.1.
+CVE-1999-0196,MEDIUM,websendmail in Webgais 1.0 allows a remote user to access arbitrary files and execute arbitrary code via the receiver parameter ($VAR_receiver variable).
+CVE-1999-0197,HIGH,finger 0@host on some systems may print information on some user accounts.
+CVE-1999-0198,HIGH,finger .@host on some systems may print information on some user accounts.
+CVE-1999-0199,HIGH,"manual/search.texi in the GNU C Library (aka glibc) before 2.2 lacks a statement about the unspecified tdelete return value upon deletion of a tree's root, which might allow attackers to access a dangling pointer in an application whose developer was unaware of a documentation update from 1999."
+CVE-1999-0200,HIGH,Windows NT FTP server (WFTP) with the guest account enabled without a password allows an attacker to log into the FTP server using any username and password.
+CVE-1999-0201,MEDIUM,"A quote cwd command on FTP servers can reveal the full path of the home directory of the ""ftp"" user."
+CVE-1999-0202,HIGH,"The GNU tar command, when used in FTP sessions, may allow an attacker to execute arbitrary commands."
+CVE-1999-0203,HIGH,"In Sendmail, attackers can gain root privileges via SMTP by specifying an improper ""mail from"" address and an invalid ""rcpt to"" address that would cause the mail to bounce to a program."
+CVE-1999-0204,HIGH,"Sendmail 8.6.9 allows remote attackers to execute root commands, using ident."
+CVE-1999-0205,MEDIUM,Denial of service in Sendmail 8.6.11 and 8.6.12.
+CVE-1999-0206,HIGH,MIME buffer overflow in Sendmail 8.8.0 and 8.8.1 gives root access.
+CVE-1999-0207,HIGH,"Remote attacker can execute commands through Majordomo using the Reply-To field and a ""lists"" command."
+CVE-1999-0208,HIGH,rpc.ypupdated (NIS) allows remote users to execute arbitrary commands.
+CVE-1999-0209,MEDIUM,The SunView (SunTools) selection_svc facility allows remote users to read files.
+CVE-1999-0210,HIGH,Automount daemon automountd allows local or remote users to gain privileges via shell metacharacters.
+CVE-1999-0211,MEDIUM,Extra long export lists over 256 characters in some mount daemons allows NFS directories to be mounted by anyone.
+CVE-1999-0212,HIGH,Solaris rpc.mountd generates error messages that allow a remote attacker to determine what files are on the server.
+CVE-1999-0213,HIGH,libnsl in Solaris allowed an attacker to perform a denial of service of rpcbind.
+CVE-1999-0214,HIGH,Denial of service by sending forged ICMP unreachable packets.
+CVE-1999-0215,MEDIUM,Routed allows attackers to append data to files.
+CVE-1999-0216,MEDIUM,Denial of service of inetd on Linux through SYN and RST packets.
+CVE-1999-0217,MEDIUM,Malicious option settings in UDP packets could force a reboot in SunOS 4.1.3 systems.
+CVE-1999-0218,MEDIUM,Livingston portmaster machines could be rebooted via a series of commands.
+CVE-1999-0219,HIGH,Buffer overflow in FTP Serv-U 2.5 allows remote authenticated users to cause a denial of service (crash) via a long (1) CWD or (2) LS (list) command.
+CVE-1999-0220,HIGH,Attackers can do a denial of service of IRC by crashing the server.
+CVE-1999-0221,MEDIUM,Denial of service of Ascend routers through port 150 (remote administration).
+CVE-1999-0222,MEDIUM,Denial of service in Cisco IOS web server allows attackers to reboot the router using a long URL.
+CVE-1999-0223,LOW,Solaris syslogd crashes when receiving a message from a host that doesn't have an inverse DNS entry.
+CVE-1999-0224,MEDIUM,Denial of service in Windows NT messenger service through a long username.
+CVE-1999-0225,MEDIUM,Windows NT 4.0 allows remote attackers to cause a denial of service via a malformed SMB logon request in which the actual data size does not match the specified size.
+CVE-1999-0226,HIGH,"Windows NT TCP/IP processes fragmented IP packets improperly, causing a denial of service."
+CVE-1999-0227,MEDIUM,Access violation in LSASS.EXE (LSA/LSARPC) program in Windows NT allows a denial of service.
+CVE-1999-0228,MEDIUM,Denial of service in RPCSS.EXE program (RPC Locator) in Windows NT.
+CVE-1999-0229,MEDIUM,Denial of service in Windows NT IIS server using ..\..
+CVE-1999-0230,MEDIUM,Buffer overflow in Cisco 7xx routers through the telnet service.
+CVE-1999-0231,MEDIUM,"Buffer overflow in IP-Switch IMail and Seattle Labs Slmail 2.6 packages using a long VRFY command, causing a denial of service and possibly remote access."
+CVE-1999-0232,HIGH,Buffer overflow in NCSA WebServer (version 1.5c) gives remote access.
+CVE-1999-0233,HIGH,IIS 1.0 allows users to execute arbitrary commands using .bat or .cmd files.
+CVE-1999-0234,MEDIUM,Bash treats any character with a value of 255 as a command separator.
+CVE-1999-0235,HIGH,Buffer overflow in NCSA WebServer (1.4.1 and below) gives remote access.
+CVE-1999-0236,MEDIUM,ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.
+CVE-1999-0237,HIGH,Remote execution of arbitrary commands through Guestbook CGI program.
+CVE-1999-0238,HIGH,php.cgi allows attackers to read any file on the system.
+CVE-1999-0239,MEDIUM,"Netscape FastTrack Web server lists files when a lowercase ""get"" command is used instead of an uppercase GET."
+CVE-1999-0240,HIGH,Some filters or firewalls allow fragmented SYN packets with IP reserved bits in violation of their implemented policy.
+CVE-1999-0241,HIGH,"Guessable magic cookies in X Windows allows remote attackers to execute commands, e.g. through xterm."
+CVE-1999-0242,HIGH,Remote attackers can access mail files via POP3 in some Linux systems that are using shadow passwords.
+CVE-1999-0243,HIGH,Linux cfingerd could be exploited to gain root access.
+CVE-1999-0244,HIGH,Livingston RADIUS code has a buffer overflow which can allow remote execution of commands as root.
+CVE-1999-0245,MEDIUM,"Some configurations of NIS+ in Linux allowed attackers to log in as the user ""+""."
+CVE-1999-0246,HIGH,HP Remote Watch allows a remote user to gain root access.
+CVE-1999-0247,HIGH,Buffer overflow in nnrpd program in INN up to version 1.6 allows remote users to execute arbitrary commands.
+CVE-1999-0248,HIGH,A race condition in the authentication agent mechanism of sshd 1.2.17 allows an attacker to steal another user's credentials.
+CVE-1999-0249,HIGH,Windows NT RSHSVC program allows remote users to execute arbitrary commands.
+CVE-1999-0250,HIGH,Denial of service in Qmail through long SMTP commands.
+CVE-1999-0251,MEDIUM,Denial of service in talk program allows remote attackers to disrupt a user's display.
+CVE-1999-0252,HIGH,Buffer overflow in listserv allows arbitrary command execution.
+CVE-1999-0253,HIGH,IIS 3.0 with the iis-fix hotfix installed allows remote intruders to read source code for ASP programs by using a %2e instead of a . (dot) in the URL.
+CVE-1999-0254,HIGH,A hidden SNMP community string in HP OpenView allows remote attackers to modify MIB tables and obtain sensitive information.
+CVE-1999-0255,HIGH,Buffer overflow in ircd allows arbitrary command execution.
+CVE-1999-0256,HIGH,Buffer overflow in War FTP allows remote execution of commands.
+CVE-1999-0257,MEDIUM,Nestea variation of teardrop IP fragmentation denial of service.
+CVE-1999-0258,MEDIUM,Bonk variation of teardrop IP fragmentation denial of service.
+CVE-1999-0259,MEDIUM,cfingerd lists all users on a system via search.**@target.
+CVE-1999-0260,HIGH,The jj CGI program allows command execution via shell metacharacters.
+CVE-1999-0261,MEDIUM,Netmanager Chameleon SMTPd has several buffer overflows that cause a crash.
+CVE-1999-0262,HIGH,Hylafax faxsurvey CGI script on Linux allows remote attackers to execute arbitrary commands via shell metacharacters in the query string.
+CVE-1999-0263,MEDIUM,Solaris SUNWadmap can be exploited to obtain root access.
+CVE-1999-0264,MEDIUM,htmlscript CGI program allows remote read access to files.
+CVE-1999-0265,MEDIUM,ICMP redirect messages may crash or lock up a host.
+CVE-1999-0266,HIGH,The info2www CGI script allows remote file access or remote command execution.
+CVE-1999-0267,HIGH,Buffer overflow in NCSA HTTP daemon v1.3 allows remote command execution.
+CVE-1999-0268,HIGH,"MetaInfo MetaWeb web server allows users to upload, execute, and read scripts."
+CVE-1999-0269,MEDIUM,Netscape Enterprise servers may list files through the PageServices query.
+CVE-1999-0270,MEDIUM,"Directory traversal vulnerability in pfdispaly.cgi program (sometimes referred to as ""pfdisplay"") for SGI's Performer API Search Tool (performer_tools) allows remote attackers to read arbitrary files."
+CVE-1999-0271,MEDIUM,Progressive Networks Real Video server (pnserver) can be crashed remotely.
+CVE-1999-0272,MEDIUM,Denial of service in Slmail v2.5 through the POP3 port.
+CVE-1999-0273,MEDIUM,Denial of service through Solaris 2.5.1 telnet by sending ^D characters.
+CVE-1999-0274,MEDIUM,Denial of service in Windows NT DNS servers through malicious packet which contains a response to a query that wasn't made.
+CVE-1999-0275,MEDIUM,Denial of service in Windows NT DNS servers by flooding port 53 with too many characters.
+CVE-1999-0276,HIGH,mSQL v2.0.1 and below allows remote execution through a buffer overflow.
+CVE-1999-0277,HIGH,The WorkMan program can be used to overwrite any file to get root access.
+CVE-1999-0278,MEDIUM,"In IIS, remote attackers can obtain source code for ASP files by appending ""::$DATA"" to the URL."
+CVE-1999-0279,HIGH,Excite for Web Servers (EWS) allows remote command execution via shell metacharacters.
+CVE-1999-0280,HIGH,Remote command execution in Microsoft Internet Explorer using .lnk and .url files.
+CVE-1999-0281,MEDIUM,Denial of service in IIS using long URLs.
+CVE-1999-0282,Unknown,"** REJECT **  DO NOT USE THIS CANDIDATE NUMBER.  ConsultIDs: CVE-1999-1584, CVE-1999-1586.  Reason: This candidate combined references from one issue with the description from another issue.  Notes: Users should consult CVE-1999-1584 and CVE-1999-1586 to obtain the appropriate name.  All references and descriptions in this candidate have been removed to prevent accidental usage."
+CVE-1999-0283,HIGH,The Java Web Server would allow remote users to obtain the source code for CGI programs.
+CVE-1999-0284,HIGH,"Denial of service to NT mail servers including Ipswitch, Mdaemon, and Exchange through a buffer overflow in the SMTP HELO command."
+CVE-1999-0285,HIGH,"Denial of service in telnet from the Windows NT Resource Kit, by opening then immediately closing a connection."
+CVE-1999-0286,HIGH,"In some NT web servers, appending a space at the end of a URL may allow attackers to read source code for active pages."
+CVE-1999-0287,HIGH,Vulnerability in the Wguest CGI program.
+CVE-1999-0288,MEDIUM,"The WINS server in Microsoft Windows NT 4.0 before SP4 allows remote attackers to cause a denial of service (process termination) via invalid UDP frames to port 137 (NETBIOS Name Service), as demonstrated via a flood of random packets."
+CVE-1999-0289,MEDIUM,The Apache web server for Win32 may provide access to restricted files when a . (dot) is appended to a requested URL.
+CVE-1999-0290,MEDIUM,The WinGate telnet proxy allows remote attackers to cause a denial of service via a large number of connections to localhost.
+CVE-1999-0291,HIGH,"The WinGate proxy is installed without a password, which allows remote attackers to redirect connections without authentication."
+CVE-1999-0292,MEDIUM,Denial of service through Winpopup using large user names.
+CVE-1999-0293,HIGH,AAA authentication on Cisco systems allows attackers to execute commands without authorization.
+CVE-1999-0294,MEDIUM,All records in a WINS database can be deleted through SNMP for a denial of service.
+CVE-1999-0295,HIGH,"Solaris sysdef command allows local users to read kernel memory, potentially leading to root privileges."
+CVE-1999-0296,HIGH,Solaris volrmmount program allows attackers to read any file.
+CVE-1999-0297,HIGH,Buffer overflow in Vixie Cron library up to version 3.0 allows local users to obtain root access via a long environmental variable.
+CVE-1999-0298,HIGH,ypbind with -ypset and -ypsetme options activated in Linux Slackware and SunOS allows local and remote attackers to overwrite files via a .. (dot dot) attack.
+CVE-1999-0299,HIGH,Buffer overflow in FreeBSD lpd through long DNS hostnames.
+CVE-1999-0300,HIGH,nis_cachemgr for Solaris NIS+ allows attackers to add malicious NIS+ servers.
+CVE-1999-0301,HIGH,Buffer overflow in SunOS/Solaris ps command.
+CVE-1999-0302,HIGH,SunOS/Solaris FTP clients can be forced to execute arbitrary commands from a malicious FTP server.
+CVE-1999-0303,MEDIUM,Buffer overflow in BNU UUCP daemon (uucpd) through long hostnames.
+CVE-1999-0304,HIGH,mmap function in BSD allows local attackers in the kmem group to modify memory through devices.
+CVE-1999-0305,MEDIUM,"The system configuration control (sysctl) facility in BSD based operating systems OpenBSD 2.2 and earlier, and FreeBSD 2.2.5 and earlier, does not properly restrict source routed packets even when the (1) dosourceroute or (2) forwarding variables are set, which allows remote attackers to spoof TCP connections."
+CVE-1999-0306,HIGH,buffer overflow in HP xlock program.
+CVE-1999-0307,HIGH,Buffer overflow in HP-UX cstm program allows local users to gain root privileges.
+CVE-1999-0308,MEDIUM,HP-UX gwind program allows users to modify arbitrary files.
+CVE-1999-0309,HIGH,HP-UX vgdisplay program gives root access to local users.
+CVE-1999-0310,HIGH,SSH 1.2.25 on HP-UX allows access to new user accounts.
+CVE-1999-0311,HIGH,fpkg2swpk in HP-UX allows local users to gain root access.
+CVE-1999-0312,MEDIUM,HP ypbind allows attackers with root privileges to modify NIS data.
+CVE-1999-0313,HIGH,disk_bandwidth on SGI IRIX 6.4 S2MP for Origin/Onyx2 allows local users to gain root access using relative pathnames.
+CVE-1999-0314,HIGH,ioconfig on SGI IRIX 6.4 S2MP for Origin/Onyx2 allows local users to gain root access using relative pathnames.

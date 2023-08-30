@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2012-2568,Seagate,2012-10-26,,"The latest revision of the Seagate Software now includes a fix, which address the previously publicized security hole. We will be communicating this to our installed base of users both by direct email as well as Update notifications sent through the BlackArmor NAS User Interface. 
+
+The software updates can be found here: 
+http://www.seagate.com/support/external-hard-drives/network-storage/blackarmor-nas-110/banas-110-firmware-master-dl/
+http://www.seagate.com/support/external-hard-drives/network-storage/blackarmor-nas-220/banas-220-firmware-master-dl/
+http://www.seagate.com/support/external-hard-drives/network-storage/blackarmor-nas-440/banas-440-firmware-master-dl/
+
+
+
+Note that there are 3 different versions of the firmware update, which correlate to the number of bays in the hardware (e.g  1-bay, 2-bay and 4-bay)."
+CVE-2012-6348,Centrify,2013-02-08,,"Centrify had addressed this issue in an update released on Thursday, Dec 13. The Deployment Manager component is updated to 2.1.5 and it is available in the Suite 2012.5 release, which can be downloaded from: http://www.centrify.com/support/downloadcenter.asp."
+CVE-2013-3926,Atlassian,2013-07-09,,"On 30th of June 2013, an article was uploaded to Slashdot regarding
+two vulnerabilities in Atlassian Crowd. We had already identified and
+fixed the first vulnerability, which affects only standalone Crowd
+servers and which the author had labeled CVE-2013-3925. Patches and
+updated packages are available at
+https://jira.atlassian.com/browse/CWD-3366.
+
+We have been unable to substantiate the existence of the second
+alleged vulnerability. The author of the article has not contacted
+Atlassian and has provided no details to us, making it difficult to
+validate the claim.

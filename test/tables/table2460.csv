@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2009-0164,Red Hat,2009-04-27,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0164
+
+The Red Hat Security Response Team has rated this issue as having low security impact, a future update may address this flaw. More information regarding issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0179,Red Hat,2009-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0179
+
+The Red Hat Security Response Team has rated this issue as having low security
+impact, a future update may address this flaw. More information regarding
+issue severity can be found here:
+http://www.redhat.com/security/updates/classification/"
+CVE-1999-0523,Red Hat,2007-09-11,Joshua Bressers,"Red Hat Enterprise Linux by default does respond to ICMP echo requests, although it’s likely that in a production environment those would be filtered by some firewall on entry to your network.  However you can happily block ICMP ping responses using iptables if you so wish, but note that there is no known vulnerability in allowing them.
+
+For more details, please see:
+http://kbase.redhat.com/faq/FAQ_43_4304.shtm"
+CVE-1999-0524,Red Hat,2010-01-05,Joshua Bressers,Red Hat Enterprise Linux is configured by default to respond to all ICMP requests. Users may configure the firewall to prevent a system from responding to certain ICMP requests.
+CVE-1999-0997,Red Hat,2006-09-27,Joshua Bressers,"Red Hat does not consider CVE-1999-0997 to be a security vulnerability.  The wu-ftpd process chroots itself into the target ftp directory and will only run external commands as the user logged into the ftp server.  Because the process chroots itself, an attacker needs a valid login with write access to the ftp server, and even then they could only potentially execute commands as themselves."
+CVE-1999-1199,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 1.3.2:
+http://httpd.apache.org/security/vulnerabilities_13.html"
+CVE-1999-1567,Seapine Software,2010-07-22,Seapine Software,"This issue was originally reported on 3/8/1999 and Seapine fixed the issue on 3/23/1999. This fix became available with the release of TestTrack Workgroup 1.8.  We would also like to note that the issue existed in the older TestTrack Workgroup product, which was discontinued in 2002.  This problem never existed in the TestTrack Pro product."
+CVE-1999-1572,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2000-0505,Apache,2008-07-02,Mark J Cox,"Fixed in Apache HTTP Server 1.3.14:
+http://httpd.apache.org/security/vulnerabilities_13.html"

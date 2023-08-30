@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2006-3005,Red Hat,2006-08-24,Mark J Cox,Red Hat does not consider this a security issue.  It is expected behavior that a large input file will cause the processing program to use a large amount of memory.
+CVE-2006-3011,Red Hat,2006-09-20,Mark J Cox,"We do not consider these to be security issues.  For more details see http://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=169857#c1
+and http://www.php.net/security-note.php"
+CVE-2006-3018,Red Hat,2006-09-20,Mark J Cox,"Unknown: CVE-2006-3018 has been assigned to an issue in PHP where the cause and fix are unknown, and the impact cannot be verified. The source of the CVE assignment was a single line statement in the PHP 5.1.3 release announcement, http://www.php.net/release_5_1_3.php, reading: &quot;Fixed a heap corruption inside the session extension.&quot;  Of the changes made to the session extension between releases 5.1.2 and 5.1.3, none would fix a bug matching this description by our analysis."
+CVE-2006-3083,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3093,Red Hat,2006-08-16,Mark J Cox,Not vulnerable.  Adobe told us that this issue does not affect the Linux versions of Adobe Acrobat Reader.
+CVE-2006-3145,Red Hat,2006-08-30,Mark J Cox,"This issue did not affect the versions of NetPBM distributed with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2006-3174,Red Hat,2006-08-30,Mark J Cox,This issue has not been able to be reproduced by upstream or after a Red Hat code review.  We therefore do not believe this is a security vulnerability.
+CVE-2006-3334,Red Hat,2007-05-14,Mark J Cox,"On Red Hat Enterprise Linux 2.1, 3, 4, and 5 this is a two-byte overflow into the middle of the stack and is not exploitable."
+CVE-2006-3376,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3378,Red Hat,2006-08-16,Mark J Cox,"This issue affects the version of the passwd command from the shadow-utils package.  Red Hat Enterprise Linux 2.1, 3, and 4 are not vulnerable to this issue."
+CVE-2006-3459,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3460,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3461,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3462,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3463,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3464,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3465,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3467,Red Hat,2007-03-14,Mark J Cox,Red Hat Enterprise Linux 5 is not vulnerable to this issue as it contains a backported patch.
+CVE-2006-3469,Red Hat,2008-07-25,Mark J Cox,"This issue was addressed in mysql packages as shipped in Red Hat Enterprise Linux 4 via:
+
+https://rhn.redhat.com/errata/RHSA-2008-0768.html

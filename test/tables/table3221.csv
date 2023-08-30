@@ -1,0 +1,1320 @@
+"CCE ID","Configuration(s)","Built-In/Enhanced","Audit Item","Product","Audit Procedure","Recommended Parameter Value","NIST 800-53 Control(s)"
+"CCE-84401-9","NIST80053-VI-ESXi-CFG-00001","Enhanced","NIST80053-VI-ESXi-AUD-00001","ESXi","Only FIPS-approved ciphers should be used. To verify that only FIPS-approved ciphers are in use, connect via SSH and run the following command: 
+
+# grep -i ""^Ciphers"" /etc/ssh/sshd_config
+
+If there is no output or the output is not ""Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,aes192-cbc,aes256-cbc"", or a subset of this list, this is a finding.","aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,aes192-cbc, aes256-cbc","AC-2"
+"CCE-84402-7","NIST80053-VI-ESXi-CFG-00002","Enhanced","NIST80053-VI-ESXi-AUD-00002","ESXi","To verify which SSH protocol version is configured, connect via SSH, and run the following command: 
+
+# grep -i ""^Protocol"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""Protocol 2"", this is a finding.","2","AC-8"
+"CCE-84403-5","NIST80053-VI-ESXi-CFG-00003","Enhanced","NIST80053-VI-ESXi-AUD-00003","ESXi","To verify how the SSH daemon's ""IgnoreRhosts"" option is set, connect via SSH, and run the following command: 
+
+# grep -i ""^IgnoreRhosts"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""IgnoreRhosts yes"", this is a finding.","yes","IA-2"
+"CCE-84404-3","NIST80053-VI-ESXi-CFG-00004","Enhanced","NIST80053-VI-ESXi-AUD-00004","ESXi","To verify how the SSH daemon's ""HostbasedAuthentication"" option is set, connect via SSH and run the following command: 
+
+# grep -i ""^HostbasedAuthentication"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""HostbasedAuthentication no"", this is a finding.","no","CM-6"
+"CCE-84405-0","NIST80053-VI-ESXi-CFG-00005","Enhanced","NIST80053-VI-ESXi-AUD-00005","ESXi","To verify how the SSH daemon's ""PermitRootLogin"" option is set, connect via SSH and run the following command: 
+
+# grep -i ""^PermitRootLogin"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""PermitRootLogin no"", this is a finding.","no","CM-6"
+"CCE-84406-8","NIST80053-VI-ESXi-CFG-00006","Enhanced","NIST80053-VI-ESXi-AUD-00006","ESXi","To verify how the SSH daemon's ""PermitEmptyPasswords"" option is set, connect via SSH and run the following command: 
+
+# grep -i ""^PermitEmptyPasswords"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""PermitEmptyPasswords no"", this is a finding.","no","CM-6"
+"CCE-84407-6","NIST80053-VI-ESXi-CFG-00007","Enhanced","NIST80053-VI-ESXi-AUD-00007","ESXi","To verify users are not able to present environment daemons, connect via SSH and run the following command: 
+
+# grep -i ""^PermitUserEnvironment"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""PermitUserEnvironment no"", this is a finding.","no","CM-6"
+"CCE-84408-4","NIST80053-VI-ESXi-CFG-00008","Enhanced","NIST80053-VI-ESXi-AUD-00008","ESXi","To verify the MACs setting, connect via SSH andrun the following command: 
+
+# grep -i ""^MACs"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""MACs hmac-sha1,hmac-sha2-256,hmac-sha2-512"", this is a finding.","hmac-sha1,hmac-sha2-256,hmac-sha2-512","CM-6"
+"CCE-84409-2","NIST80053-VI-ESXi-CFG-00009","Enhanced","NIST80053-VI-ESXi-AUD-00009","ESXi","To verify the GSSAPIAuthentication setting, connect via SSH and run the following command: 
+
+# grep -i ""^GSSAPIAuthentication"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""GSSAPIAuthentication no"", this is a finding.","no","CM-6"
+"CCE-84410-0","NIST80053-VI-ESXi-CFG-00010","Enhanced","NIST80053-VI-ESXi-AUD-00010","ESXi","To verify the KerberosAuthentication setting, connect via SSH and run the following command: 
+
+# grep -i ""^KerberosAuthentication"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""KerberosAuthentication no"", this is a finding.","no","CM-6"
+"CCE-84411-8","NIST80053-VI-ESXi-CFG-00011","Enhanced","NIST80053-VI-ESXi-AUD-00011","ESXi","To verify the StrictModes setting, connect via SSH and run the following command: 
+
+# grep -i ""^StrictModes"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""StrictModes yes"", this is a finding.","yes","CM-6"
+"CCE-84412-6","NIST80053-VI-ESXi-CFG-00012","Enhanced","NIST80053-VI-ESXi-AUD-00012","ESXi","To verify the Compression setting, connect via SSH and run the following command: 
+
+# grep -i ""^Compression"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""Compression no"", this is a finding.","no","CM-6"
+"CCE-84413-4","NIST80053-VI-ESXi-CFG-00013","Enhanced","NIST80053-VI-ESXi-AUD-00013","ESXi","To verify the GatewayPorts setting, connect via SSH and run the following command: 
+
+# grep -i ""^GatewayPorts"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""GatewayPorts no"", this is a finding.","no","CM-6"
+"CCE-84414-2","NIST80053-VI-ESXi-CFG-00014","Enhanced","NIST80053-VI-ESXi-AUD-00014","ESXi","To verify the X11Forwarding setting, run the following command: 
+
+# grep -i ""^X11Forwarding"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""X11Forwarding no"", this is a finding.","no","CM-6"
+"CCE-84415-9","NIST80053-VI-ESXi-CFG-00015","Enhanced","NIST80053-VI-ESXi-AUD-00015","ESXi","To verify the AcceptEnv setting, connect via SSH and run the following command: 
+
+# grep -i ""^AcceptEnv"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""AcceptEnv"", this is a finding.","AcceptEnv","CM-6"
+"CCE-84416-7","NIST80053-VI-ESXi-CFG-00016","Enhanced","NIST80053-VI-ESXi-AUD-00016","ESXi","To verify the PermitTunnel setting, connect via SSH and run the following command: 
+
+# grep -i ""^PermitTunnel"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""PermitTunnel no"", this is a finding.","no","CM-6"
+"CCE-84417-5","NIST80053-VI-ESXi-CFG-00017","Enhanced","NIST80053-VI-ESXi-AUD-00017","ESXi","To verify the ClientAliveCountMax setting, connect via SSH and run the following command: 
+
+# grep -i ""^ClientAliveCountMax"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""ClientAliveCountMax 3"", this is a finding.","3","CM-6"
+"CCE-84418-3","NIST80053-VI-ESXi-CFG-00018","Enhanced","NIST80053-VI-ESXi-AUD-00018","ESXi","To verify the ClientAliveInterval setting, connect via SSH and run the following command: 
+
+# grep -i ""^ClientAliveInterval"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""ClientAliveInterval 200"", this is a finding.","200","CM-6"
+"CCE-84419-1","NIST80053-VI-ESXi-CFG-00019","Enhanced","NIST80053-VI-ESXi-AUD-00019","ESXi","To verify the MaxSessions setting, connect via SSH and run the following command: 
+
+# grep -i ""^MaxSessions"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""MaxSessions 1"", this is a finding.","1","CM-6"
+"CCE-84420-9","NIST80053-VI-ESXi-CFG-00020","Enhanced","NIST80053-VI-ESXi-AUD-00020","ESXi","Only FIPS-approved ciphers should be used. To verify that only FIPS-approved ciphers are in use, connect via SSH and run the following command: 
+
+# grep -i ""^Ciphers"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""Ciphers aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,aes192-cbc,aes256-cbc"", this is a finding.","aes128-ctr,aes192-ctr,aes256-ctr,aes128-cbc,aes192-cbc, aes256-cbc","SC-13"
+"CCE-84421-7","NIST80053-VI-ESXi-CFG-00022","Enhanced","NIST80053-VI-ESXi-AUD-00022","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Security.PasswordQualityControl
+
+If the Security.PasswordQualityControl setting is not set to ""similar=deny retry=3 min=disabled,disabled,disabled,disabled,15"", this is a finding.","similar=deny retry=3 min=disabled,disabled,disabled,disabled,15","IA-5"
+"CCE-84422-5","NIST80053-VI-ESXi-CFG-00028","Enhanced","NIST80053-VI-ESXi-AUD-00028","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostFirewallException | Where {$_.Name -eq 'SSH Server' -and $_.Enabled -eq $true} | Select Name,Enabled,@{N=""AllIPEnabled"";E={$_.ExtensionData.AllowedHosts.AllIP}}
+
+If for an enabled service ""Allow connections from any IP address"" is selected, this is a finding.","AllIPEnabled: False","CM-6"
+"CCE-84423-3","NIST80053-VI-ESXi-CFG-00030","Enhanced","NIST80053-VI-ESXi-AUD-00030","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.SuppressShellWarning
+
+If the UserVars.SuppressShellWarning setting is not set to 0, this is a finding","0","CM-3"
+"CCE-84424-1","NIST80053-VI-ESXi-CFG-00031","Enhanced","NIST80053-VI-ESXi-AUD-00031","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Select Name,@{N=""Lockdown"";E={$_.Extensiondata.Config.LockdownMode}}
+
+If Lockdown Mode is disabled, this is a finding.  
+
+For environments that do not use vCenter server to manage ESXi, this is not applicable.","lockdownNormal","AC-17"
+"CCE-84425-8","NIST80053-VI-ESXi-CFG-00034","Enhanced","NIST80053-VI-ESXi-AUD-00034","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Security.AccountLockFailures and verify it is set to 3.
+
+If the Security.AccountLockFailures is set to a value other than 3, this is a finding.","3","AC-17"
+"CCE-84426-6","NIST80053-VI-ESXi-CFG-00038","Enhanced","NIST80053-VI-ESXi-AUD-00038","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.ESXiShellInteractiveTimeOut
+
+If the UserVars.ESXiShellInteractiveTimeOut setting is not set to 600, this is a finding.","600","SC-10"
+"CCE-84427-4","NIST80053-VI-ESXi-CFG-00039","Enhanced","NIST80053-VI-ESXi-AUD-00039","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.ESXiShellTimeOut
+
+If the UserVars.ESXiShellTimeOut setting is not set to 600, this is a finding.","600","SC-10"
+"CCE-84428-2","NIST80053-VI-ESXi-CFG-00043","Enhanced","NIST80053-VI-ESXi-AUD-00043","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Net.BlockGuestBPDU
+
+If the Net.BlockGuestBPDU setting is not set to 1, this is a finding.","1","CM-6"
+"CCE-84429-0","NIST80053-VI-ESXi-CFG-00056","Enhanced","NIST80053-VI-ESXi-AUD-00056","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.system.coredump.network.get()
+
+
+If there is no active core dump partition or the network core dump collector is not configured and enabled, this is a finding.","1","SC-24"
+"CCE-84430-8","NIST80053-VI-ESXi-CFG-00106","Built-in","NIST80053-VI-ESXi-AUD-00106","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHostFirewallDefaultPolicy
+
+If the Incoming or Outgoing policies are True, this is a finding.","","CM-6"
+"CCE-84431-6","NIST80053-VI-ESXi-CFG-00107","Enhanced","NIST80053-VI-ESXi-AUD-00107","ESXi","Log in to the host and verify the /etc/ssh/keys-root/authorized_keys file does not exist: 
+# ls -la /etc/ssh/keys-root/authorized_keys
+
+If the authorized_keys file exists, this is a finding.","File should not exist","CM-6"
+"CCE-84432-4","NIST80053-VI-ESXi-CFG-00108","Built-in","NIST80053-VI-ESXi-AUD-00108","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHostSnmp | Select *
+
+or
+
+From a console or ssh session run the follow command:
+
+esxcli system snmp get
+
+If SNMP is not in use and is enabled, this is a finding.
+
+If SNMP is enabled and ""read only communities"" is set to public, this is a finding.
+
+If SNMP is enabled and is not using v3 targets, this is a finding.
+
+Note: SNMP v3 targets can only be viewed and configured from the esxcli command.","","CM-6"
+"CCE-84433-2","NIST80053-VI-ESXi-CFG-00109","Enhanced","NIST80053-VI-ESXi-AUD-00109","ESXi","To verify the remember setting, connect via SSH and run the following command: 
+
+# grep -i ""^password"" /etc/pam.d/passwd | grep sufficient
+
+If the remember setting is not set or is not ""remember=5"", this is a finding.","remember=5","IA-5"
+"CCE-84434-0","NIST80053-VI-ESXi-CFG-00110","Built-in","NIST80053-VI-ESXi-AUD-00110","ESXi","To verify the password hash setting, run the following command: 
+
+# grep -i ""^password"" /etc/pam.d/passwd | grep sufficient
+
+If sha512 is not listed, this is a finding.","sha512","CM-6"
+"CCE-84435-7","NIST80053-VI-ESXi-CFG-00111","Enhanced","NIST80053-VI-ESXi-AUD-00111","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""SSH""}
+
+If the ESXi SSH service is running, this is a finding.","Policy: Off and Running: False","CM-7"
+"CCE-84436-5","NIST80053-VI-ESXi-CFG-00112","Enhanced","NIST80053-VI-ESXi-AUD-00112","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""ESXi Shell""}
+
+If the ESXi Shell service is running, this is a finding.","Policy: Off and Running: False","CM-7"
+"CCE-84437-3","NIST80053-VI-ESXi-CFG-00113","Enhanced","NIST80053-VI-ESXi-AUD-00113","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""SSH""}
+
+If the ESXi SSH service is running, this is a finding.","Policy: Off and Running: False","AC-17"
+"CCE-84438-1","NIST80053-VI-ESXi-CFG-00114","Built-in","NIST80053-VI-ESXi-AUD-00114","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostAuthentication
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Directory Services Type"" is not set to ""Active Directory"", this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84439-9","NIST80053-VI-ESXi-CFG-00115","Built-in","NIST80053-VI-ESXi-AUD-00115","ESXi","
+From a PowerCLI command prompt while connected to vCenter run the following command:
+
+Get-VMHost | Select Name, ` @{N=""HostProfile"";E={$_ | Get-VMHostProfile}}, ` @{N=""JoinADEnabled"";E={($_ | Get-VmHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory.Enabled}}, ` @{N=""JoinDomainMethod"";E={(($_ | Get-VMHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory | Select -ExpandProperty Policy | Where {$_.Id -eq ""JoinDomainMethodPolicy""}).Policyoption.Id}}
+
+Verify if ""JoinADEnabled"" is ""True"" then ""JoinDomainMethod"" should be ""FixedCAMConfigOption"".
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If vSphere Authentication Proxy is not used to join hosts to an Active Directory domain, this is a finding.","JoinADEnabked: True, JoinDomainMethod: FixedCAMConfigOption","IA-2"
+"CCE-84440-7","NIST80053-VI-ESXi-CFG-00116","Built-in","NIST80053-VI-ESXi-AUD-00116","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostAuthentication
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Directory Services Type"" is not set to ""Active Directory"", this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84441-5","NIST80053-VI-ESXi-CFG-00117","Built-in","NIST80053-VI-ESXi-AUD-00117","ESXi","
+From a PowerCLI command prompt while connected to vCenter run the following command:
+
+Get-VMHost | Select Name, ` @{N=""HostProfile"";E={$_ | Get-VMHostProfile}}, ` @{N=""JoinADEnabled"";E={($_ | Get-VmHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory.Enabled}}, ` @{N=""JoinDomainMethod"";E={(($_ | Get-VMHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory | Select -ExpandProperty Policy | Where {$_.Id -eq ""JoinDomainMethodPolicy""}).Policyoption.Id}}
+
+Verify if ""JoinADEnabled"" is ""True"" then ""JoinDomainMethod"" should be ""FixedCAMConfigOption"".
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If vSphere Authentication Proxy is not used to join hosts to an Active Directory domain, this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84442-3","NIST80053-VI-ESXi-CFG-00118","Built-in","NIST80053-VI-ESXi-AUD-00118","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostAuthentication
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Directory Services Type"" is not set to ""Active Directory"", this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84443-1","NIST80053-VI-ESXi-CFG-00119","Built-in","NIST80053-VI-ESXi-AUD-00119","ESXi","
+From a PowerCLI command prompt while connected to vCenter run the following command:
+
+Get-VMHost | Select Name, ` @{N=""HostProfile"";E={$_ | Get-VMHostProfile}}, ` @{N=""JoinADEnabled"";E={($_ | Get-VmHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory.Enabled}}, ` @{N=""JoinDomainMethod"";E={(($_ | Get-VMHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory | Select -ExpandProperty Policy | Where {$_.Id -eq ""JoinDomainMethodPolicy""}).Policyoption.Id}}
+
+Verify if ""JoinADEnabled"" is ""True"" then ""JoinDomainMethod"" should be ""FixedCAMConfigOption"".
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If vSphere Authentication Proxy is not used to join hosts to an Active Directory domain, this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84444-9","NIST80053-VI-ESXi-CFG-00120","Built-in","NIST80053-VI-ESXi-AUD-00120","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostAuthentication
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is not applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Directory Services Type"" is not set to ""Active Directory"", this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84445-6","NIST80053-VI-ESXi-CFG-00121","Built-in","NIST80053-VI-ESXi-AUD-00121","ESXi","
+From a PowerCLI command prompt while connected to vCenter run the following command:
+
+Get-VMHost | Select Name, ` @{N=""HostProfile"";E={$_ | Get-VMHostProfile}}, ` @{N=""JoinADEnabled"";E={($_ | Get-VmHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory.Enabled}}, ` @{N=""JoinDomainMethod"";E={(($_ | Get-VMHostProfile).ExtensionData.Config.ApplyProfile.Authentication.ActiveDirectory | Select -ExpandProperty Policy | Where {$_.Id -eq ""JoinDomainMethodPolicy""}).Policyoption.Id}}
+
+Verify if ""JoinADEnabled"" is ""True"" then ""JoinDomainMethod"" should be ""FixedCAMConfigOption"".
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If ""vSphere Authentication Proxy"" is not used to join hosts to an Active Directory domain, this is a finding.","sfo01.rainpole.local","IA-2"
+"CCE-84446-4","NIST80053-VI-ESXi-CFG-00122","Enhanced","NIST80053-VI-ESXi-AUD-00122","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Annotations.WelcomeMessage
+
+Check for the login banner text (mentioned in the parameter value) based on the character limitations imposed by the system. An exact match of the text is required. If this banner is not displayed, this is a finding.","This system is for the use of authorized users only. Individuals using this computer system without authority or in excess of their authority are subject to having all their activities on this system monitored and recorded by system personnel. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity system personal may provide the evidence of such monitoring to law enforcement officials.","AC-7"
+"CCE-84447-2","NIST80053-VI-ESXi-CFG-00123","Enhanced","NIST80053-VI-ESXi-AUD-00123","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.Etc.issue
+
+If the Config.Etc.issue setting (/etc/issue file) does not contain the logon banner exactly as shown in the parameter value, this is a finding.","This system is for the use of authorized users only. Individuals using this computer system without authority or in excess of their authority are subject to having all their activities on this system monitored and recorded by system personnel. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity system personal may provide the evidence of such monitoring to law enforcement officials.","AC-8"
+"CCE-84448-0","NIST80053-VI-ESXi-CFG-00124","Enhanced","NIST80053-VI-ESXi-AUD-00124","ESXi","To verify the Banner setting, connect via SSH and run the following command: 
+
+# grep -i ""^Banner"" /etc/ssh/sshd_config
+
+If there is no output or the output is not exactly ""Banner /etc/issue"", this is a finding.","This system is for the use of authorized users only. Individuals using this computer system without authority or in excess of their authority are subject to having all their activities on this system monitored and recorded by system personnel. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity system personal may provide the evidence of such monitoring to law enforcement officials.","AC-8"
+"CCE-84449-8","NIST80053-VI-ESXi-CFG-00125","Enhanced","NIST80053-VI-ESXi-AUD-00125","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following script:
+
+$vmhost = Get-VMHost | Get-View
+$lockdown = Get-View $vmhost.ConfigManager.HostAccessManager
+$lockdown.QueryLockdownExceptions()
+
+If the exception users list contains accounts that do not require special permissions, this is a finding.
+
+Note: This list is not intended for system administrator accounts but for special circumstances such as a service account.","Remove unnecessary users from the exception user list","CM-6"
+"CCE-84450-6","NIST80053-VI-ESXi-CFG-00127","Enhanced","NIST80053-VI-ESXi-AUD-00127","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Annotations.WelcomeMessage
+
+Check for the login banner text (mentioned in the parameter value) based on the character limitations imposed by the system. An exact match of the text is required. If this banner is not displayed, this is a finding.","This system is for the use of authorized users only. Individuals using this computer system without authority or in excess of their authority are subject to having all their activities on this system monitored and recorded by system personnel. Anyone using this system expressly consents to such monitoring and is advised that if such monitoring reveals possible evidence of criminal activity system personal may provide the evidence of such monitoring to law enforcement officials.","AC-8"
+"CCE-84451-4","NIST80053-VI-ESXi-CFG-00129","Enhanced","NIST80053-VI-ESXi-AUD-00129","ESXi","If vCenter Update Manager is used on the network it can be used to scan all hosts for missing patches.  From the vSphere Client go to Hosts and Clusters >> Update Manager tab and select scan to view all hosts compliance status.
+
+If vCenter Update Manager is not used, a hostâ€™s compliance status must be manually determined by the build number.  The following VMware KB 1014508 can be used to correlate patches with build numbers.
+
+If the ESXi host does not have the latest patches, this is a finding.
+
+If the ESXi host is not on a supported release, this is a finding.
+
+VMware also publishes Advisories on security patches, and offers a way to subscribe to email alerts for them.
+https://www.vmware.com/support/policies/security_response","Apply latest patches and updates","CM-6"
+"CCE-84452-2","NIST80053-VI-ESXi-CFG-00134","Enhanced","NIST80053-VI-ESXi-AUD-00134","ESXi","The downloaded ISO, offline bundle, or patch hash must be verified against the vendor's checksum to ensure the integrity and authenticity of the files. 
+See some typical command line example(s) for both the md5 and sha1 hash check(s) directly below.
+# md5sum <filename>.iso
+# sha1sum <filename>.iso
+
+If any of the system's downloaded ISO, offline bundle, or system patch hashes cannot be verified against the vendor's checksum, this is a finding.","Compare the MD5 sum output with the value posted on the VMware Web site. SHA1 or MD5 hash should match. ","CM-6"
+"CCE-84453-0","NIST80053-VI-ESXi-CFG-00135","Built-in","NIST80053-VI-ESXi-AUD-00135","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AU-4"
+"CCE-84454-8","NIST80053-VI-ESXi-CFG-00136","Built-in","NIST80053-VI-ESXi-AUD-00136","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logDir
+
+
+If the LocalLogOutputIsPersistent value is not true, this is a finding.","[] /scratch/log","AU-4"
+"CCE-84455-5","NIST80053-VI-ESXi-CFG-00137","Built-in","NIST80053-VI-ESXi-AUD-00137","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.hostsvc.esxAdminsGroup
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Config.HostAgent.plugins.hostsvc.esxAdminsGroup"" keyword is set to ""ESX Admins"", this is a finding.","ug-SDDC-Admins","IA-2"
+"CCE-84456-3","NIST80053-VI-ESXi-CFG-00138","Built-in","NIST80053-VI-ESXi-AUD-00138","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Mem.ShareForceSalting
+
+If the Mem.ShareForceSalting setting is not set to 2, this is a finding.","2","CM-6"
+"CCE-84457-1","NIST80053-VI-ESXi-CFG-00139","Built-in","NIST80053-VI-ESXi-AUD-00139","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHostFirewallDefaultPolicy
+
+If the Incoming or Outgoing policies are True, this is a finding.","N/A","SC-7(5), SC-39, CA-3(5)"
+"CCE-84458-9","NIST80053-VI-ESXi-CFG-00141","Built-in","NIST80053-VI-ESXi-AUD-00141","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","IA-5(1)(f)"
+"CCE-84459-7","NIST80053-VI-ESXi-CFG-00142","Enhanced","NIST80053-VI-ESXi-AUD-00142","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.hostsvc.esxAdminsGroup
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Config.HostAgent.plugins.hostsvc.esxAdminsGroup"" keyword is set to ""ESX Admins"", this is a finding.","ug-SDDC-Admins","CM-8(3)(b)"
+"CCE-84460-5","NIST80053-VI-ESXi-CFG-00143","Built-in","NIST80053-VI-ESXi-AUD-00143","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","SI-8a., SI-8(1), SI-3a., SI-16"
+"CCE-84461-3","NIST80053-VI-ESXi-CFG-00145","Built-in","NIST80053-VI-ESXi-AUD-00145","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostNTPServer
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""NTP Daemon""}
+
+If the NTP service is not configured with authoritative DoD time sources and the service is not configured to start and stop with the host and is running, this is a finding.","ntp.lax01.rainpole.local, ntp.sfo01.rainpole.local","AU-8"
+"CCE-84462-1","NIST80053-VI-ESXi-CFG-00157","Built-in","NIST80053-VI-ESXi-AUD-00157","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.software.acceptance.get()
+
+If the acceptance level is CommunitySupported, this is a finding.","PartnerSupported","CM-5"
+"CCE-84463-9","NIST80053-VI-ESXi-CFG-00158","Built-in","NIST80053-VI-ESXi-AUD-00158","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.software.acceptance.get()
+
+If the acceptance level is CommunitySupported, this is a finding.","PartnerSupported","CM-7"
+"CCE-84464-7","NIST80053-VI-ESXi-CFG-00159","Built-in","NIST80053-VI-ESXi-AUD-00159","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.software.acceptance.get()
+
+If the acceptance level is CommunitySupported, this is a finding.","PartnerSupported","SC-28"
+"CCE-84465-4","NIST80053-VI-ESXi-CFG-00160","Built-in","NIST80053-VI-ESXi-AUD-00160","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.software.acceptance.get()
+
+If the acceptance level is CommunitySupported, this is a finding.","PartnerSupported","CM-6"
+"CCE-84466-2","NIST80053-VI-ESXi-CFG-00161","Built-in","NIST80053-VI-ESXi-AUD-00161","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+Get-VDSwitch | Get-VDSecurityPolicy
+Get-VDPortGroup | Get-VDSecurityPolicy
+
+If the ""Forged Transmits"" policy is set to accept, this is a finding.","","CM-6"
+"CCE-84467-0","NIST80053-VI-ESXi-CFG-00162","Built-in","NIST80053-VI-ESXi-AUD-00162","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+Get-VDSwitch | Get-VDSecurityPolicy
+Get-VDPortGroup | Get-VDSecurityPolicy
+
+If the ""MAC Address Changes"" policy is set to accept, this is a finding.","","CM-6"
+"CCE-84468-8","NIST80053-VI-ESXi-CFG-00163","Built-in","NIST80053-VI-ESXi-AUD-00163","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name DCUI.Access and verify it is set to root.
+
+If the DCUI.Access is not restricted to root, this is a finding.
+
+Note: This list is only for local user accounts and should only contain the root user.","root","CM-6"
+"CCE-84469-6","NIST80053-VI-ESXi-CFG-00164","Built-in","NIST80053-VI-ESXi-AUD-00164","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AC-17"
+"CCE-84470-4","NIST80053-VI-ESXi-CFG-00165","Built-in","NIST80053-VI-ESXi-AUD-00165","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Security.AccountUnlockTime and verify it is set to 900.
+
+If the Security.AccountUnlockTime is set to a value other than 900, this is a finding.","900","AC-7"
+"CCE-84471-2","NIST80053-VI-ESXi-CFG-00166","Built-in","NIST80053-VI-ESXi-AUD-00166","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.solo.enableMob
+
+If the Config.HostAgent.plugins.solo.enableMob setting is not set to false, this is a finding.","","CM-7"
+"CCE-84472-0","NIST80053-VI-ESXi-CFG-00167","Built-in","NIST80053-VI-ESXi-AUD-00167","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.hostsvc.esxAdminsGroup
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Config.HostAgent.plugins.hostsvc.esxAdminsGroup"" keyword is set to ""ESX Admins"", this is a finding.","ug-SDDC-Admins","IA-2"
+"CCE-84473-8","NIST80053-VI-ESXi-CFG-00168","Built-in","NIST80053-VI-ESXi-AUD-00168","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.DcuiTimeOut
+
+If the UserVars.DcuiTimeOut setting is not set to 600, this is a finding.","600","SC-10"
+"CCE-84474-6","NIST80053-VI-ESXi-CFG-00169","Built-in","NIST80053-VI-ESXi-AUD-00169","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Net.DVFilterBindIpAddress
+
+If the Net.DVFilterBindIpAddress is not blank and security appliances are not in use on the host, this is a finding.","""""","CM-6"
+"CCE-84475-3","NIST80053-VI-ESXi-CFG-00170","Built-in","NIST80053-VI-ESXi-AUD-00170","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AU-6"
+"CCE-84476-1","NIST80053-VI-ESXi-CFG-00171","Built-in","NIST80053-VI-ESXi-AUD-00171","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.DcuiTimeOut
+
+If the UserVars.DcuiTimeOut setting is not set to 600, this is a finding.","600","AC-12"
+"CCE-84477-9","NIST80053-VI-ESXi-CFG-00172","Built-in","NIST80053-VI-ESXi-AUD-00172","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AU-9"
+"CCE-84478-7","NIST80053-VI-ESXi-CFG-00173","Built-in","NIST80053-VI-ESXi-AUD-00173","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.hostsvc.esxAdminsGroup
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Config.HostAgent.plugins.hostsvc.esxAdminsGroup"" keyword is set to ""ESX Admins"", this is a finding.","ug-SDDC-Admins","IA-2"
+"CCE-84479-5","NIST80053-VI-ESXi-CFG-00174","Built-in","NIST80053-VI-ESXi-AUD-00174","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AU-9"
+"CCE-84480-3","NIST80053-VI-ESXi-CFG-00175","Built-in","NIST80053-VI-ESXi-AUD-00175","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.plugins.hostsvc.esxAdminsGroup
+
+For systems that do not use Active Directory and have no local user accounts, other than root, dcui, and/or vpxuser, this is Not Applicable.
+
+For systems that do not use Active Directory and do have local user accounts, other than root, dcui, and/or vpxuser, this is a finding.
+
+If the ""Config.HostAgent.plugins.hostsvc.esxAdminsGroup"" keyword is set to ""ESX Admins"", this is a finding.","ug-SDDC-Admins","IA-2"
+"CCE-84481-1","NIST80053-VI-ESXi-CFG-00176","Built-in","NIST80053-VI-ESXi-AUD-00176","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","AU-4"
+"CCE-84482-9","NIST80053-VI-ESXi-CFG-00177","Built-in","NIST80053-VI-ESXi-AUD-00177","ESXi","The vMotion VMkernel port group should in a dedicated VLAN that can be on a common standard or distributed virtual switch as long as the vMotion VLAN is not shared by any other function and it not routed to anything but ESXi hosts.  The check for this will be unique per environment.  From the vSphere Client select the ESXi host and go to Configure > Networking > VMKernel adapters and review the VLAN associated with the vMotion VMkernel(s) and verify they are dedicated for that purpose and are logically separated from other functions.
+
+If long distance or cross vCenter vMotion is used the vMotion network can be routable but must be accessible to only the intended ESXi hosts.
+
+If the vMotion port group is not on an isolated VLAN and/or is routable to systems other than ESXi hosts, this is a finding.
+
+For environments that do not use vCenter server to manage ESXi, this is not applicable.","vMotion VMKernel Port group should be in a dedicated VLAN. The check for this will be unique per environment","SC-8"
+"CCE-84483-7","NIST80053-VI-ESXi-CFG-00178","Built-in","NIST80053-VI-ESXi-AUD-00178","ESXi","The Management VMkernel port group should in a dedicated VLAN that can be on a common standard or distributed virtual switch as long as the Management VLAN is not shared by any other function and it not routed to anything other than management related functions such as vCenter.  The check for this will be unique per environment.  From the vSphere Client select the ESXi host and go to Configure > Networking > VMKernel adapters and review the VLAN associated with the Management VMkernel and verify they are dedicated for that purpose and are logically separated from other functions.
+
+If the network segment is routed, except to networks where other management-related entities are located such as vCenter, this is a finding.
+
+If production virtual machine traffic is routed to this network, this is a finding.","Management VMKernel Port group should be in a dedicated VLAN. The check for this will be unique per environment","SC-8"
+"CCE-84484-5","NIST80053-VI-ESXi-CFG-00179","Built-in","NIST80053-VI-ESXi-AUD-00179","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.log.level
+
+If the Config.HostAgent.log.level setting is not set to info, this is a finding.
+
+Note: Verbose logging level is acceptable for troubleshooting purposes.","info","AU-3"
+"CCE-84485-2","NIST80053-VI-ESXi-CFG-00180","Built-in","NIST80053-VI-ESXi-AUD-00180","ESXi","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Config.HostAgent.log.level
+
+If the Config.HostAgent.log.level setting is not set to info, this is a finding.
+
+Note: Verbose logging level is acceptable for troubleshooting purposes.","info","AU-12"
+"CCE-84486-0","NIST80053-VI-ESXi-CFG-00181","Built-in","NIST80053-VI-ESXi-AUD-00181","ESXi","From the vSphere Client select the ESXi Host and go to Configure >> Networking >> VMKernel adapters.  Review each VMkernel adapter that is defined and ensure it is enabled for only one type of management traffic.
+
+If any VMkernel is used for more than one type of management traffic, this is a finding.","N/A","SC-8"
+"CCE-84487-8","NIST80053-VI-ESXi-CFG-00182","Built-in","NIST80053-VI-ESXi-AUD-00182","ESXi","From the vSphere Client select the ESXi Host and go to Configure >> Networking>> TCP/IP Configuration.  Review the default system TCP/IP stacks and verify they are configured with the appropriate IP address information.
+
+If any system TCP/IP stack is configured and not in use by a VMkernel adapter, this is a finding.","N/A","SC-8"
+"CCE-84488-6","NIST80053-VI-ESXi-CFG-00192","Built-in","NIST80053-VI-ESXi-AUD-00192","ESXi","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostNTPServer
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""NTP Daemon""}
+
+If the NTP service is not configured with authoritative DoD time sources and the service is not configured to start and stop with the host and is running, this is a finding.","Policy :On and Running: True","AU-8"
+"CCE-84489-4","NIST80053-VI-ESXi-CFG-00184","Built-in","NIST80053-VI-ESXi-AUD-00184","ESXi","This check refers to an entity outside the physical scope of the ESXi server system. The configuration of upstream physical switches must be documented to ensure that spanning tree protocol is disabled and/or portfast is configured for all physical ports connected to ESXi hosts. Inspect the documentation and verify that the documentation is updated on a regular basis and/or whenever modifications are made to either ESXi hosts or the upstream physical switches. Alternatively, log in to the physical switch and verify that spanning tree protocol is disabled and/or portfast is configured for all physical ports connected to ESXi hosts.
+
+If the physical switch's spanning tree protocol is not disabled or portfast is not configured for all physical ports connected to ESXi hosts, this is a finding.","N/A","CM-6"
+"CCE-84501-6","NIST80053-VI-NET-CFG-00251","Built-in","NIST80053-VI-NET-AUD-00251","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Policies >> Password Policy. ","NSX Manager Appliance - NSX Domain Service Account - Password (Dependent on Customer Configuratons)","IA-5(1)"
+"CCE-84502-4","NIST80053-VI-NET-CFG-00252","Built-in","NIST80053-VI-NET-AUD-00252","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Policies >> Password Policy. ","Border Gateway Protocol Password (Dependent on Customer Configuratons)","IA-5(1)"
+"CCE-84503-2","NIST80053-VI-NET-CFG-00253","Built-in","NIST80053-VI-NET-AUD-00253","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Policies >> Password Policy. ","Universal Distributed Logical Router Password (Dependent on Customer Configuratons)","IA-5(1)"
+"CCE-84504-0","NIST80053-VI-NET-CFG-00281","Built-in","NIST80053-VI-NET-AUD-00281","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to  ""Backup & Restore""
+3) Under ""Backup & Restore"", verify that ""Audit Logs"" and ""System Events"" are not excluded (By DEFAULT they are NOT Excluded)","Audit logs and System events are not excluded","AU-3"
+"CCE-84505-7","NIST80053-VI-NET-CFG-00282","Built-in","NIST80053-VI-NET-AUD-00282","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings""
+3) Under ""General network settings"", verify IPv6 is not configured","IPv6 should be disabled","CM-7"
+"CCE-84506-5","NIST80053-VI-NET-CFG-00283","Built-in","NIST80053-VI-NET-AUD-00283","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings""
+3) Under ""DNS Servers"", verify IPv6 DNS is not configured","IPv6 DNS should be disabled","CM-7"
+"CCE-84507-3","NIST80053-VI-NET-CFG-00285","Built-in","NIST80053-VI-NET-AUD-00285","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings""
+3) Under ""Time Settings"", verify that ""NTP Server"" are authorized and trusted. It is recommended to use the same NTP server used by the SSO server.","1) Use at the least 3 NTP servers from outside time sources
+-OR-
+2) Configure a few local NTP servers on a trusted network that in turn obtain their time from at least three outside time sources","CM-7"
+"CCE-84508-1","NIST80053-VI-NET-CFG-00286","Built-in","NIST80053-VI-NET-AUD-00286","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings""
+3) Verify syslog server configuration","Remote syslog server is configured.","AU-3"
+"CCE-84509-9","NIST80053-VI-NET-CFG-00287","Built-in","NIST80053-VI-NET-AUD-00287","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings"" -->  ""SSL Certificates""
+3) Click on the certificate and verify certificate details.","1) Appropriate Issuer
+2) Correct certificate Type
+3) RSA Algorithm
+4) 2048 bits keys or higher","IA-8"
+"CCE-84510-7","NIST80053-VI-NET-CFG-00288","Built-in","NIST80053-VI-NET-AUD-00288","NSX","Assess the deployment and try to reach NSX manager being on standard network. NSX manager should only be reachable using isolation mechanisms.","No read or write permissions on backup directory","AC-4"
+"CCE-84511-5","NIST80053-VI-NET-CFG-00289","Built-in","NIST80053-VI-NET-AUD-00289","NSX","Login to VMware vSphere environment and inspect which users have access permissions to NSX manager VA. No user other than the intended administrator should have access to the VA or be able to carry out any administrative actions on that VA.","Procedural","AC-4"
+"CCE-84512-3","NIST80053-VI-NET-CFG-00290","Built-in","NIST80053-VI-NET-AUD-00290","NSX","Login to the SFTP server and navigate to backup directory. Ensure that the backup directory cannot be read or written to by the user other than backup user.","No read or write permissions on backup directory","AU-2"
+"CCE-84513-1","NIST80053-VI-NET-CFG-00291","Built-in","NIST80053-VI-NET-AUD-00291","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to ""Manage Appliance Settings""
+3) Under ""General network settings"", verify IPv4 DNS is authorized and secure.","IPv4 DNS is authorized and secure","CM-7"
+"CCE-84514-9","NIST80053-VI-NET-CFG-00294","Built-in","NIST80053-VI-NET-AUD-00294","NSX","Follow below steps to assess this recommendation:
+
+1) Log on to NSX Manager Virtual Appliance
+2) Go to  ""Backup & Restore""
+3) Under ""Backup & Restore"", verify ""FTP Server settings""","FTP Server settings (Dependent on Customer Configuratons)","AC-2"
+"CCE-84515-6","NIST80053-VI-NET-CFG-00295","Built-in","NIST80053-VI-NET-AUD-00295","NSX","After downloading the media use the MD5/SHA1 sum value to verify the integrity of the download. Compare the MD5/SHA1 hash output with the value posted on the VMware secure website.","SHA1 or MD5 hash should match ","SI-3"
+"CCE-84516-4","NIST80053-VI-NET-CFG-00296","Built-in","NIST80053-VI-NET-AUD-00296","NSX","Ensure that the controller network is deployed on a network that is not configured for or connected to other types of traffic.","Procedural (Dependent on Customer Configuratons)","AC-4"
+"CCE-84517-2","NIST80053-VI-NET-CFG-00297","Built-in","NIST80053-VI-NET-AUD-00297","NSX","Ensure that the controller network is secured. Run Rest API call to get the properties of the controller node and verify that ipSecEnabled element is true. https://<nsxmgr>/api/2.0/vdn/controller/node
+Response:
+<controllerNodeConfig>
+<ipSecEnabled>true</ipSecEnabled >
+</controllerNodeConfig> ","<ipSecEnabled>true</ipSecEnabled >","AC-3"
+"CCE-84518-0","NIST80053-VI-NET-CFG-00300","Built-in","NIST80053-VI-NET-AUD-00300","NSX","Thoroughly review the deployment and ensure that the virtual network is isolated.","Procedural (Dependent on Customer Configuratons)","AC-4"
+"CCE-84519-8","NIST80053-VI-NET-CFG-00301","Built-in","NIST80053-VI-NET-AUD-00301","NSX","Do a thorough check on the infrastructure design and deployment network diagram. Ensure that there are no non-hypervisors on the logical network data plane. Also, ensure that only trusted hypervisors are used and have the common function to support.","Procedural (Dependent on Customer Configuratons)","AC-4"
+"CCE-84520-6","NIST80053-VI-NET-CFG-00302","Built-in","NIST80053-VI-NET-AUD-00302","NSX","Verify by using the  vSphere Web Client to connect to the vCenter Server and as administrator: 
+1. Go to ""Home > Inventory > Networking"". 
+2. Select ""DSwitch"" for distributed portgroups. 
+3. Select each  dvPortgroup connected to active VM's requiring securing. 
+4. Go to tab ""Summary > Edit Settings > Policies > Security"".   
+5. Set the Forged transmits value to ""Reject""","Reject","AC-4"
+"CCE-84521-4","NIST80053-VI-NET-CFG-00303","Built-in","NIST80053-VI-NET-AUD-00303","NSX","Verify by using the vSphere Web Client to connect to the vCenter Server and as administrator: 
+1. Go to ""Home > Inventory > Networking"". 
+2. Select ""DSwitch"" for distributed portgroups. 
+3. Select each  dvPortgroup connected to active VM's requiring securing. 
+4. Go to tab ""Summary > Edit Settings > Policies > Security"".   
+5. ""Mac Address Changes"" = ""Reject""","Reject","AC-4"
+"CCE-84522-2","NIST80053-VI-NET-CFG-00304","Built-in","NIST80053-VI-NET-AUD-00304","NSX","Verify by using the vSphere Web Client to connect to the vCenter Server and as administrator: 
+1. Go to ""Home > Inventory > Networking"". 
+2. Select ""DSwitch"" for distributed portgroups. 
+3. Select each  dvPortgroup connected to active VM's requiring securing. 
+4. Go to tab ""Summary > Edit Settings > Policies > Security"".  
+5. ""Promiscuous Mode"" = ""Reject""","Reject","AC-4"
+"CCE-84523-0","NIST80053-VI-NET-CFG-00306","Built-in","NIST80053-VI-NET-AUD-00306","NSX","To assess this recommendation:
+
+1) Login to VMware vSphere Web Client
+2) Navigate to ""Networking and Security"" --> ""Installation and Upgrade""
+3) Go to ""Host Preparation"" tab.
+4) Under ""VXLAN"" column select ""View Configuration""
+5) Ensure that ""VMKNic Teaming Policy"" option is set to ""Load Balance - SRCID"".","Load Balance - SRCID","AC-4"
+"CCE-84524-8","NIST80053-VI-NET-CFG-00308","Built-in","NIST80053-VI-NET-AUD-00308","NSX","Verify denied by default policy.
+
+Log into the vCenter web interface with credentials authorized for administration, navigate to Networking and Security >> Firewall
+
+Expand ""Default Section Layer 3"" in Configuration
+
+If the action for the Default Rule is ""Allow"", this is a finding.","Denied","SC-7"
+"CCE-84525-5","NIST80053-VI-NET-CFG-00311","Built-in","NIST80053-VI-NET-AUD-00311","NSX","
+Log on to vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >> Users and Domains
+
+View each role and verify the users and/or groups assigned to it.
+","Procedural ","AU-9"
+"CCE-84526-3","NIST80053-VI-NET-CFG-00312","Built-in","NIST80053-VI-NET-AUD-00312","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy. 
+
+View the values of the password format requirements. The following password requirement should be set at a minimum: Numeric Characters: At least ""1"" ","1","IA-5"
+"CCE-84527-1","NIST80053-VI-NET-CFG-00313","Built-in","NIST80053-VI-NET-AUD-00313","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy. 
+
+View the values of the password format requirements. The following password requirements should be set at a minimum: Special Characters: At least ""1""","1","IA-5"
+"CCE-84528-9","NIST80053-VI-NET-CFG-00316","Built-in","NIST80053-VI-NET-AUD-00316","NSX","Verify the application must reveal error messages only to authorized individuals.
+
+Log on to vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >>Users and Domains
+
+View each role and verify the users and/or groups assigned to it.
+
+Application service account and user required privileges must be documented.
+
+If any user or service account has more privileges than required, this is a finding.","Procedural ","SI-11"
+"CCE-84529-7","NIST80053-VI-NET-CFG-00317","Built-in","NIST80053-VI-NET-AUD-00317","NSX","Verify NSX Manager does not have the default manufacturer password.
+
+Log into NSX Manager with built-in administrator account ""admin"" with the default manufacturer password ""default"".
+
+If the NSX Manager accepts the default manufacturer password, this is a finding.","Non-Default Password","IA-5"
+"CCE-84530-5","NIST80053-VI-NET-CFG-00318","Built-in","NIST80053-VI-NET-AUD-00318","NSX","
+
+Log into vSphere Web Client with credentials authorized for administration, navigate to Networking and Security >> Firewall
+Expand rule sections as necessary to view rules.
+
+If there are no rules configured to enforce authorizations, this is a finding.","Procedural ","AC-3"
+"CCE-84531-3","NIST80053-VI-NET-CFG-00321","Built-in","NIST80053-VI-NET-AUD-00321","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy. 
+
+View the values of the password format requirements. The following password requirement should be set at a minimum: Lower-case Characters: At least ""1"" 
+","1","IA-5"
+"CCE-84532-1","NIST80053-VI-NET-CFG-00322","Built-in","NIST80053-VI-NET-AUD-00322","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy. 
+
+View the values of the password format requirements. The following password requirement should be set at a minimum: Upper-case Characters: At least ""1"" ","1","IA-5"
+"CCE-84533-9","NIST80053-VI-NET-CFG-00323","Enhanced","NIST80053-VI-NET-AUD-00323","NSX","""Verify each rule in the NSX Firewall has been configured to ""Log"". 
+
+Log into vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >> Firewall tab to display a list of firewall rules deployed across the NSX environment.
+
+Click on the dropdown arrow to expand each firewall rule's section.
+For each rule, select the pencil icon in the ""Action"" column.
+The ""Log"" option must be selected for each rule.  
+
+If the ""Log"" option has not been enabled for all rules, this is a finding.""","Log","AU-12"
+"CCE-84534-7","NIST80053-VI-NET-CFG-00324","Enhanced","NIST80053-VI-NET-AUD-00324","NSX","Log into vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >> SpoofGuard._x000D_
+_x000D_
+Check the Default policy of each NSX Manager._x000D_
+_x000D_
+If the mode is disabled, this is a finding.","Enabled","AU-12"
+"CCE-84535-4","NIST80053-VI-NET-CFG-00328","Built-in","NIST80053-VI-NET-AUD-00328","NSX","Verify only necessary services are enabled.
+
+Log onto vSphere Web Client with credentials authorized for administration.
+
+Navigate and select Networking and Security >> select the ""NSX Edges"" tab on the left-side menu.
+
+Double-click the Edge ID.
+
+Navigate to Manage >> Verify the configurations under ""Settings, Firewall, Routing, Bridging, and DHCP Relay"" are enabled only as necessary to the deployment.
+
+If unnecessary services are enabled, this is a finding.","Enabled","CM-7"
+"CCE-84536-2","NIST80053-VI-NET-CFG-00329","Built-in","NIST80053-VI-NET-AUD-00329","NSX","Verify the built-in SSO administrator account is only used for emergencies and situations where it is the only option due to permissions. 
+
+If the built-in SSO administrator account is used for daily operations or there is no policy restricting its use, this is a finding.","Procedural (Dependent on Customer Configuratons)","CM-6"
+"CCE-84537-0","NIST80053-VI-NET-CFG-00330","Built-in","NIST80053-VI-NET-AUD-00330","NSX","From the vSphere Web Client, go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy. 
+
+View the value of the ""Restrict reuse"" setting. 
+
+If the ""Restrict reuse"" policy is not set to ""5"" or more, this is a finding.","5","IA-5"
+"CCE-84538-8","NIST80053-VI-NET-CFG-00340","Built-in","NIST80053-VI-NET-AUD-00340","NSX","Verify a public key certificate is obtained from an appropriate certificate policy through an approved service provider is used on the vCenter Server.
+ 
+Launch browser and go to the vSphere Web Client URL https://client-hostname/vsphere-client and verify the CA certificate is signed by an approved service provider.
+
+If a public key certificate from an appropriate certificate policy through an approved service provider is not used, this is a finding.","Procedural ","SC-17"
+"CCE-84539-6","NIST80053-VI-NET-CFG-00343","Built-in","NIST80053-VI-NET-AUD-00343","NSX","Verify no unwanted services are enabled.
+
+Log into vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >> Firewall 
+ 
+Verify that any unwanted services are disabled. 
+
+If there are services that should not be enabled, this is a finding.","Procedural ","CM-7"
+"CCE-84540-4","NIST80053-VI-NET-CFG-00344","Built-in","NIST80053-VI-NET-AUD-00344","NSX","
+Log into vSphere Web Client with credentials authorized for administration, navigate and select Networking and Security >> Firewall  
+ 
+If ports, protocols, and/or services are not disabled or restricted as required by the PPSM, this is a finding.","Procedural ","CM-7"
+"CCE-84541-2","NIST80053-VI-NET-CFG-00360","Built-in","NIST80053-VI-NET-AUD-00360","NSX","Verify there are no inactive router interfaces enabled.
+
+Log onto vSphere Web Client with credentials authorized for administration.
+
+Navigate and select Networking and Security >> ""NSX Edges"" tab on the left-side menu.
+
+Double-click the EdgeID.
+
+Click on the ""Configure"" tab on the top of the new screen, then Interfaces >> Check the ""Connection Status"" column for the associated interface.
+
+If any inactive router interfaces are not disabled, this is a finding.","Procedural","AC-4"
+"CCE-84542-0","NIST80053-VI-NET-CFG-00372","Built-in","NIST80053-VI-NET-AUD-00372","NSX","Verify NSX Manager backups are being sent to a centralized location and when changes occur or weekly, whichever is sooner. 
+
+Log on to NSX Manager with credentials authorized for administration, navigate and select Backup and Restore >> Backup History.
+
+Confirm there are current backups and information is being backed up at a consistent interval.
+
+If backups are not being sent to a centralized location when changes occur or weekly, whichever is sooner, this is a finding.","Procedural ","CP-9"
+"CCE-84301-1","NIST80053-VI-VC-CFG-00060","Enhanced","NIST80053-VI-VC-AUD-00060","vCenter","Ask the SA if hardened, patched templates are used for VM creation, properly configured OS deployments, including applications both dependent and non-dependent on VM-specific configurations.
+
+If hardened, patched templates are not used for VM creation, this is a finding.The system must use templates to deploy VMs whenever possible.","Hardened virtual machine templates to use for OS deployments.","CM-6"
+"CCE-84302-9","NIST80053-VI-ESXI-CFG-00061","Enhanced","NIST80053-VI-ESXI-AUD-00061","vCenter","""Remote management services, such as terminal services and SSH, must be used to interact with virtual machines. VM console access should only be granted when remote management services are unavailable or insufficient to perform necessary management tasks. To check if VM console access is granted, perform the following procedure: 1. On the Home page of the vSphere Client, select Menu > Administration and click Roles. 2. Select the VC from the Roles provider drop-down menu. 4. Select the Virtual machine user (sample) role and click Privileges. 5. Under Virtual Machine, check if the Console Interaction privilege is assigned or not. If Console Interaction privilege is assigned to the role then this is a finding. If SSH and/or terminal management services are exclusively used to perform management tasks, this is not a finding.""","Disable Console interaction privilege","CM-6"
+"CCE-84303-7","NIST80053-VI-ESXI-CFG-00065","Built-in","NIST80053-VI-ESXI-AUD-00065","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command: Get-VM | Where {$_.ExtensionData.Config.Hardware.Device.DeviceInfo.Label -match """"parallel""""} If a virtual machine has a parallel device present, this is a finding.""","Disconnect unauthorized parallel devices","CM-6"
+"CCE-84304-5","NIST80053-VI-ESXI-CFG-00066","Built-in","NIST80053-VI-ESXI-AUD-00066","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command: Get-VM | Where {$_.ExtensionData.Config.Hardware.Device.DeviceInfo.Label -match """"serial""""} If a virtual machine has a serial device present, this is a finding.""","Disconnect unauthorized serial devices","CM-6"
+"CCE-84305-2","NIST80053-VI-ESXI-CFG-00067","Built-in","NIST80053-VI-ESXI-AUD-00067","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following commands: Get-VM | Get-UsbDevice If a virtual machine has any USB devices or USB controllers present, this is a finding.""","No USB device present","CM-6"
+"CCE-84306-0","NIST80053-VI-ESXI-CFG-00068","Built-in","NIST80053-VI-ESXI-AUD-00068","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name sched.mem.pshare.salt
+
+If the virtual machine advanced setting sched.mem.pshare.salt exists, this is a finding.","Remove the advanced setting sched.mem.pshare.salt","CM-6"
+"CCE-84307-8","NIST80053-VI-ESXI-CFG-00070","Enhanced","NIST80053-VI-ESXI-AUD-00070","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.copy.disable
+
+If the virtual machine advanced setting isolation.tools.copy.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84308-6","NIST80053-VI-ESXI-CFG-00071","Enhanced","NIST80053-VI-ESXI-AUD-00071","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.dnd.disable
+
+If the virtual machine advanced setting isolation.tools.dnd.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84309-4","NIST80053-VI-ESXI-CFG-00072","Enhanced","NIST80053-VI-ESXI-AUD-00072","vCenter","
+or
+
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.setGUIOptions.enable
+
+If the virtual machine advanced setting isolation.tools.setGUIOptions.enable does not exist or is not set to false, this is a finding.","","CM-6"
+"CCE-84310-2","NIST80053-VI-ESXI-CFG-00073","Enhanced","NIST80053-VI-ESXI-AUD-00073","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.paste.disable
+
+If the virtual machine advanced setting isolation.tools.paste.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84311-0","NIST80053-VI-ESXI-CFG-00074","Enhanced","NIST80053-VI-ESXI-AUD-00074","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.diskShrink.disable
+
+If the virtual machine advanced setting isolation.tools.diskShrink.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84312-8","NIST80053-VI-ESXI-CFG-00075","Enhanced","NIST80053-VI-ESXI-AUD-00075","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.diskWiper.disable
+
+If the virtual machine advanced setting isolation.tools.diskWiper.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84313-6","NIST80053-VI-ESXI-CFG-00076","Enhanced","NIST80053-VI-ESXI-AUD-00076","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.hgfsServerSet.disable
+
+If the virtual machine advanced setting isolation.tools.hgfsServerSet.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84314-4","NIST80053-VI-ESXI-CFG-00077","Enhanced","NIST80053-VI-ESXI-AUD-00077","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.ghi.autologon.disable
+
+If the virtual machine advanced setting isolation.tools.ghi.autologon.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84315-1","NIST80053-VI-ESXI-CFG-00078","Enhanced","NIST80053-VI-ESXI-AUD-00078","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.bios.bbs.disable
+
+If the virtual machine advanced setting isolation.bios.bbs.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84316-9","NIST80053-VI-ESXI-CFG-00079","Enhanced","NIST80053-VI-ESXI-AUD-00079","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.getCreds.disable
+
+If the virtual machine advanced setting isolation.tools.getCreds.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84317-7","NIST80053-VI-ESXI-CFG-00080","Enhanced","NIST80053-VI-ESXI-AUD-00080","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.ghi.launchmenu.change
+
+If the virtual machine advanced setting isolation.tools.ghi.launchmenu.change does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84318-5","NIST80053-VI-ESXI-CFG-00081","Enhanced","NIST80053-VI-ESXI-AUD-00081","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.memSchedFakeSampleStats.disable
+
+If the virtual machine advanced setting isolation.tools.memSchedFakeSampleStats.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84319-3","NIST80053-VI-ESXI-CFG-00082","Enhanced","NIST80053-VI-ESXI-AUD-00082","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.ghi.protocolhandler.info.disable
+
+If the virtual machine advanced setting isolation.tools.ghi.protocolhandler.info.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84320-1","NIST80053-VI-ESXI-CFG-00083","Enhanced","NIST80053-VI-ESXI-AUD-00083","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.ghi.host.shellAction.disable
+
+If the virtual machine advanced setting isolation.ghi.host.shellAction.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84321-9","NIST80053-VI-ESXI-CFG-00084","Enhanced","NIST80053-VI-ESXI-AUD-00084","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.dispTopoRequest.disable
+
+If the virtual machine advanced setting isolation.tools.dispTopoRequest.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84322-7","NIST80053-VI-ESXI-CFG-00085","Enhanced","NIST80053-VI-ESXI-AUD-00085","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.trashFolderState.disable
+
+If the virtual machine advanced setting isolation.tools.trashFolderState.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84323-5","NIST80053-VI-ESXI-CFG-00086","Enhanced","NIST80053-VI-ESXI-AUD-00086","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.ghi.trayicon.disable
+
+If the virtual machine advanced setting isolation.tools.ghi.trayicon.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84324-3","NIST80053-VI-ESXI-CFG-00087","Enhanced","NIST80053-VI-ESXI-AUD-00087","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unity.disable
+
+If the virtual machine advanced setting isolation.tools.unity.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84325-0","NIST80053-VI-ESXI-CFG-00088","Enhanced","NIST80053-VI-ESXI-AUD-00088","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unityInterlockOperation.disable
+
+If the virtual machine advanced setting isolation.tools.unityInterlockOperation.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84326-8","NIST80053-VI-ESXI-CFG-00089","Enhanced","NIST80053-VI-ESXI-AUD-00089","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unity.push.update.disable
+
+If the virtual machine advanced setting isolation.tools.unity.push.update.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84327-6","NIST80053-VI-ESXI-CFG-00090","Enhanced","NIST80053-VI-ESXI-AUD-00090","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unity.taskbar.disable
+
+If the virtual machine advanced setting isolation.tools.unity.taskbar.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84328-4","NIST80053-VI-ESXI-CFG-00091","Enhanced","NIST80053-VI-ESXI-AUD-00091","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unityActive.disable
+
+If the virtual machine advanced setting isolation.tools.unityActive.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84329-2","NIST80053-VI-ESXI-CFG-00092","Enhanced","NIST80053-VI-ESXI-AUD-00092","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.unity.windowContents.disable
+
+If the virtual machine advanced setting isolation.tools.unity.windowContents.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84330-0","NIST80053-VI-ESXI-CFG-00093","Enhanced","NIST80053-VI-ESXI-AUD-00093","vCenter","From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.vmxDnDVersionGet.disable
+
+If the virtual machine advanced setting isolation.tools.vmxDnDVersionGet.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84331-8","NIST80053-VI-ESXI-CFG-00094","Enhanced","NIST80053-VI-ESXI-AUD-00094","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.guestDnDVersionSet.disable
+
+If the virtual machine advanced setting isolation.tools.guestDnDVersionSet.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84332-6","NIST80053-VI-ESXI-CFG-00095","Enhanced","NIST80053-VI-ESXI-AUD-00095","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.vixMessage.disable
+
+If the virtual machine advanced setting isolation.tools.vixMessage.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84333-4","NIST80053-VI-ESXI-CFG-00096","Enhanced","NIST80053-VI-ESXI-AUD-00096","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name RemoteDisplay.maxConnections
+
+If the virtual machine advanced setting RemoteDisplay.maxConnections does not exist or is not set to 1, this is a finding.","1","CM-6"
+"CCE-84334-2","NIST80053-VI-ESXI-CFG-00097","Enhanced","NIST80053-VI-ESXI-AUD-00097","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name RemoteDisplay.vnc.enabled
+
+If the virtual machine advanced setting RemoteDisplay.vnc.enabled does not exist or is not set to false, this is a finding.","","CM-6"
+"CCE-84335-9","NIST80053-VI-ESXI-CFG-00098","Enhanced","NIST80053-VI-ESXI-AUD-00098","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.tools.autoInstall.disable
+
+If the virtual machine advanced setting isolation.tools.autoInstall.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84336-7","NIST80053-VI-ESXI-CFG-00099","Enhanced","NIST80053-VI-ESXI-AUD-00099","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name tools.setinfo.sizeLimit
+
+If the virtual machine advanced setting tools.setinfo.sizeLimit does not exist or is not set to 1048576, this is a finding.","1048576","CM-6"
+"CCE-84337-5","NIST80053-VI-ESXI-CFG-00100","Enhanced","NIST80053-VI-ESXI-AUD-00100","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.device.edit.disable
+
+If the virtual machine advanced setting isolation.device.edit.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84338-3","NIST80053-VI-ESXI-CFG-00101","Enhanced","NIST80053-VI-ESXI-AUD-00101","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name isolation.device.connectable.disable
+
+If the virtual machine advanced setting isolation.device.connectable.disable does not exist or is not set to true, this is a finding.","1","CM-6"
+"CCE-84339-1","NIST80053-VI-ESXI-CFG-00102","Enhanced","NIST80053-VI-ESXI-AUD-00102","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name tools.guestlib.enableHostInfo
+
+If the virtual machine advanced setting tools.guestlib.enableHostInfo does not exist or is not set to false, this is a finding.","","CM-6"
+"CCE-84340-9","NIST80053-VI-ESXI-CFG-00154","Built-in","NIST80053-VI-ESXI-AUD-00154","vCenter","
+From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-HardDisk | Select Parent, Name, Filename, DiskType, Persistence | FT -AutoSize
+
+If the virtual machine has attached disks that are in independent nonpersistent mode, this is a finding.","Persistent","CM-6"
+"CCE-84341-7","NIST80053-VI-ESXI-CFG-00155","Built-in","NIST80053-VI-ESXI-AUD-00155","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command: Get-VM | Get-FloppyDrive | Select Parent, Name, ConnectionState If a virtual machine has a floppy drive present, this is a finding.""","Disconnect unauthorized floppy devices","CM-6"
+"CCE-84342-5","NIST80053-VI-ESXI-CFG-00156","Built-in","NIST80053-VI-ESXI-AUD-00156","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command: Get-VM | Get-CDDrive | Where {$_.extensiondata.connectable.connected -eq $true} | Select Parent,Name If a virtual machine has a CD/DVD drive connected other than temporarily, this is a finding.""","Disconnect unauthorized CD/DVD drives","CM-5"
+"CCE-84343-3","NIST80053-VI-ESXI-CFG-00185","Built-in","NIST80053-VI-ESXI-AUD-00185","vCenter",""" From a PowerCLI command prompt while connected to the ESXi host run the following command: Get-VirtualPortGroup | Select Name, VLanID If any port group is configured with VLAN 4095 and is not documented as a needed exception, this is a finding.""","Not 4095","CM-6"
+"CCE-84344-1","NIST80053-VI-NET-CFG-00341","Built-in","NIST80053-VI-NET-AUD-00341","vCenter","
+If the vCenter server is not joined to an Active Directory domain and not configured for Single Sign-On Identity Source of the Active Directory domain, and Active Directory/CAC/PIV certificate-based accounts are not used for daily operations of the vCenter server, this is a finding.","Procedural (Dependent on Customer Configuratons)","CM-6"
+"CCE-84345-8","NIST80053-VI-NET-CFG-00341","Built-in","NIST80053-VI-NET-AUD-00341","vCenter","
+If the vCenter server is not joined to an Active Directory domain and not configured for Single Sign-On Identity Source of the Active Directory domain, and Active Directory/CAC/PIV certificate-based accounts are not used for daily operations of the vCenter server, this is a finding.","Procedural (Dependent on Customer Configuratons)","CM-6"
+"CCE-84346-6","NIST80053-VI-VC-CFG-00401","Built-in","NIST80053-VI-VC-AUD-00401","vCenter","For applications sharing service accounts create a new service account to assign to the application so that no application shares a service account with another.
+
+When standing up a new application that requires access to vCenter always create a new service account prior to installation and grant only the permissions needed for that application.","Procedural (Dependent on Customer Configuratons)","IA-2"
+"CCE-84347-4","NIST80053-VI-VC-CFG-00402","Built-in","NIST80053-VI-VC-AUD-00402","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VDPortgroup | select Name, VlanConfiguration
+
+If any port group is configured with VLAN 4095 and is not documented as a needed exception, this is a finding.","Not 4095","AC-4"
+"CCE-84348-2","NIST80053-VI-VC-CFG-00403","Built-in","NIST80053-VI-VC-AUD-00403","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  View the value of the ""Restrict reuse"" setting.
+
+If the ""Restrict reuse"" policy is not set to 5 or more, this is a finding.","5","IA-5(1)"
+"CCE-84349-0","NIST80053-VI-VC-CFG-00404","Built-in","NIST80053-VI-VC-AUD-00404","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AdvancedSetting -Entity <vcenter server name> -Name config.log.level 
+
+","info","AU-2"
+"CCE-84350-8","NIST80053-VI-VC-CFG-00405","Built-in","NIST80053-VI-VC-AUD-00405","vCenter","From a PowerCLI command prompt while connected to the vCenter server run the following commands:
+
+Get-VDSwitch | Get-VDSecurityPolicy
+Get-VDPortgroup | Get-VDSecurityPolicy
+
+If the ""Promiscuous Mode"" policy is set to accept, this is a finding.","reject","AC-4"
+"CCE-84351-6","NIST80053-VI-VC-CFG-00406","Built-in","NIST80053-VI-VC-AUD-00406","vCenter","Verify the vSphere Client used by administrators includes only authorized extensions from trusted sources.
+
+From the vSphere Web Client go to Administration >> Client Plug-Ins. View the Installed/Available Plug-ins list and verify they are all identified as authorized VMware, 3rd party (Partner) and/or site-specific (locally developed and site) approved plug-ins.
+
+If any Installed/Available plug-ins in the viewable list cannot be verified as vSphere Client plug-ins and/or authorized extensions from trusted sources, this is a finding.","N/A","CM-5(3)"
+"CCE-84352-4","NIST80053-VI-VC-CFG-00407","Built-in","NIST80053-VI-VC-AUD-00407","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following commands:
+
+Get-VDSwitch | Get-VDSecurityPolicy
+Get-VDPortgroup | Get-VDSecurityPolicy
+
+If the ""MAC Address Changes"" policy is set to accept, this is a finding.","Authorized extensions from Trusted Sources","AC-4"
+"CCE-84353-2","NIST80053-VI-VC-CFG-00408","Built-in","NIST80053-VI-VC-AUD-00408","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  Check that Upper-case Characters  is set to at least 1 and click OK.","1","IA-5(1)"
+"CCE-84354-0","NIST80053-VI-VC-CFG-00409","Built-in","NIST80053-VI-VC-AUD-00409","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VDSwitch | select Name,@{N=""NIOC Enabled"";E={$_.ExtensionData.config.NetworkResourceManagementEnabled}}
+
+If Network I/O Control is disabled, this is a finding.","enabled","SC-5"
+"CCE-84355-7","NIST80053-VI-VC-CFG-00410","Enhanced","NIST80053-VI-VC-AUD-00410","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  Check that the Minimum Length is set to at least 15 and click OK.","15","IA-5(1)"
+"CCE-84356-5","NIST80053-VI-VC-CFG-00411","Enhanced","NIST80053-VI-VC-AUD-00411","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following commands:
+
+$vds = Get-VDSwitch
+$vds.ExtensionData.Config.HealthCheckConfig
+
+If the health check feature is enabled on distributed switches and is not on temporarily for troubleshooting purposes, this is a finding.","","CM-7"
+"CCE-84357-3","NIST80053-VI-VC-CFG-00412","Enhanced","NIST80053-VI-VC-AUD-00412","vCenter","From the vSphere Client select the vCenter server at the top of the hierarchy and go to >> Alarms >> Definitions. Verify there is an alarm created to alert on permission changes.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AlarmDefinition | Where {$_.ExtensionData.Info.Expression.Expression.EventTypeId -eq ""vim.event.PermissionUpdatedEvent""} | Select Name,Enabled,@{N=""EventTypeId"";E={$_.ExtensionData.Info.Expression.Expression.EventTypeId}}
+
+If an alarm is not created to alert on permission update events, this is a finding.","Procedural","SI-4(5)"
+"CCE-84358-1","NIST80053-VI-VC-CFG-00413","Built-in","NIST80053-VI-VC-AUD-00413","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  Check that Lower-case Characters is set to at least 1 and click OK.","1","IA-5(1)"
+"CCE-84359-9","NIST80053-VI-VC-CFG-00414","Enhanced","NIST80053-VI-VC-AUD-00414","vCenter","From the vSphere Client select the vCenter server at the top of the hierarchy and go to >> Alarms >> Definitions. Verify there is an alarm created to alert on permission additions.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AlarmDefinition | Where {$_.ExtensionData.Info.Expression.Expression.EventTypeId -eq ""vim.event.PermissionAddedEvent""} | Select Name,Enabled,@{N=""EventTypeId"";E={$_.ExtensionData.Info.Expression.Expression.EventTypeId}}
+
+If an alarm is not created to alert on permission addition events, this is a finding.","Procedural","SI-4(5)"
+"CCE-84360-7","NIST80053-VI-VC-CFG-00415","Built-in","NIST80053-VI-VC-AUD-00415","vCenter"," : 
+
+From the vSphere Web Client go to Administration >> Access Control >> Roles. View each role and verify the users and/or groups assigned to it.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VIPermission | Sort Role | Select Role,Principal,Entity,Propagate,IsGroup | FT -Auto
+
+Application service account and user required privileges should be documented.
+
+If any user or service account has more privileges than required, this is a finding.","Procedural (Dependent on Customer Configuratons)","AC-2"
+"CCE-84361-5","NIST80053-VI-VC-CFG-00416","Enhanced","NIST80053-VI-VC-AUD-00416","vCenter","From the vSphere Client select the vCenter server at the top of the hierarchy and go to >> Alarms >> Definitions. Verify there is an alarm created to alert on permission deletions.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AlarmDefinition | Where {$_.ExtensionData.Info.Expression.Expression.EventTypeId -eq ""vim.event.PermissionRemovedEvent""} | Select Name,Enabled,@{N=""EventTypeId"";E={$_.ExtensionData.Info.Expression.Expression.EventTypeId}}
+If an alarm is not created to alert on permission deletion events, this is a finding.","Procedural","SI-4(5)"
+"CCE-84362-3","NIST80053-VI-VC-CFG-00417","Built-in","NIST80053-VI-VC-AUD-00417","vCenter","
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VDPortgroup | Select Name,VirtualSwitch,@{N=""NetFlowEnabled"";E={$_.Extensiondata.Config.defaultPortConfig.ipfixEnabled.Value}}
+
+If NetFlow is configured and the collector IP is not known and is not enabled temporarily for troubleshooting purposes, this is a finding.","Known Ips","AC-4"
+"CCE-84363-1","NIST80053-VI-VC-CFG-00418","Enhanced","NIST80053-VI-VC-AUD-00418","vCenter","
+
+If no clusters are enabled for VSAN, this is not applicable.
+
+From the vSphere Web Client go to Host and Clusters >> Select a vCenter Server  >> Configure >> vSAN >> Internet Connectivity >> Status
+If proxy is not configured this is a finding.
+","Procedural","AC-4, SC-7(8)"
+"CCE-84364-9","NIST80053-VI-VC-CFG-00419","Built-in","NIST80053-VI-VC-AUD-00419","vCenter","
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VIPermission | Sort Role | Select Role,Principal,Entity,Propagate,IsGroup | FT -Auto
+
+Application service account and user required privileges should be documented.
+
+If any user or service account has more privileges than required, this is a finding.","Procedural (Dependent on Customer Configuratons)","AC-2"
+"CCE-84365-6","NIST80053-VI-VC-CFG-00420","Built-in","NIST80053-VI-VC-AUD-00420","vCenter","From the vSphere Web Client go to Host and Clusters >> Select a Cluster >> Related Objects >> Datastores. Review the datastores. Identify any datastores with ""vsan"" as the datastore type.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+If($(Get-Cluster | where {$_.VsanEnabled} | Measure).Count -gt 0){
+Write-Host ""VSAN Enabled Cluster found""
+Get-Cluster | where {$_.VsanEnabled} | Get-Datastore | where {$_.type -match ""vsan""}
+}
+else{
+Write-Host ""VSAN is not enabled, this finding is not applicable""
+}
+
+If VSAN is Enabled and the datastore is named ""vsanDatastore"" this is a finding.","No Name with ""vsanDatastore""","IA-4"
+"CCE-84366-4","NIST80053-VI-VC-CFG-00421","Enhanced","NIST80053-VI-VC-AUD-00421","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  View the value of the ""Maximum lifetime"" setting.
+
+If the ""Maximum lifetime"" policy is not set to 60, this is a finding.","60","IA-5(1)"
+"CCE-84367-2","NIST80053-VI-VC-CFG-00422","Enhanced","NIST80053-VI-VC-AUD-00422","vCenter","On the system where vCenter is installed locate the webclient.properties file. /etc/vmware/vsphere-client/ and /etc/vmware/vsphere-ui/ Verify the  line ""session.timeout = 10"" where 10 is the timeout value in minutes. ","10","AC-7"
+"CCE-84368-0","NIST80053-VI-VC-CFG-00427","Enhanced","NIST80053-VI-VC-AUD-00427","vCenter","From the vSphere Web Client go to vCenter Inventory Lists >> vCenter Servers >> Select your vCenter Server >> Manage >> Settings >> Advanced Settings. Click Edit and edit the config.vpxd.hostPasswordLength setting to 32 or if the value does not exist create it by entering the values in the Key and Value fields and clicking Add.
+
+Or
+
+If the setting already exists:
+Get-AdvancedSetting -Entity <vcenter server name> -Name config.vpxd.hostPasswordLength | Set-AdvancedSetting -Value 32
+
+If the setting does not exist:
+
+New-AdvancedSetting -Entity <vcenter server name> -Name config.vpxd.hostPasswordLength -Value 32 ","32","IA-5(1)"
+"CCE-84369-8","NIST80053-VI-VC-CFG-00428","Built-in","NIST80053-VI-VC-AUD-00428","vCenter","From the vSphere Web Client go to vCenter Inventory Lists >> vCenter Servers >> Select your vCenter Server  >> Settings >> Advanced System Settings. Verify that VirtualCenter.VimPasswordExpirationInDays is set to 30.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AdvancedSetting -Entity <vcenter server name> -Name VirtualCenter.VimPasswordExpirationInDays and verify it is set to 30.
+
+If the VirtualCenter.VimPasswordExpirationInDays is set to a value other than 30 or does not exist, this is a finding.","","CM-7"
+"CCE-84370-6","NIST80053-VI-VC-CFG-00429","Built-in","NIST80053-VI-VC-AUD-00429","vCenter","Check the following conditions:
+The Update Manager must be configured to use the Update Manager Download Server. 
+The use of physical media to transfer update files to the Update Manager server (air-gap model example: separate Update Manager Download Server which may source vendor patches externally via the Internet versus an internal source) must be enforced with site policies.
+
+Verify the Update Manager download source is not the Internet. 
+To verify download settings, from the vSphere Client/vCenter Server system, click Update Manager.
+Select a Host, and then click the Settings tab. In the Download Settings tab, verify ""Direct connection to Internet"" is not selected.
+
+If ""Direct connection to Internet"" is configured, this is a finding.
+If all of the above conditions are not met, this is a finding.","Procedural","AC-4, SC-7(8)"
+"CCE-84371-4","NIST80053-VI-VC-CFG-00432","Built-in","NIST80053-VI-VC-AUD-00432","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  Check that Special Characters is set to at least 1 and click OK.","1","IA-5(1)"
+"CCE-84372-2","NIST80053-VI-VC-CFG-00433","Built-in","NIST80053-VI-VC-AUD-00433","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Password Policy.  Check that Numeric Characters is set to at least 1 and click OK.","1","IA-5(1)"
+"CCE-84373-0","NIST80053-VI-VC-CFG-00434","Enhanced","NIST80053-VI-VC-AUD-00434","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Lockout Policy.  Check that the Time interval between failures is set to at least 900 and click OK.","900","AC-7"
+"CCE-84374-8","NIST80053-VI-VC-CFG-00435","Enhanced","NIST80053-VI-VC-AUD-00435","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Lockout Policy.  Check that the Unlock time is set to 0 and click OK.","0","AC-7"
+"CCE-84375-5","NIST80053-VI-VC-CFG-00436","Enhanced","NIST80053-VI-VC-AUD-00436","vCenter","From the vSphere Web Client go to Administration >> Single Sign-On >> Configuration >> Policies >> Lockout Policy.  Check that the Maximum number of failed login attempts to 3 and click OK.","3","AC-7"
+"CCE-84376-3","NIST80053-VI-VC-CFG-00437","Enhanced","NIST80053-VI-VC-AUD-00437","vCenter","From the vSphere Web Client go to vCenter Inventory Lists >> vCenter Servers >> Select your vCenter Server  >> Settings >> Advanced Settings. Verify that config.nfc.useSSL is set to true.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AdvancedSetting -Entity <vcenter server name> -Name config.nfc.useSSL and verify it is set to true.","1","SC-8"
+"CCE-84377-1","NIST80053-VI-VC-CFG-00439","Built-in","NIST80053-VI-VC-AUD-00439","vCenter","
+
+Verify the built-in SSO administrator account is only used for emergencies and situations where it is the only option due to permissions.
+
+If the built-in SSO administrator account is used for daily operations or there is no policy restricting its use, this is a finding.","Procedural","AC-6"
+"CCE-84378-9","NIST80053-VI-VC-CFG-00440","Enhanced","NIST80053-VI-VC-AUD-00440","vCenter"," : 
+
+From the vSphere Web Client go to Networking >> Select a distributed port group >> Manage >> Settings >> Properties. View the Properties pane and verify all Override port policies are set to disabled.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VDPortgroup | Get-View |
+Select Name,
+@{N=""VlanOverrideAllowed"";E={$_.Config.Policy.VlanOverrideAllowed}},
+@{N=""UplinkTeamingOverrideAllowed"";E={$_.Config.Policy.UplinkTeamingOverrideAllowed}},
+@{N=""SecurityPolicyOverrideAllowed"";E={$_.Config.Policy.SecurityPolicyOverrideAllowed}},
+@{N=""IpfixOverrideAllowed"";E={$_.Config.Policy.IpfixOverrideAllowed}},
+@{N=""BlockOverrideAllowed"";E={$_.Config.Policy.BlockOverrideAllowed}},
+@{N=""ShapingOverrideAllowed"";E={$_.Config.Policy.ShapingOverrideAllowed}},
+@{N=""VendorConfigOverrideAllowed"";E={$_.Config.Policy.VendorConfigOverrideAllowed}},
+@{N=""TrafficFilterOverrideAllowed"";E={$_.Config.Policy.TrafficFilterOverrideAllowed}},
+@{N=""PortConfigResetAtDisconnect"";E={$_.Config.Policy.PortConfigResetAtDisconnect}} | Sort Name
+
+Note: This was broken up into multiple lines for readability. Either paste as is into a PowerShell script or combine into one line and run.
+
+This does not apply to the reset port configuration on disconnect policy.
+
+If any port level overrides are enabled and not documented, this is a finding.","disabled","AC-4"
+"CCE-84379-7","NIST80053-VI-VC-CFG-00442","Enhanced","NIST80053-VI-VC-AUD-00442","vCenter"," 
+
+From the vSphere Client select the vCenter server at the top of the hierarchy and go to >> Alarms >> Definitions. Verify there is an alarm created to alert if an ESXi host can no longer reach its syslog server.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-AlarmDefinition | Where {$_.ExtensionData.Info.Expression.Expression.EventTypeId -eq ""esx.problem.vmsyslogd.remote.failure""} | Select Name,Enabled,@{N=""EventTypeId"";E={$_.ExtensionData.Info.Expression.Expression.EventTypeId}}","Enabled","AU-5(2)"
+"CCE-84380-5","NIST80053-VI-VC-CFG-00445","Built-in","NIST80053-VI-VC-AUD-00445","vCenter","If IP-based storage is not used, this is not applicable.
+
+IP-Based storage (iSCSI, NFS, VSAN) VMkernel port groups must be in a dedicated VLAN that can be on a common standard or distributed virtual switch that is logically separated from other traffic types. The check for this will be unique per environment. From the vSphere Client select Networks >> Distributed Port Groups and review the VLANs associated with any IP-Based storage VMkernels and verify they are dedicated for that purpose and are logically separated from other functions.
+
+If any IP-Based storage networks are not isolated from other traffic types, this is a finding.","Unique IP Addresses ","AC-4"
+"CCE-84381-3","NIST80053-VI-VC-CFG-00447","Built-in","NIST80053-VI-VC-AUD-00447","vCenter","Login to the vCenter server and verify the local administrators group only contains users and/or groups that contain vCenter Administrators.
+
+If the local administrators group contains users and/or groups that are not vCenter Administrators such as ""Domain Admins"", this is a finding.","Only necessary users and groups.","AC-6"
+"CCE-84382-1","NIST80053-VI-VC-CFG-00450","Built-in","NIST80053-VI-VC-AUD-00450","vCenter","From the vSphere Client go to Home >> Networking.
+
+Select a distributed port group and click edit and go to security and verify ""Forged Transmits"" is set to reject.
+
+or
+
+From a PowerCLI command prompt while connected to the vCenter server run the following commands:
+
+Get-VDSwitch | Get-VDSecurityPolicy
+Get-VDPortgroup | ?{$_.IsUplink -eq $false} | Get-VDSecurityPolicy
+
+If the ""Forged Transmits"" policy is set to accept for a non-uplink port, this is a finding.","reject","AC-4"
+"CCE-84383-9","NIST80053-VI-VC-CFG-00455","Enhanced","NIST80053-VI-VC-AUD-00455","vCenter","Verify if vSphere Storage API - Data Protection (VADP) solution is configured for performing backup and restore of the management components","vSphere Storage API - Data Protection (VADP)",""
+"CCE-84384-7","NIST80053-VI-VC-CFG-00497","Built-in","NIST80053-VI-VC-AUD-00497","vCenter","On the Edit port group - VM Network window,  check for input 1611 for VLAN ID. Make sure that the vlan is not 1611","Not 1611","CM-6"
+"CCE-84385-4","NIST80053-VI-VC-CFG-00555","Enhanced","NIST80053-VI-VC-AUD-00555","vCenter","From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name svga.vgaonly
+
+If the virtual machine advanced setting svga.vgaonly does not exist or is not set to false, this is a finding.","1","CM-6"
+"CCE-84386-2","NIST80053-VI-VC-CFG-00561","Enhanced","NIST80053-VI-VC-AUD-00561","vCenter","From a PowerCLI command prompt while connected to the ESXi host or vCenter server run the following command:
+
+Get-VM ""VM Name"" | Get-AdvancedSetting -Name pciPassthru*.present
+
+If the virtual machine advanced setting pciPassthru*.present does not exist or is not set to false, this is a finding.","","CM-6"
+"CCE-84601-4","NIST80053-VI-Storage-SDS-CFG-00178","Enhanced","NIST80053-VI-Storage-SDS-AUD-00178","vSAN","From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VIPermission | Where {$_.Role -eq ""Admin""} | Select Role,Principal,Entity,Propagate,IsGroup | FT -Auto
+
+If there are any users other than Solution Users with the Administrator role that are not explicitly designated for cryptographic operations, this is a finding. ""","No Cryptography Administrator","SC-3, SC-2, PS-5c., PS-5a., IA-4e., IA-4c., IA-4b., AU-9(4), AC-6(2), AC-6(10), AC-6(1), AC-6, AC-5b., AC-5a., AC-2k., AC-2j., AC-2i.3., AC-2i.2., AC-2i.1., AC-2g., AC-2f., AC-2d., AC-2c., AC-21a., AC-2(3), AC-2(2), AC-2(13), AC-2(11), AC-2(1)"
+"CCE-84602-2","NIST80053-VI-Storage-SDS-CFG-00180","Built-in","NIST80053-VI-Storage-SDS-AUD-00180","vSAN","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-VMHostNTPServer
+Get-VMHost | Get-VMHostService | Where {$_.Label -eq ""NTP Daemon""}
+
+If the NTP service is not configured with authoritative DoD time sources and the service is not configured to start and stop with the host and is running, this is a finding.","Correct Date and Time Stamp ","AU-8b., AU-8a., AU-8(1)(b), AU-8(1)(a)"
+"CCE-84603-0","NIST80053-VI-Storage-SDS-CFG-00181","Built-in","NIST80053-VI-Storage-SDS-AUD-00181","vSAN","1. Log in to the vRealize Log Insight user interface.
+2. In the vRealize Log Insight user interface, click the configuration drop-down menu icon and select Content Packs.
+3. Under Content Pack Marketplace, select Marketplace.
+4. Verify if VMware - VSAN content pack appears in the ""Installed Content Packs"" list on the left. 
+
+If the VMware - vSAN content pack does not appear in the list then it is a finding","VMware - vSAN","AU-9, AU-7b., AU-7a., AU-7(1), AU-6a., AU-12c., AU-12a., AC-6(9)"
+"CCE-84604-8","NIST80053-VI-Storage-SDS-CFG-00182","Built-in","NIST80053-VI-Storage-SDS-AUD-00182","vSAN","From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name UserVars.HostClientSessionTimeout
+
+If the UserVars.HostClientSessionTimeout setting is not set to 900, this is a finding.","900","AC-11a."
+"CCE-84605-5","NIST80053-VI-Storage-SDS-CFG-00183","Enhanced","NIST80053-VI-Storage-SDS-AUD-00183","vSAN","1. From the vSphere client, select the cluster.
+ 2. Click the Configure tab and under vSAN, click Services.
+3. Verify if Encryption is enabled and KMS cluster is configured","Enabled","SC-13, MP-5(4), AU-9(3)"
+"CCE-84606-3","NIST80053-VI-Storage-SDS-CFG-00184","Built-in","NIST80053-VI-Storage-SDS-AUD-00184","vSAN","You must perform a compliance check on the inventory objects to make sure that you have all the latest security patches and updates applied. In the Update Manger tab, you can remediate the non-compliant hosts and virtual machines. Use the vSphere Client to log in to a vCenter Server Appliance, or to a vCenter Server system with which Update Manager is registered.","Up-to-Date Patches and Upgrades","SA-8, SA-15a.4., CM-3a."
+"CCE-84607-1","NIST80053-VI-Storage-SDS-CFG-00185","Built-in","NIST80053-VI-Storage-SDS-AUD-00185","vSAN","
+From a PowerCLI command prompt while connected to the ESXi host run the following command:
+
+Get-VMHost | Get-AdvancedSetting -Name Syslog.global.logHost
+
+If the Syslog.global.logHost setting is not set to a site specific syslog server, this is a finding.","udp://sfo01vrli01.sfo01.rainpole.local:514","MA-4d., MA-2f., MA-2(2)(b), AU-9, AU-6a."
+"CCE-84608-9","NIST80053-VI-Storage-SDS-CFG-00204","Enhanced","NIST80053-VI-Storage-SDS-AUD-00204","vSAN","From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+Get-VIPermission | Where {$_.Role -eq ""Admin""} | Select Role,Principal,Entity,Propagate,IsGroup | FT -Auto
+
+If there are any users other than Solution Users with the Administrator role that are not explicitly designated for cryptographic operations, this is a finding. ""","No Cryptography Administrator","SC-23"
+"CCE-84609-7","NIST80053-VI-Storage-SDS-CFG-00207","Enhanced","NIST80053-VI-Storage-SDS-AUD-00207","vSAN","If VSAN Health Check is installed:
+From the vSphere Client go to Host and Clusters. Select a VC and go to Configure > vSAN > Internet Connectivity > Status
+
+If ""Enable Internet access for this cluster"" is enabled and a proxy is not configured this is a finding.
+","Proxy should be configured","CM-6"
+"CCE-84610-5","NIST80053-VI-Storage-SDS-CFG-00208","Built-in","NIST80053-VI-Storage-SDS-AUD-00208","vSAN","From a PowerCLI command prompt while connected to the vCenter server run the following command:
+
+If($(Get-Cluster | where {$_.VsanEnabled} | Measure).Count -gt 0){
+Write-Host ""VSAN Enabled Cluster found""
+Get-Cluster | where {$_.VsanEnabled} | Get-Datastore | where {$_.type -match ""vsan""}
+}
+else{
+Write-Host ""VSAN is not enabled, this finding is not applicable""
+}
+
+If VSAN is Enabled and the datastore is named ""vsanDatastore"" this is a finding","Datastore name is unique","CM-6"
+"CCE-84611-3","NIST80053-VI-Storage-SDS-CFG-00179 ","Enhanced","NIST80053-VI-Storage-SDS-AUD-00179 ","vSAN ","
+From a PowerCLI command prompt while connected to the ESXi host run the following commands:
+
+$esxcli = Get-EsxCli
+$esxcli.system.coredump.network.get()
+
+
+If there is no active core dump partition or the network core dump collector is not configured and enabled, this is a finding.","1","AU-9, AU-6a., AU-2d., AU-2a., AU-2(3), AC-6(9)"
+"CCE-84612-1","NIST80053-VI-Storage-SDS-CFG-00186","Enhanced","NIST80053-VI-Storage-SDS-AUD-00186","vSAN ","Ensure you have sufficient capacity in the management vSAN cluster for the management virtual machines. You can expand the datastore by adding capacity devices or hosts with capacity devices to the cluster.","Procedural ","AU-4"

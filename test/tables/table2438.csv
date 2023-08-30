@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-6218,Red Hat,2009-06-03,Joshua Bressers,"Red Hat does not consider this bug a security flaw. For more details please see the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=468990"
+CVE-2014-5776,The Secure@Sony Team,2015-02-05,The Secure@Sony Team,Remediation: Fixed the vulnerability in Playmemories online version 4.3.1 and the latest version 4.4.0
+CVE-2008-6560,Red Hat,2009-08-04,Tomas Hoger,"Red Hat does not consider this to be a security issue. The misbehaviour of CMAN is triggered by corrupted / specially crafted cluster.conf configuration file. Ability to edit this file is restricted to system administrator, therefore no privilege boundary is crossed."
+CVE-2008-7002,Red Hat,2009-09-02,Tomas Hoger,"This is not a security issue.  For further details, see: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2008-7002#c7"
+CVE-2008-7053,LogMeIn,2014-06-18,LogMeIn,LogMeIn is aware of the CVE-2008-7053 issue and has resolved it on 9/3/2008. The fix is included in LogMeIn ActiveX Plugin since version 392-G2.”
+CVE-2008-7068,Red Hat,2009-08-27,Tomas Hoger,"This is not a security issue. A user with read and write access to a file can reasonably be expected to manipulate the contents of the file, including truncating it. Instead of using dba_replace(), a user could simply fopen() the file in write mode, which provides the same end-result."
+CVE-2008-7159,Red Hat,2009-09-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of libsilc as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2008-7160,Red Hat,2009-09-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of libsilc as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2008-7177,Red Hat,2009-09-10,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of nasm as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2008-7247,Red Hat,2009-12-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mysql as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-0022,Red Hat,2009-01-07,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of samba as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."
+CVE-2009-0024,Red Hat,2009-01-14,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 and Red Hat Enterprise MRG."
+CVE-2009-0029,Red Hat,2009-06-09,Tomas Hoger,"This flaw affects most 64-bit architectures, including IBM S/390 and 64-bit PowerPC, but it does not affect x86_64 or Intel Itanium. The risks associated with fixing this flaw are greater than the security risk. We therefore currently have no plans to fix this flaw in Red Hat Enterprise Linux 3, 4, or 5. Red Hat Enterprise MRG is not affected as it is not supported on 64-bit architectures other than x86_64."
+CVE-2009-0032,Red Hat,2009-01-27,Joshua Bressers,Not vulnerable. Red Hat does not ship the vulnerable backend that causes this flaw.
+CVE-2009-0071,Red Hat,2009-01-19,Joshua Bressers,Red Hat does not consider a crash of a client application such as Firefox to be a security issue.
+CVE-2010-0003,Red Hat,2010-03-17,Vincent Danen,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/CVE-2010-0003.
+
+This issue has been rated as having moderate security impact.
+
+A future update in Red Hat Enterprise MRG may address this flaw. This issue was addressed in Red Hat Enterprise Linux 4 and 5 via https://rhn.redhat.com/errata/RHSA-2010-0146.html and https://rhn.redh

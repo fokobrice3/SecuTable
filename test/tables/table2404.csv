@@ -1,0 +1,22 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2009-2908,Red Hat,2009-11-04,Tomas Hoger,"The Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG do not include support for eCryptfs, and therefore are not affected by this issue.
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2009-1548.html"
+CVE-2009-2909,Red Hat,2009-10-22,Tomas Hoger,"This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 4, 5, or Red Hat Enterprise MRG, as the affected driver is not enabled in these kernels.
+
+The affected driver is available in Red Hat Enterprise Linux 3, but only if the kernel-unsupported package is installed.
+
+Future kernel update in Red Hat Enterprise Linux 3 may address this flaw."
+CVE-2009-2910,Red Hat,2010-01-21,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2009-2910
+
+It has been rated as having moderate security impact.
+
+It was addressed in Red Hat Enterprise Linux 4, 5 and Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1671.html , https://rhn.redhat.com/errata/RHSA-2010-0046.html and https://rhn.redhat.com/errata/RHSA-2009-1540.html respectively.
+
+This issue is not planned to be fixed in Red Hat Enterprise Linux 3, due to this product being in Production 3 of its maintenance life-cycle, where only qualified security errata of important and critical impact are addressed.
+
+For further information about Errata Support Policy, visit: http://www.redhat.com/security/updates/errata/"
+CVE-2009-3001,Red Hat,2009-08-31,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG. Red Hat does not provide support for PF_LLC sockets in the Linux kernels."
+CVE-2009-3002,Red Hat,2009-11-04,Tomas Hoger,"CVE-2009-3002 describes a collection of similar information leaks that affect numerous networking protocols.
+
+The Linux kernel as shipped with Red Hat Enterprise Linux 4 and 5 did not enable support for the AppleTalk DDP protocol, and therefore were not affected by issue (1). It was addressed in Red Hat Enterprise Linux 3 and Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-1550.html and https://rhn.redhat.com/errata/RHSA-2009-1540.html respectively.

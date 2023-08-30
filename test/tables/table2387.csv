@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+CVE-2008-4936,Red Hat,2008-11-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of mgetty as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5, as they include patch that resolves this issue."
+CVE-2008-4937,Red Hat,2008-11-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of OpenOffice.org as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2008-4977,Red Hat,2008-11-06,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of postfix as shipped with Red Hat Enterprise Linux 3, 4, or 5. Mentioned script is not part of the official postfix distribution and is not included in Red Hat Enterprise Linux postfix packages."
+CVE-2008-5006,Red Hat,2009-01-30,Tomas Hoger,"The affected code is not used by any application shipped in Red Hat Enterprise Linux 2.1, 3, 4, and 5.  The impact of this flaw is limited to a crash of the applications connecting to a misbehaving SMTP server.  Due to those reasons, theres currently no plan to include the fix in the imap packages as shipped in Red Hat Enterprise Linux 2.1 and 3, and the libc-client packages as shipped in Red Hat Enterprise Linux 4 and 5."
+CVE-2008-5033,Red Hat,2008-11-19,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, 5 or Red Hat Enterprise MRG."
+CVE-2008-5134,Red Hat,2009-02-04,Mark J Cox,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5.
+
+The issue was addressed in the Linux kernel packages as shipped with Red Hat Enterprise MRG via: https://rhn.redhat.com/errata/RHSA-2009-0053.html"
+CVE-2008-5161,Red Hat,2009-09-02,Joshua Bressers,"This issue was addressed for Red Hat Enterprise Linux 5 by
+https://rhn.redhat.com/errata/RHSA-2009-1287.html
+
+After reviewing the upstream fix for this issue, Red Hat does not intend to address this flaw in Red Hat Enterprise Linux 3 or 4 at this time."
+CVE-2008-5184,Red Hat,2008-12-03,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of CUPS as shipped with Red Hat Enterprise Linux 3, 4, or 5. Versions shipped do not support RSS subscriptions."
+CVE-2008-5187,Red Hat,2008-11-21,Joshua Bressers,"Not vulnerable. This issue does not affect the versions of imlib as shipped with Red Hat Enterprise Linux 2.1, 3, or 4."
+CVE-2009-0241,Red Hat,2009-01-23,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=CVE-2009-0241
+
+The Red Hat Security Response Team has rated this issue as having moderate security impact, a future update of Red Hat HPC Solution may address this flaw.  More information regarding
+issue severity can be found here: http://www.redhat.com/security/updates/classification/"
+CVE-2009-0242,Red Hat,2009-01-22,Joshua Bressers,"Red Hat does not consider this to be a security issue.  For more information, please see the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-0242"
+CVE-2009-0259,Red Hat,2009-01-23,Tomas Hoger,"This issue can only result in an OpenOffice.org crash, not allowing arbitrary code execution.  Red Hat does not consider a crash of a client application such as OpenOffice.org to be a security issue."
+CVE-2009-0265,Red Hat,2009-01-26,Joshua Bressers,"Not vulnerable. This issue did not affect the versions of BIND as shipped with Red Hat Enterprise Linux 2.1, 3, 4, or 5."

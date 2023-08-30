@@ -1,0 +1,23 @@
+_cvename,_organization,_lastmodified,_contributor,__text
+
+It was addressed in Red Hat Enterprise Linux 5 via: https://rhn.redhat.com/errata/RHSA-2009-1548.html"
+CVE-2009-3288,Red Hat,2009-09-22,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, 5 or Red Hat Enterprise MRG. This issue was introduced by upstream commit 10db10d1, and only affected kernels version 2.6.28-rc1 and later."
+CVE-2009-3289,Red Hat,2009-09-23,Joshua Bressers,"Not vulnerable. This issue does not affect the versions of glib2 as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3290,Red Hat,2009-09-22,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug: https://bugzilla.redhat.com/CVE-2009-3290
+
+This issue did not affect the versions of Linux kernel as shipped with Red Hat Enterprise Linux 3, 4, and Red Hat Enterprise MRG as KVM (Kernel-based Virtual Machine) is only supported in Red Hat Enterprise Linux 5. A future kernel update in Red Hat Enterprise Linux 5 will address this flaw."
+CVE-2009-3293,Red Hat,2009-11-25,Tomas Hoger,"This problem is not a security flaw in the PHP versions 4.3.5 and later. For further details, see: https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-3293
+
+PHP versions shipped in Red Hat Enterprise Linux 4 and 5 do not need this fix. We do not plan to address this flaw in Red Hat Enterprise Linux 3."
+CVE-2009-3294,Red Hat,2009-09-24,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of php as shipped with Red Hat Enterprise Linux 3, 4, or 5, and Red Hat Application Stack v2."
+CVE-2009-3295,Red Hat,2010-01-11,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of krb5 as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3389,Red Hat,2009-12-21,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of libtheora as shipped with Red Hat Enterprise Linux 4, or 5."
+CVE-2009-3549,Red Hat,2009-11-02,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3550,Red Hat,2010-04-20,Tomas Hoger,"The affected version of Wireshark as shipped in Red Hat Enterprise Linux 3, 4, and 5 were fixed via: https://rhn.redhat.com/errata/RHSA-2010-0360.html"
+CVE-2009-3551,Red Hat,2009-11-02,Tomas Hoger,"Not vulnerable. This issue did not affect the versions of wireshark as shipped with Red Hat Enterprise Linux 3, 4, or 5."
+CVE-2009-3555,Red Hat,2009-11-20,Tomas Hoger,"Red Hat is aware of this issue and is tracking it via the following bug:
+https://bugzilla.redhat.com/show_bug.cgi?id=CVE-2009-3555
+
+Additional information can be found in the Red Hat Knowledgebase article:
+http://kbase.redhat.com/faq/docs/DOC-20491"
+CVE-2009-3556,Red Hat,2010-01-28,Tomas Hoger,"This issue did not affect the versions of the Linux kernel as shipped with Red Hat Enterprise Linux 3, 4 and Red Hat Enterprise MRG. Shipped kernels do not include upstream commit d025c9db that introduced the problem.
